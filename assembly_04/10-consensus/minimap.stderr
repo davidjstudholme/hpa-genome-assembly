@@ -5,3 +5,4 @@
 [M::mm_mapopt_update::3.351*2.13] mid_occ = 121
 [M::mm_idx_stat] kmer size: 17; skip: 10; is_hpc: 0; #seq: 1562
 [M::mm_idx_stat::3.601*2.06] distinct minimizers: 20853537 (91.64% are singletons); average occurrences: 1.397; average spacing: 5.496; total length: 160125324
+[M::worker_pipeline::1086.860*11.34] mapped 899226 sequences
