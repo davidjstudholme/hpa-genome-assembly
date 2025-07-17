@@ -1,0 +1,3 @@
+contig_365	miniprot	mRNA	646123	647748	2213	+	.	ID=MP000378;Rank=1;Identity=0.7956;Positive=0.8674;Target=19836at33634_0 1 538
+contig_365	miniprot	CDS	646123	647748	2213	+	0	Parent=MP000378;Rank=1;Identity=0.7956;Target=19836at33634_0 1 538
+contig_365	miniprot	stop_codon	647746	647748	0	+	0	Parent=MP000378;Rank=1

@@ -1,0 +1,15 @@
+#                                                                                               --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                           accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                   ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+12249at33634_0|contig_107:64358-66107|- -            584 12249at33634         -            359  6.4e-162  524.4  11.8   1   2  1.7e-159  1.7e-159  516.4   9.4     9   341    88   499    82   512 0.88 <unknown description>
+12249at33634_0|contig_107:64358-66107|- -            584 12249at33634         -            359  6.4e-162  524.4  11.8   2   2    0.0007    0.0007    4.5   0.0   332   355   528   551   522   558 0.79 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/busco_downloads/lineages/stramenopiles_odb10/hmms/12249at33634.hmm
+# Target file:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Noks1.12.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/12249at33634.faa
+# Option settings: hmmsearch --domtblout /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Noks1.12.busco/run_stramenopiles_odb10/hmmer_output/12249at33634.out --cpu 1 /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/busco_downloads/lineages/stramenopiles_odb10/hmms/12249at33634.hmm /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Noks1.12.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/12249at33634.faa 
+# Current dir:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly
+# Date:            Thu Jul 17 10:11:14 2025
+# [ok]

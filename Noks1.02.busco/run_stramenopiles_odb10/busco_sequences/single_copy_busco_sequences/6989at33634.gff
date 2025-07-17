@@ -1,0 +1,3 @@
+contig_15	miniprot	mRNA	217746	219821	2896	-	.	ID=MP000829;Rank=1;Identity=0.8324;Positive=0.8960;Target=6989at33634_0 1 675
+contig_15	miniprot	CDS	217746	219821	2896	-	0	Parent=MP000829;Rank=1;Identity=0.8324;Target=6989at33634_0 1 675
+contig_15	miniprot	stop_codon	217746	217748	0	-	0	Parent=MP000829;Rank=1

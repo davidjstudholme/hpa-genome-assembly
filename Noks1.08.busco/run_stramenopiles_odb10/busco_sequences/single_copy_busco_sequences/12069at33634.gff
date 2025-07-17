@@ -1,0 +1,3 @@
+contig_139	miniprot	mRNA	30677	31809	1509	-	.	ID=MP000055;Rank=1;Identity=0.8563;Positive=0.9162;Target=12069at33634_3 1 334
+contig_139	miniprot	CDS	31036	31809	1183	-	0	Parent=MP000055;Rank=1;Identity=0.8643;Target=12069at33634_3 1 258
+contig_139	miniprot	CDS	30677	30904	326	-	0	Parent=MP000055;Rank=1;Identity=0.8289;Target=12069at33634_3 259 334

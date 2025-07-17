@@ -1,0 +1,3 @@
+contig_442	miniprot	mRNA	45767	47344	2282	+	.	ID=MP000195;Rank=1;Identity=0.8687;Positive=0.8987;Target=14113at33634_3 1 531
+contig_442	miniprot	CDS	45767	47344	2282	+	0	Parent=MP000195;Rank=1;Identity=0.8687;Target=14113at33634_3 1 531
+contig_442	miniprot	stop_codon	47342	47344	0	+	0	Parent=MP000195;Rank=1

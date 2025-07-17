@@ -1,0 +1,4 @@
+contig_547	miniprot	mRNA	185226	185867	710	-	.	ID=MP000569;Rank=1;Identity=0.6940;Positive=0.8470;Target=27410at33634_5 10 192
+contig_547	miniprot	CDS	185803	185867	77	-	0	Parent=MP000569;Rank=1;Identity=0.6818;Target=27410at33634_5 10 30
+contig_547	miniprot	CDS	185226	185706	633	-	1	Parent=MP000569;Rank=1;Identity=0.6957;Target=27410at33634_5 31 192
+contig_547	miniprot	stop_codon	185226	185228	0	-	0	Parent=MP000569;Rank=1

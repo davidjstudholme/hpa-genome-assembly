@@ -1,0 +1,3 @@
+contig_39	miniprot	mRNA	1240466	1242853	3244	-	.	ID=MP000042;Rank=1;Identity=0.8291;Positive=0.8832;Target=11504at33634_1 1 769
+contig_39	miniprot	CDS	1240466	1242853	3244	-	0	Parent=MP000042;Rank=1;Identity=0.8291;Target=11504at33634_1 1 769
+contig_39	miniprot	stop_codon	1240466	1240468	0	-	0	Parent=MP000042;Rank=1

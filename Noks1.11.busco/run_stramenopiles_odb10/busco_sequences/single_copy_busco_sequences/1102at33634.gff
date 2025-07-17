@@ -1,0 +1,3 @@
+contig_141	miniprot	mRNA	63277	68721	8301	-	.	ID=MP000030;Rank=1;Identity=0.8826;Positive=0.9405;Target=1102at33634_0 1 1810
+contig_141	miniprot	CDS	63277	68721	8301	-	0	Parent=MP000030;Rank=1;Identity=0.8826;Target=1102at33634_0 1 1810
+contig_141	miniprot	stop_codon	63277	63279	0	-	0	Parent=MP000030;Rank=1

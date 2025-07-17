@@ -1,0 +1,3 @@
+contig_356	miniprot	mRNA	61623	62177	909	+	.	ID=MP000481;Rank=1;Identity=0.9402;Positive=0.9837;Target=23923at33634_0 1 184
+contig_356	miniprot	CDS	61623	62177	909	+	0	Parent=MP000481;Rank=1;Identity=0.9402;Target=23923at33634_0 1 184
+contig_356	miniprot	stop_codon	62175	62177	0	+	0	Parent=MP000481;Rank=1

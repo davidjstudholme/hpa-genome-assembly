@@ -1,0 +1,2 @@
+contig_168	miniprot	mRNA	78829	80295	2259	-	.	ID=MP000796;Rank=1;Identity=0.9093;Positive=0.9556;Target=6933at33634_0 24 519
+contig_168	miniprot	CDS	78829	80295	2259	-	0	Parent=MP000796;Rank=1;Identity=0.9093;Target=6933at33634_0 24 519

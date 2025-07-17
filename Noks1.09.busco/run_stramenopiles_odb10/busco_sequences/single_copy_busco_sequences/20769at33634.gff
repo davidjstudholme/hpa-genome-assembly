@@ -1,0 +1,5 @@
+contig_306	miniprot	mRNA	490584	491326	818	-	.	ID=MP000415;Rank=1;Identity=0.8743;Positive=0.9314;Target=20769at33634_0 1 175
+contig_306	miniprot	CDS	491252	491326	124	-	0	Parent=MP000415;Rank=1;Identity=0.9600;Target=20769at33634_0 1 25
+contig_306	miniprot	CDS	491091	491132	59	-	0	Parent=MP000415;Rank=1;Identity=0.7857;Target=20769at33634_0 26 39
+contig_306	miniprot	CDS	490584	490994	635	-	0	Parent=MP000415;Rank=1;Identity=0.8676;Target=20769at33634_0 40 175
+contig_306	miniprot	stop_codon	490584	490586	0	-	0	Parent=MP000415;Rank=1

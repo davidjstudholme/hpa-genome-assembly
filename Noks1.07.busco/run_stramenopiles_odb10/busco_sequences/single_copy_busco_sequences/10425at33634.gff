@@ -1,0 +1,3 @@
+contig_485	miniprot	mRNA	226785	228239	2216	+	.	ID=MP000013;Rank=1;Identity=0.9098;Positive=0.9385;Target=10425at33634_5 1 484
+contig_485	miniprot	CDS	226785	228239	2216	+	0	Parent=MP000013;Rank=1;Identity=0.9098;Target=10425at33634_5 1 484
+contig_485	miniprot	stop_codon	228237	228239	0	+	0	Parent=MP000013;Rank=1

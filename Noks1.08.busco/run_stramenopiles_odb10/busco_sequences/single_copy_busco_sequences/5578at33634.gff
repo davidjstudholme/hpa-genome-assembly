@@ -1,0 +1,4 @@
+contig_185	miniprot	mRNA	1334088	1335603	2306	-	.	ID=MP000730;Rank=1;Identity=0.9848;Positive=0.9892;Target=5578at33634_0 1 462
+contig_185	miniprot	CDS	1335505	1335603	147	-	0	Parent=MP000730;Rank=1;Identity=0.9091;Target=5578at33634_0 1 33
+contig_185	miniprot	CDS	1334088	1335377	2159	-	0	Parent=MP000730;Rank=1;Identity=0.9907;Target=5578at33634_0 34 462
+contig_185	miniprot	stop_codon	1334088	1334090	0	-	0	Parent=MP000730;Rank=1

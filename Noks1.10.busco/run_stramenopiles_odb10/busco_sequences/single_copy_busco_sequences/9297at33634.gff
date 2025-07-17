@@ -1,0 +1,3 @@
+contig_490	miniprot	mRNA	307265	308365	1718	-	.	ID=MP000905;Rank=1;Identity=0.8907;Positive=0.9454;Target=9297at33634_0 1 366
+contig_490	miniprot	CDS	307265	308365	1718	-	0	Parent=MP000905;Rank=1;Identity=0.8907;Target=9297at33634_0 1 366
+contig_490	miniprot	stop_codon	307265	307267	0	-	0	Parent=MP000905;Rank=1

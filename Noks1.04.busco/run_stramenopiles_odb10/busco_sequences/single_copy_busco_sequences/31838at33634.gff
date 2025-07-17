@@ -1,0 +1,4 @@
+contig_182	miniprot	mRNA	737035	737505	609	+	.	ID=MP000611;Rank=1;Identity=0.8308;Positive=0.9462;Target=31838at33634_7 1 130
+contig_182	miniprot	CDS	737035	737300	430	+	0	Parent=MP000611;Rank=1;Identity=0.8315;Target=31838at33634_7 1 88
+contig_182	miniprot	CDS	737379	737505	179	+	1	Parent=MP000611;Rank=1;Identity=0.8293;Target=31838at33634_7 89 130
+contig_182	miniprot	stop_codon	737503	737505	0	+	0	Parent=MP000611;Rank=1

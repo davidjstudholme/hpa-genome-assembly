@@ -1,0 +1,3 @@
+contig_608	miniprot	mRNA	155811	158675	4536	+	.	ID=MP000614;Rank=1;Identity=0.9116;Positive=0.9532;Target=3405at33634_1 1 961
+contig_608	miniprot	CDS	155811	158675	4536	+	0	Parent=MP000614;Rank=1;Identity=0.9116;Target=3405at33634_1 1 961
+contig_608	miniprot	stop_codon	158673	158675	0	+	0	Parent=MP000614;Rank=1

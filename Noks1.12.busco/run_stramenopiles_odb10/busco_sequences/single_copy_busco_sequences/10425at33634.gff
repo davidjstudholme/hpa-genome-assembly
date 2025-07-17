@@ -1,0 +1,3 @@
+contig_312	miniprot	mRNA	61370	62824	2216	-	.	ID=MP000013;Rank=1;Identity=0.9098;Positive=0.9385;Target=10425at33634_5 1 484
+contig_312	miniprot	CDS	61370	62824	2216	-	0	Parent=MP000013;Rank=1;Identity=0.9098;Target=10425at33634_5 1 484
+contig_312	miniprot	stop_codon	61370	61372	0	-	0	Parent=MP000013;Rank=1

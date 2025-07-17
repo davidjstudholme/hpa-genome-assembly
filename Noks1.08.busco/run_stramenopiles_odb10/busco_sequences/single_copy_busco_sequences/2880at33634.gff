@@ -1,0 +1,4 @@
+contig_78	miniprot	mRNA	137400	140024	3919	-	.	ID=MP000590;Rank=1;Identity=0.9075;Positive=0.9395;Target=2880at33634_0 8 846
+contig_78	miniprot	CDS	139875	140024	225	-	0	Parent=MP000590;Rank=1;Identity=0.8200;Target=2880at33634_0 8 57
+contig_78	miniprot	CDS	137400	139781	3694	-	0	Parent=MP000590;Rank=1;Identity=0.9130;Target=2880at33634_0 58 846
+contig_78	miniprot	stop_codon	137400	137402	0	-	0	Parent=MP000590;Rank=1

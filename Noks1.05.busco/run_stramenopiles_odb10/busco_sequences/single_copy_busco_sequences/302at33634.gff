@@ -1,0 +1,3 @@
+contig_172	miniprot	mRNA	83643	89546	7982	-	.	ID=MP000601;Rank=1;Identity=0.8104;Positive=0.8948;Target=302at33634_1 1 1934
+contig_172	miniprot	CDS	83643	89546	7982	-	0	Parent=MP000601;Rank=1;Identity=0.8104;Target=302at33634_1 1 1934
+contig_172	miniprot	stop_codon	83643	83645	0	-	0	Parent=MP000601;Rank=1

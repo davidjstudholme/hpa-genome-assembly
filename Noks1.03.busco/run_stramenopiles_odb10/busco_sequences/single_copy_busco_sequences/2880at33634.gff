@@ -1,0 +1,4 @@
+contig_156	miniprot	mRNA	403017	405641	3919	+	.	ID=MP000590;Rank=1;Identity=0.9075;Positive=0.9395;Target=2880at33634_0 8 846
+contig_156	miniprot	CDS	403017	403166	225	+	0	Parent=MP000590;Rank=1;Identity=0.8200;Target=2880at33634_0 8 57
+contig_156	miniprot	CDS	403260	405641	3694	+	0	Parent=MP000590;Rank=1;Identity=0.9130;Target=2880at33634_0 58 846
+contig_156	miniprot	stop_codon	405639	405641	0	+	0	Parent=MP000590;Rank=1

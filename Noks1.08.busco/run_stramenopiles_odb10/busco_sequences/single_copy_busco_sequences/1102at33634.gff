@@ -1,0 +1,3 @@
+contig_226	miniprot	mRNA	55869	61313	8301	-	.	ID=MP000030;Rank=1;Identity=0.8826;Positive=0.9405;Target=1102at33634_0 1 1810
+contig_226	miniprot	CDS	55869	61313	8301	-	0	Parent=MP000030;Rank=1;Identity=0.8826;Target=1102at33634_0 1 1810
+contig_226	miniprot	stop_codon	55869	55871	0	-	0	Parent=MP000030;Rank=1

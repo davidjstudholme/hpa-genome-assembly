@@ -1,0 +1,1 @@
+2025-07-17 10:07:55 DEBUG:busco.run_BUSCO	Command line: /data/djs217/miniconda3/envs/busco_env/bin/busco --plot Noks1.01.busco Noks1.02.busco

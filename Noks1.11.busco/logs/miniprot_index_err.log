@@ -1,0 +1,8 @@
+[M::mp_ntseq_read@0.317*1.01] read 104409455 bases in 459 contigs
+[M::mp_idx_build@0.317*1.01] 816168 blocks
+[M::mp_idx_build@1.099*5.57] collected syncmers
+[M::mp_idx_build@3.755*2.34] 63253076 kmer-block pairs
+[M::mp_idx_print_stat] 2232700 distinct k-mers; mean occ of infrequent k-mers: 28.33; 0 frequent k-mers accounting for 0 occurrences
+[M::main] Version: 0.18-r281
+[M::main] CMD: miniprot -t 8 -d /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Noks1.11.busco/run_stramenopiles_odb10/miniprot_output/ref.mpi /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Noks1.assemblies/assembly_11.fasta
+[M::main] Real time: 4.009 sec; CPU: 9.031 sec; Peak RSS: 1.122 GB

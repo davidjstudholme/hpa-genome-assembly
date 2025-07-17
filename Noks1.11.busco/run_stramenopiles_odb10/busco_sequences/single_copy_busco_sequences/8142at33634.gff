@@ -1,0 +1,7 @@
+contig_143	miniprot	mRNA	1345377	1346746	538	-	.	ID=MP000865;Rank=1;Identity=0.3893;Positive=0.6141;Target=8142at33634_6 7 302
+contig_143	miniprot	CDS	1346696	1346746	42	-	0	Parent=MP000865;Rank=1;Identity=0.4706;Target=8142at33634_6 7 23
+contig_143	miniprot	CDS	1346475	1346580	57	-	0	Parent=MP000865;Rank=1;Identity=0.3333;Target=8142at33634_6 24 58
+contig_143	miniprot	CDS	1346236	1346374	69	-	2	Parent=MP000865;Rank=1;Identity=0.3261;Target=8142at33634_6 59 103
+contig_143	miniprot	CDS	1346002	1346110	128	-	1	Parent=MP000865;Rank=1;Identity=0.6667;Target=8142at33634_6 104 140
+contig_143	miniprot	CDS	1345841	1345918	60	-	0	Parent=MP000865;Rank=1;Identity=0.5185;Target=8142at33634_6 141 167
+contig_143	miniprot	CDS	1345377	1345769	182	-	0	Parent=MP000865;Rank=1;Identity=0.3162;Target=8142at33634_6 168 302

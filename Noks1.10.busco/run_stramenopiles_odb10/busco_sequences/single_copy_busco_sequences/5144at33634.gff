@@ -1,0 +1,3 @@
+contig_425	miniprot	mRNA	270721	272247	2356	-	.	ID=MP000703;Rank=1;Identity=0.9100;Positive=0.9530;Target=5144at33634_0 1 511
+contig_425	miniprot	CDS	270721	272247	2356	-	0	Parent=MP000703;Rank=1;Identity=0.9100;Target=5144at33634_0 1 511
+contig_425	miniprot	stop_codon	270721	270723	0	-	0	Parent=MP000703;Rank=1

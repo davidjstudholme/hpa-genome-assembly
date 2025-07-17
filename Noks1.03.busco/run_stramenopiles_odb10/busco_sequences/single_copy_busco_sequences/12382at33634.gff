@@ -1,0 +1,2 @@
+contig_205	miniprot	mRNA	680895	682304	2150	-	.	ID=MP000084;Rank=1;Identity=0.9006;Positive=0.9387;Target=12382at33634_4 5 474
+contig_205	miniprot	CDS	680895	682304	2150	-	0	Parent=MP000084;Rank=1;Identity=0.9006;Target=12382at33634_4 5 474

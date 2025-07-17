@@ -1,0 +1,4 @@
+contig_591	miniprot	mRNA	46051	46650	810	+	.	ID=MP000556;Rank=1;Identity=0.9172;Positive=0.9527;Target=27409at33634_0 1 169
+contig_591	miniprot	CDS	46051	46391	545	+	0	Parent=MP000556;Rank=1;Identity=0.9035;Target=27409at33634_0 1 113
+contig_591	miniprot	CDS	46482	46650	265	+	1	Parent=MP000556;Rank=1;Identity=0.9455;Target=27409at33634_0 114 169
+contig_591	miniprot	stop_codon	46648	46650	0	+	0	Parent=MP000556;Rank=1

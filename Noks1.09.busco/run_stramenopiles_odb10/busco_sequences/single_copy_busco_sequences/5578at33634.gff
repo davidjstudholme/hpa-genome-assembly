@@ -1,0 +1,4 @@
+contig_175	miniprot	mRNA	1351516	1353031	2306	-	.	ID=MP000730;Rank=1;Identity=0.9848;Positive=0.9892;Target=5578at33634_0 1 462
+contig_175	miniprot	CDS	1352933	1353031	147	-	0	Parent=MP000730;Rank=1;Identity=0.9091;Target=5578at33634_0 1 33
+contig_175	miniprot	CDS	1351516	1352805	2159	-	0	Parent=MP000730;Rank=1;Identity=0.9907;Target=5578at33634_0 34 462
+contig_175	miniprot	stop_codon	1351516	1351518	0	-	0	Parent=MP000730;Rank=1

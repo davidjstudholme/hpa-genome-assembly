@@ -1,0 +1,2 @@
+contig_288	miniprot	mRNA	164442	165713	1741	-	.	ID=MP000267;Rank=1;Identity=0.7642;Positive=0.8561;Target=15969at33634_0 1 423
+contig_288	miniprot	CDS	164442	165713	1741	-	0	Parent=MP000267;Rank=1;Identity=0.7642;Target=15969at33634_0 1 423

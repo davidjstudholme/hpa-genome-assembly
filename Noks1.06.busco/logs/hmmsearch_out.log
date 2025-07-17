@@ -1,0 +1,262 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/busco_downloads/lineages/stramenopiles_odb10/hmms/9939at33634.hmm
+# target sequence database:        /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Noks1.06.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/9939at33634.faa
+# per-dom hits tabular output:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Noks1.06.busco/run_stramenopiles_odb10/hmmer_output/9939at33634.out
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       9939at33634  [M=388]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                                   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                                   -----------
+   1.2e-161  525.8   7.4   1.9e-127  413.2   2.4    4.0  3  9939at33634_1|contig_718:74352-76200|-      <unknown description>
+   4.1e-124  402.3   7.4    2.2e-89  287.9   2.5    3.8  3  9939at33634_6|contig_718:74361-75606|-      <unknown description>
+    1.8e-93  301.4   0.1    1.6e-80  258.7   0.1    3.7  2  9939at33634_7|contig_608:1860021-1861521|-  <unknown description>
+    4.6e-92  296.8   0.0    1.1e-80  259.3   0.0    3.6  2  9939at33634_7|contig_609:1825632-1827141|-  <unknown description>
+      1e-84  272.5   0.4    1.8e-84  271.8   0.4    1.4  1  9939at33634_0|contig_718:75228-76200|-      <unknown description>
+
+
+Domain annotation for each sequence (and alignments):
+>> 9939at33634_1|contig_718:74352-76200|-  <unknown description>
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  413.2   2.4  1.9e-127  1.9e-127       1     295 [.      86     457 ..      86     470 .. 0.87
+   2 !   27.9   0.0   2.1e-10   2.1e-10     284     324 ..     487     527 ..     478     530 .. 0.86
+   3 !   83.9   0.0   2.1e-27   2.1e-27     318     388 .]     539     613 ..     536     613 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 413.2 bits;  conditional E-value: 1.9e-127
+                             9939at33634   1 gvaldaatrglkvalversdfaagtssrstklihgGiryleta.............ealeerkfmlsaapy 58 
+                                             g+aldaatrgl++a+ve+sdfaagts+rstklihgGiryleta             ealeer+f+lsaapy
+  9939at33634_1|contig_718:74352-76200|-  86 GCALDAATRGLNTAVVEASDFAAGTSGRSTKLIHGGIRYLETAflkldyaafklvnEALEERAFFLSAAPY 156
+                                             79***************************************98777777777777789************* PP
+
+                             9939at33634  59 lnrplpiviPiykWfev.....gaklydlv......vPssyvi........fPklk.eglkgaivyydgqm 109
+                                             +nrplpi+iPiykW+ev     gak+yd+v      vPssy+i        fP+l+ +glkgaivyydgqm
+  9939at33634_1|contig_718:74352-76200|- 157 MNRPLPIMIPIYKWWEVpymwiGAKAYDVVagskrfVPSSYYInadeamfqFPMLRkDGLKGAIVYYDGQM 227
+                                             ***************95444559*****965555559****98888888889***7368************ PP
+
+                             9939at33634 110 ndarlnlaialtaaekGaavanyvevvdllkd..gkvvGvkvkdrltgeefdvkakavvnatGpftdalrk 178
+                                             nd+r+n++ialta+++Ga+vanyv+vv+llkd  gkv+G++v+++ltg+e+dvka+avvnatGpftd++r 
+  9939at33634_1|contig_718:74352-76200|- 228 NDTRMNVSIALTATQNGATVANYVKVVQLLKDeeGKVRGARVQNTLTGDEWDVKAHAVVNATGPFTDSIRL 298
+                                             ******************************984469**********************************9 PP
+
+                             9939at33634 179 md........vpaaGvhvvlpd............ktsdgrvlfllPWenatlvGttds.......peptee 222
+                                             md        vpaaGvh+vlpd            ktsdgrvlf+lPWen tl+Gttds       p+pt++
+  9939at33634_1|contig_718:74352-76200|- 299 MDdpkkdkicVPAAGVHTVLPDhfspnrmglivpKTSDGRVLFFLPWENGTLAGTTDSqsditmlPSPTKS 369
+                                             9844444444689*******986666666666667**********************84555555689*** PP
+
+                             9939at33634 223 evefilkeankyl.....rsdvlsaWsGirPlvkdp......takisrehvie....glvtiaGGkWttyr 278
+                                             ev+fi++ean+yl     r+d++saWsGirPlvkdp      ta+isrehv+e    ++vtiaGGkWttyr
+  9939at33634_1|contig_718:74352-76200|- 370 EVDFIIDEANRYLakdvtRNDIKSAWSGIRPLVKDPrhangsTAAISREHVVEvsesNMVTIAGGKWTTYR 440
+                                             ************94444445789************8555555789******9655559************* PP
+
+                             9939at33634 279 rmaedvidkvliGadel 295
+                                             rma+d+id+++    e+
+  9939at33634_1|contig_718:74352-76200|- 441 RMAQDAIDQLVATVPEI 457
+                                             *********99876655 PP
+
+  == domain 2  score: 27.9 bits;  conditional E-value: 2.1e-10
+                             9939at33634 284 vidkvliGadeldkdvaehlvknyGtralevaelekyPyle 324
+                                              i  +l    +ldkd+aehl++nyGtral+va +e+  +l+
+  9939at33634_1|contig_718:74352-76200|- 487 KITVTLRENYNLDKDIAEHLMRNYGTRALQVAAIEQAGFLD 527
+                                             45556667789************************999987 PP
+
+  == domain 3  score: 83.9 bits;  conditional E-value: 2.1e-27
+                             9939at33634 318 ekyPyleaevvfavrqeyavk.edvlarrlrlafldseaalevlprvvelmaeelgWsk...eqeleeake 384
+                                             +kyPyleaevvfavrqeya k +d+l rr+rlaf+ds +++e++prvv++m+++lgWsk   eqel+e+ke
+  9939at33634_1|contig_718:74352-76200|- 539 PKYPYLEAEVVFAVRQEYAQKaTDILGRRMRLAFIDSGVGKELMPRVVHMMSQLLGWSKarqEQELAECKE 609
+                                             79*****************9857**********************************98322467788999 PP
+
+                             9939at33634 385 ylet 388
+                                             ylet
+  9939at33634_1|contig_718:74352-76200|- 610 YLET 613
+                                             9986 PP
+
+>> 9939at33634_6|contig_718:74361-75606|-  <unknown description>
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  287.9   2.5   2.2e-89   2.2e-89      89     295 ..       8     259 ..       3     273 .. 0.86
+   2 !   28.7   0.0   1.3e-10   1.3e-10     284     324 ..     289     329 ..     280     332 .. 0.86
+   3 !   84.7   0.0   1.2e-27   1.2e-27     318     388 .]     341     415 ..     338     415 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 287.9 bits;  conditional E-value: 2.2e-89
+                             9939at33634  89 vifPklk.eglkgaivyydgqmndarlnlaialtaaekGaavanyvevvdllkd..gkvvGvkvkdrltge 156
+                                             + fP+l+ +glkgaivyydgqmnd+r+n++ialta+++Ga+vanyv+vv+llkd  gkv+G++v+++ltg+
+  9939at33634_6|contig_718:74361-75606|-   8 FQFPMLRkDGLKGAIVYYDGQMNDTRMNVSIALTATQNGATVANYVKVVQLLKDeeGKVRGARVQNTLTGD 78 
+                                             569***7368******************************************984469************* PP
+
+                             9939at33634 157 efdvkakavvnatGpftdalrkmd........vpaaGvhvvlpd............ktsdgrvlfllPWen 207
+                                             e+dvka+avvnatGpftd++r md        vpaaGvh+vlpd            ktsdgrvlf+lPWen
+  9939at33634_6|contig_718:74361-75606|-  79 EWDVKAHAVVNATGPFTDSIRLMDdpkkdkicVPAAGVHTVLPDhfspnrmglivpKTSDGRVLFFLPWEN 149
+                                             *********************99844444444689*******986666666666667************** PP
+
+                             9939at33634 208 atlvGttds.......pepteeevefilkeankyl.....rsdvlsaWsGirPlvkdp......takisre 260
+                                              tl+Gttds       p+pt++ev+fi++ean+yl     r+d++saWsGirPlvkdp      ta+isre
+  9939at33634_6|contig_718:74361-75606|- 150 GTLAGTTDSqsditmlPSPTKSEVDFIIDEANRYLakdvtRNDIKSAWSGIRPLVKDPrhangsTAAISRE 220
+                                             ********84555555689***************94444445789************8555555789**** PP
+
+                             9939at33634 261 hvie....glvtiaGGkWttyrrmaedvidkvliGadel 295
+                                             hv+e    ++vtiaGGkWttyrrma+d+id+++    e+
+  9939at33634_6|contig_718:74361-75606|- 221 HVVEvsesNMVTIAGGKWTTYRRMAQDAIDQLVATVPEI 259
+                                             **9655559**********************99876665 PP
+
+  == domain 2  score: 28.7 bits;  conditional E-value: 1.3e-10
+                             9939at33634 284 vidkvliGadeldkdvaehlvknyGtralevaelekyPyle 324
+                                              i  +l    +ldkd+aehl++nyGtral+va +e+  +l+
+  9939at33634_6|contig_718:74361-75606|- 289 KITVTLRENYNLDKDIAEHLMRNYGTRALQVAAIEQAGFLD 329
+                                             45556667789************************999987 PP
+
+  == domain 3  score: 84.7 bits;  conditional E-value: 1.2e-27
+                             9939at33634 318 ekyPyleaevvfavrqeyavk.edvlarrlrlafldseaalevlprvvelmaeelgWsk...eqeleeake 384
+                                             +kyPyleaevvfavrqeya k +d+l rr+rlaf+ds +++e++prvv++m+++lgWsk   eqel+e+ke
+  9939at33634_6|contig_718:74361-75606|- 341 PKYPYLEAEVVFAVRQEYAQKaTDILGRRMRLAFIDSGVGKELMPRVVHMMSQLLGWSKarqEQELAECKE 411
+                                             79*****************9857**********************************98322467788999 PP
+
+                             9939at33634 385 ylet 388
+                                             ylet
+  9939at33634_6|contig_718:74361-75606|- 412 YLET 415
+                                             9986 PP
+
+>> 9939at33634_7|contig_608:1860021-1861521|-  <unknown description>
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  258.7   0.1   1.6e-80   1.6e-80       1     289 [.      14     374 ..      14     380 .. 0.80
+   2 !   35.7   0.0   8.9e-13   8.9e-13     304     376 ..     410     489 ..     384     499 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 258.7 bits;  conditional E-value: 1.6e-80
+                                 9939at33634   1 gvaldaatrglkvalversdfaagtssrstklihgGiryleta......ealeerkfmlsaapylnr 61 
+                                                 gvaldaa rg++v lve +dfa gtssr+tkl+hgG+ryl++       eal+er  +l++ap+l++
+  9939at33634_7|contig_608:1860021-1861521|-  14 GVALDAAARGYRVVLVESHDFAKGTSSRATKLVHGGVRYLAQGnialvrEALHERTTLLHNAPHLAQ 80 
+                                                 79**************************************98533344479**************** PP
+
+                                 9939at33634  62 plpiviPiykWfe.....vgaklydlvvPss.............yvifP.klkeglkgaivyydgqm 109
+                                                 pl+ v+P yk +e     vg k+yd +  ++                 P  l +glkg + y+dgq 
+  9939at33634_7|contig_608:1860021-1861521|-  81 PLAFVMPSYKLWEtpfygVGLKMYDALAGKAglgsteflgraeaLRCLPtALAQGLKGGVKYWDGQF 147
+                                                 *********98764555589*****987643122122111111123455369*************** PP
+
+                                 9939at33634 110 ndarlnlaialtaaekGaavanyvevvdllkd.gkvvGvkvkdrltgeefdvkakavvnatGpftda 175
+                                                 +darl la+a+taa kGa  +ny+   +l+++ gkv+G   +d+ +g++f++ka+ vvnatG+++d+
+  9939at33634_7|contig_608:1860021-1861521|- 148 DDARLALALARTAAIKGALLVNYCPARELIHEaGKVTGLVCEDAESGRRFEIKARCVVNATGVWVDS 214
+                                                 ****************************998649********************************* PP
+
+                                 9939at33634 176 lrkmd............vpaaGvhvvlpd............ktsdgrvlfllPWenatlvGttdspe 218
+                                                 lr+ d             p++Gvh+v+              kt+dgrvlf +PW ++ ++Gttdsp+
+  9939at33634_7|contig_608:1860021-1861521|- 215 LRQQDgeatghpvrpmvAPSQGVHIVVDRdflpsdhalmvpKTADGRVLFAVPWLGKLILGTTDSPR 281
+                                                 998653333333333226899****96422222234444448**********************986 PP
+
+                                 9939at33634 219 ........pteeevefilkeankylr.....sdvlsaWsGirPlvk.....dptakisrehvi.... 263
+                                                         + +eev fil e+ +yl      sdv+s W G+rPlvk      +t++isreh +    
+  9939at33634_7|contig_608:1860021-1861521|- 282 qdlvreplAMREEVAFILGESARYLSrapkvSDVRSIWVGLRPLVKpqdddGNTKAISREHTVavgr 348
+                                                 333333325689*************7455557*************84432225789******95555 PP
+
+                                 9939at33634 264 eglvtiaGGkWttyrrmaedvidkvl 289
+                                                 +glvt++GGkWttyr maedv++k +
+  9939at33634_7|contig_608:1860021-1861521|- 349 SGLVTVTGGKWTTYRAMAEDVLQKCV 374
+                                                 69*******************99875 PP
+
+  == domain 2  score: 35.7 bits;  conditional E-value: 8.9e-13
+                                 9939at33634 304 vknyGtralevaelek.....yP.yleaevvfavrqeyavk.edvlarrlrlafldseaalevlprv 363
+                                                  ++yGt a  va l+       P   ea v+fa r+eya + edvlarr rl fld+++a  ++p v
+  9939at33634_7|contig_608:1860021-1861521|- 410 LHFYGTEAAAVAALPGsdielAPgLTEAMVRFAARHEYARTvEDVLARRSRLLFLDARLAATLAPAV 476
+                                                 5899**9999997664111115634599***********8747************************ PP
+
+                                 9939at33634 364 velmaeelgWske 376
+                                                 + l++eelg + +
+  9939at33634_7|contig_608:1860021-1861521|- 477 AALLREELGTDPQ 489
+                                                 ********98765 PP
+
+>> 9939at33634_7|contig_609:1825632-1827141|-  <unknown description>
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  259.3   0.0   1.1e-80   1.1e-80       1     291 [.      15     378 ..      15     397 .. 0.81
+   2 !   31.1   0.0   2.2e-11   2.2e-11     323     374 ..     437     489 ..     403     503 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 259.3 bits;  conditional E-value: 1.1e-80
+                                 9939at33634   1 gvaldaatrglkvalversdfaagtssrstklihgGiryleta......ealeerkfmlsaapylnr 61 
+                                                 gvaldaa rg++v lv+ +dfa gtssr+tkl+hgG+ryl++       eal+er  +l++ap+l++
+  9939at33634_7|contig_609:1825632-1827141|-  15 GVALDAAARGFSVVLVDSHDFAKGTSSRATKLVHGGVRYLAQGnialvrEALHERTTLLNNAPHLAQ 81 
+                                                 79**************************************98533344479**************** PP
+
+                                 9939at33634  62 plpiviPiykWfe.....vgaklydlvvPss.............yvifPklk.eglkgaivyydgqm 109
+                                                 plp v+P y+++e     +g  +yd +  ++              +  P+ + eglkg + y+dgq 
+  9939at33634_7|contig_609:1825632-1827141|-  82 PLPFVMPSYRFWEtpfygIGLMMYDALAGKAglgatqflgrdrtLACLPTARtEGLKGGVKYWDGQF 148
+                                                 **********99755555799****987653222211111111145677764389************ PP
+
+                                 9939at33634 110 ndarlnlaialtaaekGaavanyvevvdllk.dgkvvGvkvkdrltgeefdvkakavvnatGpftda 175
+                                                 +darl la+a+taa +Ga  +ny+   +l++ dgkv+G   +d+ +g+ f v+a+avvnatG+++da
+  9939at33634_7|contig_609:1825632-1827141|- 149 DDARLALALARTAASRGALLVNYCPARSLIHeDGKVAGFVCEDSESGQPFTVRARAVVNATGVWVDA 215
+                                                 ****************************997479********************************* PP
+
+                                 9939at33634 176 lrkmd............vpaaGvhvvlpd............ktsdgrvlfllPWenatlvGttdspe 218
+                                                 lr+md             p++Gvh+v+              kt+dgrvlf +PW ++ ++Gttdsp+
+  9939at33634_7|contig_609:1825632-1827141|- 216 LRQMDgeaigrpvkpivAPSQGVHIVVDReflpsdhalmvpKTADGRVLFAVPWLGKLILGTTDSPR 282
+                                                 ****95555555444445889****96422222233344448**********************986 PP
+
+                                 9939at33634 219 ........pteeevefilkeankylr.....sdvlsaWsGirPlvk......dptakisrehvi... 263
+                                                         p +eev+fil+e+ +yl      +d++s W G+rPlvk      d+t+++sreh +   
+  9939at33634_7|contig_609:1825632-1827141|- 283 qdivreplPFREEVQFILQESARYLTrapqlADIRSIWVGLRPLVKpqdddgDNTKSLSREHTVlts 349
+                                                 33333333568**************7444446*************87666667899******99555 PP
+
+                                 9939at33634 264 .eglvtiaGGkWttyrrmaedvidkvliG 291
+                                                  +glvt++GGkWttyr maedv++k ++ 
+  9939at33634_7|contig_609:1825632-1827141|- 350 rTGLVTVTGGKWTTYRAMAEDVLQKCFTA 378
+                                                 558********************998764 PP
+
+  == domain 2  score: 31.1 bits;  conditional E-value: 2.2e-11
+                                 9939at33634 323 leaevvfavrqeyavk.edvlarrlrlafldseaalevlprvvelmaeelgWs 374
+                                                   a v+fa r+eya + edvlarr rl fld++ a e++p v+++++eelg +
+  9939at33634_7|contig_609:1825632-1827141|- 437 TAAMVRFAARNEYARTvEDVLARRSRLLFLDARRAIELAPAVAQILREELGTD 489
+                                                 46789*********8747*******************************9865 PP
+
+>> 9939at33634_0|contig_718:75228-76200|-  <unknown description>
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  271.8   0.4   1.8e-84   1.8e-84       1     195 [.      86     323 ..      86     325 .] 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 271.8 bits;  conditional E-value: 1.8e-84
+                             9939at33634   1 gvaldaatrglkvalversdfaagtssrstklihgGiryleta.............ealeerkfmlsaapy 58 
+                                             g+aldaatrgl++a+ve+sdfaagts+rstklihgGiryleta             ealeer+f+lsaapy
+  9939at33634_0|contig_718:75228-76200|-  86 GCALDAATRGLNTAVVEASDFAAGTSGRSTKLIHGGIRYLETAflkldyaafklvnEALEERAFFLSAAPY 156
+                                             79***************************************98777777777777789************* PP
+
+                             9939at33634  59 lnrplpiviPiykWfev.....gaklydlv......vPssyvi........fPklk.eglkgaivyydgqm 109
+                                             +nrplpi+iPiykW+ev     gak+yd+v      vPssy+i        fP+l+ +glkgaivyydgqm
+  9939at33634_0|contig_718:75228-76200|- 157 MNRPLPIMIPIYKWWEVpymwiGAKAYDVVagskrfVPSSYYInadeamfqFPMLRkDGLKGAIVYYDGQM 227
+                                             ***************95444559*****965555559****98888888889***7368************ PP
+
+                             9939at33634 110 ndarlnlaialtaaekGaavanyvevvdllkd..gkvvGvkvkdrltgeefdvkakavvnatGpftdalrk 178
+                                             nd+r+n++ialta+++Ga+vanyv+vv+llkd  gkv+G++v+++ltg+e+dvka+avvnatGpftd++r 
+  9939at33634_0|contig_718:75228-76200|- 228 NDTRMNVSIALTATQNGATVANYVKVVQLLKDeeGKVRGARVQNTLTGDEWDVKAHAVVNATGPFTDSIRL 298
+                                             ******************************984469**********************************9 PP
+
+                             9939at33634 179 md........vpaaGvhvvlpdkts 195
+                                             md        vpaaGvh+vlpd+ s
+  9939at33634_0|contig_718:75228-76200|- 299 MDdpkkdkicVPAAGVHTVLPDHFS 323
+                                             9844444444689********9865 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (388 nodes)
+Target sequences:                          5  (2363 residues searched)
+Passed MSV filter:                         5  (1); expected 0.1 (0.02)
+Passed bias filter:                        5  (1); expected 0.1 (0.02)
+Passed Vit filter:                         5  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         5  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  5  [actual number of targets]
+Domain search space  (domZ):               5  [number of targets reported over threshold]
+# CPU time: 0.05u 0.00s 00:00:00.05 Elapsed: 00:00:00.04
+# Mc/sec: 18.35
+//
+[ok]

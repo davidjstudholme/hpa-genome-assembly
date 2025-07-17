@@ -1,0 +1,3 @@
+contig_363	miniprot	mRNA	409415	410398	1639	-	.	ID=MP000203;Rank=1;Identity=0.9297;Positive=0.9786;Target=15177at33634_1 1 327
+contig_363	miniprot	CDS	409415	410398	1639	-	0	Parent=MP000203;Rank=1;Identity=0.9297;Target=15177at33634_1 1 327
+contig_363	miniprot	stop_codon	409415	409417	0	-	0	Parent=MP000203;Rank=1

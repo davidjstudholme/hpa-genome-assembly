@@ -1,0 +1,5 @@
+contig_311	miniprot	mRNA	1136403	1137373	904	+	.	ID=MP000365;Rank=1;Identity=0.8515;Positive=0.9208;Target=19366at33634_0 1 202
+contig_311	miniprot	CDS	1136403	1136493	131	+	0	Parent=MP000365;Rank=1;Identity=0.8065;Donor=GC;Target=19366at33634_0 1 30
+contig_311	miniprot	CDS	1136694	1136959	377	+	2	Parent=MP000365;Rank=1;Identity=0.8182;Target=19366at33634_0 31 119
+contig_311	miniprot	CDS	1137043	1137154	183	+	0	Parent=MP000365;Rank=1;Identity=0.8947;Target=19366at33634_0 120 156
+contig_311	miniprot	CDS	1137237	1137373	213	+	2	Parent=MP000365;Rank=1;Identity=0.9111;Target=19366at33634_0 157 202

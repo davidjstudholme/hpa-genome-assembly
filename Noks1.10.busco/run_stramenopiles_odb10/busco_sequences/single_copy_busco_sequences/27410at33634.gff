@@ -1,0 +1,4 @@
+contig_584	miniprot	mRNA	201159	201800	710	-	.	ID=MP000565;Rank=1;Identity=0.6940;Positive=0.8470;Target=27410at33634_5 10 192
+contig_584	miniprot	CDS	201736	201800	77	-	0	Parent=MP000565;Rank=1;Identity=0.6818;Target=27410at33634_5 10 30
+contig_584	miniprot	CDS	201159	201639	633	-	1	Parent=MP000565;Rank=1;Identity=0.6957;Target=27410at33634_5 31 192
+contig_584	miniprot	stop_codon	201159	201161	0	-	0	Parent=MP000565;Rank=1

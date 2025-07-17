@@ -1,0 +1,28 @@
+#                                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+302at33634_1|contig_97:91146-97047|- -           1968 302at33634           -           1354         0 1465.9  81.0   1   9   8.1e-12   8.1e-12   30.3   0.0     7    82    68   153    65   157 0.79 <unknown description>
+302at33634_1|contig_97:91146-97047|- -           1968 302at33634           -           1354         0 1465.9  81.0   2   9   9.5e-88   9.5e-88  281.8   4.8    61   288   159   409   150   424 0.90 <unknown description>
+302at33634_1|contig_97:91146-97047|- -           1968 302at33634           -           1354         0 1465.9  81.0   3   9  3.4e-122  3.4e-122  396.0   8.1   276   624   425   845   421   862 0.85 <unknown description>
+302at33634_1|contig_97:91146-97047|- -           1968 302at33634           -           1354         0 1465.9  81.0   4   9   1.2e-17   1.2e-17   49.6   0.1   619   747   875  1046   860  1069 0.68 <unknown description>
+302at33634_1|contig_97:91146-97047|- -           1968 302at33634           -           1354         0 1465.9  81.0   5   9   1.6e-11   1.6e-11   29.3   0.0   718   797  1067  1159  1059  1191 0.75 <unknown description>
+302at33634_1|contig_97:91146-97047|- -           1968 302at33634           -           1354         0 1465.9  81.0   6   9   6.4e-10   6.4e-10   24.0   1.9   335   470  1209  1359  1196  1368 0.81 <unknown description>
+302at33634_1|contig_97:91146-97047|- -           1968 302at33634           -           1354         0 1465.9  81.0   7   9   5.8e-70   5.8e-70  222.9   4.8   894  1092  1389  1598  1378  1606 0.84 <unknown description>
+302at33634_1|contig_97:91146-97047|- -           1968 302at33634           -           1354         0 1465.9  81.0   8   9   9.1e-05   9.1e-05    6.9   2.1  1044  1088  1612  1655  1598  1664 0.66 <unknown description>
+302at33634_1|contig_97:91146-97047|- -           1968 302at33634           -           1354         0 1465.9  81.0   9   9  1.2e-139  1.2e-139  453.8  20.1  1051  1353  1649  1965  1645  1966 0.87 <unknown description>
+302at33634_0|contig_97:93216-97044|- -           1277 302at33634           -           1354  1.2e-241  791.8  32.4   1   6   4.9e-12   4.9e-12   31.0   0.0     7    82    67   152    64   156 0.79 <unknown description>
+302at33634_0|contig_97:93216-97044|- -           1277 302at33634           -           1354  1.2e-241  791.8  32.4   2   6   5.4e-88   5.4e-88  282.6   5.0    61   288   158   408   148   423 0.90 <unknown description>
+302at33634_0|contig_97:93216-97044|- -           1277 302at33634           -           1354  1.2e-241  791.8  32.4   3   6    2e-122    2e-122  396.7   8.5   276   624   424   844   421   861 0.85 <unknown description>
+302at33634_0|contig_97:93216-97044|- -           1277 302at33634           -           1354  1.2e-241  791.8  32.4   4   6   7.4e-18   7.4e-18   50.3   0.1   619   745   874  1043   861  1066 0.67 <unknown description>
+302at33634_0|contig_97:93216-97044|- -           1277 302at33634           -           1354  1.2e-241  791.8  32.4   5   6   8.7e-12   8.7e-12   30.2   0.0   718   797  1066  1158  1058  1194 0.75 <unknown description>
+302at33634_0|contig_97:93216-97044|- -           1277 302at33634           -           1354  1.2e-241  791.8  32.4   6   6   9.6e-06   9.6e-06   10.1   0.3   335   392  1208  1275  1194  1277 0.59 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/busco_downloads/lineages/stramenopiles_odb10/hmms/302at33634.hmm
+# Target file:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Noks1.06.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/302at33634.faa
+# Option settings: hmmsearch --domtblout /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Noks1.06.busco/run_stramenopiles_odb10/hmmer_output/302at33634.out --cpu 1 /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/busco_downloads/lineages/stramenopiles_odb10/hmms/302at33634.hmm /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Noks1.06.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/302at33634.faa 
+# Current dir:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly
+# Date:            Thu Jul 17 10:08:41 2025
+# [ok]

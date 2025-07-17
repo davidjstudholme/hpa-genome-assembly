@@ -1,0 +1,5 @@
+contig_347	miniprot	mRNA	508024	508766	818	-	.	ID=MP000411;Rank=1;Identity=0.8743;Positive=0.9314;Target=20769at33634_0 1 175
+contig_347	miniprot	CDS	508692	508766	124	-	0	Parent=MP000411;Rank=1;Identity=0.9600;Target=20769at33634_0 1 25
+contig_347	miniprot	CDS	508531	508572	59	-	0	Parent=MP000411;Rank=1;Identity=0.7857;Target=20769at33634_0 26 39
+contig_347	miniprot	CDS	508024	508434	635	-	0	Parent=MP000411;Rank=1;Identity=0.8676;Target=20769at33634_0 40 175
+contig_347	miniprot	stop_codon	508024	508026	0	-	0	Parent=MP000411;Rank=1

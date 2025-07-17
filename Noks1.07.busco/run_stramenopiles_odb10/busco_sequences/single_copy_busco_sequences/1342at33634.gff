@@ -1,0 +1,3 @@
+contig_340	miniprot	mRNA	296320	299325	4680	-	.	ID=MP000144;Rank=1;Identity=0.9271;Positive=0.9610;Target=1342at33634_1 1 992
+contig_340	miniprot	CDS	296320	299325	4680	-	0	Parent=MP000144;Rank=1;Identity=0.9271;Target=1342at33634_1 1 992
+contig_340	miniprot	stop_codon	296320	296322	0	-	0	Parent=MP000144;Rank=1

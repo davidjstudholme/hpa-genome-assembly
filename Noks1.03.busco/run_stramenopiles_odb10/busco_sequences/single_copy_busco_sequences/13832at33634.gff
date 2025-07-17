@@ -1,0 +1,5 @@
+contig_459	miniprot	mRNA	1044174	1045267	1380	+	.	ID=MP000182;Rank=1;Identity=0.8419;Positive=0.9194;Target=13832at33634_0 1 310
+contig_459	miniprot	CDS	1044174	1044499	470	+	0	Parent=MP000182;Rank=1;Identity=0.7890;Target=13832at33634_0 1 108
+contig_459	miniprot	CDS	1044561	1044663	174	+	1	Parent=MP000182;Rank=1;Identity=0.9706;Target=13832at33634_0 109 143
+contig_459	miniprot	CDS	1044764	1045267	736	+	0	Parent=MP000182;Rank=1;Identity=0.8503;Target=13832at33634_0 144 310
+contig_459	miniprot	stop_codon	1045265	1045267	0	+	0	Parent=MP000182;Rank=1

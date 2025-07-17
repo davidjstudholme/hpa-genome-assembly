@@ -1,0 +1,5 @@
+contig_251	miniprot	mRNA	841022	842132	1330	+	.	ID=MP000455;Rank=1;Identity=0.9537;Positive=0.9923;Target=22950at33634_1 1 259
+contig_251	miniprot	CDS	841022	841125	180	+	0	Parent=MP000455;Rank=1;Identity=1.0000;Target=22950at33634_1 1 34
+contig_251	miniprot	CDS	841261	841636	629	+	1	Parent=MP000455;Rank=1;Identity=0.9440;Target=22950at33634_1 35 160
+contig_251	miniprot	CDS	841735	841847	198	+	0	Parent=MP000455;Rank=1;Identity=1.0000;Target=22950at33634_1 161 197
+contig_251	miniprot	CDS	841949	842132	323	+	1	Parent=MP000455;Rank=1;Identity=0.9180;Target=22950at33634_1 198 259

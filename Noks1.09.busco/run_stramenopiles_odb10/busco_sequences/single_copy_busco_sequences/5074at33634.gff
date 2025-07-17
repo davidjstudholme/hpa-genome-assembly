@@ -1,0 +1,3 @@
+contig_188	miniprot	mRNA	109093	110631	2374	-	.	ID=MP000696;Rank=1;Identity=0.8633;Positive=0.9219;Target=5074at33634_0 1 512
+contig_188	miniprot	CDS	109093	110631	2374	-	0	Parent=MP000696;Rank=1;Identity=0.8633;Target=5074at33634_0 1 512
+contig_188	miniprot	stop_codon	109093	109095	0	-	0	Parent=MP000696;Rank=1

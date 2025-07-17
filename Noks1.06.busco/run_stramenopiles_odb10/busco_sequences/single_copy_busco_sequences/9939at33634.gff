@@ -1,0 +1,3 @@
+contig_718	miniprot	mRNA	74350	76200	2922	-	.	ID=MP000944;Rank=1;Identity=0.9058;Positive=0.9627;Target=9939at33634_1 1 615
+contig_718	miniprot	CDS	74350	76200	2922	-	0	Parent=MP000944;Rank=1;Identity=0.9058;Target=9939at33634_1 1 615
+contig_718	miniprot	stop_codon	74350	74352	0	-	0	Parent=MP000944;Rank=1

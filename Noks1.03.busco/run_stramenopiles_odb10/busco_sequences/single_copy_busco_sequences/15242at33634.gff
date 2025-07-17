@@ -1,0 +1,3 @@
+contig_233	miniprot	mRNA	706707	707579	1397	+	.	ID=MP000225;Rank=1;Identity=0.9069;Positive=0.9448;Target=15242at33634_0 1 288
+contig_233	miniprot	CDS	706707	707579	1397	+	0	Parent=MP000225;Rank=1;Identity=0.9069;Target=15242at33634_0 1 288
+contig_233	miniprot	stop_codon	707577	707579	0	+	0	Parent=MP000225;Rank=1

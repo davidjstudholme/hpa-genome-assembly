@@ -1,0 +1,3 @@
+contig_97	miniprot	mRNA	91144	97047	7982	-	.	ID=MP000597;Rank=1;Identity=0.8104;Positive=0.8948;Target=302at33634_1 1 1934
+contig_97	miniprot	CDS	91144	97047	7982	-	0	Parent=MP000597;Rank=1;Identity=0.8104;Target=302at33634_1 1 1934
+contig_97	miniprot	stop_codon	91144	91146	0	-	0	Parent=MP000597;Rank=1

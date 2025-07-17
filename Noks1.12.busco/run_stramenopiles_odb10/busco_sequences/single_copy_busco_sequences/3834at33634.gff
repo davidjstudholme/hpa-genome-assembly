@@ -1,0 +1,3 @@
+contig_185	miniprot	mRNA	1662309	1664219	2699	-	.	ID=MP000645;Rank=1;Identity=0.8087;Positive=0.8865;Target=3834at33634_1 1 634
+contig_185	miniprot	CDS	1662309	1664219	2699	-	0	Parent=MP000645;Rank=1;Identity=0.8087;Target=3834at33634_1 1 634
+contig_185	miniprot	stop_codon	1662309	1662311	0	-	0	Parent=MP000645;Rank=1

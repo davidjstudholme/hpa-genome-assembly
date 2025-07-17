@@ -1,0 +1,3 @@
+contig_131	miniprot	mRNA	301044	302888	2796	+	.	ID=MP000656;Rank=1;Identity=0.8912;Positive=0.9432;Target=3835at33634_1 1 616
+contig_131	miniprot	CDS	301044	302888	2796	+	0	Parent=MP000656;Rank=1;Identity=0.8912;Target=3835at33634_1 1 616
+contig_131	miniprot	stop_codon	302886	302888	0	+	0	Parent=MP000656;Rank=1

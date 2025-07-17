@@ -1,0 +1,8 @@
+contig_276	miniprot	mRNA	1767787	1769105	1436	+	.	ID=MP000153;Rank=1;Identity=0.9356;Positive=0.9831;Target=13476at33634_0 1 295
+contig_276	miniprot	CDS	1767787	1767969	290	+	0	Parent=MP000153;Rank=1;Identity=0.8525;Donor=GC;Target=13476at33634_0 1 61
+contig_276	miniprot	CDS	1768089	1768265	309	+	0	Parent=MP000153;Rank=1;Identity=1.0000;Target=13476at33634_0 62 120
+contig_276	miniprot	CDS	1768352	1768500	247	+	0	Parent=MP000153;Rank=1;Identity=0.9600;Target=13476at33634_0 121 169
+contig_276	miniprot	CDS	1768578	1768665	151	+	1	Parent=MP000153;Rank=1;Identity=1.0000;Target=13476at33634_0 170 199
+contig_276	miniprot	CDS	1768744	1768960	337	+	0	Parent=MP000153;Rank=1;Identity=0.9178;Target=13476at33634_0 200 271
+contig_276	miniprot	CDS	1769032	1769105	102	+	2	Parent=MP000153;Rank=1;Identity=0.9130;Target=13476at33634_0 272 295
+contig_276	miniprot	stop_codon	1769103	1769105	0	+	0	Parent=MP000153;Rank=1

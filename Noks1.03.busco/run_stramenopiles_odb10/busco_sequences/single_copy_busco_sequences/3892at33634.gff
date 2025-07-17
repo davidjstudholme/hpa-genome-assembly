@@ -1,0 +1,3 @@
+contig_439	miniprot	mRNA	194887	196995	3194	+	.	ID=MP000671;Rank=1;Identity=0.8932;Positive=0.9473;Target=3892at33634_6 1 701
+contig_439	miniprot	CDS	194887	196995	3194	+	0	Parent=MP000671;Rank=1;Identity=0.8932;Target=3892at33634_6 1 701
+contig_439	miniprot	stop_codon	196993	196995	0	+	0	Parent=MP000671;Rank=1

@@ -70,7 +70,12 @@ tar xvf stramenopiles_odb12.2025-07-01.tar.gz
 ### QC on Nokes1 assemblies, using BUSCO
 for i in 01 02  03 04 05 06 07 08 09 10 11 12; do
     echo running BUSCO on Noks1 assembly $i
-    busco -i Noks1.assemblies/assembly_"$i".fasta -l stramenopiles_odb10 -o Noks1.assemblies_"$i".busco_output -m genome --cpu 8
+    busco -i Noks1.assemblies/assembly_"$i".fasta -l stramenopiles_odb10 -o Noks1."$i".busco -m genome --cpu 8 -f
 done
 
-
+### Make a summary plot of BUSCO results
+mkdir Noks1.all.busco
+cd  Noks1.all.busco
+ln -s ../Noks1.*.busco/*.json .
+cd -
+busco --plot Noks1.all.busco

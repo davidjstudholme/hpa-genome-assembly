@@ -1,0 +1,4 @@
+contig_454	miniprot	mRNA	337763	338462	1041	-	.	ID=MP000339;Rank=1;Identity=0.9854;Positive=0.9903;Target=18069at33634 72 277
+contig_454	miniprot	CDS	338331	338462	209	-	0	Parent=MP000339;Rank=1;Identity=0.9545;Target=18069at33634 72 115
+contig_454	miniprot	CDS	337763	338251	832	-	0	Parent=MP000339;Rank=1;Identity=0.9938;Target=18069at33634 116 277
+contig_454	miniprot	stop_codon	337763	337765	0	-	0	Parent=MP000339;Rank=1

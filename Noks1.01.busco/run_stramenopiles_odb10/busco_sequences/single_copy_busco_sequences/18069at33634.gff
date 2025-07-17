@@ -1,0 +1,4 @@
+contig_510	miniprot	mRNA	8132	8831	1041	+	.	ID=MP000334;Rank=1;Identity=0.9854;Positive=0.9903;Target=18069at33634 72 277
+contig_510	miniprot	CDS	8132	8263	209	+	0	Parent=MP000334;Rank=1;Identity=0.9545;Target=18069at33634 72 115
+contig_510	miniprot	CDS	8343	8831	832	+	0	Parent=MP000334;Rank=1;Identity=0.9938;Target=18069at33634 116 277
+contig_510	miniprot	stop_codon	8829	8831	0	+	0	Parent=MP000334;Rank=1

@@ -1,0 +1,3 @@
+contig_408	miniprot	mRNA	44050	49494	8301	-	.	ID=MP000030;Rank=1;Identity=0.8826;Positive=0.9405;Target=1102at33634_0 1 1810
+contig_408	miniprot	CDS	44050	49494	8301	-	0	Parent=MP000030;Rank=1;Identity=0.8826;Target=1102at33634_0 1 1810
+contig_408	miniprot	stop_codon	44050	44052	0	-	0	Parent=MP000030;Rank=1

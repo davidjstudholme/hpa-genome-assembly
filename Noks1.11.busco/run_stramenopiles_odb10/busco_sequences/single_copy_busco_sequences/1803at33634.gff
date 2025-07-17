@@ -1,0 +1,4 @@
+contig_192	miniprot	mRNA	122915	125746	3923	-	.	ID=MP000328;Rank=1;Identity=0.8074;Positive=0.8810;Target=1803at33634_4 1 913
+contig_192	miniprot	CDS	125039	125746	1034	-	0	Parent=MP000328;Rank=1;Identity=0.8050;Target=1803at33634_4 1 235
+contig_192	miniprot	CDS	122915	124966	2889	-	0	Parent=MP000328;Rank=1;Identity=0.8082;Target=1803at33634_4 236 913
+contig_192	miniprot	stop_codon	122915	122917	0	-	0	Parent=MP000328;Rank=1

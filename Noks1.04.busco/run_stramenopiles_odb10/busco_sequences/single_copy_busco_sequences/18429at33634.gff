@@ -1,0 +1,3 @@
+contig_330	miniprot	mRNA	469395	470350	827	+	.	ID=MP000346;Rank=1;Identity=0.5985;Positive=0.7538;Target=18429at33634 84 344
+contig_330	miniprot	CDS	469395	469783	424	+	0	Parent=MP000346;Rank=1;Identity=0.6385;Target=18429at33634 84 210
+contig_330	miniprot	CDS	469948	470350	403	+	1	Parent=MP000346;Rank=1;Identity=0.5597;Target=18429at33634 211 344

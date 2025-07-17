@@ -1,0 +1,3 @@
+contig_192	miniprot	mRNA	483107	483979	1397	-	.	ID=MP000224;Rank=1;Identity=0.9069;Positive=0.9448;Target=15242at33634_0 1 288
+contig_192	miniprot	CDS	483107	483979	1397	-	0	Parent=MP000224;Rank=1;Identity=0.9069;Target=15242at33634_0 1 288
+contig_192	miniprot	stop_codon	483107	483109	0	-	0	Parent=MP000224;Rank=1

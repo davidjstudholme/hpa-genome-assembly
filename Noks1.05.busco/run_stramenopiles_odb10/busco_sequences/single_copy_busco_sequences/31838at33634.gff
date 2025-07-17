@@ -1,0 +1,4 @@
+contig_182	miniprot	mRNA	757110	757580	609	+	.	ID=MP000609;Rank=1;Identity=0.8308;Positive=0.9462;Target=31838at33634_7 1 130
+contig_182	miniprot	CDS	757110	757375	430	+	0	Parent=MP000609;Rank=1;Identity=0.8315;Target=31838at33634_7 1 88
+contig_182	miniprot	CDS	757454	757580	179	+	1	Parent=MP000609;Rank=1;Identity=0.8293;Target=31838at33634_7 89 130
+contig_182	miniprot	stop_codon	757578	757580	0	+	0	Parent=MP000609;Rank=1

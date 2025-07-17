@@ -1,0 +1,8 @@
+contig_437	miniprot	mRNA	210288	211219	754	+	.	ID=MP000474;Rank=1;Identity=0.9664;Positive=0.9732;Target=23917at33634_0 1 149
+contig_437	miniprot	CDS	210288	210322	58	+	0	Parent=MP000474;Rank=1;Identity=0.8333;Target=23917at33634_0 1 11
+contig_437	miniprot	CDS	210426	210544	206	+	1	Parent=MP000474;Rank=1;Identity=0.9500;Target=23917at33634_0 12 51
+contig_437	miniprot	CDS	210680	210743	96	+	2	Parent=MP000474;Rank=1;Identity=1.0000;Target=23917at33634_0 52 72
+contig_437	miniprot	CDS	210823	210910	159	+	1	Parent=MP000474;Rank=1;Identity=1.0000;Target=23917at33634_0 73 102
+contig_437	miniprot	CDS	210985	211110	208	+	0	Parent=MP000474;Rank=1;Identity=0.9762;Target=23917at33634_0 103 144
+contig_437	miniprot	CDS	211202	211219	27	+	0	Parent=MP000474;Rank=1;Identity=1.0000;Target=23917at33634_0 145 149
+contig_437	miniprot	stop_codon	211217	211219	0	+	0	Parent=MP000474;Rank=1

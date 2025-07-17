@@ -1,0 +1,2 @@
+contig_210	miniprot	mRNA	380401	382149	2463	-	.	ID=MP000755;Rank=1;Identity=0.8096;Positive=0.8816;Target=5964at33634_1 1 574
+contig_210	miniprot	CDS	380401	382149	2463	-	0	Parent=MP000755;Rank=1;Identity=0.8096;Target=5964at33634_1 1 574

@@ -1,0 +1,3 @@
+contig_747	miniprot	mRNA	338967	339596	933	+	.	ID=MP000446;Rank=1;Identity=0.8632;Positive=0.9151;Target=22080at33634 1 207
+contig_747	miniprot	CDS	338967	339596	933	+	0	Parent=MP000446;Rank=1;Identity=0.8632;Target=22080at33634 1 207
+contig_747	miniprot	stop_codon	339594	339596	0	+	0	Parent=MP000446;Rank=1

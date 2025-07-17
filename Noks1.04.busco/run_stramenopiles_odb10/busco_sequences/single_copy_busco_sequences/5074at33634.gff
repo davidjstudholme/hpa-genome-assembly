@@ -1,0 +1,3 @@
+contig_166	miniprot	mRNA	110287	111825	2374	-	.	ID=MP000697;Rank=1;Identity=0.8633;Positive=0.9219;Target=5074at33634_0 1 512
+contig_166	miniprot	CDS	110287	111825	2374	-	0	Parent=MP000697;Rank=1;Identity=0.8633;Target=5074at33634_0 1 512
+contig_166	miniprot	stop_codon	110287	110289	0	-	0	Parent=MP000697;Rank=1

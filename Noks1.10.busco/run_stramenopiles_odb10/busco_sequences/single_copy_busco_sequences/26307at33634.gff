@@ -1,0 +1,3 @@
+contig_160	miniprot	mRNA	412470	413192	880	-	.	ID=MP000535;Rank=1;Identity=0.7208;Positive=0.8375;Target=26307at33634_5 1 239
+contig_160	miniprot	CDS	412470	413192	880	-	0	Parent=MP000535;Rank=1;Identity=0.7208;Target=26307at33634_5 1 239
+contig_160	miniprot	stop_codon	412470	412472	0	-	0	Parent=MP000535;Rank=1

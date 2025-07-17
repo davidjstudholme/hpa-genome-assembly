@@ -1,0 +1,3 @@
+contig_203	miniprot	mRNA	713001	716504	5818	-	.	ID=MP000804;Rank=1;Identity=0.9589;Positive=0.9760;Target=693at33634_1 1 1166
+contig_203	miniprot	CDS	713001	716504	5818	-	0	Parent=MP000804;Rank=1;Identity=0.9589;Target=693at33634_1 1 1166
+contig_203	miniprot	stop_codon	713001	713003	0	-	0	Parent=MP000804;Rank=1

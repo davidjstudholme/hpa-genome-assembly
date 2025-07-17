@@ -1,0 +1,8 @@
+contig_452	miniprot	mRNA	195708	196639	754	+	.	ID=MP000471;Rank=1;Identity=0.9664;Positive=0.9732;Target=23917at33634_0 1 149
+contig_452	miniprot	CDS	195708	195742	58	+	0	Parent=MP000471;Rank=1;Identity=0.8333;Target=23917at33634_0 1 11
+contig_452	miniprot	CDS	195846	195964	206	+	1	Parent=MP000471;Rank=1;Identity=0.9500;Target=23917at33634_0 12 51
+contig_452	miniprot	CDS	196100	196163	96	+	2	Parent=MP000471;Rank=1;Identity=1.0000;Target=23917at33634_0 52 72
+contig_452	miniprot	CDS	196243	196330	159	+	1	Parent=MP000471;Rank=1;Identity=1.0000;Target=23917at33634_0 73 102
+contig_452	miniprot	CDS	196405	196530	208	+	0	Parent=MP000471;Rank=1;Identity=0.9762;Target=23917at33634_0 103 144
+contig_452	miniprot	CDS	196622	196639	27	+	0	Parent=MP000471;Rank=1;Identity=1.0000;Target=23917at33634_0 145 149
+contig_452	miniprot	stop_codon	196637	196639	0	+	0	Parent=MP000471;Rank=1

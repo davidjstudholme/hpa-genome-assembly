@@ -1,0 +1,3 @@
+contig_48	miniprot	mRNA	197899	199761	3035	-	.	ID=MP000679;Rank=1;Identity=0.9581;Positive=0.9855;Target=4148at33634_5 1 620
+contig_48	miniprot	CDS	197899	199761	3035	-	0	Parent=MP000679;Rank=1;Identity=0.9581;Target=4148at33634_5 1 620
+contig_48	miniprot	stop_codon	197899	197901	0	-	0	Parent=MP000679;Rank=1

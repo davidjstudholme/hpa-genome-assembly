@@ -1,0 +1,2 @@
+contig_340	miniprot	mRNA	1120045	1121769	1125	+	.	ID=MP000851;Rank=1;Identity=0.4182;Positive=0.6127;Target=7485at33634_2 31 574
+contig_340	miniprot	CDS	1120045	1121769	1125	+	0	Parent=MP000851;Rank=1;Identity=0.4182;Target=7485at33634_2 31 574

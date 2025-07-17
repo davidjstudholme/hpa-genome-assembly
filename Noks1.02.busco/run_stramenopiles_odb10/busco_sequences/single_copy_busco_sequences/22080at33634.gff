@@ -1,0 +1,3 @@
+contig_418	miniprot	mRNA	344893	345522	933	+	.	ID=MP000444;Rank=1;Identity=0.8632;Positive=0.9151;Target=22080at33634 1 207
+contig_418	miniprot	CDS	344893	345522	933	+	0	Parent=MP000444;Rank=1;Identity=0.8632;Target=22080at33634 1 207
+contig_418	miniprot	stop_codon	345520	345522	0	+	0	Parent=MP000444;Rank=1

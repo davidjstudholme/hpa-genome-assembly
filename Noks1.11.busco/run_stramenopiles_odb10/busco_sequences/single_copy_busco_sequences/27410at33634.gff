@@ -1,0 +1,4 @@
+contig_442	miniprot	mRNA	90153	90794	710	+	.	ID=MP000571;Rank=1;Identity=0.6940;Positive=0.8470;Target=27410at33634_5 10 192
+contig_442	miniprot	CDS	90153	90217	77	+	0	Parent=MP000571;Rank=1;Identity=0.6818;Target=27410at33634_5 10 30
+contig_442	miniprot	CDS	90314	90794	633	+	1	Parent=MP000571;Rank=1;Identity=0.6957;Target=27410at33634_5 31 192
+contig_442	miniprot	stop_codon	90792	90794	0	+	0	Parent=MP000571;Rank=1

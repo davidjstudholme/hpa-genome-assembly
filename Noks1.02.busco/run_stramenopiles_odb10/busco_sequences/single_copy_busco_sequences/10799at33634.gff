@@ -1,0 +1,3 @@
+contig_170	miniprot	mRNA	158618	160102	2080	+	.	ID=MP000021;Rank=1;Identity=0.7960;Positive=0.8889;Target=10799at33634_2 1 491
+contig_170	miniprot	CDS	158618	160102	2080	+	0	Parent=MP000021;Rank=1;Identity=0.7960;Target=10799at33634_2 1 491
+contig_170	miniprot	stop_codon	160100	160102	0	+	0	Parent=MP000021;Rank=1

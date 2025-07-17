@@ -1,0 +1,2 @@
+contig_79	miniprot	mRNA	152978	154492	1984	+	.	ID=MP000179;Rank=1;Identity=0.7767;Positive=0.8439;Target=13819at33634_8 1 491
+contig_79	miniprot	CDS	152978	154492	1984	+	0	Parent=MP000179;Rank=1;Identity=0.7767;Target=13819at33634_8 1 491

@@ -1,0 +1,3 @@
+contig_770	miniprot	mRNA	79937	81787	2922	-	.	ID=MP000952;Rank=1;Identity=0.9058;Positive=0.9627;Target=9939at33634_1 1 615
+contig_770	miniprot	CDS	79937	81787	2922	-	0	Parent=MP000952;Rank=1;Identity=0.9058;Target=9939at33634_1 1 615
+contig_770	miniprot	stop_codon	79937	79939	0	-	0	Parent=MP000952;Rank=1

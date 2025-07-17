@@ -1,0 +1,3 @@
+contig_215	miniprot	mRNA	601121	602725	2422	-	.	ID=MP000104;Rank=1;Identity=0.8601;Positive=0.9272;Target=12626at33634_5 1 534
+contig_215	miniprot	CDS	601121	602725	2422	-	0	Parent=MP000104;Rank=1;Identity=0.8601;Target=12626at33634_5 1 534
+contig_215	miniprot	stop_codon	601121	601123	0	-	0	Parent=MP000104;Rank=1

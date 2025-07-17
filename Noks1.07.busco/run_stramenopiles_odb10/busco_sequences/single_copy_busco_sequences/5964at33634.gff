@@ -1,0 +1,2 @@
+contig_202	miniprot	mRNA	380418	382166	2463	-	.	ID=MP000753;Rank=1;Identity=0.8096;Positive=0.8816;Target=5964at33634_1 1 574
+contig_202	miniprot	CDS	380418	382166	2463	-	0	Parent=MP000753;Rank=1;Identity=0.8096;Target=5964at33634_1 1 574

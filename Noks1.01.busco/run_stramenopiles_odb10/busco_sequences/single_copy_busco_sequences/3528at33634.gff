@@ -1,0 +1,3 @@
+contig_789	miniprot	mRNA	6063	8516	3933	-	.	ID=MP000623;Rank=1;Identity=0.9294;Positive=0.9622;Target=3528at33634_1 1 820
+contig_789	miniprot	CDS	6063	8516	3933	-	0	Parent=MP000623;Rank=1;Identity=0.9294;Target=3528at33634_1 1 820
+contig_789	miniprot	stop_codon	6063	6065	0	-	0	Parent=MP000623;Rank=1

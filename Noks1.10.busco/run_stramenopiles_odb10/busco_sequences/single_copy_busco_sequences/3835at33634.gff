@@ -1,0 +1,3 @@
+contig_132	miniprot	mRNA	298220	300064	2796	+	.	ID=MP000650;Rank=1;Identity=0.8912;Positive=0.9432;Target=3835at33634_1 1 616
+contig_132	miniprot	CDS	298220	300064	2796	+	0	Parent=MP000650;Rank=1;Identity=0.8912;Target=3835at33634_1 1 616
+contig_132	miniprot	stop_codon	300062	300064	0	+	0	Parent=MP000650;Rank=1

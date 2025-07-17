@@ -1,0 +1,2 @@
+contig_222	miniprot	mRNA	1092773	1093306	404	+	.	ID=MP000579;Rank=1;Identity=0.4551;Positive=0.6517;Target=27411at33634_8 1 178
+contig_222	miniprot	CDS	1092773	1093306	404	+	0	Parent=MP000579;Rank=1;Identity=0.4551;Target=27411at33634_8 1 178

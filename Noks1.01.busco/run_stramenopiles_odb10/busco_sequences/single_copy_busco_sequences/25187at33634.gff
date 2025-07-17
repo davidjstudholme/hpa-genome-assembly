@@ -1,0 +1,4 @@
+contig_265	miniprot	mRNA	53103	53635	648	+	.	ID=MP000500;Rank=1;Identity=0.8514;Positive=0.9257;Target=25187at33634_0 1 147
+contig_265	miniprot	CDS	53103	53411	443	+	0	Parent=MP000500;Rank=1;Identity=0.8350;Target=25187at33634_0 1 102
+contig_265	miniprot	CDS	53498	53635	205	+	0	Parent=MP000500;Rank=1;Identity=0.8889;Target=25187at33634_0 103 147
+contig_265	miniprot	stop_codon	53633	53635	0	+	0	Parent=MP000500;Rank=1

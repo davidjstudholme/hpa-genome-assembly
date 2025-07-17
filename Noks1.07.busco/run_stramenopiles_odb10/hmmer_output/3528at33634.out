@@ -1,0 +1,21 @@
+#                                                                                                --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                            accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                    ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+3528at33634_1|contig_763:163112-165563|+ -            818 3528at33634          -            627         0 1072.3   5.4   1   4    0.0091    0.0091    1.7   0.0     1    27    17    43    17    55 0.83 <unknown description>
+3528at33634_1|contig_763:163112-165563|+ -            818 3528at33634          -            627         0 1072.3   5.4   2   4     4e-72     4e-72  230.8   0.1    19   166    70   222    52   233 0.87 <unknown description>
+3528at33634_1|contig_763:163112-165563|+ -            818 3528at33634          -            627         0 1072.3   5.4   3   4  4.9e-249  4.9e-249  815.2   0.1   163   604   281   748   251   770 0.91 <unknown description>
+3528at33634_1|contig_763:163112-165563|+ -            818 3528at33634          -            627         0 1072.3   5.4   4   4   1.4e-09   1.4e-09   24.2   0.1   587   627   775   817   767   817 0.87 <unknown description>
+3528at33634_8|contig_763:163358-165275|+ -            640 3528at33634          -            627         0 1036.0   3.2   1   2   9.7e-71   9.7e-71  226.3   0.2    32   166     2   140     1   152 0.93 <unknown description>
+3528at33634_8|contig_763:163358-165275|+ -            640 3528at33634          -            627         0 1036.0   3.2   2   2  1.2e-247  1.2e-247  810.6   0.3   163   577   199   640   169   640 0.93 <unknown description>
+3528at33634_0|contig_763:163766-165563|+ -            600 3528at33634          -            627  1.9e-257  843.0   0.4   1   2  1.9e-249  1.9e-249  816.6   0.1   163   604    63   530    34   552 0.91 <unknown description>
+3528at33634_0|contig_763:163766-165563|+ -            600 3528at33634          -            627  1.9e-257  843.0   0.4   2   2   8.8e-10   8.8e-10   24.9   0.0   587   627   557   599   546   599 0.87 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/busco_downloads/lineages/stramenopiles_odb10/hmms/3528at33634.hmm
+# Target file:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Noks1.07.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/3528at33634.faa
+# Option settings: hmmsearch --domtblout /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Noks1.07.busco/run_stramenopiles_odb10/hmmer_output/3528at33634.out --cpu 1 /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/busco_downloads/lineages/stramenopiles_odb10/hmms/3528at33634.hmm /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Noks1.07.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/3528at33634.faa 
+# Current dir:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly
+# Date:            Thu Jul 17 10:09:03 2025
+# [ok]

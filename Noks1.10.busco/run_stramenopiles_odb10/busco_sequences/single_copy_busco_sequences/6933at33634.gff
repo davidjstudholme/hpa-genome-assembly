@@ -1,0 +1,2 @@
+contig_201	miniprot	mRNA	81444	82910	2259	-	.	ID=MP000792;Rank=1;Identity=0.9093;Positive=0.9556;Target=6933at33634_0 24 519
+contig_201	miniprot	CDS	81444	82910	2259	-	0	Parent=MP000792;Rank=1;Identity=0.9093;Target=6933at33634_0 24 519

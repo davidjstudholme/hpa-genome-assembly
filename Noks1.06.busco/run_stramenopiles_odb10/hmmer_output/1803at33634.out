@@ -1,0 +1,33 @@
+#                                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+1803at33634_4|contig_272:1074459-1077288|+ -            920 1803at33634          -            592  4.9e-224  733.3  24.7   1   5  3.3e-169  3.3e-169  552.2   4.8     7   374    54   499    48   511 0.86 <unknown description>
+1803at33634_4|contig_272:1074459-1077288|+ -            920 1803at33634          -            592  4.9e-224  733.3  24.7   2   5     1e-32     1e-32  101.5   2.9   378   453   530   629   523   635 0.85 <unknown description>
+1803at33634_4|contig_272:1074459-1077288|+ -            920 1803at33634          -            592  4.9e-224  733.3  24.7   3   5     4e-15     4e-15   43.4   0.0   452   499   666   721   657   730 0.83 <unknown description>
+1803at33634_4|contig_272:1074459-1077288|+ -            920 1803at33634          -            592  4.9e-224  733.3  24.7   4   5   1.8e-11   1.8e-11   31.3   0.1   483   551   734   818   725   824 0.78 <unknown description>
+1803at33634_4|contig_272:1074459-1077288|+ -            920 1803at33634          -            592  4.9e-224  733.3  24.7   5   5   0.00071   0.00071    6.3   0.3   548   572   846   870   833   904 0.74 <unknown description>
+1803at33634_2|contig_387:220595-223073|+   -            827 1803at33634          -            592  1.4e-182  596.4   5.7   1   4  1.3e-169  1.3e-169  553.6   0.2    11   468    10   577     4   581 0.83 <unknown description>
+1803at33634_2|contig_387:220595-223073|+   -            827 1803at33634          -            592  1.4e-182  596.4   5.7   2   4   2.8e-10   2.8e-10   27.4   0.0   440   499   591   659   587   673 0.72 <unknown description>
+1803at33634_2|contig_387:220595-223073|+   -            827 1803at33634          -            592  1.4e-182  596.4   5.7   3   4   0.00019   0.00019    8.2   0.3   487   534   678   727   660   758 0.74 <unknown description>
+1803at33634_2|contig_387:220595-223073|+   -            827 1803at33634          -            592  1.4e-182  596.4   5.7   4   4     0.026     0.026    1.1   0.0   549   570   785   806   772   823 0.82 <unknown description>
+1803at33634_2|contig_508:2259202-2261689|+ -            830 1803at33634          -            592  1.1e-174  570.3  12.2   1   4    1e-163    1e-163  534.1   5.8    10   453    18   575    14   593 0.81 <unknown description>
+1803at33634_2|contig_508:2259202-2261689|+ -            830 1803at33634          -            592  1.1e-174  570.3  12.2   2   4   4.1e-09   4.1e-09   23.6   0.0   440   498   605   672   600   707 0.77 <unknown description>
+1803at33634_2|contig_508:2259202-2261689|+ -            830 1803at33634          -            592  1.1e-174  570.3  12.2   3   4     0.056     0.056    0.0   0.1   506   535   708   739   690   778 0.67 <unknown description>
+1803at33634_2|contig_508:2259202-2261689|+ -            830 1803at33634          -            592  1.1e-174  570.3  12.2   4   4    0.0037    0.0037    3.9   0.1   548   572   796   820   767   830 0.81 <unknown description>
+1803at33634_9|contig_799:1781227-1783720|- -            832 1803at33634          -            592  1.1e-170  557.2   0.9   1   3    5e-158    5e-158  515.3   0.0     9   454    19   569    11   579 0.82 <unknown description>
+1803at33634_9|contig_799:1781227-1783720|- -            832 1803at33634          -            592  1.1e-170  557.2   0.9   2   3   1.4e-10   1.4e-10   28.4   0.1   453   550   607   744   601   750 0.76 <unknown description>
+1803at33634_9|contig_799:1781227-1783720|- -            832 1803at33634          -            592  1.1e-170  557.2   0.9   3   3     0.017     0.017    1.8   0.0   548   571   770   793   762   805 0.88 <unknown description>
+1803at33634_9|contig_15:4131972-4135043|+  -            848 1803at33634          -            592  2.7e-156  509.6   5.4   1   4  1.8e-104  1.8e-104  338.5   0.3     9   298    20   354     1   376 0.86 <unknown description>
+1803at33634_9|contig_15:4131972-4135043|+  -            848 1803at33634          -            592  2.7e-156  509.6   5.4   2   4   1.1e-13   1.1e-13   38.7   0.0   308   374   389   465   365   471 0.78 <unknown description>
+1803at33634_9|contig_15:4131972-4135043|+  -            848 1803at33634          -            592  2.7e-156  509.6   5.4   3   4   4.9e-25   4.9e-25   76.2   0.1   385   455   507   598   488   603 0.79 <unknown description>
+1803at33634_9|contig_15:4131972-4135043|+  -            848 1803at33634          -            592  2.7e-156  509.6   5.4   4   4   2.1e-16   2.1e-16   47.7   0.0   447   551   615   760   610   765 0.75 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/busco_downloads/lineages/stramenopiles_odb10/hmms/1803at33634.hmm
+# Target file:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Noks1.06.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/1803at33634.faa
+# Option settings: hmmsearch --domtblout /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Noks1.06.busco/run_stramenopiles_odb10/hmmer_output/1803at33634.out --cpu 1 /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/busco_downloads/lineages/stramenopiles_odb10/hmms/1803at33634.hmm /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Noks1.06.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/1803at33634.faa 
+# Current dir:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly
+# Date:            Thu Jul 17 10:08:41 2025
+# [ok]

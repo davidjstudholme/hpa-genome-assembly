@@ -1,0 +1,4 @@
+contig_852	miniprot	mRNA	49244	49843	810	-	.	ID=MP000561;Rank=1;Identity=0.9172;Positive=0.9527;Target=27409at33634_0 1 169
+contig_852	miniprot	CDS	49503	49843	545	-	0	Parent=MP000561;Rank=1;Identity=0.9035;Target=27409at33634_0 1 113
+contig_852	miniprot	CDS	49244	49412	265	-	1	Parent=MP000561;Rank=1;Identity=0.9455;Target=27409at33634_0 114 169
+contig_852	miniprot	stop_codon	49244	49246	0	-	0	Parent=MP000561;Rank=1

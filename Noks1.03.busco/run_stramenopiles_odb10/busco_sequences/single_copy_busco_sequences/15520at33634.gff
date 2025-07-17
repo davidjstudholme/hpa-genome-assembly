@@ -1,0 +1,3 @@
+contig_371	miniprot	mRNA	937225	938400	1787	-	.	ID=MP000249;Rank=1;Identity=0.9005;Positive=0.9490;Target=15520at33634_2 1 390
+contig_371	miniprot	CDS	937225	938400	1787	-	0	Parent=MP000249;Rank=1;Identity=0.9005;Target=15520at33634_2 1 390
+contig_371	miniprot	stop_codon	937225	937227	0	-	0	Parent=MP000249;Rank=1

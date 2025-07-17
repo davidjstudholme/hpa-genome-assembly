@@ -1,0 +1,14 @@
+#                                                                                                --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                            accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                    ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+6366at33634_0|contig_225:286962-288676|+ -            529 6366at33634          -            460  2.2e-257  840.1   5.4   1   1  2.7e-257  2.7e-257  839.8   5.4     7   458    28   505    23   507 0.96 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/busco_downloads/lineages/stramenopiles_odb10/hmms/6366at33634.hmm
+# Target file:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Noks1.10.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/6366at33634.faa
+# Option settings: hmmsearch --domtblout /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Noks1.10.busco/run_stramenopiles_odb10/hmmer_output/6366at33634.out --cpu 1 /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/busco_downloads/lineages/stramenopiles_odb10/hmms/6366at33634.hmm /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Noks1.10.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/6366at33634.faa 
+# Current dir:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly
+# Date:            Thu Jul 17 10:10:22 2025
+# [ok]

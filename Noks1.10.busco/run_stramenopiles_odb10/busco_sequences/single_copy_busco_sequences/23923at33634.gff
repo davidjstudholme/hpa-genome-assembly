@@ -1,0 +1,3 @@
+contig_417	miniprot	mRNA	219004	219558	909	-	.	ID=MP000481;Rank=1;Identity=0.9402;Positive=0.9837;Target=23923at33634_0 1 184
+contig_417	miniprot	CDS	219004	219558	909	-	0	Parent=MP000481;Rank=1;Identity=0.9402;Target=23923at33634_0 1 184
+contig_417	miniprot	stop_codon	219004	219006	0	-	0	Parent=MP000481;Rank=1

@@ -1,0 +1,2 @@
+contig_189	miniprot	mRNA	1118882	1120606	1125	+	.	ID=MP000852;Rank=1;Identity=0.4182;Positive=0.6127;Target=7485at33634_2 31 574
+contig_189	miniprot	CDS	1118882	1120606	1125	+	0	Parent=MP000852;Rank=1;Identity=0.4182;Target=7485at33634_2 31 574

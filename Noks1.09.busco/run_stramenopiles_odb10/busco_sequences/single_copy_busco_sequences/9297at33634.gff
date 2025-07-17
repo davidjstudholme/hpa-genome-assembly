@@ -1,0 +1,3 @@
+contig_356	miniprot	mRNA	339759	340859	1718	-	.	ID=MP000910;Rank=1;Identity=0.8907;Positive=0.9454;Target=9297at33634_0 1 366
+contig_356	miniprot	CDS	339759	340859	1718	-	0	Parent=MP000910;Rank=1;Identity=0.8907;Target=9297at33634_0 1 366
+contig_356	miniprot	stop_codon	339759	339761	0	-	0	Parent=MP000910;Rank=1

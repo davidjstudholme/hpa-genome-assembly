@@ -1,0 +1,3 @@
+contig_471	miniprot	mRNA	71336	71965	933	-	.	ID=MP000445;Rank=1;Identity=0.8632;Positive=0.9151;Target=22080at33634 1 207
+contig_471	miniprot	CDS	71336	71965	933	-	0	Parent=MP000445;Rank=1;Identity=0.8632;Target=22080at33634 1 207
+contig_471	miniprot	stop_codon	71336	71338	0	-	0	Parent=MP000445;Rank=1

@@ -1,0 +1,4 @@
+contig_384	miniprot	mRNA	285848	287564	2415	+	.	ID=MP000768;Rank=1;Identity=0.9015;Positive=0.9413;StopCodon=1;Target=6366at33634_0 1 528
+contig_384	miniprot	CDS	285848	287363	2390	+	0	Parent=MP000768;Rank=1;Identity=0.9170;Target=6366at33634_0 1 505
+contig_384	miniprot	CDS	287494	287564	25	+	2	Parent=MP000768;Rank=1;Identity=0.5455;StopCodon=1;Target=6366at33634_0 506 528
+contig_384	miniprot	stop_codon	287562	287564	0	+	0	Parent=MP000768;Rank=1

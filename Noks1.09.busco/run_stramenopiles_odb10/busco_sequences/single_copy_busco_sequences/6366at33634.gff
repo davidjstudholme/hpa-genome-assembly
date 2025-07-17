@@ -1,0 +1,4 @@
+contig_219	miniprot	mRNA	311429	313145	2415	+	.	ID=MP000764;Rank=1;Identity=0.9015;Positive=0.9413;StopCodon=1;Target=6366at33634_0 1 528
+contig_219	miniprot	CDS	311429	312944	2390	+	0	Parent=MP000764;Rank=1;Identity=0.9170;Target=6366at33634_0 1 505
+contig_219	miniprot	CDS	313075	313145	25	+	2	Parent=MP000764;Rank=1;Identity=0.5455;StopCodon=1;Target=6366at33634_0 506 528
+contig_219	miniprot	stop_codon	313143	313145	0	+	0	Parent=MP000764;Rank=1

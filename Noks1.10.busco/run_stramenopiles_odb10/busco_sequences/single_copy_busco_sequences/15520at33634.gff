@@ -1,0 +1,3 @@
+contig_437	miniprot	mRNA	306872	308047	1787	+	.	ID=MP000247;Rank=1;Identity=0.9005;Positive=0.9490;Target=15520at33634_2 1 390
+contig_437	miniprot	CDS	306872	308047	1787	+	0	Parent=MP000247;Rank=1;Identity=0.9005;Target=15520at33634_2 1 390
+contig_437	miniprot	stop_codon	308045	308047	0	+	0	Parent=MP000247;Rank=1

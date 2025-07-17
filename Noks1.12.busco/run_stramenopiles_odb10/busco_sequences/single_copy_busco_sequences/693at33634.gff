@@ -1,0 +1,3 @@
+contig_185	miniprot	mRNA	983830	987333	5818	+	.	ID=MP000812;Rank=1;Identity=0.9589;Positive=0.9760;Target=693at33634_1 1 1166
+contig_185	miniprot	CDS	983830	987333	5818	+	0	Parent=MP000812;Rank=1;Identity=0.9589;Target=693at33634_1 1 1166
+contig_185	miniprot	stop_codon	987331	987333	0	+	0	Parent=MP000812;Rank=1

@@ -1,0 +1,4 @@
+contig_206	miniprot	mRNA	54776	56521	2607	-	.	ID=MP000787;Rank=1;Identity=0.9615;Positive=0.9835;Target=6684at33634_0 1 546
+contig_206	miniprot	CDS	56213	56521	494	-	0	Parent=MP000787;Rank=1;Identity=0.9903;Target=6684at33634_0 1 103
+contig_206	miniprot	CDS	54776	56107	2113	-	0	Parent=MP000787;Rank=1;Identity=0.9549;Target=6684at33634_0 104 546
+contig_206	miniprot	stop_codon	54776	54778	0	-	0	Parent=MP000787;Rank=1

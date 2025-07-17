@@ -1,0 +1,2 @@
+contig_4	miniprot	mRNA	591603	592616	1514	+	.	ID=MP000389;Rank=1;Identity=0.8706;Positive=0.9324;Target=19891at33634_1 1 340
+contig_4	miniprot	CDS	591603	592616	1514	+	0	Parent=MP000389;Rank=1;Identity=0.8706;Target=19891at33634_1 1 340

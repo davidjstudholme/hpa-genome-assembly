@@ -1,0 +1,4 @@
+contig_571	miniprot	mRNA	605446	606608	1143	+	.	ID=MP000280;Rank=1;Identity=0.7811;Positive=0.8485;Target=16248at33634_3 1 296
+contig_571	miniprot	CDS	605446	605469	34	+	0	Parent=MP000280;Rank=1;Identity=0.8750;Target=16248at33634_3 1 8
+contig_571	miniprot	CDS	605707	605916	291	+	0	Parent=MP000280;Rank=1;Identity=0.8143;Target=16248at33634_3 9 78
+contig_571	miniprot	CDS	605973	606608	818	+	0	Parent=MP000280;Rank=1;Identity=0.7671;Target=16248at33634_3 79 296

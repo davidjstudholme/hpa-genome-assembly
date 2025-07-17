@@ -1,0 +1,2 @@
+contig_252	miniprot	mRNA	623625	625349	1125	-	.	ID=MP000853;Rank=1;Identity=0.4182;Positive=0.6127;Target=7485at33634_2 31 574
+contig_252	miniprot	CDS	623625	625349	1125	-	0	Parent=MP000853;Rank=1;Identity=0.4182;Target=7485at33634_2 31 574
