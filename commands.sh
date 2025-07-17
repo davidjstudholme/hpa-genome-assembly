@@ -79,3 +79,35 @@ cd  Noks1.all.busco
 ln -s ../Noks1.*.busco/*.json .
 cd -
 busco --plot Noks1.all.busco
+
+
+
+### Set up mash and seaborn
+conda create -n mash_env
+conda activate mash_env
+conda install -c bioconda mash
+pip install pandas seaborn matplotlib
+
+
+### Run Mash pipeline
+
+# Set working directory
+WORKDIR="Noks1.assemblies"
+MASH_OUT="Noks1.mash_dist.tsv"
+MASH_MATRIX="Noks1.mash_distance_matrix.csv"
+MASH_HEATMAP="Noks1.mash_heatmap.png"
+
+echo "[Step 1] Creating Mash sketch..."
+mash sketch -o mash_sketches $WORKDIR/*.fa*
+
+echo "[Step 2] Calculating pairwise distances..."
+mash dist mash_sketches.msh mash_sketches.msh > $MASH_OUT
+
+echo "[Step 3] Creating distance matrix and heatmap..."
+python3 mash_to_matrix.py $MASH_OUT $MASH_MATRIX $MASH_HEATMAP
+
+echo "✅ Done. Outputs:"
+echo "- $MASH_OUT"
+echo "- $MASH_MATRIX"
+echo "- $MASH_HEATMAP"
+
