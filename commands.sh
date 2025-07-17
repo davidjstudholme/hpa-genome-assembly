@@ -111,3 +111,47 @@ echo "- $MASH_OUT"
 echo "- $MASH_MATRIX"
 echo "- $MASH_HEATMAP"
 
+
+
+
+conda activate trycycler_env
+medaka_consensus -i Noks1.SRR34108134.filtlong.fastq.gz -d Noks1.assemblies/assembly_06.fasta -o Noks1.06.medaka_output  -t 8 -m r1041_e82_400bps_sup_v4.3.0
+
+
+
+
+
+
+
+
+### Set up Kraken
+wget https://genome-idx.s3.amazonaws.com/kraken/k2_standard_08gb_20250402.tar.gz
+tar -xvzf k2_standard_08gb_20250402.tar.gz
+kdir kraken
+mv k2_standard_08gb_20250402.tar.gz kraken/
+mv database* kraken/
+mv hash.k2d inspect.txt opts.k2d names.dmp nodes.dmp kraken/
+mv taxo.k2d kraken/
+mv  library_report.tsv seqid2taxid.map unmapped_accessions.txt kraken/
+mv ktaxonomy.tsv kraken/
+
+conda create -n kraken_env
+conda activate kraken_env
+conda install -c bioconda kraken2
+
+### Run Kraken on Noks1 assembly
+kraken2 --db ./kraken --threads 8 --output Noks1.kraken2_output.txt --report Noks1.06.kraken2_report.txt Noks1.assemblies/assembly_06.fasta
+
+
+###  Get all taxids descending from Bacteria (taxid 2)
+awk -F '\t\|\t|\t' '$3 == 2 {print $1}' kraken/nodes.dmp > bacterial_taxids.txt
+
+###  Get all taxids descending from Fungi (taxid 4751)    
+awk -F '\t\|\t|\t' '$3 == 4751 {print $1}' kraken/nodes.dmp > fungal_taxids.txt
+
+### Get a list of the Noks1 contigs that match bacterial taxa
+awk 'NR==FNR {bact[$1]; next} $1 == "C" && ($3 in bact) {print $2, $3}' bacterial_taxids.txt Noks1.06.kraken2_output.txt > Noks1.06.bacterial_contigs_list.txt
+
+### Get a list of the Noks1 contigs that match fungal taxa 
+awk 'NR==FNR {fungi[$1]; next} $1 == "C" && ($3 in fungi) {print $2, $3}' fungal_taxids.txt Noks1.06.kraken2_output.txt > Noks1.06.fungal_contigs_list.txt
+

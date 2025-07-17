@@ -1,5 +1,6 @@
 *.fasta
 *.gfa
+*.mmi
 
 *~
 *.zip
@@ -45,3 +46,25 @@ wget-log
 */stramenopiles_odb12/*
 *busco_downloads/*
 ref.mpi
+
+# Kraken database files
+k2_standard_08gb_20250402.tar.gz
+kraken/database100mers.kmer_distrib
+kraken/database150mers.kmer_distrib
+kraken/database200mers.kmer_distrib
+kraken/database250mers.kmer_distrib
+kraken/database300mers.kmer_distrib
+kraken/database50mers.kmer_distrib
+kraken/database75mers.kmer_distrib
+kraken/hash.k2d
+kraken/inspect.txt
+kraken/k2_standard_08gb_20250402.tar.gz
+kraken/ktaxonomy.tsv
+kraken/library_report.tsv
+kraken/names.dmp
+kraken/nodes.dmp
+kraken/opts.k2d
+kraken/seqid2taxid.map
+kraken/taxo.k2d
+kraken/unmapped_accessions.txt
+
