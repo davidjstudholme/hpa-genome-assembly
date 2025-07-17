@@ -7,7 +7,7 @@ conda env export > trycycler_env.yaml
 export TMPDIR=/data/djs217/tmp
 
 ### Download FASTQ files of genomic sequence reads from Sequence Read Archive
-#for i in SRR3254744 SRR33638550 SRR33638551 SRR34108134 SRR3254743 SRR33638434 SRR34103947; do
+for i in SRR3254744 SRR33638550 SRR33638551 SRR34108134 SRR3254743 SRR33638434 SRR34103947; do
     echo $i
     fasterq-dump $i
     gzip $i*.fastq
@@ -56,3 +56,21 @@ for strain in Noks1 Cala2; do
 	fi
     done
 done
+
+
+### Set up BUSCO
+conda create -n busco_env -c bioconda -c conda-forge busco
+conda activate busco_env
+conda list -n busco_env > busco_env_packages.txt
+conda env export > busco_env.yaml
+https://busco-data.ezlab.org/v5/data/lineages/stramenopiles_odb12.2025-07-01.tar.gz
+tar xvf stramenopiles_odb12.2025-07-01.tar.gz
+
+
+### QC on Nokes1 assemblies, using BUSCO
+for i in 01 02  03 04 05 06 07 08 09 10 11 12; do
+    echo running BUSCO on Noks1 assembly $i
+    busco -i Noks1.assemblies/assembly_"$i".fasta -l stramenopiles_odb10 -o Noks1.assemblies_"$i".busco_output -m genome --cpu 8
+done
+
+
