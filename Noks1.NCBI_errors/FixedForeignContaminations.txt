@@ -1,0 +1,121 @@
+SUBID     	BioProject	BioSample	Organism
+--------------------------------------------------------
+SUB15470772	PRJNA298674	SAMN04161522	Hyaloperonospora arabidopsidis
+
+[] We ran your sequences through our Contamination Screen. The screen found 
+sequences that need to be trimmed and/or excluded. More details about the 
+contamination screening process are available at https://github.com/ncbi/fcs
+
+We were able to remove sequences marked to exclude and/or trimmed contamination 
+from the ends of sequence (see the FixedForeignContaminations.txt file). If the 
+contamination is on either side of a run of N's, the N's were also removed.
+We have uploaded the modified fasta file ForeignContaminationModified.zip to the 
+submission portal.
+
+However, we could not remove the contamination in the RemainingContamination.txt file.  
+We cannot remove contamination that is in the middle of a sequence. The sequence may need
+to be split at the contamination and the sequence on either side of the contamination submitted 
+as a separate sequence. In addition, we do not automatically remove mitochondrial 
+sequences in eukaryotic submissions. 
+
+Please adjust these remaining sequences appropriately and then resubmit.  After you 
+remove the contamination, trim any Ns at the ends of the sequence and remove any sequences 
+that are shorter than 200 nt and not part of a multi-component scaffold.
+
+WARNING: If we do not hear from you by $(add.days,30), your 
+submission will be deleted from the processing queue.
+
+Note that mismatches between the name of the adaptor/primer identified in the screen 
+and the sequencing technology used to generate the sequencing data should not be used 
+to discount the validity of the screen results as the adaptors/primers of many 
+different sequencing platforms share sequence similarity.
+
+
+The contamination that was removed automatically is listed below:
+
+File [Noks1_06_medaka_pypolca00000000.sqn]
+
+Trim:
+Sequence name, length, span(s), apparent source
+contig_235	209104	1..34	adaptor:NGB02000.1
+contig_285	1121233	1..35	adaptor:NGB02000.1
+contig_301	14050	14012..14050	adaptor:NGB02000.1
+contig_490	665516	665484..665516	adaptor:NGB02000.1
+contig_496	12369	1..34	adaptor:NGB02000.1
+contig_548	48296	48266..48296	adaptor:NGB02000.1
+contig_573	93020	92990..93020	adaptor:NGB02000.1
+contig_690	131880	131845..131880	adaptor:NGB02000.1
+contig_840	5035	5003..5035	adaptor:NGB02000.1
+contig_96	1134978	1..28	adaptor:NGB02000.1
+
+Exclude:
+Sequence name, length, apparent source
+contig_15	4403094	prok:CFB group bacteria
+contig_17	287752	prok:CFB group bacteria
+contig_387	6261578	prok:g-proteobacteria
+contig_420	1059	plnt:plants
+contig_422	1401	plnt:plants
+contig_425	271797	prok:a-proteobacteria
+contig_428	295853	prok:a-proteobacteria
+contig_434	6607	prok:a-proteobacteria
+contig_435	175640	prok:a-proteobacteria
+contig_441	1292	plnt:plants
+contig_443	951	plnt:plants
+contig_444	978	plnt:plants
+contig_447	1251	plnt:plants
+contig_448	2534	plnt:plants
+contig_450	1474	plnt:plants
+contig_451	698	plnt:plants
+contig_452	17372	plnt:plants
+contig_454	34347	plnt:plants
+contig_487	530	prok:CFB group bacteria
+contig_499	11077	prok:a-proteobacteria
+contig_500	43563	prok:a-proteobacteria
+contig_508	3208624	prok:b-proteobacteria
+contig_550	89524	prok:high GC Gram+
+contig_556	5703	prok:g-proteobacteria
+contig_575	85013	prok:a-proteobacteria
+contig_600	4535	plnt:plants
+contig_608	3718915	prok:b-proteobacteria
+contig_609	6074442	prok:b-proteobacteria
+contig_614	554034	prok:a-proteobacteria
+contig_615	44647	prok:a-proteobacteria
+contig_628	4483	plnt:plants
+contig_636	829	plnt:plants
+contig_647	3006	plnt:plants
+contig_655	38258	prok:a-proteobacteria
+contig_658	2554	prok:a-proteobacteria
+contig_663	20092	plnt:plants
+contig_672	5349	prok:cyanobacteria
+contig_701	616998	prok:b-proteobacteria
+contig_721	5301905	prok:g-proteobacteria
+contig_748	538	prok:a-proteobacteria
+contig_759	2356	prok:g-proteobacteria
+contig_760	70268	prok:g-proteobacteria
+contig_771	772147	prok:a-proteobacteria
+contig_778	17771	plnt:plants
+contig_779	84166	plnt:plants
+contig_799	3829367	prok:a-proteobacteria
+contig_800	1392249	prok:a-proteobacteria
+contig_801	9493	anml:nematodes
+contig_825	14135	plnt:plants
+contig_828	56155	prok:a-proteobacteria
+contig_829	360987	prok:a-proteobacteria
+contig_838	9482	prok:CFB group bacteria
+contig_842	10470	plnt:plants
+contig_850	343756	prok:CFB group bacteria
+contig_857	6366	plnt:plants
+contig_865	7343	plnt:plants
+contig_866	8811	fung:ascomycetes
+contig_868	5811	plnt:plants
+contig_870	4909	plnt:plants
+contig_872	6822	plnt:plants
+contig_874	95818	prok:a-proteobacteria
+contig_875	80173	plnt:plants
+contig_876	19829	prok:CFB group bacteria
+contig_885	6799	prok:g-proteobacteria
+contig_887	27205	fung:ascomycetes
+contig_888	26258	plnt:plants
+
+--------------------------------------------------------------------------------
+
