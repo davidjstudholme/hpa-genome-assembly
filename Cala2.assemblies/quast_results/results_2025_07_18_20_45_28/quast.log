@@ -1,0 +1,117 @@
+/data/djs217/miniconda3/envs/quast_env/bin/quast.py assembly_01.fasta assembly_02.fasta assembly_03.fasta assembly_04.fasta assembly_05.fasta assembly_06.fasta assembly_07.fasta assembly_08.fasta assembly_09.fasta assembly_10.fasta assembly_11.fasta assembly_12.fasta
+
+Version: 5.3.0
+
+System information:
+  OS: Linux-5.15.0-143-generic-x86_64-with-glibc2.35 (linux_64)
+  Python version: 3.12.7
+  CPUs number: 32
+
+Started: 2025-07-18 20:45:28
+
+Logging to /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Cala2.assemblies/quast_results/results_2025_07_18_20_45_28/quast.log
+NOTICE: Maximum number of threads is set to 8 (use --threads option to set it manually)
+
+CWD: /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Cala2.assemblies
+Main parameters: 
+  MODE: default, threads: 8, min contig length: 500, min alignment length: 65, min alignment IDY: 95.0, \
+  ambiguity: one, min local misassembly length: 200, min extensive misassembly length: 1000
+
+Contigs:
+  Pre-processing...
+  1  assembly_01.fasta ==> assembly_01
+  2  assembly_02.fasta ==> assembly_02
+  3  assembly_03.fasta ==> assembly_03
+  4  assembly_04.fasta ==> assembly_04
+  5  assembly_05.fasta ==> assembly_05
+  6  assembly_06.fasta ==> assembly_06
+  7  assembly_07.fasta ==> assembly_07
+  8  assembly_08.fasta ==> assembly_08
+  9  assembly_09.fasta ==> assembly_09
+  10 assembly_10.fasta ==> assembly_10
+  11 assembly_11.fasta ==> assembly_11
+  12 assembly_12.fasta ==> assembly_12
+
+2025-07-18 20:45:48
+Running Basic statistics processor...
+  Contig files: 
+    1  assembly_01
+    2  assembly_02
+    3  assembly_03
+    4  assembly_04
+    5  assembly_05
+    6  assembly_06
+    7  assembly_07
+    8  assembly_08
+    9  assembly_09
+    10 assembly_10
+    11 assembly_11
+    12 assembly_12
+  Calculating N50 and L50...
+    1  assembly_01, N50 = 695989, L50 = 37, auN = 883181.6, Total length = 84798887, GC % = 48.22, # N's per 100 kbp =  0.00
+    2  assembly_02, N50 = 750466, L50 = 36, auN = 876545.3, Total length = 85680655, GC % = 48.56, # N's per 100 kbp =  0.00
+    3  assembly_03, N50 = 715409, L50 = 33, auN = 974730.4, Total length = 82590514, GC % = 48.27, # N's per 100 kbp =  0.00
+    4  assembly_04, N50 = 664347, L50 = 39, auN = 823601.5, Total length = 83468357, GC % = 47.78, # N's per 100 kbp =  0.00
+    5  assembly_05, N50 = 664613, L50 = 36, auN = 845195.6, Total length = 80566654, GC % = 47.60, # N's per 100 kbp =  0.00
+    6  assembly_06, N50 = 728356, L50 = 33, auN = 962963.0, Total length = 86133274, GC % = 48.26, # N's per 100 kbp =  0.00
+    7  assembly_07, N50 = 742828, L50 = 31, auN = 1076482.6, Total length = 83695670, GC % = 48.25, # N's per 100 kbp =  0.00
+    8  assembly_08, N50 = 723954, L50 = 32, auN = 1025880.5, Total length = 81669682, GC % = 48.27, # N's per 100 kbp =  0.00
+    9  assembly_09, N50 = 685832, L50 = 36, auN = 879012.1, Total length = 84772765, GC % = 48.03, # N's per 100 kbp =  0.00
+    10 assembly_10, N50 = 647247, L50 = 37, auN = 848716.4, Total length = 83703055, GC % = 47.95, # N's per 100 kbp =  0.00
+    11 assembly_11, N50 = 707027, L50 = 36, auN = 869333.5, Total length = 82900386, GC % = 47.76, # N's per 100 kbp =  0.00
+    12 assembly_12, N50 = 690725, L50 = 35, auN = 921444.8, Total length = 84437165, GC % = 48.10, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Cala2.assemblies/quast_results/results_2025_07_18_20_45_28/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Cala2.assemblies/quast_results/results_2025_07_18_20_45_28/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Cala2.assemblies/quast_results/results_2025_07_18_20_45_28/basic_stats/GC_content_plot.pdf
+  Drawing assembly_01 GC content plot...
+    saved to /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Cala2.assemblies/quast_results/results_2025_07_18_20_45_28/basic_stats/assembly_01_GC_content_plot.pdf
+  Drawing assembly_02 GC content plot...
+    saved to /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Cala2.assemblies/quast_results/results_2025_07_18_20_45_28/basic_stats/assembly_02_GC_content_plot.pdf
+  Drawing assembly_03 GC content plot...
+    saved to /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Cala2.assemblies/quast_results/results_2025_07_18_20_45_28/basic_stats/assembly_03_GC_content_plot.pdf
+  Drawing assembly_04 GC content plot...
+    saved to /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Cala2.assemblies/quast_results/results_2025_07_18_20_45_28/basic_stats/assembly_04_GC_content_plot.pdf
+  Drawing assembly_05 GC content plot...
+    saved to /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Cala2.assemblies/quast_results/results_2025_07_18_20_45_28/basic_stats/assembly_05_GC_content_plot.pdf
+  Drawing assembly_06 GC content plot...
+    saved to /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Cala2.assemblies/quast_results/results_2025_07_18_20_45_28/basic_stats/assembly_06_GC_content_plot.pdf
+  Drawing assembly_07 GC content plot...
+    saved to /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Cala2.assemblies/quast_results/results_2025_07_18_20_45_28/basic_stats/assembly_07_GC_content_plot.pdf
+  Drawing assembly_08 GC content plot...
+    saved to /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Cala2.assemblies/quast_results/results_2025_07_18_20_45_28/basic_stats/assembly_08_GC_content_plot.pdf
+  Drawing assembly_09 GC content plot...
+    saved to /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Cala2.assemblies/quast_results/results_2025_07_18_20_45_28/basic_stats/assembly_09_GC_content_plot.pdf
+  Drawing assembly_10 GC content plot...
+    saved to /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Cala2.assemblies/quast_results/results_2025_07_18_20_45_28/basic_stats/assembly_10_GC_content_plot.pdf
+  Drawing assembly_11 GC content plot...
+    saved to /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Cala2.assemblies/quast_results/results_2025_07_18_20_45_28/basic_stats/assembly_11_GC_content_plot.pdf
+  Drawing assembly_12 GC content plot...
+    saved to /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Cala2.assemblies/quast_results/results_2025_07_18_20_45_28/basic_stats/assembly_12_GC_content_plot.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2025-07-18 20:46:22
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating PDF with all tables and plots...
+  2 of 2: Creating Icarus viewers...
+Done
+
+2025-07-18 20:46:29
+RESULTS:
+  Text versions of total report are saved to /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Cala2.assemblies/quast_results/results_2025_07_18_20_45_28/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Cala2.assemblies/quast_results/results_2025_07_18_20_45_28/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Cala2.assemblies/quast_results/results_2025_07_18_20_45_28/report.html
+  PDF version (tables and plots) is saved to /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Cala2.assemblies/quast_results/results_2025_07_18_20_45_28/report.pdf
+  Icarus (contig browser) is saved to /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Cala2.assemblies/quast_results/results_2025_07_18_20_45_28/icarus.html
+  Log is saved to /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Cala2.assemblies/quast_results/results_2025_07_18_20_45_28/quast.log
+
+Finished: 2025-07-18 20:46:29
+Elapsed time: 0:01:00.818619
+NOTICEs: 2; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
