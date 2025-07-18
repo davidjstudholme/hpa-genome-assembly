@@ -119,6 +119,10 @@ echo "- $MASH_OUT"
 echo "- $MASH_MATRIX"
 echo "- $MASH_HEATMAP"
 
+### Tudy up
+mkdir Noks1.busco
+mv *.busco Noks1.busco/
+
 ### Polishing assembly with long reads - Medaka
 conda activate trycycler_env
 medaka_consensus -i Noks1.SRR34108134.filtlong.fastq.gz -d Noks1.assemblies/assembly_06.fasta -o Noks1.06.medaka_output  -t 8 -m r1041_e82_400bps_sup_v4.3.0
