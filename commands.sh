@@ -137,15 +137,13 @@ samtools sort -@ 8 -o Noks1.alignments_2.sorted.bam Noks1.alignments_2.bam
 samtools index Noks1.alignments_1.sorted.bam
 samtools index Noks1.alignments_2.sorted.bam
 
-
 polypolish filter --in1 Noks1.alignments_1.sorted.bam --in2 Noks1.alignments_2.sorted.bam --out1 Noks1.alignments_1.filtered.sam --out2 Noks1.alignments_2.filtered.sam
 polypolish polish Noks1.06.medaka_output/consensus.fasta Noks1.alignments_1.filtered.sam Noks1.alignments_2.filtered.sam > Noks1.medaka.polypolish.fasta
 
-
 ### Polish with short reads - PyPolca
 pypolca run --force --careful -a Noks1.06.medaka_output/consensus.fasta -1 Noks1.SRR33638551_1_val_1.fq.gz -2 Noks1.SRR33638551_2_val_2.fq.gz  -t 16 -o Noks1.06.pypolca
-ln -s  Noks1.06.pypolca/pypolca_corrected.fasta Noks1.06.medaka.pypolca.fasta
-
+cp Noks1.06.pypolca/pypolca_corrected.fasta Noks1.06.medaka.pypolca.fasta
+gzip Noks1.06.medaka.pypolca.fasta
 
 
 

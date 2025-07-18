@@ -3,6 +3,8 @@
 *.mmi
 *.hdf
 *.seq
+#*.fai
+
 
 *~
 *.zip
