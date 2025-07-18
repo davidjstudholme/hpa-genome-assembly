@@ -1,0 +1,4 @@
+contig_407	miniprot	mRNA	343709	344408	1041	-	.	ID=MP000328;Rank=1;Identity=0.9854;Positive=0.9903;Target=18069at33634 72 277
+contig_407	miniprot	CDS	344277	344408	209	-	0	Parent=MP000328;Rank=1;Identity=0.9545;Target=18069at33634 72 115
+contig_407	miniprot	CDS	343709	344197	832	-	0	Parent=MP000328;Rank=1;Identity=0.9938;Target=18069at33634 116 277
+contig_407	miniprot	stop_codon	343709	343711	0	-	0	Parent=MP000328;Rank=1

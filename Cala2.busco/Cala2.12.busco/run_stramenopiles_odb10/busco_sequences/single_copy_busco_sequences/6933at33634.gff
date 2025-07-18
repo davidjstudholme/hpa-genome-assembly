@@ -1,0 +1,2 @@
+contig_247	miniprot	mRNA	62736	64202	2259	-	.	ID=MP000789;Rank=1;Identity=0.9093;Positive=0.9556;Target=6933at33634_0 24 519
+contig_247	miniprot	CDS	62736	64202	2259	-	0	Parent=MP000789;Rank=1;Identity=0.9093;Target=6933at33634_0 24 519

@@ -1,0 +1,2 @@
+contig_250	miniprot	mRNA	1090921	1092645	1132	+	.	ID=MP000844;Rank=1;Identity=0.4200;Positive=0.6127;Target=7485at33634_2 31 574
+contig_250	miniprot	CDS	1090921	1092645	1132	+	0	Parent=MP000844;Rank=1;Identity=0.4200;Target=7485at33634_2 31 574

@@ -1,0 +1,11 @@
+contig_236	miniprot	mRNA	1225677	1228667	3262	+	.	ID=MP000388;Rank=1;Identity=0.8146;Positive=0.8875;Target=20044at33634_1 1 779
+contig_236	miniprot	CDS	1225677	1226053	579	+	0	Parent=MP000388;Rank=1;Identity=0.8968;Target=20044at33634_1 1 125
+contig_236	miniprot	CDS	1226139	1226232	149	+	1	Parent=MP000388;Rank=1;Identity=0.8710;Target=20044at33634_1 126 157
+contig_236	miniprot	CDS	1226308	1226448	228	+	0	Parent=MP000388;Rank=1;Identity=0.9149;Target=20044at33634_1 158 204
+contig_236	miniprot	CDS	1226526	1226713	265	+	0	Parent=MP000388;Rank=1;Identity=0.7937;Target=20044at33634_1 205 266
+contig_236	miniprot	CDS	1226818	1227001	304	+	1	Parent=MP000388;Rank=1;Identity=0.9016;Target=20044at33634_1 267 328
+contig_236	miniprot	CDS	1227101	1227439	376	+	0	Parent=MP000388;Rank=1;Identity=0.6991;Target=20044at33634_1 329 438
+contig_236	miniprot	CDS	1227519	1227750	167	+	0	Parent=MP000388;Rank=1;Identity=0.5432;Target=20044at33634_1 439 518
+contig_236	miniprot	CDS	1227818	1227945	161	+	2	Parent=MP000388;Rank=1;Identity=0.8095;Target=20044at33634_1 519 561
+contig_236	miniprot	CDS	1228011	1228667	1033	+	0	Parent=MP000388;Rank=1;Identity=0.8807;Target=20044at33634_1 562 779
+contig_236	miniprot	stop_codon	1228665	1228667	0	+	0	Parent=MP000388;Rank=1

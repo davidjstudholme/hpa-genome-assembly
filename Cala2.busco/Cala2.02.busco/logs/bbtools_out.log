@@ -1,0 +1,36 @@
+A	C	G	T	N	IUPAC	Other	GC	GC_stdev
+0.2575	0.2429	0.2427	0.2569	0.0000	0.0000	0.0000	0.4856	0.0753
+
+Main genome scaffold total:         	423
+Main genome contig total:           	423
+Main genome scaffold sequence total:	85680655
+Main genome contig sequence total:  	85680655  	0.000% gap
+Main genome scaffold N/L50:         	36/750466
+Main genome contig N/L50:           	36/750466
+Main genome scaffold N/L90:         	126/171748
+Main genome contig N/L90:           	126/171748
+Max scaffold length:                	3131578
+Max contig length:                  	3131578
+Number of scaffolds > 50 KB:        	178
+% main genome in scaffolds > 50 KB: 	96.53%
+
+
+Minimum 	Number        	Number        	Total         	Total         	Scaffold
+Scaffold	of            	of            	Scaffold      	Contig        	Contig  
+Length  	Scaffolds     	Contigs       	Length        	Length        	Coverage
+--------	--------------	--------------	--------------	--------------	--------
+    All 	           423	           423	      85680655	      85680655	 100.00%
+    250 	           423	           423	      85680655	      85680655	 100.00%
+    500 	           423	           423	      85680655	      85680655	 100.00%
+   1000 	           387	           387	      85656384	      85656384	 100.00%
+   2500 	           339	           339	      85579647	      85579647	 100.00%
+   5000 	           305	           305	      85448623	      85448623	 100.00%
+  10000 	           274	           274	      85232345	      85232345	 100.00%
+  25000 	           223	           223	      84362542	      84362542	 100.00%
+  50000 	           178	           178	      82703311	      82703311	 100.00%
+ 100000 	           155	           155	      80956668	      80956668	 100.00%
+ 250000 	           101	           101	      72034764	      72034764	 100.00%
+ 500000 	            59	            59	      56743417	      56743417	 100.00%
+1000000 	            19	            19	      28333089	      28333089	 100.00%
+2500000 	             1	             1	       3131578	       3131578	 100.00%
+

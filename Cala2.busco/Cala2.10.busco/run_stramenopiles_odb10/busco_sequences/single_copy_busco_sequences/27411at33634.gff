@@ -1,0 +1,2 @@
+contig_521	miniprot	mRNA	169909	170442	404	-	.	ID=MP000567;Rank=1;Identity=0.4551;Positive=0.6517;Target=27411at33634_8 1 178
+contig_521	miniprot	CDS	169909	170442	404	-	0	Parent=MP000567;Rank=1;Identity=0.4551;Target=27411at33634_8 1 178

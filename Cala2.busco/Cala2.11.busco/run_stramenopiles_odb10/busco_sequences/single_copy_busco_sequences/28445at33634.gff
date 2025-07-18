@@ -1,0 +1,4 @@
+contig_233	miniprot	mRNA	201980	202428	578	-	.	ID=MP000574;Rank=1;Identity=0.9083;Positive=0.9583;Target=28445at33634_0 1 120
+contig_233	miniprot	CDS	202342	202428	145	-	0	Parent=MP000574;Rank=1;Identity=0.9655;Target=28445at33634_0 1 29
+contig_233	miniprot	CDS	201980	202255	433	-	0	Parent=MP000574;Rank=1;Identity=0.8901;Target=28445at33634_0 30 120
+contig_233	miniprot	stop_codon	201980	201982	0	-	0	Parent=MP000574;Rank=1

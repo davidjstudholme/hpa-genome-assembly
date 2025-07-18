@@ -1,0 +1,3 @@
+contig_215	miniprot	mRNA	1051977	1053077	1718	+	.	ID=MP000901;Rank=1;Identity=0.8907;Positive=0.9454;Target=9297at33634_0 1 366
+contig_215	miniprot	CDS	1051977	1053077	1718	+	0	Parent=MP000901;Rank=1;Identity=0.8907;Target=9297at33634_0 1 366
+contig_215	miniprot	stop_codon	1053075	1053077	0	+	0	Parent=MP000901;Rank=1

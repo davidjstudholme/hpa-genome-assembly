@@ -1,0 +1,15 @@
+#                                                                                                 --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                             accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                     ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+20769at33634_0|contig_318:517606-518346|- -            176 20769at33634         -            137     1e-67  213.2  12.0   1   1   1.4e-66   1.4e-66  209.5  12.0     2   136     4   161     3   162 0.89 <unknown description>
+20769at33634_1|contig_318:517606-518137|- -            146 20769at33634         -            137   3.3e-63  198.6   4.9   1   1   3.9e-63   3.9e-63  198.4   4.9    17   136     2   131     1   132 0.93 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/busco_downloads/lineages/stramenopiles_odb10/hmms/20769at33634.hmm
+# Target file:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Cala2.05.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/20769at33634.faa
+# Option settings: hmmsearch --domtblout /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Cala2.05.busco/run_stramenopiles_odb10/hmmer_output/20769at33634.out --cpu 1 /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/busco_downloads/lineages/stramenopiles_odb10/hmms/20769at33634.hmm /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Cala2.05.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/20769at33634.faa 
+# Current dir:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly
+# Date:            Fri Jul 18 20:14:47 2025
+# [ok]

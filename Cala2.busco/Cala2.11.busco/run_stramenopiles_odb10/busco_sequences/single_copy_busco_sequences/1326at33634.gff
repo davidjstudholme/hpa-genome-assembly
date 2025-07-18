@@ -1,0 +1,3 @@
+contig_41	miniprot	mRNA	150941	154717	4922	-	.	ID=MP000136;Rank=1;Identity=0.7637;Positive=0.8612;Target=1326at33634_1 4 1251
+contig_41	miniprot	CDS	150941	154717	4922	-	0	Parent=MP000136;Rank=1;Identity=0.7637;Target=1326at33634_1 4 1251
+contig_41	miniprot	stop_codon	150941	150943	0	-	0	Parent=MP000136;Rank=1

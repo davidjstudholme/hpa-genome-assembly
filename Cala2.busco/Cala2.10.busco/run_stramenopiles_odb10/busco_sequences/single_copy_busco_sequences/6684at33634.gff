@@ -1,0 +1,4 @@
+contig_134	miniprot	mRNA	43377	45122	2607	-	.	ID=MP000776;Rank=1;Identity=0.9615;Positive=0.9835;Target=6684at33634_0 1 546
+contig_134	miniprot	CDS	44814	45122	494	-	0	Parent=MP000776;Rank=1;Identity=0.9903;Target=6684at33634_0 1 103
+contig_134	miniprot	CDS	43377	44708	2113	-	0	Parent=MP000776;Rank=1;Identity=0.9549;Target=6684at33634_0 104 546
+contig_134	miniprot	stop_codon	43377	43379	0	-	0	Parent=MP000776;Rank=1

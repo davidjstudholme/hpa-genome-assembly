@@ -1,0 +1,3 @@
+contig_160	miniprot	mRNA	755208	756461	1887	+	.	ID=MP000118;Rank=1;Identity=0.8513;Positive=0.9281;Target=12693at33634_1 4 420
+contig_160	miniprot	CDS	755208	756461	1887	+	0	Parent=MP000118;Rank=1;Identity=0.8513;Target=12693at33634_1 4 420
+contig_160	miniprot	stop_codon	756459	756461	0	+	0	Parent=MP000118;Rank=1

@@ -1,0 +1,22 @@
+#                                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+20044at33634_1|contig_233:1229644-1232632|+ -            780 20044at33634         -            503  8.8e-196  639.3  15.4   1   4    2e-143    2e-143  466.6   2.3     1   309     6   361     6   388 0.86 <unknown description>
+20044at33634_1|contig_233:1229644-1232632|+ -            780 20044at33634         -            503  8.8e-196  639.3  15.4   2   4   1.8e-05   1.8e-05   11.6   0.0   287   334   419   466   413   476 0.84 <unknown description>
+20044at33634_1|contig_233:1229644-1232632|+ -            780 20044at33634         -            503  8.8e-196  639.3  15.4   3   4   1.5e-14   1.5e-14   41.5   0.2   331   385   552   609   526   617 0.82 <unknown description>
+20044at33634_1|contig_233:1229644-1232632|+ -            780 20044at33634         -            503  8.8e-196  639.3  15.4   4   4   5.9e-39   5.9e-39  122.0   0.3   397   503   654   779   643   779 0.87 <unknown description>
+20044at33634_3|contig_233:1229743-1236328|+ -            782 20044at33634         -            503  1.2e-168  549.8   4.9   1   3  2.5e-123  2.5e-123  400.3   0.0    29   309     1   314     1   341 0.85 <unknown description>
+20044at33634_3|contig_233:1229743-1236328|+ -            782 20044at33634         -            503  1.2e-168  549.8   4.9   2   3   1.8e-10   1.8e-10   28.0   0.1   340   385   529   577   490   585 0.83 <unknown description>
+20044at33634_3|contig_233:1229743-1236328|+ -            782 20044at33634         -            503  1.2e-168  549.8   4.9   3   3     6e-39     6e-39  122.0   0.3   397   503   622   747   611   747 0.87 <unknown description>
+20044at33634_5|contig_233:1229641-1230206|+ -            161 20044at33634         -            503   1.3e-82  266.0   0.0   1   1   1.5e-82   1.5e-82  265.8   0.0     1   145     7   159     7   161 0.95 <unknown description>
+20044at33634_7|contig_233:1231245-1231762|+ -            147 20044at33634         -            503     1e-06   15.7   0.0   1   1   1.3e-06   1.3e-06   15.3   0.0   287   334    32    79    26    90 0.84 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/busco_downloads/lineages/stramenopiles_odb10/hmms/20044at33634.hmm
+# Target file:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Cala2.12.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/20044at33634.faa
+# Option settings: hmmsearch --domtblout /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Cala2.12.busco/run_stramenopiles_odb10/hmmer_output/20044at33634.out --cpu 1 /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/busco_downloads/lineages/stramenopiles_odb10/hmms/20044at33634.hmm /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Cala2.12.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/20044at33634.faa 
+# Current dir:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly
+# Date:            Fri Jul 18 20:17:53 2025
+# [ok]

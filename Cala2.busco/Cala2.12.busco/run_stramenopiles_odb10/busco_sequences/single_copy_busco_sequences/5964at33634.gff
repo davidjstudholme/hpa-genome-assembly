@@ -1,0 +1,2 @@
+contig_235	miniprot	mRNA	178050	179798	2464	+	.	ID=MP000746;Rank=1;Identity=0.8096;Positive=0.8816;Target=5964at33634_1 1 574
+contig_235	miniprot	CDS	178050	179798	2464	+	0	Parent=MP000746;Rank=1;Identity=0.8096;Target=5964at33634_1 1 574

@@ -1,0 +1,3 @@
+contig_400	miniprot	mRNA	358804	360759	3022	-	.	ID=MP000624;Rank=1;Identity=0.9293;Positive=0.9631;Target=3786at33634_0 1 650
+contig_400	miniprot	CDS	358804	360759	3022	-	0	Parent=MP000624;Rank=1;Identity=0.9293;Target=3786at33634_0 1 650
+contig_400	miniprot	stop_codon	358804	358806	0	-	0	Parent=MP000624;Rank=1

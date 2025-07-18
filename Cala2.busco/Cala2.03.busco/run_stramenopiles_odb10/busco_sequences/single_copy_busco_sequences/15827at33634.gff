@@ -1,0 +1,6 @@
+contig_662	miniprot	mRNA	271294	273980	3022	+	.	ID=MP000262;Rank=1;Identity=0.8034;Positive=0.8967;Target=15827at33634_8 1 705
+contig_662	miniprot	CDS	271294	271641	412	+	0	Parent=MP000262;Rank=1;Identity=0.6810;Target=15827at33634_8 1 114
+contig_662	miniprot	CDS	271765	272426	929	+	0	Parent=MP000262;Rank=1;Identity=0.7919;Target=15827at33634_8 115 334
+contig_662	miniprot	CDS	272790	272897	132	+	1	Parent=MP000262;Rank=1;Identity=0.6500;Target=15827at33634_8 335 374
+contig_662	miniprot	CDS	272987	273980	1549	+	1	Parent=MP000262;Rank=1;Identity=0.8727;Target=15827at33634_8 375 705
+contig_662	miniprot	stop_codon	273978	273980	0	+	0	Parent=MP000262;Rank=1

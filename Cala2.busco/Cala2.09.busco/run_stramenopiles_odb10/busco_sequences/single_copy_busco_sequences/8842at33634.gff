@@ -1,0 +1,7 @@
+contig_241	miniprot	mRNA	193054	194697	2121	+	.	ID=MP000870;Rank=1;Identity=0.9677;Positive=0.9908;Target=8842at33634_0 1 433
+contig_241	miniprot	CDS	193054	193896	1363	+	0	Parent=MP000870;Rank=1;Identity=0.9609;Target=8842at33634_0 1 280
+contig_241	miniprot	CDS	193996	194187	321	+	0	Parent=MP000870;Rank=1;Identity=1.0000;Target=8842at33634_0 281 344
+contig_241	miniprot	CDS	194258	194339	144	+	0	Parent=MP000870;Rank=1;Identity=1.0000;Target=8842at33634_0 345 371
+contig_241	miniprot	CDS	194417	194478	102	+	2	Parent=MP000870;Rank=1;Identity=1.0000;Target=8842at33634_0 372 392
+contig_241	miniprot	CDS	194572	194697	191	+	0	Parent=MP000870;Rank=1;Identity=0.9268;Target=8842at33634_0 393 433
+contig_241	miniprot	stop_codon	194695	194697	0	+	0	Parent=MP000870;Rank=1

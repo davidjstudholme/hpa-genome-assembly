@@ -1,0 +1,5 @@
+contig_248	miniprot	mRNA	430459	431552	1380	-	.	ID=MP000181;Rank=1;Identity=0.8419;Positive=0.9194;Target=13832at33634_0 1 310
+contig_248	miniprot	CDS	431227	431552	470	-	0	Parent=MP000181;Rank=1;Identity=0.7890;Target=13832at33634_0 1 108
+contig_248	miniprot	CDS	431063	431165	174	-	1	Parent=MP000181;Rank=1;Identity=0.9706;Target=13832at33634_0 109 143
+contig_248	miniprot	CDS	430459	430962	736	-	0	Parent=MP000181;Rank=1;Identity=0.8503;Target=13832at33634_0 144 310
+contig_248	miniprot	stop_codon	430459	430461	0	-	0	Parent=MP000181;Rank=1

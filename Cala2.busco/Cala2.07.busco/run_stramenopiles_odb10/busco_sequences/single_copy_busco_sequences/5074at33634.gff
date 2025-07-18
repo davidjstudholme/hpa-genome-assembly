@@ -1,0 +1,3 @@
+contig_711	miniprot	mRNA	89575	91113	2374	-	.	ID=MP000687;Rank=1;Identity=0.8633;Positive=0.9219;Target=5074at33634_0 1 512
+contig_711	miniprot	CDS	89575	91113	2374	-	0	Parent=MP000687;Rank=1;Identity=0.8633;Target=5074at33634_0 1 512
+contig_711	miniprot	stop_codon	89575	89577	0	-	0	Parent=MP000687;Rank=1

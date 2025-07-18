@@ -1,0 +1,3 @@
+contig_138	miniprot	mRNA	1261524	1263599	2892	+	.	ID=MP000820;Rank=1;Identity=0.8309;Positive=0.8945;Target=6989at33634_0 1 675
+contig_138	miniprot	CDS	1261524	1263599	2892	+	0	Parent=MP000820;Rank=1;Identity=0.8309;Target=6989at33634_0 1 675
+contig_138	miniprot	stop_codon	1263597	1263599	0	+	0	Parent=MP000820;Rank=1

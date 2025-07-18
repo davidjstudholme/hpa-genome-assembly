@@ -1,0 +1,4 @@
+contig_236	miniprot	mRNA	920271	921987	2414	-	.	ID=MP000754;Rank=1;Identity=0.9015;Positive=0.9394;StopCodon=1;Target=6366at33634_0 1 528
+contig_236	miniprot	CDS	920472	921987	2389	-	0	Parent=MP000754;Rank=1;Identity=0.9170;Target=6366at33634_0 1 505
+contig_236	miniprot	CDS	920271	920341	25	-	2	Parent=MP000754;Rank=1;Identity=0.5455;StopCodon=1;Target=6366at33634_0 506 528
+contig_236	miniprot	stop_codon	920271	920273	0	-	0	Parent=MP000754;Rank=1

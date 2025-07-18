@@ -1,0 +1,3 @@
+contig_504	miniprot	mRNA	80260	86163	7983	-	.	ID=MP000591;Rank=1;Identity=0.8104;Positive=0.8953;Target=302at33634_1 1 1934
+contig_504	miniprot	CDS	80260	86163	7983	-	0	Parent=MP000591;Rank=1;Identity=0.8104;Target=302at33634_1 1 1934
+contig_504	miniprot	stop_codon	80260	80262	0	-	0	Parent=MP000591;Rank=1

@@ -1,0 +1,3 @@
+contig_202	miniprot	mRNA	280838	281164	513	-	.	ID=MP000534;Rank=1;Identity=0.9259;Positive=0.9630;Target=26441at33634_0 1 106
+contig_202	miniprot	CDS	280838	281164	513	-	0	Parent=MP000534;Rank=1;Identity=0.9259;Target=26441at33634_0 1 106
+contig_202	miniprot	stop_codon	280838	280840	0	-	0	Parent=MP000534;Rank=1

@@ -1,0 +1,2 @@
+contig_195	miniprot	mRNA	763805	765214	2143	-	.	ID=MP000083;Rank=1;Identity=0.8985;Positive=0.9366;Target=12382at33634_4 5 474
+contig_195	miniprot	CDS	763805	765214	2143	-	0	Parent=MP000083;Rank=1;Identity=0.8985;Target=12382at33634_4 5 474

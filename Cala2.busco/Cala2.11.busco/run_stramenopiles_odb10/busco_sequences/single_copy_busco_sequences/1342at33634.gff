@@ -1,0 +1,3 @@
+contig_44	miniprot	mRNA	65086	68091	4678	+	.	ID=MP000143;Rank=1;Identity=0.9271;Positive=0.9600;Target=1342at33634_1 1 992
+contig_44	miniprot	CDS	65086	68091	4678	+	0	Parent=MP000143;Rank=1;Identity=0.9271;Target=1342at33634_1 1 992
+contig_44	miniprot	stop_codon	68089	68091	0	+	0	Parent=MP000143;Rank=1

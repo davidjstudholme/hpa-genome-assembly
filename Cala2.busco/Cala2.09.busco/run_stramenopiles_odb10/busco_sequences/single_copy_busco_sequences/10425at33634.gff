@@ -1,0 +1,3 @@
+contig_480	miniprot	mRNA	57178	58632	2216	-	.	ID=MP000013;Rank=1;Identity=0.9098;Positive=0.9385;Target=10425at33634_5 1 484
+contig_480	miniprot	CDS	57178	58632	2216	-	0	Parent=MP000013;Rank=1;Identity=0.9098;Target=10425at33634_5 1 484
+contig_480	miniprot	stop_codon	57178	57180	0	-	0	Parent=MP000013;Rank=1

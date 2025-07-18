@@ -1,0 +1,3 @@
+contig_360	miniprot	mRNA	229004	232507	5823	-	.	ID=MP000799;Rank=1;Identity=0.9597;Positive=0.9769;Target=693at33634_1 1 1166
+contig_360	miniprot	CDS	229004	232507	5823	-	0	Parent=MP000799;Rank=1;Identity=0.9597;Target=693at33634_1 1 1166
+contig_360	miniprot	stop_codon	229004	229006	0	-	0	Parent=MP000799;Rank=1

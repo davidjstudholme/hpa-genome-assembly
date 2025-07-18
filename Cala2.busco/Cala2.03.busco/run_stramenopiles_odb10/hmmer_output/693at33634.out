@@ -1,0 +1,16 @@
+#                                                                                               --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                           accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                   ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+693at33634_1|contig_417:994331-997832|+ -           1168 693at33634           -            925         0 1637.5  18.0   1   2   7.1e-97   7.1e-97  312.2   1.5     1   213    46   299    46   304 0.88 <unknown description>
+693at33634_1|contig_417:994331-997832|+ -           1168 693at33634           -            925         0 1637.5  18.0   2   2         0         0 1323.5   9.1   211   925   334  1164   325  1164 0.91 <unknown description>
+693at33634_0|contig_417:995312-997832|+ -            841 693at33634           -            925         0 1331.6   9.8   1   1         0         0 1324.1   9.8   212   925     8   837     2   837 0.91 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/busco_downloads/lineages/stramenopiles_odb10/hmms/693at33634.hmm
+# Target file:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Cala2.03.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/693at33634.faa
+# Option settings: hmmsearch --domtblout /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Cala2.03.busco/run_stramenopiles_odb10/hmmer_output/693at33634.out --cpu 1 /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/busco_downloads/lineages/stramenopiles_odb10/hmms/693at33634.hmm /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Cala2.03.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/693at33634.faa 
+# Current dir:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly
+# Date:            Fri Jul 18 20:13:48 2025
+# [ok]

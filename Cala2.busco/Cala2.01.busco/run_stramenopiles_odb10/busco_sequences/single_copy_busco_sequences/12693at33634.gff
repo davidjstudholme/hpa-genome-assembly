@@ -1,0 +1,3 @@
+contig_202	miniprot	mRNA	128274	129527	1887	-	.	ID=MP000118;Rank=1;Identity=0.8513;Positive=0.9281;Target=12693at33634_1 4 420
+contig_202	miniprot	CDS	128274	129527	1887	-	0	Parent=MP000118;Rank=1;Identity=0.8513;Target=12693at33634_1 4 420
+contig_202	miniprot	stop_codon	128274	128276	0	-	0	Parent=MP000118;Rank=1

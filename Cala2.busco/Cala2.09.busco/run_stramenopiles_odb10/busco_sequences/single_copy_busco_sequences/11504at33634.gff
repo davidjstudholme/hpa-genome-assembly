@@ -1,0 +1,3 @@
+contig_188	miniprot	mRNA	741539	743926	3244	+	.	ID=MP000042;Rank=1;Identity=0.8291;Positive=0.8832;Target=11504at33634_1 1 769
+contig_188	miniprot	CDS	741539	743926	3244	+	0	Parent=MP000042;Rank=1;Identity=0.8291;Target=11504at33634_1 1 769
+contig_188	miniprot	stop_codon	743924	743926	0	+	0	Parent=MP000042;Rank=1

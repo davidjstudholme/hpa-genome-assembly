@@ -1,0 +1,2 @@
+contig_194	miniprot	mRNA	95943	97457	1993	-	.	ID=MP000178;Rank=1;Identity=0.7787;Positive=0.8458;Target=13819at33634_8 1 491
+contig_194	miniprot	CDS	95943	97457	1993	-	0	Parent=MP000178;Rank=1;Identity=0.7787;Target=13819at33634_8 1 491

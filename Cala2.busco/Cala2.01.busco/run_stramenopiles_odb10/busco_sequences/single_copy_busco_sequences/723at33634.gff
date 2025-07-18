@@ -1,0 +1,3 @@
+contig_103	miniprot	mRNA	329028	332204	4931	-	.	ID=MP000830;Rank=1;Identity=0.8781;Positive=0.9329;Target=723at33634_1 1 1052
+contig_103	miniprot	CDS	329028	332204	4931	-	0	Parent=MP000830;Rank=1;Identity=0.8781;Target=723at33634_1 1 1052
+contig_103	miniprot	stop_codon	329028	329030	0	-	0	Parent=MP000830;Rank=1

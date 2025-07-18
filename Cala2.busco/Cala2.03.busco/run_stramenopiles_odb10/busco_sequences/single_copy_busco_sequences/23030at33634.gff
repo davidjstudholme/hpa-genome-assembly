@@ -1,0 +1,5 @@
+contig_705	miniprot	mRNA	82467	83331	1068	-	.	ID=MP000455;Rank=1;Identity=0.8788;Positive=0.9221;Target=23030at33634_1 1 231
+contig_705	miniprot	CDS	83096	83331	369	-	0	Parent=MP000455;Rank=1;Identity=0.8608;Target=23030at33634_1 1 78
+contig_705	miniprot	CDS	82878	83010	213	-	1	Parent=MP000455;Rank=1;Identity=0.9318;Target=23030at33634_1 79 123
+contig_705	miniprot	CDS	82467	82793	486	-	0	Parent=MP000455;Rank=1;Identity=0.8704;Target=23030at33634_1 124 231
+contig_705	miniprot	stop_codon	82467	82469	0	-	0	Parent=MP000455;Rank=1

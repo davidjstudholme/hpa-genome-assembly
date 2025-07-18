@@ -1,0 +1,3 @@
+contig_229	miniprot	mRNA	578676	580301	2215	-	.	ID=MP000366;Rank=1;Identity=0.7974;Positive=0.8674;Target=19836at33634_0 1 538
+contig_229	miniprot	CDS	578676	580301	2215	-	0	Parent=MP000366;Rank=1;Identity=0.7974;Target=19836at33634_0 1 538
+contig_229	miniprot	stop_codon	578676	578678	0	-	0	Parent=MP000366;Rank=1

@@ -1,0 +1,3 @@
+contig_230	miniprot	mRNA	2041301	2043145	2796	-	.	ID=MP000645;Rank=1;Identity=0.8912;Positive=0.9432;Target=3835at33634_1 1 616
+contig_230	miniprot	CDS	2041301	2043145	2796	-	0	Parent=MP000645;Rank=1;Identity=0.8912;Target=3835at33634_1 1 616
+contig_230	miniprot	stop_codon	2041301	2041303	0	-	0	Parent=MP000645;Rank=1

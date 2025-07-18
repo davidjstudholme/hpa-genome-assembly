@@ -1,0 +1,6 @@
+contig_283	miniprot	mRNA	538718	540397	2348	-	.	ID=MP000284;Rank=2;Identity=0.8195;Positive=0.8973;Target=17057at33634_0 1 564
+contig_283	miniprot	CDS	538718	540397	2348	-	0	Parent=MP000284;Rank=2;Identity=0.8195;Target=17057at33634_0 1 564
+contig_283	miniprot	stop_codon	538718	538720	0	-	0	Parent=MP000284;Rank=2
+contig_283	miniprot	mRNA	556367	558046	2349	+	.	ID=MP000283;Rank=1;Identity=0.8212;Positive=0.8973;Target=17057at33634_0 1 564
+contig_283	miniprot	CDS	556367	558046	2349	+	0	Parent=MP000283;Rank=1;Identity=0.8212;Target=17057at33634_0 1 564
+contig_283	miniprot	stop_codon	558044	558046	0	+	0	Parent=MP000283;Rank=1

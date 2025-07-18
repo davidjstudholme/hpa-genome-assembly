@@ -1,0 +1,3 @@
+contig_305	miniprot	mRNA	76015	81918	7983	-	.	ID=MP000591;Rank=1;Identity=0.8104;Positive=0.8953;Target=302at33634_1 1 1934
+contig_305	miniprot	CDS	76015	81918	7983	-	0	Parent=MP000591;Rank=1;Identity=0.8104;Target=302at33634_1 1 1934
+contig_305	miniprot	stop_codon	76015	76017	0	-	0	Parent=MP000591;Rank=1

@@ -1,0 +1,3 @@
+contig_453	miniprot	mRNA	107098	108540	2322	-	.	ID=MP000772;Rank=1;Identity=0.9458;Positive=0.9604;Target=6436at33634_5 1 466
+contig_453	miniprot	CDS	107098	108540	2322	-	0	Parent=MP000772;Rank=1;Identity=0.9458;Target=6436at33634_5 1 466
+contig_453	miniprot	stop_codon	107098	107100	0	-	0	Parent=MP000772;Rank=1

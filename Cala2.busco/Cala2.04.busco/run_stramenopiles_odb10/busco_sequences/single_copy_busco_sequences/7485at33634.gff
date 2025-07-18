@@ -1,0 +1,2 @@
+contig_182	miniprot	mRNA	531076	532800	1132	+	.	ID=MP000842;Rank=1;Identity=0.4200;Positive=0.6127;Target=7485at33634_2 31 574
+contig_182	miniprot	CDS	531076	532800	1132	+	0	Parent=MP000842;Rank=1;Identity=0.4200;Target=7485at33634_2 31 574

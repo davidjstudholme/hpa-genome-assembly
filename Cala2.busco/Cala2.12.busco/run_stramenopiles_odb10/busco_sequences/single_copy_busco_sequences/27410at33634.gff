@@ -1,0 +1,4 @@
+contig_508	miniprot	mRNA	89192	89833	710	+	.	ID=MP000561;Rank=1;Identity=0.6940;Positive=0.8470;Target=27410at33634_5 10 192
+contig_508	miniprot	CDS	89192	89256	77	+	0	Parent=MP000561;Rank=1;Identity=0.6818;Target=27410at33634_5 10 30
+contig_508	miniprot	CDS	89353	89833	633	+	1	Parent=MP000561;Rank=1;Identity=0.6957;Target=27410at33634_5 31 192
+contig_508	miniprot	stop_codon	89831	89833	0	+	0	Parent=MP000561;Rank=1

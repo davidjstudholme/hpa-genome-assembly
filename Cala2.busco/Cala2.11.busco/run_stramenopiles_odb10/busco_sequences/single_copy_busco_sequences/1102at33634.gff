@@ -1,0 +1,3 @@
+contig_283	miniprot	mRNA	447921	453365	8309	+	.	ID=MP000030;Rank=1;Identity=0.8832;Positive=0.9410;Target=1102at33634_0 1 1810
+contig_283	miniprot	CDS	447921	453365	8309	+	0	Parent=MP000030;Rank=1;Identity=0.8832;Target=1102at33634_0 1 1810
+contig_283	miniprot	stop_codon	453363	453365	0	+	0	Parent=MP000030;Rank=1

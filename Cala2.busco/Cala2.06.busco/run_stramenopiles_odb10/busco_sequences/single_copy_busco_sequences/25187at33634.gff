@@ -1,0 +1,4 @@
+contig_469	miniprot	mRNA	34047	34579	648	-	.	ID=MP000490;Rank=1;Identity=0.8514;Positive=0.9257;Target=25187at33634_0 1 147
+contig_469	miniprot	CDS	34271	34579	443	-	0	Parent=MP000490;Rank=1;Identity=0.8350;Target=25187at33634_0 1 102
+contig_469	miniprot	CDS	34047	34184	205	-	0	Parent=MP000490;Rank=1;Identity=0.8889;Target=25187at33634_0 103 147
+contig_469	miniprot	stop_codon	34047	34049	0	-	0	Parent=MP000490;Rank=1

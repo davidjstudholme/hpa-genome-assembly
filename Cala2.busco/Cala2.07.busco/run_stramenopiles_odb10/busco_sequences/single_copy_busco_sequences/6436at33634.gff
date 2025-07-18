@@ -1,0 +1,3 @@
+contig_489	miniprot	mRNA	24618	26060	2322	+	.	ID=MP000770;Rank=1;Identity=0.9458;Positive=0.9604;Target=6436at33634_5 1 466
+contig_489	miniprot	CDS	24618	26060	2322	+	0	Parent=MP000770;Rank=1;Identity=0.9458;Target=6436at33634_5 1 466
+contig_489	miniprot	stop_codon	26058	26060	0	+	0	Parent=MP000770;Rank=1

@@ -1,0 +1,3 @@
+contig_149	miniprot	mRNA	421313	422035	865	-	.	ID=MP000529;Rank=1;Identity=0.7125;Positive=0.8292;Target=26307at33634_5 1 239
+contig_149	miniprot	CDS	421313	422035	865	-	0	Parent=MP000529;Rank=1;Identity=0.7125;Target=26307at33634_5 1 239
+contig_149	miniprot	stop_codon	421313	421315	0	-	0	Parent=MP000529;Rank=1

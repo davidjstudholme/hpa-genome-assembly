@@ -1,0 +1,2 @@
+contig_151	miniprot	mRNA	113132	114646	1993	+	.	ID=MP000178;Rank=1;Identity=0.7787;Positive=0.8458;Target=13819at33634_8 1 491
+contig_151	miniprot	CDS	113132	114646	1993	+	0	Parent=MP000178;Rank=1;Identity=0.7787;Target=13819at33634_8 1 491

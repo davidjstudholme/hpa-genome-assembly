@@ -1,0 +1,219 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/busco_downloads/lineages/stramenopiles_odb10/hmms/3528at33634.hmm
+# target sequence database:        /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Cala2.01.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/3528at33634.faa
+# per-dom hits tabular output:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Cala2.01.busco/run_stramenopiles_odb10/hmmer_output/3528at33634.out
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       3528at33634  [M=627]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                                 Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                                 -----------
+          0 1072.3   5.4   4.9e-249  815.2   0.1    3.9  4  3528at33634_1|contig_192:163636-166087|+  <unknown description>
+          0 1036.0   3.2   1.2e-247  810.6   0.3    2.0  2  3528at33634_8|contig_192:163882-165799|+  <unknown description>
+   1.9e-257  843.0   0.4   1.9e-249  816.6   0.1    2.0  2  3528at33634_0|contig_192:164290-166087|+  <unknown description>
+
+
+Domain annotation for each sequence (and alignments):
+>> 3528at33634_1|contig_192:163636-166087|+  <unknown description>
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    1.7   0.0    0.0091    0.0091       1      27 [.      17      43 ..      17      55 .. 0.83
+   2 !  230.8   0.1     4e-72     4e-72      19     166 ..      70     222 ..      52     233 .. 0.87
+   3 !  815.2   0.1  4.9e-249  4.9e-249     163     604 ..     281     748 ..     251     770 .. 0.91
+   4 !   24.2   0.1   1.4e-09   1.4e-09     587     627 .]     775     817 ..     767     817 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 1.7 bits;  conditional E-value: 0.0091
+                               3528at33634  1 aedyggsvgedlleylqskdsvaassr 27
+                                              aedyggs+gedlley+++ ++v+  ++
+  3528at33634_1|contig_192:163636-166087|+ 17 AEDYGGSIGEDLLEYMETDETVGGVQQ 43
+                                              589*************99998876654 PP
+
+  == domain 2  score: 230.8 bits;  conditional E-value: 4e-72
+                               3528at33634  19 kdsvaass.rriqdfsklelkkdhesrPvWvcPngrifleafsklykqaydflvaiaePvsrPeflhey 86 
+                                               ++svaa +    ++fs+l+lk+dh +rPvWvcPngr+fleafs++ykqaydflvaiaePvsrPef+hey
+  3528at33634_1|contig_192:163636-166087|+  70 QKSVAAGEaAGYYNFSTLDLKPDHDARPVWVCPNGRMFLEAFSPIYKQAYDFLVAIAEPVSRPEFVHEY 138
+                                               2334443346789******************************************************** PP
+
+                               3528at33634  87 kltpyslyaavsvsietesiikvlerlsknelpe...kfirdctasygkaklvlkhnefyvese.pevl 151
+                                               kltpyslyaavsv+ietesi+kvlerlskn+lp+   +fi++ct sygkaklvl+hnefyves+ pevl
+  3528at33634_1|contig_192:163636-166087|+ 139 KLTPYSLYAAVSVAIETESILKVLERLSKNRLPQgivAFIKECTLSYGKAKLVLHHNEFYVESLyPEVL 207
+                                               *********************************86667************************9658*** PP
+
+                               3528at33634 152 rklleeeearvkeee 166
+                                               rklle+e++r +  +
+  3528at33634_1|contig_192:163636-166087|+ 208 RKLLEHEHIRAARVK 222
+                                               ******998876544 PP
+
+  == domain 3  score: 815.2 bits;  conditional E-value: 4.9e-249
+                               3528at33634 163 keeenlevktvktvsfkir...vekvkr...dldyplmeeydfrnd.......ldlkpttrireyqeks 218
+                                                +++  + ktv+tvsfkir   ve+vkr   dldyplmeeydfrnd       +dlkp+trireyqeks
+  3528at33634_1|contig_192:163636-166087|+ 281 DKTTGEQQKTVRTVSFKIRkkmVEQVKRaclDLDYPLMEEYDFRNDktipdleMDLKPSTRIREYQEKS 349
+                                               334557899*********855568899655589************777666779*************** PP
+
+                               3528at33634 219 lskmfGngrarsGiivlPcGaGktltgvtaastikksclvlctsavsvlqWkaqfklwtdieekkiavf 287
+                                               lskmfGngrarsGiivlPcGaGktltgvtaastikkscl+lctsavsv+qW+aqfk+wt+i+ekkia+f
+  3528at33634_1|contig_192:163636-166087|+ 350 LSKMFGNGRARSGIIVLPCGAGKTLTGVTAASTIKKSCLCLCTSAVSVEQWTAQFKMWTNISEKKIARF 418
+                                               ********************************************************************* PP
+
+                               3528at33634 288 tsdkkdkl.....vlvttytmvafggkrakeseevleeiksreWGlllldevhvvPakmfrkvigsvka 351
+                                               ts++kd++     v+vttytmvafgg+ra++seev+++i++reWG++lldevhvvPakmfrkvigs+++
+  3528at33634_1|contig_192:163636-166087|+ 419 TSVAKDYIdpdsgVIVTTYTMVAFGGRRARASEEVMQLIQGREWGCILLDEVHVVPAKMFRKVIGSIAC 487
+                                               *******999999******************************************************** PP
+
+                               3528at33634 352 hcklGltatlvreddlikdlnfliGPklyeanWmdltqsGylanvkcvevWcpmtgefyreyl....ea 416
+                                               hcklGltatlvreddli+dlnfliGPklyeanWmdltqsG+lanv+cvevWcpm+gefyreyl    +a
+  3528at33634_1|contig_192:163636-166087|+ 488 HCKLGLTATLVREDDLIGDLNFLIGPKLYEANWMDLTQSGFLANVSCVEVWCPMAGEFYREYLretkSA 556
+                                               ***************************************************************555457 PP
+
+                               3528at33634 417 rkrkllyvlnPnklraaeflikyheergdkilvfsddvfalklyaell...liyGgtgererkrllqsf 482
+                                               rkr+llyv+nPnk++aaefli+yheergdkil+fsddvfal+lya++l   +iyGgtgerer+rllqsf
+  3528at33634_1|contig_192:163636-166087|+ 557 RKRALLYVANPNKFTAAEFLIQYHEERGDKILLFSDDVFALRLYATKLnkgYIYGGTGERERMRLLQSF 625
+                                               99********************************************997778***************** PP
+
+                               3528at33634 483 rss.lvnviclskvGdtsidlPeanviiqvsshfGsrrqeaqrlGrilrpkanat.gfnaffytlvstd 549
+                                               rss lvnvic+skvGdtsidlPeanviiqvsshfGsrrqeaqrlGrilrpkanat gfnaffytl+std
+  3528at33634_1|contig_192:163636-166087|+ 626 RSSpLVNVICISKVGDTSIDLPEANVIIQVSSHFGSRRQEAQRLGRILRPKANATgGFNAFFYTLISTD 694
+                                               *98579**********************************************998469*********** PP
+
+                               3528at33634 550 tkevfysakrqqylvdqGytfkvvtdllekellkevleaededlerslgalsgad 604
+                                               t+e++ys+krqqylvdqGytfkvvtdl+e   ++ v + + ed    l ++ +ad
+  3528at33634_1|contig_192:163636-166087|+ 695 THEMYYSNKRQQYLVDQGYTFKVVTDLYEPGSFEGVFTRK-EDQRALLNEVLSAD 748
+                                               *****************************99999888877.44444444444444 PP
+
+  == domain 4  score: 24.2 bits;  conditional E-value: 1.4e-09
+                               3528at33634 587 eaededlerslgalsgadgskymeysags.ak.rhnlfrdryr 627
+                                                +++++   slgalsgadg+kymeys+g+ ak rhnlfrdryr
+  3528at33634_1|contig_192:163636-166087|+ 775 GSKKKKKLGSLGALSGADGTKYMEYSSGHgAKqRHNLFRDRYR 817
+                                               5566777789*******************9888********97 PP
+
+>> 3528at33634_8|contig_192:163882-165799|+  <unknown description>
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  226.3   0.2   9.7e-71   9.7e-71      32     166 ..       2     140 ..       1     152 [. 0.93
+   2 !  810.6   0.3  1.2e-247  1.2e-247     163     577 ..     199     640 .]     169     640 .] 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 226.3 bits;  conditional E-value: 9.7e-71
+                               3528at33634  32 fsklelkkdhesrPvWvcPngrifleafsklykqaydflvaiaePvsrPeflheykltpyslyaavsvs 100
+                                               fs+l+lk+dh +rPvWvcPngr+fleafs++ykqaydflvaiaePvsrPef+heykltpyslyaavsv+
+  3528at33634_8|contig_192:163882-165799|+   2 FSTLDLKPDHDARPVWVCPNGRMFLEAFSPIYKQAYDFLVAIAEPVSRPEFVHEYKLTPYSLYAAVSVA 70 
+                                               9******************************************************************** PP
+
+                               3528at33634 101 ietesiikvlerlsknelpe...kfirdctasygkaklvlkhnefyvese.pevlrklleeeearvkee 165
+                                               ietesi+kvlerlskn+lp+   +fi++ct sygkaklvl+hnefyves+ pevlrklle+e++r +  
+  3528at33634_8|contig_192:163882-165799|+  71 IETESILKVLERLSKNRLPQgivAFIKECTLSYGKAKLVLHHNEFYVESLyPEVLRKLLEHEHIRAARV 139
+                                               *******************86667************************9658*********99887654 PP
+
+                               3528at33634 166 e 166
+                                               +
+  3528at33634_8|contig_192:163882-165799|+ 140 K 140
+                                               4 PP
+
+  == domain 2  score: 810.6 bits;  conditional E-value: 1.2e-247
+                               3528at33634 163 keeenlevktvktvsfkir...vekvkr...dldyplmeeydfrnd.......ldlkpttrireyqeks 218
+                                                +++  + ktv+tvsfkir   ve+vkr   dldyplmeeydfrnd       +dlkp+trireyqeks
+  3528at33634_8|contig_192:163882-165799|+ 199 DKTTGEQQKTVRTVSFKIRkkmVEQVKRaclDLDYPLMEEYDFRNDktipdleMDLKPSTRIREYQEKS 267
+                                               334557899*********855568899655589************777666779*************** PP
+
+                               3528at33634 219 lskmfGngrarsGiivlPcGaGktltgvtaastikksclvlctsavsvlqWkaqfklwtdieekkiavf 287
+                                               lskmfGngrarsGiivlPcGaGktltgvtaastikkscl+lctsavsv+qW+aqfk+wt+i+ekkia+f
+  3528at33634_8|contig_192:163882-165799|+ 268 LSKMFGNGRARSGIIVLPCGAGKTLTGVTAASTIKKSCLCLCTSAVSVEQWTAQFKMWTNISEKKIARF 336
+                                               ********************************************************************* PP
+
+                               3528at33634 288 tsdkkdkl.....vlvttytmvafggkrakeseevleeiksreWGlllldevhvvPakmfrkvigsvka 351
+                                               ts++kd++     v+vttytmvafgg+ra++seev+++i++reWG++lldevhvvPakmfrkvigs+++
+  3528at33634_8|contig_192:163882-165799|+ 337 TSVAKDYIdpdsgVIVTTYTMVAFGGRRARASEEVMQLIQGREWGCILLDEVHVVPAKMFRKVIGSIAC 405
+                                               *******999999******************************************************** PP
+
+                               3528at33634 352 hcklGltatlvreddlikdlnfliGPklyeanWmdltqsGylanvkcvevWcpmtgefyreyl....ea 416
+                                               hcklGltatlvreddli+dlnfliGPklyeanWmdltqsG+lanv+cvevWcpm+gefyreyl    +a
+  3528at33634_8|contig_192:163882-165799|+ 406 HCKLGLTATLVREDDLIGDLNFLIGPKLYEANWMDLTQSGFLANVSCVEVWCPMAGEFYREYLretkSA 474
+                                               ***************************************************************555457 PP
+
+                               3528at33634 417 rkrkllyvlnPnklraaeflikyheergdkilvfsddvfalklyaell...liyGgtgererkrllqsf 482
+                                               rkr+llyv+nPnk++aaefli+yheergdkil+fsddvfal+lya++l   +iyGgtgerer+rllqsf
+  3528at33634_8|contig_192:163882-165799|+ 475 RKRALLYVANPNKFTAAEFLIQYHEERGDKILLFSDDVFALRLYATKLnkgYIYGGTGERERMRLLQSF 543
+                                               99********************************************997778***************** PP
+
+                               3528at33634 483 rss.lvnviclskvGdtsidlPeanviiqvsshfGsrrqeaqrlGrilrpkanat.gfnaffytlvstd 549
+                                               rss lvnvic+skvGdtsidlPeanviiqvsshfGsrrqeaqrlGrilrpkanat gfnaffytl+std
+  3528at33634_8|contig_192:163882-165799|+ 544 RSSpLVNVICISKVGDTSIDLPEANVIIQVSSHFGSRRQEAQRLGRILRPKANATgGFNAFFYTLISTD 612
+                                               *98579**********************************************998469*********** PP
+
+                               3528at33634 550 tkevfysakrqqylvdqGytfkvvtdll 577
+                                               t+e++ys+krqqylvdqGytfkvvtdl+
+  3528at33634_8|contig_192:163882-165799|+ 613 THEMYYSNKRQQYLVDQGYTFKVVTDLY 640
+                                               *************************985 PP
+
+>> 3528at33634_0|contig_192:164290-166087|+  <unknown description>
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  816.6   0.1  1.9e-249  1.9e-249     163     604 ..      63     530 ..      34     552 .. 0.91
+   2 !   24.9   0.0   8.8e-10   8.8e-10     587     627 .]     557     599 ..     546     599 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 816.6 bits;  conditional E-value: 1.9e-249
+                               3528at33634 163 keeenlevktvktvsfkir...vekvkr...dldyplmeeydfrnd.......ldlkpttrireyqeks 218
+                                                +++  + ktv+tvsfkir   ve+vkr   dldyplmeeydfrnd       +dlkp+trireyqeks
+  3528at33634_0|contig_192:164290-166087|+  63 DKTTGEQQKTVRTVSFKIRkkmVEQVKRaclDLDYPLMEEYDFRNDktipdleMDLKPSTRIREYQEKS 131
+                                               334557899*********855568899655589************777666779*************** PP
+
+                               3528at33634 219 lskmfGngrarsGiivlPcGaGktltgvtaastikksclvlctsavsvlqWkaqfklwtdieekkiavf 287
+                                               lskmfGngrarsGiivlPcGaGktltgvtaastikkscl+lctsavsv+qW+aqfk+wt+i+ekkia+f
+  3528at33634_0|contig_192:164290-166087|+ 132 LSKMFGNGRARSGIIVLPCGAGKTLTGVTAASTIKKSCLCLCTSAVSVEQWTAQFKMWTNISEKKIARF 200
+                                               ********************************************************************* PP
+
+                               3528at33634 288 tsdkkdkl.....vlvttytmvafggkrakeseevleeiksreWGlllldevhvvPakmfrkvigsvka 351
+                                               ts++kd++     v+vttytmvafgg+ra++seev+++i++reWG++lldevhvvPakmfrkvigs+++
+  3528at33634_0|contig_192:164290-166087|+ 201 TSVAKDYIdpdsgVIVTTYTMVAFGGRRARASEEVMQLIQGREWGCILLDEVHVVPAKMFRKVIGSIAC 269
+                                               *******999999******************************************************** PP
+
+                               3528at33634 352 hcklGltatlvreddlikdlnfliGPklyeanWmdltqsGylanvkcvevWcpmtgefyreyl....ea 416
+                                               hcklGltatlvreddli+dlnfliGPklyeanWmdltqsG+lanv+cvevWcpm+gefyreyl    +a
+  3528at33634_0|contig_192:164290-166087|+ 270 HCKLGLTATLVREDDLIGDLNFLIGPKLYEANWMDLTQSGFLANVSCVEVWCPMAGEFYREYLretkSA 338
+                                               ***************************************************************555457 PP
+
+                               3528at33634 417 rkrkllyvlnPnklraaeflikyheergdkilvfsddvfalklyaell...liyGgtgererkrllqsf 482
+                                               rkr+llyv+nPnk++aaefli+yheergdkil+fsddvfal+lya++l   +iyGgtgerer+rllqsf
+  3528at33634_0|contig_192:164290-166087|+ 339 RKRALLYVANPNKFTAAEFLIQYHEERGDKILLFSDDVFALRLYATKLnkgYIYGGTGERERMRLLQSF 407
+                                               99********************************************997778***************** PP
+
+                               3528at33634 483 rss.lvnviclskvGdtsidlPeanviiqvsshfGsrrqeaqrlGrilrpkanat.gfnaffytlvstd 549
+                                               rss lvnvic+skvGdtsidlPeanviiqvsshfGsrrqeaqrlGrilrpkanat gfnaffytl+std
+  3528at33634_0|contig_192:164290-166087|+ 408 RSSpLVNVICISKVGDTSIDLPEANVIIQVSSHFGSRRQEAQRLGRILRPKANATgGFNAFFYTLISTD 476
+                                               *98579**********************************************998469*********** PP
+
+                               3528at33634 550 tkevfysakrqqylvdqGytfkvvtdllekellkevleaededlerslgalsgad 604
+                                               t+e++ys+krqqylvdqGytfkvvtdl+e   ++ v + + ed    l ++ +ad
+  3528at33634_0|contig_192:164290-166087|+ 477 THEMYYSNKRQQYLVDQGYTFKVVTDLYEPGSFEGVFTRK-EDQRALLNEVLSAD 530
+                                               *****************************99999888877.44444444444444 PP
+
+  == domain 2  score: 24.9 bits;  conditional E-value: 8.8e-10
+                               3528at33634 587 eaededlerslgalsgadgskymeysags.ak.rhnlfrdryr 627
+                                                +++++   slgalsgadg+kymeys+g+ ak rhnlfrdryr
+  3528at33634_0|contig_192:164290-166087|+ 557 GSKKKKKLGSLGALSGADGTKYMEYSSGHgAKqRHNLFRDRYR 599
+                                               5566777789*******************9888********97 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (627 nodes)
+Target sequences:                          3  (2058 residues searched)
+Passed MSV filter:                         3  (1); expected 0.1 (0.02)
+Passed bias filter:                        3  (1); expected 0.1 (0.02)
+Passed Vit filter:                         3  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         3  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  3  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.07u 0.00s 00:00:00.07 Elapsed: 00:00:00.08
+# Mc/sec: 16.04
+//
+[ok]

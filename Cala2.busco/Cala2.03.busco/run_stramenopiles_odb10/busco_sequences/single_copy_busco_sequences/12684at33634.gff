@@ -1,0 +1,2 @@
+contig_283	miniprot	mRNA	1521582	1522637	962	+	.	ID=MP000112;Rank=1;Identity=0.5398;Positive=0.7273;Target=12684at33634_6 98 445
+contig_283	miniprot	CDS	1521582	1522637	962	+	0	Parent=MP000112;Rank=1;Identity=0.5398;Target=12684at33634_6 98 445

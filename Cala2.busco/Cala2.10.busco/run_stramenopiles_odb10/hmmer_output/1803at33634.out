@@ -1,0 +1,26 @@
+#                                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+1803at33634_4|contig_174:1905233-1908062|+ -            920 1803at33634          -            592  4.3e-224  732.8  25.4   1   5    2e-169    2e-169  552.2   4.8     7   374    54   499    48   511 0.86 <unknown description>
+1803at33634_4|contig_174:1905233-1908062|+ -            920 1803at33634          -            592  4.3e-224  732.8  25.4   2   5   6.1e-33   6.1e-33  101.5   2.9   378   453   530   629   523   635 0.85 <unknown description>
+1803at33634_4|contig_174:1905233-1908062|+ -            920 1803at33634          -            592  4.3e-224  732.8  25.4   3   5   2.2e-15   2.2e-15   43.6   0.0   452   500   666   722   657   737 0.84 <unknown description>
+1803at33634_4|contig_174:1905233-1908062|+ -            920 1803at33634          -            592  4.3e-224  732.8  25.4   4   5   8.8e-12   8.8e-12   31.7   0.1   482   552   733   819   725   833 0.79 <unknown description>
+1803at33634_4|contig_174:1905233-1908062|+ -            920 1803at33634          -            592  4.3e-224  732.8  25.4   5   5   0.00045   0.00045    6.2   0.4   548   572   846   870   834   904 0.74 <unknown description>
+1803at33634_3|contig_498:1990290-1992654|- -            789 1803at33634          -            592    1e-165  540.0  10.3   1   4  9.9e-155  9.9e-155  503.7   6.6    25   453     1   543     1   561 0.81 <unknown description>
+1803at33634_3|contig_498:1990290-1992654|- -            789 1803at33634          -            592    1e-165  540.0  10.3   2   4   2.7e-09   2.7e-09   23.4   0.0   440   497   573   639   567   648 0.73 <unknown description>
+1803at33634_3|contig_498:1990290-1992654|- -            789 1803at33634          -            592    1e-165  540.0  10.3   3   4     0.089     0.089   -1.4   0.0   516   535   688   707   658   750 0.58 <unknown description>
+1803at33634_3|contig_498:1990290-1992654|- -            789 1803at33634          -            592    1e-165  540.0  10.3   4   4    0.0071    0.0071    2.3   0.0   548   569   764   785   756   788 0.86 <unknown description>
+1803at33634_9|contig_163:217676-220568|+   -            867 1803at33634          -            592  5.5e-157  511.2  10.3   1   4   5.5e-78   5.5e-78  250.3   0.2    10   209    21   235     2   243 0.92 <unknown description>
+1803at33634_9|contig_163:217676-220568|+   -            867 1803at33634          -            592  5.5e-157  511.2  10.3   2   4   1.1e-41   1.1e-41  130.4   0.1   204   374   255   478   240   485 0.73 <unknown description>
+1803at33634_9|contig_163:217676-220568|+   -            867 1803at33634          -            592  5.5e-157  511.2  10.3   3   4   8.2e-25   8.2e-25   74.7   0.2   385   451   520   607   505   619 0.82 <unknown description>
+1803at33634_9|contig_163:217676-220568|+   -            867 1803at33634          -            592  5.5e-157  511.2  10.3   4   4   8.8e-17   8.8e-17   48.2   0.0   447   550   635   779   626   784 0.74 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/busco_downloads/lineages/stramenopiles_odb10/hmms/1803at33634.hmm
+# Target file:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Cala2.10.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/1803at33634.faa
+# Option settings: hmmsearch --domtblout /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Cala2.10.busco/run_stramenopiles_odb10/hmmer_output/1803at33634.out --cpu 1 /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/busco_downloads/lineages/stramenopiles_odb10/hmms/1803at33634.hmm /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Cala2.10.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/1803at33634.faa 
+# Current dir:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly
+# Date:            Fri Jul 18 20:16:57 2025
+# [ok]

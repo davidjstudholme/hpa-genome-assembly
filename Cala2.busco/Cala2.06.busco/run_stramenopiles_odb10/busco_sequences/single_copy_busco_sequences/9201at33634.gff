@@ -1,0 +1,5 @@
+contig_460	miniprot	mRNA	135450	136871	1531	-	.	ID=MP000880;Rank=1;Identity=0.7053;Positive=0.7850;Target=9201at33634_2 1 390
+contig_460	miniprot	CDS	136303	136871	688	-	0	Parent=MP000880;Rank=1;Identity=0.6702;Target=9201at33634_2 1 188
+contig_460	miniprot	CDS	135974	136206	174	-	1	Parent=MP000880;Rank=1;Identity=0.5256;Target=9201at33634_2 189 244
+contig_460	miniprot	CDS	135450	135889	669	-	2	Parent=MP000880;Rank=1;Identity=0.8483;Target=9201at33634_2 245 390
+contig_460	miniprot	stop_codon	135450	135452	0	-	0	Parent=MP000880;Rank=1

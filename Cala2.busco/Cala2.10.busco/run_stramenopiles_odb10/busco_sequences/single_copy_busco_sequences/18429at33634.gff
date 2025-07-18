@@ -1,0 +1,3 @@
+contig_204	miniprot	mRNA	640345	641300	827	-	.	ID=MP000338;Rank=1;Identity=0.5985;Positive=0.7538;Target=18429at33634 84 344
+contig_204	miniprot	CDS	640912	641300	424	-	0	Parent=MP000338;Rank=1;Identity=0.6385;Target=18429at33634 84 210
+contig_204	miniprot	CDS	640345	640747	403	-	1	Parent=MP000338;Rank=1;Identity=0.5597;Target=18429at33634 211 344

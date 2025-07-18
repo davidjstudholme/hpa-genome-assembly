@@ -1,0 +1,4 @@
+contig_2	miniprot	mRNA	1904349	1907180	3932	+	.	ID=MP000322;Rank=1;Identity=0.8084;Positive=0.8820;Target=1803at33634_4 1 913
+contig_2	miniprot	CDS	1904349	1905056	1034	+	0	Parent=MP000322;Rank=1;Identity=0.8050;Target=1803at33634_4 1 235
+contig_2	miniprot	CDS	1905129	1907180	2898	+	0	Parent=MP000322;Rank=1;Identity=0.8097;Target=1803at33634_4 236 913
+contig_2	miniprot	stop_codon	1907178	1907180	0	+	0	Parent=MP000322;Rank=1

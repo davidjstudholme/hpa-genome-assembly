@@ -1,0 +1,3 @@
+contig_440	miniprot	mRNA	501926	503038	1893	-	.	ID=MP000709;Rank=1;Identity=0.9162;Positive=0.9568;Target=5145at33634_0 1 370
+contig_440	miniprot	CDS	501926	503038	1893	-	0	Parent=MP000709;Rank=1;Identity=0.9162;Target=5145at33634_0 1 370
+contig_440	miniprot	stop_codon	501926	501928	0	-	0	Parent=MP000709;Rank=1

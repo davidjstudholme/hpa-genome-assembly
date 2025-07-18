@@ -1,0 +1,4 @@
+contig_381	miniprot	mRNA	461946	462645	1041	+	.	ID=MP000327;Rank=1;Identity=0.9854;Positive=0.9903;Target=18069at33634 72 277
+contig_381	miniprot	CDS	461946	462077	209	+	0	Parent=MP000327;Rank=1;Identity=0.9545;Target=18069at33634 72 115
+contig_381	miniprot	CDS	462157	462645	832	+	0	Parent=MP000327;Rank=1;Identity=0.9938;Target=18069at33634 116 277
+contig_381	miniprot	stop_codon	462643	462645	0	+	0	Parent=MP000327;Rank=1

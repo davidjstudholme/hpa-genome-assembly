@@ -1,0 +1,4 @@
+contig_177	miniprot	mRNA	30931	32676	2607	-	.	ID=MP000776;Rank=1;Identity=0.9615;Positive=0.9835;Target=6684at33634_0 1 546
+contig_177	miniprot	CDS	32368	32676	494	-	0	Parent=MP000776;Rank=1;Identity=0.9903;Target=6684at33634_0 1 103
+contig_177	miniprot	CDS	30931	32262	2113	-	0	Parent=MP000776;Rank=1;Identity=0.9549;Target=6684at33634_0 104 546
+contig_177	miniprot	stop_codon	30931	30933	0	-	0	Parent=MP000776;Rank=1

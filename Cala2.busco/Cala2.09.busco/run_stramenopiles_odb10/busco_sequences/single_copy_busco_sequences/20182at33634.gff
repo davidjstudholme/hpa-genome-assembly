@@ -1,0 +1,4 @@
+contig_156	miniprot	mRNA	391687	392740	1371	+	.	ID=MP000397;Rank=1;Identity=0.8530;Positive=0.9233;Target=20182at33634_1 16 328
+contig_156	miniprot	CDS	391687	392556	1283	+	0	Parent=MP000397;Rank=1;Identity=0.8552;Target=20182at33634_1 16 305
+contig_156	miniprot	CDS	392669	392740	88	+	0	Parent=MP000397;Rank=1;Identity=0.8261;Target=20182at33634_1 306 328
+contig_156	miniprot	stop_codon	392738	392740	0	+	0	Parent=MP000397;Rank=1

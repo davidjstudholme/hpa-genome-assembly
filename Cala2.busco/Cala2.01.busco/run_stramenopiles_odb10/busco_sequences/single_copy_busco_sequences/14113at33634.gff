@@ -1,0 +1,3 @@
+contig_651	miniprot	mRNA	242872	244449	2291	-	.	ID=MP000194;Rank=1;Identity=0.8705;Positive=0.9006;Target=14113at33634_3 1 531
+contig_651	miniprot	CDS	242872	244449	2291	-	0	Parent=MP000194;Rank=1;Identity=0.8705;Target=14113at33634_3 1 531
+contig_651	miniprot	stop_codon	242872	242874	0	-	0	Parent=MP000194;Rank=1

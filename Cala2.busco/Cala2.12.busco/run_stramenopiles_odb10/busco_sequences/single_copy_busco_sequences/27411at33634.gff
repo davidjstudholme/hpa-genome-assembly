@@ -1,0 +1,2 @@
+contig_276	miniprot	mRNA	277666	278199	404	-	.	ID=MP000569;Rank=1;Identity=0.4551;Positive=0.6517;Target=27411at33634_8 1 178
+contig_276	miniprot	CDS	277666	278199	404	-	0	Parent=MP000569;Rank=1;Identity=0.4551;Target=27411at33634_8 1 178

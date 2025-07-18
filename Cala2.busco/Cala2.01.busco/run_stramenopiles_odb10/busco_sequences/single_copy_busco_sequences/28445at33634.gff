@@ -1,0 +1,4 @@
+contig_202	miniprot	mRNA	216756	217204	578	-	.	ID=MP000574;Rank=1;Identity=0.9083;Positive=0.9583;Target=28445at33634_0 1 120
+contig_202	miniprot	CDS	217118	217204	145	-	0	Parent=MP000574;Rank=1;Identity=0.9655;Target=28445at33634_0 1 29
+contig_202	miniprot	CDS	216756	217031	433	-	0	Parent=MP000574;Rank=1;Identity=0.8901;Target=28445at33634_0 30 120
+contig_202	miniprot	stop_codon	216756	216758	0	-	0	Parent=MP000574;Rank=1

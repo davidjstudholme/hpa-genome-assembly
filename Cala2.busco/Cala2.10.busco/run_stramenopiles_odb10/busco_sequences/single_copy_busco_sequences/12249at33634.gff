@@ -1,0 +1,3 @@
+contig_124	miniprot	mRNA	178599	180350	2441	+	.	ID=MP000063;Rank=1;Identity=0.8388;Positive=0.8765;Target=12249at33634_0 40 588
+contig_124	miniprot	CDS	178599	180350	2441	+	0	Parent=MP000063;Rank=1;Identity=0.8388;Target=12249at33634_0 40 588
+contig_124	miniprot	stop_codon	180348	180350	0	+	0	Parent=MP000063;Rank=1

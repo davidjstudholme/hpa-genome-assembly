@@ -1,0 +1,3 @@
+contig_325	miniprot	mRNA	200916	202778	3035	-	.	ID=MP000670;Rank=1;Identity=0.9581;Positive=0.9855;Target=4148at33634_5 1 620
+contig_325	miniprot	CDS	200916	202778	3035	-	0	Parent=MP000670;Rank=1;Identity=0.9581;Target=4148at33634_5 1 620
+contig_325	miniprot	stop_codon	200916	200918	0	-	0	Parent=MP000670;Rank=1

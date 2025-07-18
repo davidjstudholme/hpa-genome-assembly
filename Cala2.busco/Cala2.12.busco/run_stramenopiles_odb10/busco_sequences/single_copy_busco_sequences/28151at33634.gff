@@ -1,0 +1,7 @@
+contig_609	miniprot	mRNA	61792	62756	915	+	.	ID=MP000573;Rank=1;Identity=0.7945;Positive=0.8904;Target=28151at33634_4 1 219
+contig_609	miniprot	CDS	61792	61982	252	+	0	Parent=MP000573;Rank=1;Identity=0.7500;Target=28151at33634_4 1 63
+contig_609	miniprot	CDS	62054	62152	134	+	1	Parent=MP000573;Rank=1;Identity=0.7273;Target=28151at33634_4 64 96
+contig_609	miniprot	CDS	62253	62385	211	+	1	Parent=MP000573;Rank=1;Identity=0.8864;Target=28151at33634_4 97 141
+contig_609	miniprot	CDS	62448	62516	97	+	0	Parent=MP000573;Rank=1;Identity=0.8261;Target=28151at33634_4 142 164
+contig_609	miniprot	CDS	62589	62756	221	+	0	Parent=MP000573;Rank=1;Identity=0.8000;Target=28151at33634_4 165 219
+contig_609	miniprot	stop_codon	62754	62756	0	+	0	Parent=MP000573;Rank=1

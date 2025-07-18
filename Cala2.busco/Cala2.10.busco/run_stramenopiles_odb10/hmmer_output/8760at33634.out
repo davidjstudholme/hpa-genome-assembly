@@ -1,0 +1,30 @@
+#                                                                                                --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                            accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                    ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+8760at33634_0|contig_146:713383-715561|- -            584 8760at33634          -            277  7.2e-110  355.2  24.3   1   5   2.8e-11   2.8e-11   31.8   0.2     1    35    42    76    42    86 0.91 <unknown description>
+8760at33634_0|contig_146:713383-715561|- -            584 8760at33634          -            277  7.2e-110  355.2  24.3   2   5   3.5e-83   3.5e-83  267.7   4.2    32   194   129   314   120   343 0.86 <unknown description>
+8760at33634_0|contig_146:713383-715561|- -            584 8760at33634          -            277  7.2e-110  355.2  24.3   3   5     0.011     0.011    3.6   0.2   189   214   355   382   337   385 0.68 <unknown description>
+8760at33634_0|contig_146:713383-715561|- -            584 8760at33634          -            277  7.2e-110  355.2  24.3   4   5   1.9e-07   1.9e-07   19.3   0.0   205   235   401   431   386   465 0.82 <unknown description>
+8760at33634_0|contig_146:713383-715561|- -            584 8760at33634          -            277  7.2e-110  355.2  24.3   5   5   1.3e-11   1.3e-11   32.9   2.7   220   276   465   536   438   537 0.74 <unknown description>
+8760at33634|contig_146:701106-715537|-   -            928 8760at33634          -            277  1.9e-104  337.5  16.7   1   3   4.9e-11   4.9e-11   31.1   0.2     1    35    34    68    34    76 0.90 <unknown description>
+8760at33634|contig_146:701106-715537|-   -            928 8760at33634          -            277  1.9e-104  337.5  16.7   2   3   3.2e-83   3.2e-83  267.8   1.6    32   235   121   364   112   370 0.77 <unknown description>
+8760at33634|contig_146:701106-715537|-   -            928 8760at33634          -            277  1.9e-104  337.5  16.7   3   3   2.6e-11   2.6e-11   32.0   2.8   220   276   398   469   367   470 0.74 <unknown description>
+8760at33634_2|contig_146:710919-715456|- -            355 8760at33634          -            277   1.7e-94  304.8   9.0   1   2   1.5e-11   1.5e-11   32.8   0.2     1    35     7    41     7    52 0.91 <unknown description>
+8760at33634_2|contig_146:710919-715456|- -            355 8760at33634          -            277   1.7e-94  304.8   9.0   2   2   9.9e-84   9.9e-84  269.5   4.0    32   194    94   279    85   306 0.86 <unknown description>
+8760at33634_5|contig_146:714355-715537|- -            305 8760at33634          -            277   5.9e-94  303.0   9.3   1   2   1.2e-11   1.2e-11   33.1   0.2     1    35    34    68    34    79 0.91 <unknown description>
+8760at33634_5|contig_146:714355-715537|- -            305 8760at33634          -            277   5.9e-94  303.0   9.3   2   2   4.5e-83   4.5e-83  267.3   4.3    32   192   121   304   112   305 0.90 <unknown description>
+8760at33634_6|contig_146:713893-715183|- -            358 8760at33634          -            277   1.1e-86  279.2  17.2   1   4   3.7e-78   3.7e-78  251.2   2.4    33   187     4   180     1   189 0.88 <unknown description>
+8760at33634_6|contig_146:713893-715183|- -            358 8760at33634          -            277   1.1e-86  279.2  17.2   2   4    0.0032    0.0032    5.4   2.1   178   194   199   215   184   240 0.69 <unknown description>
+8760at33634_6|contig_146:713893-715183|- -            358 8760at33634          -            277   1.1e-86  279.2  17.2   3   4    0.0036    0.0036    5.2   0.1   185   214   271   302   249   310 0.74 <unknown description>
+8760at33634_6|contig_146:713893-715183|- -            358 8760at33634          -            277   1.1e-86  279.2  17.2   4   4   1.3e-07   1.3e-07   19.8   0.0   205   235   321   351   307   356 0.77 <unknown description>
+8760at33634_1|contig_146:712750-713782|- -            304 8760at33634          -            277   7.5e-14   40.3   3.2   1   1   1.2e-11   1.2e-11   33.0   3.2   224   276    17    86     5    87 0.79 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/busco_downloads/lineages/stramenopiles_odb10/hmms/8760at33634.hmm
+# Target file:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Cala2.10.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/8760at33634.faa
+# Option settings: hmmsearch --domtblout /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Cala2.10.busco/run_stramenopiles_odb10/hmmer_output/8760at33634.out --cpu 1 /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/busco_downloads/lineages/stramenopiles_odb10/hmms/8760at33634.hmm /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Cala2.10.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/8760at33634.faa 
+# Current dir:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly
+# Date:            Fri Jul 18 20:16:57 2025
+# [ok]

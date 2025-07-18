@@ -1,0 +1,4 @@
+contig_75	miniprot	mRNA	86368	87856	2313	+	.	ID=MP000890;Rank=1;Identity=0.9678;Positive=0.9807;Target=9286at33634_0 1 466
+contig_75	miniprot	CDS	86368	86952	950	+	0	Parent=MP000890;Rank=1;Identity=0.9641;Target=9286at33634_0 1 195
+contig_75	miniprot	CDS	87041	87856	1363	+	0	Parent=MP000890;Rank=1;Identity=0.9705;Target=9286at33634_0 196 466
+contig_75	miniprot	stop_codon	87854	87856	0	+	0	Parent=MP000890;Rank=1

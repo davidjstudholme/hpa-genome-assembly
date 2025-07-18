@@ -1,0 +1,4 @@
+contig_685	miniprot	mRNA	150472	150920	681	-	.	ID=MP000484;Rank=1;Identity=0.9760;Positive=0.9920;Target=24919at33634 1 125
+contig_685	miniprot	CDS	150785	150920	252	-	0	Parent=MP000484;Rank=1;Identity=0.9565;Target=24919at33634 1 45
+contig_685	miniprot	CDS	150472	150713	429	-	2	Parent=MP000484;Rank=1;Identity=0.9873;Target=24919at33634 46 125
+contig_685	miniprot	stop_codon	150472	150474	0	-	0	Parent=MP000484;Rank=1

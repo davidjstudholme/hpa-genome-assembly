@@ -1,0 +1,3 @@
+contig_6	miniprot	mRNA	451944	452927	1639	+	.	ID=MP000202;Rank=1;Identity=0.9297;Positive=0.9786;Target=15177at33634_1 1 327
+contig_6	miniprot	CDS	451944	452927	1639	+	0	Parent=MP000202;Rank=1;Identity=0.9297;Target=15177at33634_1 1 327
+contig_6	miniprot	stop_codon	452925	452927	0	+	0	Parent=MP000202;Rank=1

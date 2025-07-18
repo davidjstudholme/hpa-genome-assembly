@@ -1,0 +1,2 @@
+contig_219	miniprot	mRNA	565967	567433	2259	+	.	ID=MP000784;Rank=1;Identity=0.9093;Positive=0.9556;Target=6933at33634_0 24 519
+contig_219	miniprot	CDS	565967	567433	2259	+	0	Parent=MP000784;Rank=1;Identity=0.9093;Target=6933at33634_0 24 519

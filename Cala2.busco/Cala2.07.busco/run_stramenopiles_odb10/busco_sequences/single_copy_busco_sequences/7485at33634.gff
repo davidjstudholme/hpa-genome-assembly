@@ -1,0 +1,2 @@
+contig_333	miniprot	mRNA	2757324	2759048	1132	-	.	ID=MP000842;Rank=1;Identity=0.4200;Positive=0.6127;Target=7485at33634_2 31 574
+contig_333	miniprot	CDS	2757324	2759048	1132	-	0	Parent=MP000842;Rank=1;Identity=0.4200;Target=7485at33634_2 31 574

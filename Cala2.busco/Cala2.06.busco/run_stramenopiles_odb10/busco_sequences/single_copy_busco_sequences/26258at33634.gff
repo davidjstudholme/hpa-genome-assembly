@@ -1,0 +1,3 @@
+contig_441	miniprot	mRNA	447754	448143	598	+	.	ID=MP000512;Rank=1;Identity=0.9612;Positive=0.9767;Target=26258at33634 1 128
+contig_441	miniprot	CDS	447754	448143	598	+	0	Parent=MP000512;Rank=1;Identity=0.9612;Target=26258at33634 1 128
+contig_441	miniprot	stop_codon	448141	448143	0	+	0	Parent=MP000512;Rank=1

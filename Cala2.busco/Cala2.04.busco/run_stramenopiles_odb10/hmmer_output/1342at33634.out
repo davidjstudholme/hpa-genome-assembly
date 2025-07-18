@@ -1,0 +1,24 @@
+#                                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                          accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                  ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+1342at33634_1|contig_240:72252-75255|+ -           1002 1342at33634          -            731         0 1197.8  22.3   1   5     1e-25     1e-25   77.6   0.0     8    72    25    94     9   103 0.84 <unknown description>
+1342at33634_1|contig_240:72252-75255|+ -           1002 1342at33634          -            731         0 1197.8  22.3   2   5  6.7e-180  6.7e-180  587.4   3.9    68   411   109   483   104   495 0.93 <unknown description>
+1342at33634_1|contig_240:72252-75255|+ -           1002 1342at33634          -            731         0 1197.8  22.3   3   5   3.4e-13   3.4e-13   36.2   0.6   407   458   534   603   530   608 0.84 <unknown description>
+1342at33634_1|contig_240:72252-75255|+ -           1002 1342at33634          -            731         0 1197.8  22.3   4   5    0.0019    0.0019    4.0   0.1   426   474   612   665   604   696 0.71 <unknown description>
+1342at33634_1|contig_240:72252-75255|+ -           1002 1342at33634          -            731         0 1197.8  22.3   5   5  4.3e-154  4.3e-154  502.0   0.1   472   731   709   989   706   989 0.94 <unknown description>
+1342at33634_3|contig_240:72813-74886|+ -            692 1342at33634          -            731  3.7e-240  786.6  21.2   1   4  2.6e-144  2.6e-144  469.7   2.7   137   411     1   296     1   308 0.93 <unknown description>
+1342at33634_3|contig_240:72813-74886|+ -            692 1342at33634          -            731  3.7e-240  786.6  21.2   2   4   2.6e-13   2.6e-13   36.6   0.9   407   458   347   416   343   420 0.84 <unknown description>
+1342at33634_3|contig_240:72813-74886|+ -            692 1342at33634          -            731  3.7e-240  786.6  21.2   3   4    0.0012    0.0012    4.7   0.1   426   474   425   478   418   509 0.71 <unknown description>
+1342at33634_3|contig_240:72813-74886|+ -            692 1342at33634          -            731  3.7e-240  786.6  21.2   4   4   9.3e-89   9.3e-89  286.0   0.4   472   627   522   692   519   692 0.93 <unknown description>
+1342at33634_6|contig_240:74241-75255|+ -            303 1342at33634          -            731  7.5e-125  405.4   0.8   1   2   1.6e-09   1.6e-09   24.1   0.1   472   502    46    82    42    86 0.84 <unknown description>
+1342at33634_6|contig_240:74241-75255|+ -            303 1342at33634          -            731  7.5e-125  405.4   0.8   2   2  3.6e-117  3.6e-117  380.0   0.1   542   731    95   290    91   290 0.97 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/busco_downloads/lineages/stramenopiles_odb10/hmms/1342at33634.hmm
+# Target file:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Cala2.04.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/1342at33634.faa
+# Option settings: hmmsearch --domtblout /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Cala2.04.busco/run_stramenopiles_odb10/hmmer_output/1342at33634.out --cpu 1 /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/busco_downloads/lineages/stramenopiles_odb10/hmms/1342at33634.hmm /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Cala2.04.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/1342at33634.faa 
+# Current dir:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly
+# Date:            Fri Jul 18 20:14:17 2025
+# [ok]

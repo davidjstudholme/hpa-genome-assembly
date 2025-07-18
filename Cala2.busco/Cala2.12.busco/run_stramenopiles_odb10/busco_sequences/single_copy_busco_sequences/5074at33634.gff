@@ -1,0 +1,3 @@
+contig_529	miniprot	mRNA	6024	7562	2374	+	.	ID=MP000689;Rank=1;Identity=0.8633;Positive=0.9219;Target=5074at33634_0 1 512
+contig_529	miniprot	CDS	6024	7562	2374	+	0	Parent=MP000689;Rank=1;Identity=0.8633;Target=5074at33634_0 1 512
+contig_529	miniprot	stop_codon	7560	7562	0	+	0	Parent=MP000689;Rank=1

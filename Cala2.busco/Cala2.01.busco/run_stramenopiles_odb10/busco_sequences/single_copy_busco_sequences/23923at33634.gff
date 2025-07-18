@@ -1,0 +1,3 @@
+contig_638	miniprot	mRNA	226075	226629	909	-	.	ID=MP000475;Rank=1;Identity=0.9402;Positive=0.9837;Target=23923at33634_0 1 184
+contig_638	miniprot	CDS	226075	226629	909	-	0	Parent=MP000475;Rank=1;Identity=0.9402;Target=23923at33634_0 1 184
+contig_638	miniprot	stop_codon	226075	226077	0	-	0	Parent=MP000475;Rank=1

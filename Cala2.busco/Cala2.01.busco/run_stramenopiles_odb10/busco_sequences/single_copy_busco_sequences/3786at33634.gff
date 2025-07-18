@@ -1,0 +1,3 @@
+contig_677	miniprot	mRNA	335646	337601	3022	-	.	ID=MP000624;Rank=1;Identity=0.9293;Positive=0.9631;Target=3786at33634_0 1 650
+contig_677	miniprot	CDS	335646	337601	3022	-	0	Parent=MP000624;Rank=1;Identity=0.9293;Target=3786at33634_0 1 650
+contig_677	miniprot	stop_codon	335646	335648	0	-	0	Parent=MP000624;Rank=1

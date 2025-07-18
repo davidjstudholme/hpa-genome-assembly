@@ -1,0 +1,5 @@
+contig_438	miniprot	mRNA	115527	116948	1531	-	.	ID=MP000883;Rank=1;Identity=0.7053;Positive=0.7850;Target=9201at33634_2 1 390
+contig_438	miniprot	CDS	116380	116948	688	-	0	Parent=MP000883;Rank=1;Identity=0.6702;Target=9201at33634_2 1 188
+contig_438	miniprot	CDS	116051	116283	174	-	1	Parent=MP000883;Rank=1;Identity=0.5256;Target=9201at33634_2 189 244
+contig_438	miniprot	CDS	115527	115966	669	-	2	Parent=MP000883;Rank=1;Identity=0.8483;Target=9201at33634_2 245 390
+contig_438	miniprot	stop_codon	115527	115529	0	-	0	Parent=MP000883;Rank=1

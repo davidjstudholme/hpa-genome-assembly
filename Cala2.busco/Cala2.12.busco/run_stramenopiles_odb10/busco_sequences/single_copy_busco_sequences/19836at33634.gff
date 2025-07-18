@@ -1,0 +1,3 @@
+contig_70	miniprot	mRNA	644022	645647	2215	+	.	ID=MP000368;Rank=1;Identity=0.7974;Positive=0.8674;Target=19836at33634_0 1 538
+contig_70	miniprot	CDS	644022	645647	2215	+	0	Parent=MP000368;Rank=1;Identity=0.7974;Target=19836at33634_0 1 538
+contig_70	miniprot	stop_codon	645645	645647	0	+	0	Parent=MP000368;Rank=1

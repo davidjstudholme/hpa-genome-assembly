@@ -1,0 +1,3 @@
+contig_605	miniprot	mRNA	886286	887008	865	+	.	ID=MP000529;Rank=1;Identity=0.7125;Positive=0.8292;Target=26307at33634_5 1 239
+contig_605	miniprot	CDS	886286	887008	865	+	0	Parent=MP000529;Rank=1;Identity=0.7125;Target=26307at33634_5 1 239
+contig_605	miniprot	stop_codon	887006	887008	0	+	0	Parent=MP000529;Rank=1

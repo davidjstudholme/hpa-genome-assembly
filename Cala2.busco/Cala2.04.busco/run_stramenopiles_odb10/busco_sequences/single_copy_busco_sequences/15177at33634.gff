@@ -1,0 +1,3 @@
+contig_178	miniprot	mRNA	438577	439560	1639	+	.	ID=MP000203;Rank=1;Identity=0.9297;Positive=0.9786;Target=15177at33634_1 1 327
+contig_178	miniprot	CDS	438577	439560	1639	+	0	Parent=MP000203;Rank=1;Identity=0.9297;Target=15177at33634_1 1 327
+contig_178	miniprot	stop_codon	439558	439560	0	+	0	Parent=MP000203;Rank=1

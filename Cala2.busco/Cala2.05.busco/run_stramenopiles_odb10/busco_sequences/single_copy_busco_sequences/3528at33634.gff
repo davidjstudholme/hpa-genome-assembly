@@ -1,0 +1,3 @@
+contig_714	miniprot	mRNA	6038	8491	3933	-	.	ID=MP000614;Rank=1;Identity=0.9294;Positive=0.9622;Target=3528at33634_1 1 820
+contig_714	miniprot	CDS	6038	8491	3933	-	0	Parent=MP000614;Rank=1;Identity=0.9294;Target=3528at33634_1 1 820
+contig_714	miniprot	stop_codon	6038	6040	0	-	0	Parent=MP000614;Rank=1

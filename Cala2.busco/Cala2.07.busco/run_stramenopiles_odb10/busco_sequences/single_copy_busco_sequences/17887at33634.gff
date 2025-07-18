@@ -1,0 +1,5 @@
+contig_605	miniprot	mRNA	330981	331862	1071	+	.	ID=MP000307;Rank=1;Identity=0.9017;Positive=0.9316;Target=17887at33634_0 1 234
+contig_605	miniprot	CDS	330981	331148	263	+	0	Parent=MP000307;Rank=1;Identity=0.9286;Target=17887at33634_0 1 56
+contig_605	miniprot	CDS	331235	331696	699	+	0	Parent=MP000307;Rank=1;Identity=0.8896;Target=17887at33634_0 57 210
+contig_605	miniprot	CDS	331788	331862	109	+	0	Parent=MP000307;Rank=1;Identity=0.9167;Target=17887at33634_0 211 234
+contig_605	miniprot	stop_codon	331860	331862	0	+	0	Parent=MP000307;Rank=1

@@ -1,0 +1,3 @@
+contig_664	miniprot	mRNA	153481	155667	3171	+	.	ID=MP000095;Rank=1;Identity=0.8581;Positive=0.9222;Target=12562at33634_5 1 728
+contig_664	miniprot	CDS	153481	155667	3171	+	0	Parent=MP000095;Rank=1;Identity=0.8581;Target=12562at33634_5 1 728
+contig_664	miniprot	stop_codon	155665	155667	0	+	0	Parent=MP000095;Rank=1

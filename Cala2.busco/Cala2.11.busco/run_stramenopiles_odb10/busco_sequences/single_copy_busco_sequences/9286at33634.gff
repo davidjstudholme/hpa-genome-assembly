@@ -1,0 +1,4 @@
+contig_210	miniprot	mRNA	1747768	1749256	2313	-	.	ID=MP000891;Rank=1;Identity=0.9678;Positive=0.9807;Target=9286at33634_0 1 466
+contig_210	miniprot	CDS	1748672	1749256	950	-	0	Parent=MP000891;Rank=1;Identity=0.9641;Target=9286at33634_0 1 195
+contig_210	miniprot	CDS	1747768	1748583	1363	-	0	Parent=MP000891;Rank=1;Identity=0.9705;Target=9286at33634_0 196 466
+contig_210	miniprot	stop_codon	1747768	1747770	0	-	0	Parent=MP000891;Rank=1

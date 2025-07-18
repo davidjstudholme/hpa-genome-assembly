@@ -1,0 +1,3 @@
+contig_477	miniprot	mRNA	71204	71833	933	-	.	ID=MP000436;Rank=1;Identity=0.8632;Positive=0.9151;Target=22080at33634 1 207
+contig_477	miniprot	CDS	71204	71833	933	-	0	Parent=MP000436;Rank=1;Identity=0.8632;Target=22080at33634 1 207
+contig_477	miniprot	stop_codon	71204	71206	0	-	0	Parent=MP000436;Rank=1

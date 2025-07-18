@@ -1,0 +1,11 @@
+contig_519	miniprot	mRNA	180557	182985	2688	-	.	ID=MP000129;Rank=1;Identity=0.8576;Positive=0.9133;Target=13102at33634_5 1 608
+contig_519	miniprot	CDS	182803	182985	288	-	0	Parent=MP000129;Rank=1;Identity=0.9672;Target=13102at33634_5 1 61
+contig_519	miniprot	CDS	182603	182706	146	-	0	Parent=MP000129;Rank=1;Identity=0.8571;Target=13102at33634_5 62 95
+contig_519	miniprot	CDS	182393	182536	215	-	1	Parent=MP000129;Rank=1;Identity=0.8542;Target=13102at33634_5 96 143
+contig_519	miniprot	CDS	182189	182326	239	-	1	Parent=MP000129;Rank=1;Identity=0.9565;Target=13102at33634_5 144 189
+contig_519	miniprot	CDS	182023	182118	137	-	1	Parent=MP000129;Rank=1;Identity=0.8750;Target=13102at33634_5 190 221
+contig_519	miniprot	CDS	181483	181936	594	-	1	Parent=MP000129;Rank=1;Identity=0.7829;Target=13102at33634_5 222 372
+contig_519	miniprot	CDS	181281	181410	227	-	0	Parent=MP000129;Rank=1;Identity=0.9545;Target=13102at33634_5 373 415
+contig_519	miniprot	CDS	181069	181193	213	-	2	Parent=MP000129;Rank=1;Identity=0.9756;Target=13102at33634_5 416 457
+contig_519	miniprot	CDS	180557	181006	629	-	0	Parent=MP000129;Rank=1;Identity=0.7961;Target=13102at33634_5 458 608
+contig_519	miniprot	stop_codon	180557	180559	0	-	0	Parent=MP000129;Rank=1

@@ -1,0 +1,3 @@
+contig_170	miniprot	mRNA	190759	192621	3035	+	.	ID=MP000670;Rank=1;Identity=0.9581;Positive=0.9855;Target=4148at33634_5 1 620
+contig_170	miniprot	CDS	190759	192621	3035	+	0	Parent=MP000670;Rank=1;Identity=0.9581;Target=4148at33634_5 1 620
+contig_170	miniprot	stop_codon	192619	192621	0	+	0	Parent=MP000670;Rank=1

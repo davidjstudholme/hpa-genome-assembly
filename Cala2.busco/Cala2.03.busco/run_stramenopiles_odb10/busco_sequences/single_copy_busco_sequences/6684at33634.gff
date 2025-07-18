@@ -1,0 +1,4 @@
+contig_261	miniprot	mRNA	1858727	1860472	2607	+	.	ID=MP000775;Rank=1;Identity=0.9615;Positive=0.9835;Target=6684at33634_0 1 546
+contig_261	miniprot	CDS	1858727	1859035	494	+	0	Parent=MP000775;Rank=1;Identity=0.9903;Target=6684at33634_0 1 103
+contig_261	miniprot	CDS	1859141	1860472	2113	+	0	Parent=MP000775;Rank=1;Identity=0.9549;Target=6684at33634_0 104 546
+contig_261	miniprot	stop_codon	1860470	1860472	0	+	0	Parent=MP000775;Rank=1

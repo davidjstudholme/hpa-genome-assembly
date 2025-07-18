@@ -1,0 +1,11 @@
+contig_164	miniprot	mRNA	384996	387424	2688	+	.	ID=MP000129;Rank=1;Identity=0.8576;Positive=0.9133;Target=13102at33634_5 1 608
+contig_164	miniprot	CDS	384996	385178	288	+	0	Parent=MP000129;Rank=1;Identity=0.9672;Target=13102at33634_5 1 61
+contig_164	miniprot	CDS	385275	385378	146	+	0	Parent=MP000129;Rank=1;Identity=0.8571;Target=13102at33634_5 62 95
+contig_164	miniprot	CDS	385445	385588	215	+	1	Parent=MP000129;Rank=1;Identity=0.8542;Target=13102at33634_5 96 143
+contig_164	miniprot	CDS	385655	385792	239	+	1	Parent=MP000129;Rank=1;Identity=0.9565;Target=13102at33634_5 144 189
+contig_164	miniprot	CDS	385863	385958	137	+	1	Parent=MP000129;Rank=1;Identity=0.8750;Target=13102at33634_5 190 221
+contig_164	miniprot	CDS	386045	386498	594	+	1	Parent=MP000129;Rank=1;Identity=0.7829;Target=13102at33634_5 222 372
+contig_164	miniprot	CDS	386571	386700	227	+	0	Parent=MP000129;Rank=1;Identity=0.9545;Target=13102at33634_5 373 415
+contig_164	miniprot	CDS	386788	386912	213	+	2	Parent=MP000129;Rank=1;Identity=0.9756;Target=13102at33634_5 416 457
+contig_164	miniprot	CDS	386975	387424	629	+	0	Parent=MP000129;Rank=1;Identity=0.7961;Target=13102at33634_5 458 608
+contig_164	miniprot	stop_codon	387422	387424	0	+	0	Parent=MP000129;Rank=1

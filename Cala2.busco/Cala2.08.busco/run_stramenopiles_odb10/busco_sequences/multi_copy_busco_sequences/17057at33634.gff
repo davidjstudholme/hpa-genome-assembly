@@ -1,0 +1,6 @@
+contig_187	miniprot	mRNA	2106261	2107940	2348	-	.	ID=MP000285;Rank=2;Identity=0.8195;Positive=0.8973;Target=17057at33634_0 1 564
+contig_187	miniprot	CDS	2106261	2107940	2348	-	0	Parent=MP000285;Rank=2;Identity=0.8195;Target=17057at33634_0 1 564
+contig_187	miniprot	stop_codon	2106261	2106263	0	-	0	Parent=MP000285;Rank=2
+contig_187	miniprot	mRNA	2123910	2125589	2349	+	.	ID=MP000284;Rank=1;Identity=0.8212;Positive=0.8973;Target=17057at33634_0 1 564
+contig_187	miniprot	CDS	2123910	2125589	2349	+	0	Parent=MP000284;Rank=1;Identity=0.8212;Target=17057at33634_0 1 564
+contig_187	miniprot	stop_codon	2125587	2125589	0	+	0	Parent=MP000284;Rank=1

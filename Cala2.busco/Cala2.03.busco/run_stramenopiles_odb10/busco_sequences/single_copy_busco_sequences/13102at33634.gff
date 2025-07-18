@@ -1,0 +1,11 @@
+contig_283	miniprot	mRNA	1957182	1959610	2688	-	.	ID=MP000129;Rank=1;Identity=0.8576;Positive=0.9133;Target=13102at33634_5 1 608
+contig_283	miniprot	CDS	1959428	1959610	288	-	0	Parent=MP000129;Rank=1;Identity=0.9672;Target=13102at33634_5 1 61
+contig_283	miniprot	CDS	1959228	1959331	146	-	0	Parent=MP000129;Rank=1;Identity=0.8571;Target=13102at33634_5 62 95
+contig_283	miniprot	CDS	1959018	1959161	215	-	1	Parent=MP000129;Rank=1;Identity=0.8542;Target=13102at33634_5 96 143
+contig_283	miniprot	CDS	1958814	1958951	239	-	1	Parent=MP000129;Rank=1;Identity=0.9565;Target=13102at33634_5 144 189
+contig_283	miniprot	CDS	1958648	1958743	137	-	1	Parent=MP000129;Rank=1;Identity=0.8750;Target=13102at33634_5 190 221
+contig_283	miniprot	CDS	1958108	1958561	594	-	1	Parent=MP000129;Rank=1;Identity=0.7829;Target=13102at33634_5 222 372
+contig_283	miniprot	CDS	1957906	1958035	227	-	0	Parent=MP000129;Rank=1;Identity=0.9545;Target=13102at33634_5 373 415
+contig_283	miniprot	CDS	1957694	1957818	213	-	2	Parent=MP000129;Rank=1;Identity=0.9756;Target=13102at33634_5 416 457
+contig_283	miniprot	CDS	1957182	1957631	629	-	0	Parent=MP000129;Rank=1;Identity=0.7961;Target=13102at33634_5 458 608
+contig_283	miniprot	stop_codon	1957182	1957184	0	-	0	Parent=MP000129;Rank=1

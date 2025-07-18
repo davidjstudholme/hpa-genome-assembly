@@ -1,0 +1,4 @@
+contig_82	miniprot	mRNA	912811	914527	2414	-	.	ID=MP000754;Rank=1;Identity=0.9015;Positive=0.9394;StopCodon=1;Target=6366at33634_0 1 528
+contig_82	miniprot	CDS	913012	914527	2389	-	0	Parent=MP000754;Rank=1;Identity=0.9170;Target=6366at33634_0 1 505
+contig_82	miniprot	CDS	912811	912881	25	-	2	Parent=MP000754;Rank=1;Identity=0.5455;StopCodon=1;Target=6366at33634_0 506 528
+contig_82	miniprot	stop_codon	912811	912813	0	-	0	Parent=MP000754;Rank=1

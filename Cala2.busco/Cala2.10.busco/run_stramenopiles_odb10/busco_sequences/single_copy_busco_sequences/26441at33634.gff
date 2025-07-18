@@ -1,0 +1,3 @@
+contig_199	miniprot	mRNA	267373	267699	513	-	.	ID=MP000534;Rank=1;Identity=0.9259;Positive=0.9630;Target=26441at33634_0 1 106
+contig_199	miniprot	CDS	267373	267699	513	-	0	Parent=MP000534;Rank=1;Identity=0.9259;Target=26441at33634_0 1 106
+contig_199	miniprot	stop_codon	267373	267375	0	-	0	Parent=MP000534;Rank=1

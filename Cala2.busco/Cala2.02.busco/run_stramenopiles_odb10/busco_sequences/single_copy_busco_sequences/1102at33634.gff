@@ -1,0 +1,3 @@
+contig_418	miniprot	mRNA	432162	437606	8309	+	.	ID=MP000030;Rank=1;Identity=0.8832;Positive=0.9410;Target=1102at33634_0 1 1810
+contig_418	miniprot	CDS	432162	437606	8309	+	0	Parent=MP000030;Rank=1;Identity=0.8832;Target=1102at33634_0 1 1810
+contig_418	miniprot	stop_codon	437604	437606	0	+	0	Parent=MP000030;Rank=1

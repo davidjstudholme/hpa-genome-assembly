@@ -1,0 +1,3 @@
+contig_221	miniprot	mRNA	475003	475884	1222	+	.	ID=MP000074;Rank=1;Identity=0.8191;Positive=0.8805;Target=12363at33634_0 1 292
+contig_221	miniprot	CDS	475003	475884	1222	+	0	Parent=MP000074;Rank=1;Identity=0.8191;Target=12363at33634_0 1 292
+contig_221	miniprot	stop_codon	475882	475884	0	+	0	Parent=MP000074;Rank=1

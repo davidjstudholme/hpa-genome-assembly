@@ -1,0 +1,30 @@
+# BUSCO version is: 6.0.0 
+# The lineage dataset is: stramenopiles_odb10 (Creation date: 2024-01-08, number of genomes: 27, number of BUSCOs: 100)
+# Summarized benchmarking in BUSCO notation for file /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Cala2.assemblies/assembly_07.fasta
+# BUSCO was run in mode: euk_genome_min
+# Gene predictor used: miniprot
+
+	***** Results: *****
+
+	C:99.0%[S:98.0%,D:1.0%],F:0.0%,M:1.0%,n:100,E:25.3%	   
+	99	Complete BUSCOs (C)	(of which 25 contain internal stop codons)		   
+	98	Complete and single-copy BUSCOs (S)	   
+	1	Complete and duplicated BUSCOs (D)	   
+	0	Fragmented BUSCOs (F)			   
+	1	Missing BUSCOs (M)			   
+	100	Total BUSCO groups searched		   
+
+Assembly Statistics:
+	387	Number of scaffolds
+	387	Number of contigs
+	83695670	Total length
+	0.000%	Percent gaps
+	742 kbp	Scaffold N50
+	742 kbp	Contigs N50
+
+
+Dependencies and versions:
+	hmmsearch: 3.4
+	bbtools: None
+	miniprot_index: 0.18-r281
+	miniprot_align: 0.18-r281

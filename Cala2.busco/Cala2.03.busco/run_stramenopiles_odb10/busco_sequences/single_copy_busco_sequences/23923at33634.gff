@@ -1,0 +1,3 @@
+contig_9	miniprot	mRNA	60772	61326	909	+	.	ID=MP000474;Rank=1;Identity=0.9402;Positive=0.9837;Target=23923at33634_0 1 184
+contig_9	miniprot	CDS	60772	61326	909	+	0	Parent=MP000474;Rank=1;Identity=0.9402;Target=23923at33634_0 1 184
+contig_9	miniprot	stop_codon	61324	61326	0	+	0	Parent=MP000474;Rank=1

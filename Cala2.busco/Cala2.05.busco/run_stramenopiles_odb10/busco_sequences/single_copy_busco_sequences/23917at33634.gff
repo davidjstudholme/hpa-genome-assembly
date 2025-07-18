@@ -1,0 +1,8 @@
+contig_205	miniprot	mRNA	1824629	1825559	754	+	.	ID=MP000464;Rank=1;Identity=0.9664;Positive=0.9732;Target=23917at33634_0 1 149
+contig_205	miniprot	CDS	1824629	1824663	58	+	0	Parent=MP000464;Rank=1;Identity=0.8333;Target=23917at33634_0 1 11
+contig_205	miniprot	CDS	1824767	1824885	206	+	1	Parent=MP000464;Rank=1;Identity=0.9500;Target=23917at33634_0 12 51
+contig_205	miniprot	CDS	1825020	1825083	96	+	2	Parent=MP000464;Rank=1;Identity=1.0000;Target=23917at33634_0 52 72
+contig_205	miniprot	CDS	1825163	1825250	159	+	1	Parent=MP000464;Rank=1;Identity=1.0000;Target=23917at33634_0 73 102
+contig_205	miniprot	CDS	1825325	1825450	208	+	0	Parent=MP000464;Rank=1;Identity=0.9762;Target=23917at33634_0 103 144
+contig_205	miniprot	CDS	1825542	1825559	27	+	0	Parent=MP000464;Rank=1;Identity=1.0000;Target=23917at33634_0 145 149
+contig_205	miniprot	stop_codon	1825557	1825559	0	+	0	Parent=MP000464;Rank=1

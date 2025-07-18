@@ -1,0 +1,3 @@
+contig_203	miniprot	mRNA	1299183	1300358	1784	-	.	ID=MP000245;Rank=1;Identity=0.8980;Positive=0.9515;Target=15520at33634_2 1 390
+contig_203	miniprot	CDS	1299183	1300358	1784	-	0	Parent=MP000245;Rank=1;Identity=0.8980;Target=15520at33634_2 1 390
+contig_203	miniprot	stop_codon	1299183	1299185	0	-	0	Parent=MP000245;Rank=1

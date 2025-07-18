@@ -46,7 +46,7 @@ trycycler subsample --reads Cala2.SRR34103947.filtlong.fastq.gz --out_dir Cala2.
 trycycler subsample --reads Noks1.SRR34108134.filtlong.fastq.gz --out_dir Noks1.read_subsets --count 12 --threads 12 --genome_size 80m
 
 ### gzip the subsample files that will be used for long-read assemblies
-#for i in 01 02 03 04 05 06 07 08 09 10 11 12 ; do
+for i in 01 02 03 04 05 06 07 08 09 10 11 12 ; do
     echo $i
     gzip Cala2.read_subsets/sample_$i.fastq
     gzip Noks1.read_subsets/$i
@@ -73,20 +73,24 @@ for strain in Noks1 Cala2; do
     done
 done
 
-
 ### Set up BUSCO
+wget https://busco-data.ezlab.org/v5/data/lineages/stramenopiles_odb12.2025-07-01.tar.gz
+tar zxvf stramenopiles_odb12.2025-07-01.tar.gz
 conda create -n busco_env -c bioconda -c conda-forge busco
 conda activate busco_env
 conda list -n busco_env > busco_env_packages.txt
 conda env export > busco_env.yaml
-https://busco-data.ezlab.org/v5/data/lineages/stramenopiles_odb12.2025-07-01.tar.gz
-tar xvf stramenopiles_odb12.2025-07-01.tar.gz
 
-
-### QC on Nokes1 assemblies, using BUSCO
-for i in 01 02  03 04 05 06 07 08 09 10 11 12; do
+### QC on Noks1 assemblies, using BUSCO
+for i in 01 02 03 04 05 06 07 08 09 10 11 12; do
     echo running BUSCO on Noks1 assembly $i
     busco -i Noks1.assemblies/assembly_"$i".fasta -l stramenopiles_odb10 -o Noks1."$i".busco -m genome --cpu 8 -f
+done
+
+### QC on Cala2 assemblies, using BUSCO
+for i in 01 02 03 04 05 06 07 08 09 10 11 12; do
+    echo running BUSCO on Cala2 assembly $i
+    busco -i Cala2.assemblies/assembly_"$i".fasta -l stramenopiles_odb10 -o Cala2."$i".busco -m genome --cpu 8 -f
 done
 
 ### Make a summary plot of BUSCO results
@@ -96,12 +100,20 @@ ln -s ../Noks1.*.busco/*.json .
 cd -
 busco --plot Noks1.all.busco
 
+### Make a summary plot of BUSCO results
+mkdir Cala2.all.busco
+cd  Cala2.all.busco
+ln -s ../Cala2.*.busco/*.json .
+cd -
+busco --plot Cala2.all.busco
+
 ### Set up mash and seaborn
 conda create -n mash_env
 conda activate mash_env
 conda install -c bioconda mash
 pip install pandas seaborn matplotlib
-
+conda list -n mash_env > mash_env_packages.txt
+conda env export > mash_env.yaml
 
 ### Run Mash pipeline
 WORKDIR="Noks1.assemblies"
@@ -119,9 +131,30 @@ echo "- $MASH_OUT"
 echo "- $MASH_MATRIX"
 echo "- $MASH_HEATMAP"
 
-### Tudy up
+### Tidy up
 mkdir Noks1.busco
-mv *.busco Noks1.busco/
+mv *Noks1*.busco Noks1.busco/
+
+### Run Mash pipeline
+WORKDIR="Cala2.assemblies"
+MASH_OUT="Cala2.mash_dist.tsv"
+MASH_MATRIX="Cala2.mash_distance_matrix.csv"
+MASH_HEATMAP="Cala2.mash_heatmap.png"
+echo "[Step 1] Creating Mash sketch..."
+mash sketch -o mash_sketches $WORKDIR/*.fa*
+echo "[Step 2] Calculating pairwise distances..."
+mash dist mash_sketches.msh mash_sketches.msh > $MASH_OUT
+echo "[Step 3] Creating distance matrix and heatmap..."
+python3 mash_to_matrix.py $MASH_OUT $MASH_MATRIX $MASH_HEATMAP
+echo "✅ Done. Outputs:"
+echo "- $MASH_OUT"
+echo "- $MASH_MATRIX"
+echo "- $MASH_HEATMAP"
+
+### Tidy up
+mkdir Cala2.busco
+mv *Cala2*.busco Cala2.busco/
+
 
 ### Polishing assembly with long reads - Medaka
 conda activate trycycler_env

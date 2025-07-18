@@ -1,0 +1,2 @@
+contig_243	miniprot	mRNA	317224	317757	404	+	.	ID=MP000566;Rank=1;Identity=0.4551;Positive=0.6517;Target=27411at33634_8 1 178
+contig_243	miniprot	CDS	317224	317757	404	+	0	Parent=MP000566;Rank=1;Identity=0.4551;Target=27411at33634_8 1 178

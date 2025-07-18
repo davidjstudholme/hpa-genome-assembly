@@ -1,0 +1,3 @@
+contig_198	miniprot	mRNA	971377	974880	5823	+	.	ID=MP000800;Rank=1;Identity=0.9597;Positive=0.9769;Target=693at33634_1 1 1166
+contig_198	miniprot	CDS	971377	974880	5823	+	0	Parent=MP000800;Rank=1;Identity=0.9597;Target=693at33634_1 1 1166
+contig_198	miniprot	stop_codon	974878	974880	0	+	0	Parent=MP000800;Rank=1

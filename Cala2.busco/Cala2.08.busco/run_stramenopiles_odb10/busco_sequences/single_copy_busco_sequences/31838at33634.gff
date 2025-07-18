@@ -1,0 +1,4 @@
+contig_164	miniprot	mRNA	103119	103589	609	+	.	ID=MP000599;Rank=1;Identity=0.8308;Positive=0.9462;Target=31838at33634_7 1 130
+contig_164	miniprot	CDS	103119	103384	430	+	0	Parent=MP000599;Rank=1;Identity=0.8315;Target=31838at33634_7 1 88
+contig_164	miniprot	CDS	103463	103589	179	+	1	Parent=MP000599;Rank=1;Identity=0.8293;Target=31838at33634_7 89 130
+contig_164	miniprot	stop_codon	103587	103589	0	+	0	Parent=MP000599;Rank=1

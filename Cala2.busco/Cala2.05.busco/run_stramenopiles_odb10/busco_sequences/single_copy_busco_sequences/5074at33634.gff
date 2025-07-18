@@ -1,0 +1,3 @@
+contig_444	miniprot	mRNA	88246	89784	2374	-	.	ID=MP000687;Rank=1;Identity=0.8633;Positive=0.9219;Target=5074at33634_0 1 512
+contig_444	miniprot	CDS	88246	89784	2374	-	0	Parent=MP000687;Rank=1;Identity=0.8633;Target=5074at33634_0 1 512
+contig_444	miniprot	stop_codon	88246	88248	0	-	0	Parent=MP000687;Rank=1

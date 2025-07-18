@@ -1,0 +1,3 @@
+contig_168	miniprot	mRNA	100105	102015	2709	+	.	ID=MP000634;Rank=1;Identity=0.8118;Positive=0.8896;Target=3834at33634_1 1 634
+contig_168	miniprot	CDS	100105	102015	2709	+	0	Parent=MP000634;Rank=1;Identity=0.8118;Target=3834at33634_1 1 634
+contig_168	miniprot	stop_codon	102013	102015	0	+	0	Parent=MP000634;Rank=1

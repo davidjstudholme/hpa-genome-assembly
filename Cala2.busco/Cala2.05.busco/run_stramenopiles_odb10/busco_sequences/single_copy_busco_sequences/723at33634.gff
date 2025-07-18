@@ -1,0 +1,3 @@
+contig_157	miniprot	mRNA	1752479	1755655	4931	+	.	ID=MP000830;Rank=1;Identity=0.8781;Positive=0.9329;Target=723at33634_1 1 1052
+contig_157	miniprot	CDS	1752479	1755655	4931	+	0	Parent=MP000830;Rank=1;Identity=0.8781;Target=723at33634_1 1 1052
+contig_157	miniprot	stop_codon	1755653	1755655	0	+	0	Parent=MP000830;Rank=1

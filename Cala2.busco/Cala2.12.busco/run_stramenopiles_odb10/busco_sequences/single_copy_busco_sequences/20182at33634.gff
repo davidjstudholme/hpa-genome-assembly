@@ -1,0 +1,4 @@
+contig_249	miniprot	mRNA	401649	402702	1371	-	.	ID=MP000398;Rank=1;Identity=0.8530;Positive=0.9233;Target=20182at33634_1 16 328
+contig_249	miniprot	CDS	401833	402702	1283	-	0	Parent=MP000398;Rank=1;Identity=0.8552;Target=20182at33634_1 16 305
+contig_249	miniprot	CDS	401649	401720	88	-	0	Parent=MP000398;Rank=1;Identity=0.8261;Target=20182at33634_1 306 328
+contig_249	miniprot	stop_codon	401649	401651	0	-	0	Parent=MP000398;Rank=1

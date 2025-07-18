@@ -1,0 +1,20 @@
+#                                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+4406at33634_1|contig_239:1639654-1642495|+ -            836 4406at33634          -            435  2.9e-209  683.4  13.0   1   2   4.8e-85   4.8e-85  274.0   3.2     1   233   184   488   184   519 0.85 <unknown description>
+4406at33634_1|contig_239:1639654-1642495|+ -            836 4406at33634          -            435  2.9e-209  683.4  13.0   2   2  1.5e-127  1.5e-127  414.1   2.3   220   435   613   834   570   834 0.95 <unknown description>
+4406at33634_7|contig_239:1634059-1642495|+ -            981 4406at33634          -            435  3.3e-209  683.2  12.1   1   2   3.9e-85   3.9e-85  274.3   2.5     1   233   329   633   329   668 0.84 <unknown description>
+4406at33634_7|contig_239:1634059-1642495|+ -            981 4406at33634          -            435  3.3e-209  683.2  12.1   2   2    2e-127    2e-127  413.7   2.3   220   435   758   979   715   979 0.95 <unknown description>
+4406at33634_5|contig_239:1640247-1642483|+ -            659 4406at33634          -            435  1.1e-208  681.5  13.3   1   2   2.5e-85   2.5e-85  275.0   3.1     1   233    11   315    11   354 0.84 <unknown description>
+4406at33634_5|contig_239:1640247-1642483|+ -            659 4406at33634          -            435  1.1e-208  681.5  13.3   2   2  9.5e-127  9.5e-127  411.5   2.6   220   433   440   659   397   659 0.95 <unknown description>
+4406at33634_0|contig_239:1639654-1640664|+ -            209 4406at33634          -            435     3e-30   93.5   1.4   1   1   4.3e-30   4.3e-30   92.9   1.4     1    84   104   209   104   209 0.85 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/busco_downloads/lineages/stramenopiles_odb10/hmms/4406at33634.hmm
+# Target file:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Cala2.11.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/4406at33634.faa
+# Option settings: hmmsearch --domtblout /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Cala2.11.busco/run_stramenopiles_odb10/hmmer_output/4406at33634.out --cpu 1 /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/busco_downloads/lineages/stramenopiles_odb10/hmms/4406at33634.hmm /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Cala2.11.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/4406at33634.faa 
+# Current dir:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly
+# Date:            Fri Jul 18 20:17:26 2025
+# [ok]

@@ -1,0 +1,3 @@
+contig_61	miniprot	mRNA	264794	266287	1921	-	.	ID=MP000002;Rank=1;Identity=0.7586;Positive=0.8551;Target=10123at33634_0 5 500
+contig_61	miniprot	CDS	264794	266287	1921	-	0	Parent=MP000002;Rank=1;Identity=0.7586;Target=10123at33634_0 5 500
+contig_61	miniprot	stop_codon	264794	264796	0	-	0	Parent=MP000002;Rank=1

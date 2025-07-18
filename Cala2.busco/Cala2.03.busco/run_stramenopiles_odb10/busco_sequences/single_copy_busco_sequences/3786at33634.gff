@@ -1,0 +1,3 @@
+contig_674	miniprot	mRNA	145244	147199	3022	+	.	ID=MP000623;Rank=1;Identity=0.9293;Positive=0.9631;Target=3786at33634_0 1 650
+contig_674	miniprot	CDS	145244	147199	3022	+	0	Parent=MP000623;Rank=1;Identity=0.9293;Target=3786at33634_0 1 650
+contig_674	miniprot	stop_codon	147197	147199	0	+	0	Parent=MP000623;Rank=1

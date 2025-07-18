@@ -1,0 +1,11 @@
+contig_307	miniprot	mRNA	180362	182790	2688	-	.	ID=MP000129;Rank=1;Identity=0.8576;Positive=0.9133;Target=13102at33634_5 1 608
+contig_307	miniprot	CDS	182608	182790	288	-	0	Parent=MP000129;Rank=1;Identity=0.9672;Target=13102at33634_5 1 61
+contig_307	miniprot	CDS	182408	182511	146	-	0	Parent=MP000129;Rank=1;Identity=0.8571;Target=13102at33634_5 62 95
+contig_307	miniprot	CDS	182198	182341	215	-	1	Parent=MP000129;Rank=1;Identity=0.8542;Target=13102at33634_5 96 143
+contig_307	miniprot	CDS	181994	182131	239	-	1	Parent=MP000129;Rank=1;Identity=0.9565;Target=13102at33634_5 144 189
+contig_307	miniprot	CDS	181828	181923	137	-	1	Parent=MP000129;Rank=1;Identity=0.8750;Target=13102at33634_5 190 221
+contig_307	miniprot	CDS	181288	181741	594	-	1	Parent=MP000129;Rank=1;Identity=0.7829;Target=13102at33634_5 222 372
+contig_307	miniprot	CDS	181086	181215	227	-	0	Parent=MP000129;Rank=1;Identity=0.9545;Target=13102at33634_5 373 415
+contig_307	miniprot	CDS	180874	180998	213	-	2	Parent=MP000129;Rank=1;Identity=0.9756;Target=13102at33634_5 416 457
+contig_307	miniprot	CDS	180362	180811	629	-	0	Parent=MP000129;Rank=1;Identity=0.7961;Target=13102at33634_5 458 608
+contig_307	miniprot	stop_codon	180362	180364	0	-	0	Parent=MP000129;Rank=1

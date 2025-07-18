@@ -1,0 +1,3 @@
+contig_439	miniprot	mRNA	347651	348280	933	+	.	ID=MP000435;Rank=1;Identity=0.8632;Positive=0.9151;Target=22080at33634 1 207
+contig_439	miniprot	CDS	347651	348280	933	+	0	Parent=MP000435;Rank=1;Identity=0.8632;Target=22080at33634 1 207
+contig_439	miniprot	stop_codon	348278	348280	0	+	0	Parent=MP000435;Rank=1

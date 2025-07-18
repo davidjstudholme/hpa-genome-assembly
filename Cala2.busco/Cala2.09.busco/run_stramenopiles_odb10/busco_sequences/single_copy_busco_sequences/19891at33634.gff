@@ -1,0 +1,2 @@
+contig_156	miniprot	mRNA	197652	198665	1514	-	.	ID=MP000379;Rank=1;Identity=0.8706;Positive=0.9324;Target=19891at33634_1 1 340
+contig_156	miniprot	CDS	197652	198665	1514	-	0	Parent=MP000379;Rank=1;Identity=0.8706;Target=19891at33634_1 1 340

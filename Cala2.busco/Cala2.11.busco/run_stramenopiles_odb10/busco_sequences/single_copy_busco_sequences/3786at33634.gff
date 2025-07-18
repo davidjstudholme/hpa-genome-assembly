@@ -1,0 +1,3 @@
+contig_459	miniprot	mRNA	557517	559472	3022	-	.	ID=MP000625;Rank=1;Identity=0.9293;Positive=0.9631;Target=3786at33634_0 1 650
+contig_459	miniprot	CDS	557517	559472	3022	-	0	Parent=MP000625;Rank=1;Identity=0.9293;Target=3786at33634_0 1 650
+contig_459	miniprot	stop_codon	557517	557519	0	-	0	Parent=MP000625;Rank=1

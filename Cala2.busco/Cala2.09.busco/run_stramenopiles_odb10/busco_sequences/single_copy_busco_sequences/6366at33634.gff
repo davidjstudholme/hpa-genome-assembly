@@ -1,0 +1,4 @@
+contig_218	miniprot	mRNA	279054	280770	2414	+	.	ID=MP000754;Rank=1;Identity=0.9015;Positive=0.9394;StopCodon=1;Target=6366at33634_0 1 528
+contig_218	miniprot	CDS	279054	280569	2389	+	0	Parent=MP000754;Rank=1;Identity=0.9170;Target=6366at33634_0 1 505
+contig_218	miniprot	CDS	280700	280770	25	+	2	Parent=MP000754;Rank=1;Identity=0.5455;StopCodon=1;Target=6366at33634_0 506 528
+contig_218	miniprot	stop_codon	280768	280770	0	+	0	Parent=MP000754;Rank=1

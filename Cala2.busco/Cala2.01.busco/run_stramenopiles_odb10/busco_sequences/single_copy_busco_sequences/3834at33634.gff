@@ -1,0 +1,3 @@
+contig_175	miniprot	mRNA	478026	479936	2709	-	.	ID=MP000634;Rank=1;Identity=0.8118;Positive=0.8896;Target=3834at33634_1 1 634
+contig_175	miniprot	CDS	478026	479936	2709	-	0	Parent=MP000634;Rank=1;Identity=0.8118;Target=3834at33634_1 1 634
+contig_175	miniprot	stop_codon	478026	478028	0	-	0	Parent=MP000634;Rank=1
