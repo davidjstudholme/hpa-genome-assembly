@@ -1,0 +1,4 @@
+# packages in environment at /data/djs217/miniconda3/envs/seqkit_env:
+#
+# Name                    Version                   Build  Channel
+seqkit                    2.10.0               h9ee0642_0    bioconda
