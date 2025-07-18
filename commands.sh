@@ -155,33 +155,28 @@ echo "- $MASH_HEATMAP"
 mkdir Cala2.busco
 mv *Cala2*.busco Cala2.busco/
 
-
 ### Polishing assembly with long reads - Medaka
 conda activate trycycler_env
-medaka_consensus -i Noks1.SRR34108134.filtlong.fastq.gz -d Noks1.assemblies/assembly_06.fasta -o Noks1.06.medaka_output  -t 8 -m r1041_e82_400bps_sup_v4.3.0
-
-### Polishing with short reads - Polypolish
-bwa index Noks1.06.medaka_output/consensus.fasta
-bwa mem -t 16 -a Noks1.06.medaka_output/consensus.fasta Noks1.SRR33638551_1_val_1.fq.gz > Noks1.alignments_1.sam
-bwa mem -t 16 -a Noks1.06.medaka_output/consensus.fasta Noks1.SRR33638551_2_val_2.fq.gz > Noks1.alignments_2.sam
-
-samtools view -@ 8 -bS Noks1.alignments_1.sam > Noks1.alignments_1.bam
-samtools view -@ 8 -bS Noks1.alignments_2.sam > Noks1.alignments_2.bam
-
-samtools sort -@ 8 -o Noks1.alignments_1.sorted.bam Noks1.alignments_1.bam
-samtools sort -@ 8 -o Noks1.alignments_2.sorted.bam Noks1.alignments_2.bam
-
-samtools index Noks1.alignments_1.sorted.bam
-samtools index Noks1.alignments_2.sorted.bam
-
-polypolish filter --in1 Noks1.alignments_1.sorted.bam --in2 Noks1.alignments_2.sorted.bam --out1 Noks1.alignments_1.filtered.sam --out2 Noks1.alignments_2.filtered.sam
-polypolish polish Noks1.06.medaka_output/consensus.fasta Noks1.alignments_1.filtered.sam Noks1.alignments_2.filtered.sam > Noks1.medaka.polypolish.fasta
+medaka_consensus -i Noks1.SRR34108134.filtlong.fastq.gz -d Noks1.assemblies/assembly_06.fasta \
+		 -o Noks1.06.medaka_output -t 8 -m r1041_e82_400bps_sup_v4.3.0
 
 ### Polish with short reads - PyPolca
-pypolca run --force --careful -a Noks1.06.medaka_output/consensus.fasta -1 Noks1.SRR33638551_1_val_1.fq.gz -2 Noks1.SRR33638551_2_val_2.fq.gz  -t 16 -o Noks1.06.pypolca
+pypolca run --force --careful -a Noks1.06.medaka_output/consensus.fasta \
+	-1 Noks1.SRR33638551_1_val_1.fq.gz \
+	-2 Noks1.SRR33638551_2_val_2.fq.gz  \
+	-t 16 -o Noks1.06.pypolca
 cp Noks1.06.pypolca/pypolca_corrected.fasta Noks1.06.medaka.pypolca.fasta
 gzip Noks1.06.medaka.pypolca.fasta
 
+### Polishing assembly with long reads - Medaka
+conda activate trycycler_env
+medaka_consensus -i Cala2.SRR34108134.filtlong.fastq.gz -d Cala2.assemblies/assembly_07.fasta \
+		 -o Cala2.07.medaka_output -t 8 -m r1041_e82_400bps_sup_v4.3.0
 
-
-
+### Polish with short reads - PyPolca
+pypolca run --force --careful -a Noks1.06.medaka_output/consensus.fasta \
+	-1 Cala2.SRR33638551_1_val_1.fq.gz \
+	-2 Cala2.SRR33638551_2_val_2.fq.gz \
+	-t 16 -o Cala2.06.pypolca
+cp Cala2.07.pypolca/pypolca_corrected.fasta Cala2.07.medaka.pypolca.fasta
+gzip Cala2.07.medaka.pypolca.fasta
