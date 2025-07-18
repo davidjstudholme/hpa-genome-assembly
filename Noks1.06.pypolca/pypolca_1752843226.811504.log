@@ -1,0 +1,54 @@
+2025-07-18 12:53:46.829 | INFO     | pypolca.utils.util:begin_pypolca:84 - pypolca: Standalone Python implementation of the POLCA polisher from MaSuRCA
+2025-07-18 12:53:46.829 | INFO     | pypolca.utils.util:begin_pypolca:87 - You are using pypolca version 0.3.1
+
+2025-07-18 12:53:46.829 | INFO     | pypolca.utils.util:begin_pypolca:88 - Repository homepage is https://github.com/gbouras13/pypolca.
+2025-07-18 12:53:46.829 | INFO     | pypolca.utils.util:begin_pypolca:89 - Written by George Bouras: george.bouras@adelaide.edu.au adapting the original POLCA code by Aleksey Zimin.
+2025-07-18 12:53:46.829 | INFO     | pypolca.utils.util:begin_pypolca:93 - Listing input parameters.
+2025-07-18 12:53:46.829 | INFO     | pypolca.utils.util:begin_pypolca:95 - Parameter: --assembly Noks1.06.medaka_output/consensus.fasta.
+2025-07-18 12:53:46.830 | INFO     | pypolca.utils.util:begin_pypolca:95 - Parameter: --reads1 Noks1.SRR33638551_1_val_1.fq.gz.
+2025-07-18 12:53:46.830 | INFO     | pypolca.utils.util:begin_pypolca:95 - Parameter: --reads2 Noks1.SRR33638551_2_val_2.fq.gz.
+2025-07-18 12:53:46.830 | INFO     | pypolca.utils.util:begin_pypolca:95 - Parameter: --output Noks1.06.pypolca.
+2025-07-18 12:53:46.830 | INFO     | pypolca.utils.util:begin_pypolca:95 - Parameter: --threads 16.
+2025-07-18 12:53:46.830 | INFO     | pypolca.utils.util:begin_pypolca:95 - Parameter: --force True.
+2025-07-18 12:53:46.830 | INFO     | pypolca.utils.util:begin_pypolca:95 - Parameter: --careful True.
+2025-07-18 12:53:46.830 | INFO     | pypolca.utils.util:begin_pypolca:95 - Parameter: --min_alt 4.
+2025-07-18 12:53:46.830 | INFO     | pypolca.utils.util:begin_pypolca:95 - Parameter: --min_ratio 3.
+2025-07-18 12:53:46.830 | INFO     | pypolca.utils.util:begin_pypolca:95 - Parameter: --memory_limit 2G.
+2025-07-18 12:53:46.830 | INFO     | pypolca.utils.util:begin_pypolca:95 - Parameter: --no_polish False.
+2025-07-18 12:53:46.830 | INFO     | pypolca.utils.util:begin_pypolca:95 - Parameter: --prefix pypolca.
+2025-07-18 12:53:47.841 | INFO     | pypolca.utils.validation:check_dependencies:112 - Samtools v1.21 found.
+2025-07-18 12:53:48.140 | INFO     | pypolca.utils.validation:check_dependencies:123 - freebayes v1.3.6 found.
+2025-07-18 12:53:48.250 | INFO     | pypolca.utils.validation:check_dependencies:140 - bwa v0.7.18-r1243-dirty found.
+2025-07-18 12:53:48.250 | INFO     | pypolca.utils.validation:validate_fasta:46 - Checking that the input file Noks1.06.medaka_output/consensus.fasta is in FASTA format.
+2025-07-18 12:53:48.893 | INFO     | pypolca.utils.validation:validate_fasta:51 - Noks1.06.medaka_output/consensus.fasta file checked.
+2025-07-18 12:53:48.934 | INFO     | pypolca.utils.validation:validate_fastq:73 - FASTQ Noks1.SRR33638551_1_val_1.fq.gz checked
+2025-07-18 12:53:49.017 | INFO     | pypolca.utils.validation:validate_fastq:73 - FASTQ Noks1.SRR33638551_2_val_2.fq.gz checked
+2025-07-18 12:53:49.017 | INFO     | pypolca:run:219 - Checking memory limit of 2G.
+2025-07-18 12:53:49.017 | INFO     | pypolca:run:224 - Creating BWA index
+2025-07-18 12:53:51.867 | INFO     | pypolca.utils.external_tools:run:50 - Started running bwa index Noks1.06.pypolca/temp/assembly.fasta ...
+2025-07-18 12:55:14.349 | INFO     | pypolca.utils.external_tools:run:52 - Done running bwa index Noks1.06.pypolca/temp/assembly.fasta
+2025-07-18 12:55:14.349 | INFO     | pypolca:run:230 - Aligning reads with BWA
+2025-07-18 12:55:14.351 | INFO     | pypolca.utils.external_tools:run_to_stdout:59 - Started running bwa mem -SP -t 16 Noks1.06.pypolca/temp/assembly.fasta Noks1.SRR33638551_1_val_1.fq.gz Noks1.SRR33638551_2_val_2.fq.gz ...
+2025-07-18 13:14:18.560 | INFO     | pypolca.utils.external_tools:run_to_stdout:61 - Done running bwa mem -SP -t 16 Noks1.06.pypolca/temp/assembly.fasta Noks1.SRR33638551_1_val_1.fq.gz Noks1.SRR33638551_2_val_2.fq.gz
+2025-07-18 13:14:18.573 | INFO     | pypolca:run:237 - Sorting and indexing alignment file
+2025-07-18 13:14:18.574 | INFO     | pypolca.utils.external_tools:run:50 - Started running samtools view -h -@ 16 -b Noks1.06.pypolca/temp/temp_bwa.sam -o Noks1.06.pypolca/temp/temp_bwa.bam ...
+2025-07-18 13:32:20.133 | INFO     | pypolca.utils.external_tools:run:52 - Done running samtools view -h -@ 16 -b Noks1.06.pypolca/temp/temp_bwa.sam -o Noks1.06.pypolca/temp/temp_bwa.bam
+2025-07-18 13:32:20.159 | INFO     | pypolca.utils.external_tools:run:50 - Started running samtools sort -m 2G -@ 16 Noks1.06.pypolca/temp/temp_bwa.bam -o Noks1.06.pypolca/temp/temp_bwa_sorted.bam ...
+2025-07-18 13:39:56.633 | INFO     | pypolca.utils.external_tools:run:52 - Done running samtools sort -m 2G -@ 16 Noks1.06.pypolca/temp/temp_bwa.bam -o Noks1.06.pypolca/temp/temp_bwa_sorted.bam
+2025-07-18 13:39:56.697 | INFO     | pypolca.utils.external_tools:run:50 - Started running samtools index -@ Noks1.06.pypolca/temp/temp_bwa_sorted.bam ...
+2025-07-18 13:39:56.704 | INFO     | pypolca.utils.external_tools:run:52 - Done running samtools index -@ Noks1.06.pypolca/temp/temp_bwa_sorted.bam
+2025-07-18 13:39:56.704 | INFO     | pypolca:run:244 - Calling variants.
+2025-07-18 13:39:56.706 | INFO     | pypolca.utils.external_tools:run:50 - Started running samtools faidx Noks1.06.pypolca/temp/assembly.fasta ...
+2025-07-18 13:39:59.932 | INFO     | pypolca.utils.external_tools:run:52 - Done running samtools faidx Noks1.06.pypolca/temp/assembly.fasta
+2025-07-18 13:39:59.950 | INFO     | pypolca.utils.external_tools:run:50 - Started running freebayes -m 0 --min-coverage 3 -R 0 -p 1 -F 0.2 -E 0 -b Noks1.06.pypolca/temp/temp_bwa_sorted.bam -f Noks1.06.pypolca/temp/assembly.fasta -v Noks1.06.pypolca/pypolca.vcf ...
+2025-07-18 14:28:47.364 | INFO     | pypolca.utils.external_tools:run:52 - Done running freebayes -m 0 --min-coverage 3 -R 0 -p 1 -F 0.2 -E 0 -b Noks1.06.pypolca/temp/temp_bwa_sorted.bam -f Noks1.06.pypolca/temp/assembly.fasta -v Noks1.06.pypolca/pypolca.vcf
+2025-07-18 14:29:09.476 | INFO     | pypolca.utils.fix_consensus_from_vcf:fix_consensus_from_vcf:134 - POLCA has found variants. Fixing
+2025-07-18 14:29:10.446 | INFO     | pypolca.utils.report:create_report:27 - Stats BEFORE polishing:
+2025-07-18 14:29:10.447 | INFO     | pypolca.utils.report:create_report:29 - Substitution Errors Found: 53034
+2025-07-18 14:29:10.447 | INFO     | pypolca.utils.report:create_report:31 - Insertion/Deletion Errors Found: 25684
+2025-07-18 14:29:10.447 | INFO     | pypolca.utils.report:create_report:33 - Assembly Size: 111004048
+2025-07-18 14:29:10.447 | INFO     | pypolca.utils.report:create_report:35 - Consensus Quality Before Polishing: 99.93
+2025-07-18 14:29:10.447 | INFO     | pypolca.utils.report:create_report:37 - Consensus QV Before Polishing: 31.49
+2025-07-18 14:29:10.479 | INFO     | pypolca:run:267 - Final report is in Noks1.06.pypolca/pypolca.report; polished assembly is in Noks1.06.pypolca/pypolca_corrected.fasta
+2025-07-18 14:29:23.381 | INFO     | pypolca.utils.util:end_pypolca:110 - pypolca has finished
+2025-07-18 14:29:23.382 | INFO     | pypolca.utils.util:end_pypolca:111 - Elapsed time: 5736.57 seconds

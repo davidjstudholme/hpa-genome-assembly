@@ -1,0 +1,19 @@
+[bwa_index] Pack FASTA... 0.82 sec
+[bwa_index] Construct BWT for the packed sequence...
+[BWTIncCreate] textLength=222008096, availableWord=27621228
+[BWTIncConstructFromPacked] 10 iterations done. 45562352 characters processed.
+[BWTIncConstructFromPacked] 20 iterations done. 84172416 characters processed.
+[BWTIncConstructFromPacked] 30 iterations done. 118485120 characters processed.
+[BWTIncConstructFromPacked] 40 iterations done. 148978288 characters processed.
+[BWTIncConstructFromPacked] 50 iterations done. 176076672 characters processed.
+[BWTIncConstructFromPacked] 60 iterations done. 200157744 characters processed.
+[BWTIncConstructFromPacked] 70 iterations done. 221557024 characters processed.
+[bwt_gen] Finished constructing BWT in 71 iterations.
+[bwa_index] 49.12 seconds elapse.
+[bwa_index] Update BWT... 0.48 sec
+[bwa_index] Pack forward-only FASTA... 0.40 sec
+[bwa_index] Construct SA from BWT and Occ... 30.36 sec
+[main] Version: 0.7.18-r1243-dirty
+[main] CMD: bwa index Noks1.06.pypolca/temp/assembly.fasta
+[main] Real time: 82.477 sec; CPU: 81.195 sec
+Command line: bwa index Noks1.06.pypolca/temp/assembly.fasta

@@ -13,9 +13,25 @@ for i in SRR3254744 SRR33638550 SRR33638551 SRR34108134 SRR3254743 SRR33638434 S
     gzip $i*.fastq
 done
 
+### Rename the Illumina FASTQ files
+mv SRR3254743_1.fastq.gz Cala2.SRR3254743_1.fastq.gz
+mv SRR3254743_2.fastq.gz Cala2.SRR3254743_2.fastq.gz
+mv SRR3254744_1.fastq.gz Noks1.SRR3254744_1.fastq.gz
+mv SRR3254744_2.fastq.gz Noks1.SRR3254744_2.fastq.gz
+mv SRR33638434_1.fastq.gz Cala2.SRR33638434_1.fastq.gz
+mv SRR33638434_2.fastq.gz Cala2.SRR33638434_2.fastq.gz
+mv SRR33638550_1.fastq.gz Noks1.SRR33638550_1.fastq.gz
+mv SRR33638550_2.fastq.gz Noks1.SRR33638550_2.fastq.gz
+mv SRR33638551_1.fastq.gz Noks1.SRR33638551_1.fastq.gz
+mv SRR33638551_2.fastq.gz Noks1.SRR33638551_2.fastq.gz
+
+### Perform QC on Illumina FASTQ files
+trim_galore -q 30 --paired Noks1.SRR33638551_1.fastq.gz Noks1.SRR33638551_2.fastq.gz
+trim_galore -q 30 --paired Cala2.SRR33638434_1.fastq.gz Cala2.SRR33638434_2.fastq.gz
+
 ### Rename the ONT FASTQ files
-mv SRR34103947.fastq.gz Cala2.SRR34103947.fastq.gz 
-mv SRR34108134.fastq.gz Noks1.SRR34108134.fastq.gz 
+mv SRR34103947.fastq.gz Cala2.SRR34103947.fastq.gz
+mv SRR34108134.fastq.gz Noks1.SRR34108134.fastq.gz
 
 ### Apply QC on the ONT FASTQ files
 filtlong --min_length 1000 --keep_percent 95 Cala2.SRR34103947.fastq.gz | gzip > Cala2.SRR34103947.filtlong.fastq.gz 
@@ -80,8 +96,6 @@ ln -s ../Noks1.*.busco/*.json .
 cd -
 busco --plot Noks1.all.busco
 
-
-
 ### Set up mash and seaborn
 conda create -n mash_env
 conda activate mash_env
@@ -90,81 +104,48 @@ pip install pandas seaborn matplotlib
 
 
 ### Run Mash pipeline
-
-# Set working directory
 WORKDIR="Noks1.assemblies"
 MASH_OUT="Noks1.mash_dist.tsv"
 MASH_MATRIX="Noks1.mash_distance_matrix.csv"
 MASH_HEATMAP="Noks1.mash_heatmap.png"
-
 echo "[Step 1] Creating Mash sketch..."
 mash sketch -o mash_sketches $WORKDIR/*.fa*
-
 echo "[Step 2] Calculating pairwise distances..."
 mash dist mash_sketches.msh mash_sketches.msh > $MASH_OUT
-
 echo "[Step 3] Creating distance matrix and heatmap..."
 python3 mash_to_matrix.py $MASH_OUT $MASH_MATRIX $MASH_HEATMAP
-
 echo "✅ Done. Outputs:"
 echo "- $MASH_OUT"
 echo "- $MASH_MATRIX"
 echo "- $MASH_HEATMAP"
 
-
-
-
+### Polishing assembly with long reads - Medaka
 conda activate trycycler_env
 medaka_consensus -i Noks1.SRR34108134.filtlong.fastq.gz -d Noks1.assemblies/assembly_06.fasta -o Noks1.06.medaka_output  -t 8 -m r1041_e82_400bps_sup_v4.3.0
 
+### Polishing with short reads - Polypolish
+bwa index Noks1.06.medaka_output/consensus.fasta
+bwa mem -t 16 -a Noks1.06.medaka_output/consensus.fasta Noks1.SRR33638551_1_val_1.fq.gz > Noks1.alignments_1.sam
+bwa mem -t 16 -a Noks1.06.medaka_output/consensus.fasta Noks1.SRR33638551_2_val_2.fq.gz > Noks1.alignments_2.sam
+
+samtools view -@ 8 -bS Noks1.alignments_1.sam > Noks1.alignments_1.bam
+samtools view -@ 8 -bS Noks1.alignments_2.sam > Noks1.alignments_2.bam
+
+samtools sort -@ 8 -o Noks1.alignments_1.sorted.bam Noks1.alignments_1.bam
+samtools sort -@ 8 -o Noks1.alignments_2.sorted.bam Noks1.alignments_2.bam
+
+samtools index Noks1.alignments_1.sorted.bam
+samtools index Noks1.alignments_2.sorted.bam
 
 
+polypolish filter --in1 Noks1.alignments_1.sorted.bam --in2 Noks1.alignments_2.sorted.bam --out1 Noks1.alignments_1.filtered.sam --out2 Noks1.alignments_2.filtered.sam
+polypolish polish Noks1.06.medaka_output/consensus.fasta Noks1.alignments_1.filtered.sam Noks1.alignments_2.filtered.sam > Noks1.medaka.polypolish.fasta
 
 
+### Polish with short reads - PyPolca
+pypolca run --force --careful -a Noks1.06.medaka_output/consensus.fasta -1 Noks1.SRR33638551_1_val_1.fq.gz -2 Noks1.SRR33638551_2_val_2.fq.gz  -t 16 -o Noks1.06.pypolca
+ln -s  Noks1.06.pypolca/pypolca_corrected.fasta Noks1.06.medaka.pypolca.fasta
 
-
-
-### Set up Kraken
-wget https://genome-idx.s3.amazonaws.com/kraken/k2_standard_08gb_20250402.tar.gz
-tar -xvzf k2_standard_08gb_20250402.tar.gz
-kdir kraken
-mv k2_standard_08gb_20250402.tar.gz kraken/
-mv database* kraken/
-mv hash.k2d inspect.txt opts.k2d names.dmp nodes.dmp kraken/
-mv taxo.k2d kraken/
-mv  library_report.tsv seqid2taxid.map unmapped_accessions.txt kraken/
-mv ktaxonomy.tsv kraken/
-
-conda create -n kraken_env
-conda activate kraken_env
-conda install -c bioconda kraken2
-
-### Run Kraken on Noks1 assembly
-kraken2 --db ./kraken --threads 8 --output Noks1.kraken2_output.txt --report Noks1.06.kraken2_report.txt Noks1.assemblies/assembly_06.fasta
-
-
-###  Get all taxids descending from Bacteria (taxid 2)
-awk -F '\t\|\t|\t' '$3 == 2 {print $1}' kraken/nodes.dmp > bacterial_taxids.txt
-
-###  Get all taxids descending from Fungi (taxid 4751)    
-awk -F '\t\|\t|\t' '$3 == 4751 {print $1}' kraken/nodes.dmp > fungal_taxids.txt
-
-### Get a list of the Noks1 contigs that match bacterial taxa
-awk 'NR==FNR {bact[$1]; next} $1 == "C" && ($3 in bact) {print $2, $3}' bacterial_taxids.txt Noks1.06.kraken2_output.txt > Noks1.06.bacterial_contigs_list.txt
-
-### Get a list of the Noks1 contigs that match fungal taxa 
-awk 'NR==FNR {fungi[$1]; next} $1 == "C" && ($3 in fungi) {print $2, $3}' fungal_taxids.txt Noks1.06.kraken2_output.txt > Noks1.06.fungal_contigs_list.txt
-
-
-
-### Attempt to recover ciruclar bacterial sequences using Unicycler
-conda activate unicycler_env
-conda list -n phame_env > trycycler_env_packages.txt
-conda env export > trycycler_env.yaml
-
-trim_galore -q 30 --paired Noks1.SRR33638551_1.fastq.gz Noks1.SRR33638551_2.fastq.gz
-
-unicycler -1 Noks1.SRR33638551_1_val_1.fq.gz -2 Noks1.SRR33638551_2_val_2.fq.gz -l Noks1.SRR34108134.filtlong.fastq.gz -o Noks1.unicycler
 
 
 

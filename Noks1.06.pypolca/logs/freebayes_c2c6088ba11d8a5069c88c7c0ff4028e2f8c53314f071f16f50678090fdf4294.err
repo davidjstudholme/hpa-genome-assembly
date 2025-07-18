@@ -1,0 +1,1 @@
+Command line: freebayes -m 0 --min-coverage 3 -R 0 -p 1 -F 0.2 -E 0 -b Noks1.06.pypolca/temp/temp_bwa_sorted.bam -f Noks1.06.pypolca/temp/assembly.fasta -v Noks1.06.pypolca/pypolca.vcf

@@ -1,0 +1,1 @@
+Command line: samtools view -h -@ 16 -b Noks1.06.pypolca/temp/temp_bwa.sam -o Noks1.06.pypolca/temp/temp_bwa.bam
