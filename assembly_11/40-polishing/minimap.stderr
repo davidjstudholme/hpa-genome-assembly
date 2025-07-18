@@ -1,0 +1,17 @@
+[samfaipath] build FASTA index...
+[M::mm_idx_gen::2.009*1.38] collected minimizers
+[M::mm_idx_gen::2.878*2.02] sorted minimizers
+[M::main::2.878*2.02] loaded/built the index for 505 target sequence(s)
+[M::mm_mapopt_update::3.116*1.94] mid_occ = 86
+[M::mm_idx_stat] kmer size: 17; skip: 10; is_hpc: 0; #seq: 505
+[M::mm_idx_stat::3.235*1.91] distinct minimizers: 12327049 (91.46% are singletons); average occurrences: 1.244; average spacing: 5.498; total length: 84297366
+[M::worker_pipeline::276.264*11.40] mapped 155431 sequences
+[M::worker_pipeline::537.977*11.71] mapped 149308 sequences
+[M::worker_pipeline::816.895*11.80] mapped 159120 sequences
+[M::worker_pipeline::1052.864*11.85] mapped 163773 sequences
+[M::worker_pipeline::1313.809*11.89] mapped 157225 sequences
+[M::worker_pipeline::1449.703*11.87] mapped 89738 sequences
+[M::main] Version: 2.24-r1155-dirty
+[M::main] CMD: flye-minimap2 -x map-ont -t 12 -k 17 -a -p 0.5 -N 10 --sam-hit-only -L -K 1G -z 1000 -Q --secondary-seq -I 64G /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/assembly_11/30-contigger/contigs.fasta /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Cala2.read_subsets/sample_11.fastq.gz
+[M::main] Real time: 1449.822 sec; CPU: 17213.794 sec; Peak RSS: 11.336 GB
+[bam_sort_core] merging from 8 files and 4 in-memory blocks...

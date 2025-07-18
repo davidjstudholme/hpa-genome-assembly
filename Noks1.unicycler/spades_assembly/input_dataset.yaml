@@ -1,0 +1,7 @@
+- "left reads":
+  - "/data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Noks1.SRR33638551_1_val_1.fq.gz"
+  "number": !!int "1"
+  "orientation": "fr"
+  "right reads":
+  - "/data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Noks1.SRR33638551_2_val_2.fq.gz"
+  "type": "paired-end"

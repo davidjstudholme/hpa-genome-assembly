@@ -1,0 +1,33 @@
+Command line: /data/djs217/miniconda3/envs/unicycler_env/bin/spades.py	-o	/data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Noks1.unicycler/spades_assembly	-k	27	--threads	8	--gfa11	--isolate	-1	/data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Noks1.SRR33638551_1_val_1.fq.gz	-2	/data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Noks1.SRR33638551_2_val_2.fq.gz	-m	1024	
+
+System information:
+  SPAdes version: 4.0.0
+  Python version: 3.12.3
+  OS: Linux-5.15.0-143-generic-x86_64-with-glibc2.35
+
+Output dir: /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Noks1.unicycler/spades_assembly
+Mode: ONLY assembling (without read error correction)
+Debug mode is turned OFF
+
+Dataset parameters:
+  Isolate mode
+  Reads:
+    Library number: 1, library type: paired-end
+      orientation: fr
+      left reads: ['/data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Noks1.SRR33638551_1_val_1.fq.gz']
+      right reads: ['/data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Noks1.SRR33638551_2_val_2.fq.gz']
+      interlaced reads: not specified
+      single reads: not specified
+      merged reads: not specified
+Assembly parameters:
+  k: [27]
+  Repeat resolution is enabled
+  Mismatch careful mode is turned OFF
+  MismatchCorrector will be SKIPPED
+  Coverage cutoff is turned OFF
+  Assembly graph output will use GFA v1.1 format
+Other parameters:
+  Dir for temp files: /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Noks1.unicycler/spades_assembly/tmp
+  Threads: 8
+  Memory limit (in Gb): 1024
+

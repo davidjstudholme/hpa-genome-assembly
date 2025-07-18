@@ -155,3 +155,16 @@ awk 'NR==FNR {bact[$1]; next} $1 == "C" && ($3 in bact) {print $2, $3}' bacteria
 ### Get a list of the Noks1 contigs that match fungal taxa 
 awk 'NR==FNR {fungi[$1]; next} $1 == "C" && ($3 in fungi) {print $2, $3}' fungal_taxids.txt Noks1.06.kraken2_output.txt > Noks1.06.fungal_contigs_list.txt
 
+
+
+### Attempt to recover ciruclar bacterial sequences using Unicycler
+conda activate unicycler_env
+conda list -n phame_env > trycycler_env_packages.txt
+conda env export > trycycler_env.yaml
+
+trim_galore -q 30 --paired Noks1.SRR33638551_1.fastq.gz Noks1.SRR33638551_2.fastq.gz
+
+unicycler -1 Noks1.SRR33638551_1_val_1.fq.gz -2 Noks1.SRR33638551_2_val_2.fq.gz -l Noks1.SRR34108134.filtlong.fastq.gz -o Noks1.unicycler
+
+
+

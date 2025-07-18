@@ -1,0 +1,4 @@
+
+=== Error correction and assembling warnings:
+ * 0:54:53.870    16G / 23G   WARN    General                 (kmer_coverage_model.cpp   : 367)   Failed to determine erroneous kmer threshold. Threshold set to: 19
+======= Warnings saved to /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Noks1.unicycler/spades_assembly/warnings.log

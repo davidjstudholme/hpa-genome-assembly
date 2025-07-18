@@ -1,6 +1,8 @@
 *.fasta
 *.gfa
 *.mmi
+*.hdf
+*.seq
 
 *~
 *.zip
@@ -29,6 +31,10 @@
 *.ndb
 
 wget-log
+
+
+read_alignment_dump
+
 
 *quast_results/latest
 

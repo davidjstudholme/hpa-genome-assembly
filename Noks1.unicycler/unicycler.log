@@ -1,0 +1,51 @@
+Error: could not find /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Noks1.SRR33638551_2_val_2.fq.gzz
+
+
+
+
+
+
+
+
+
+
+
+
+
+Starting Unicycler (2025-07-17 21:15:14)
+----------------------------------------
+    Welcome to Unicycler, an assembly pipeline for bacterial genomes. Since you provided both short and long reads, Unicycler will perform a hybrid assembly. It will first use SPAdes to make a short-read assembly graph, and then it will use various methods to scaffold that graph with the long reads.
+    For more information, please see https://github.com/rrwick/Unicycler
+
+Command: /data/djs217/miniconda3/envs/unicycler_env/bin/unicycler -1 Noks1.SRR33638551_1_val_1.fq.gz -2 Noks1.SRR33638551_2_val_2.fq.gz -l Noks1.SRR34108134.filtlong.fastq.gz -o Noks1.unicycler
+
+Unicycler version: v0.5.1
+Using 8 threads
+
+The output directory already exists and files may be reused or overwritten:
+  /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Noks1.unicycler
+
+Dependencies:
+  Program       Version   Status
+  spades.py     4.0.0     good  
+  racon         1.5.0     good  
+  makeblastdb   2.16.0+   good  
+  tblastn       2.16.0+   good  
+
+
+Choosing k-mer range for assembly (2025-07-17 21:22:40)
+-------------------------------------------------------
+    Unicycler chooses a k-mer range for SPAdes based on the length of the input reads. It uses a wide range of many k-mer sizes to maximise the chance of finding an ideal assembly.
+
+SPAdes maximum k-mer: 127
+Median read length: 150
+K-mer range: 27, 53, 71, 87, 99, 111, 119, 127
+
+
+SPAdes assemblies (2025-07-17 21:30:37)
+---------------------------------------
+    Unicycler now uses SPAdes to assemble the short reads. It scores the assembly graph for each k-mer using the number of contigs (fewer is better) and the number of dead ends (fewer is better). The score function is 1/(c*(d+2)), where c is the contig count and d is the dead end count.
+
+spades.py -o /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Noks1.unicycler/spades_assembly -k 27 --threads 8 --gfa11 --isolate -1 /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Noks1.SRR33638551_1_val_1.fq.gz -2 /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/Noks1.SRR33638551_2_val_2.fq.gz -m 1024
+Error: SPAdes encountered an error:
+
