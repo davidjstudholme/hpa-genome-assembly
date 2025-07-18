@@ -146,29 +146,6 @@ polypolish polish Noks1.06.medaka_output/consensus.fasta Noks1.alignments_1.filt
 pypolca run --force --careful -a Noks1.06.medaka_output/consensus.fasta -1 Noks1.SRR33638551_1_val_1.fq.gz -2 Noks1.SRR33638551_2_val_2.fq.gz  -t 16 -o Noks1.06.pypolca
 ln -s  Noks1.06.pypolca/pypolca_corrected.fasta Noks1.06.medaka.pypolca.fasta
 
-### Check assembly with Kraken2
-conda activate kraken_env
-conda list -n kraken_env > kraken_env_packages.txt
-conda env export > kraken_env.yaml
-
-wget https://genome-idx.s3.amazonaws.com/kraken/16S_Greengenes13.5_20200326.tgz
-tar -xvzf 16S_Greengenes13.5_20200326.tgz
-
-kraken2 --db 16S_Greengenes_k2db --threads 8 \
-	--output Noks1.greengenes.kraken2_output.txt \
-	--report Noks1.greengenes.kraken2_report.txt \
-	Noks1.06.pypolca/pypolca_corrected.fasta
-
-### Get bacterial contigs from Kraken2 output
-awk '$1 == "C" {print $2, $3}' Noks1.greengenes.kraken2_output.txt > Noks1.bacterial_contigs.txt
-awk '{print $1}' Noks1.bacterial_contigs.txt > bacterial_contigs.txt
-samtools faidx Noks1.06.pypolca/pypolca_corrected.fasta
-while read contig; do
-    samtools faidx Noks1.06.pypolca/pypolca_corrected.fasta "$contig" > bacterial."${contig}.fasta"
-done < bacterial_contigs.txt
-mkdir Noks1.bacterial_contigs
-mv bacterial.contig_*.fasta Noks1.bacterial_contigs/
-
 
 
 

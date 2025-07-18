@@ -56,6 +56,7 @@ ref.mpi
 
 # Kraken database files
 k2_standard_*.tar.gz
+16S_Greengenes13.5_20200326.tgz
 *.kmer_distrib
 hash.k2d
 inspect.txt
