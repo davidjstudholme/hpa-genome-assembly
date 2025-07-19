@@ -1,0 +1,19 @@
+#                                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                          accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                  ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+1102at33634_0|JH598254.1:50113-56258|- -           1579 1102at33634          -           1214         0 1599.1  16.8   1   6   4.3e-50   4.3e-50  156.2   0.1     1   107     6   118     6   127 0.93 <unknown description>
+1102at33634_0|JH598254.1:50113-56258|- -           1579 1102at33634          -           1214         0 1599.1  16.8   2   6   3.9e-12   3.9e-12   30.4   0.0   212   250   131   173   128   183 0.91 <unknown description>
+1102at33634_0|JH598254.1:50113-56258|- -           1579 1102at33634          -           1214         0 1599.1  16.8   3   6         0         0 1050.9   0.2   244   860   198   895   183   920 0.86 <unknown description>
+1102at33634_0|JH598254.1:50113-56258|- -           1579 1102at33634          -           1214         0 1599.1  16.8   4   6   6.1e-57   6.1e-57  178.8   0.0   872   982  1054  1170  1015  1185 0.89 <unknown description>
+1102at33634_0|JH598254.1:50113-56258|- -           1579 1102at33634          -           1214         0 1599.1  16.8   5   6   1.5e-05   1.5e-05    8.6   5.1   980  1046  1202  1300  1190  1306 0.53 <unknown description>
+1102at33634_0|JH598254.1:50113-56258|- -           1579 1102at33634          -           1214         0 1599.1  16.8   6   6   3.6e-54   3.6e-54  169.7   0.0  1039  1214  1379  1576  1368  1576 0.82 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/busco_downloads/lineages/stramenopiles_odb10/hmms/1102at33634.hmm
+# Target file:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_000173235.2_HyaAraEmoy2_2.0_genomic.fna.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/1102at33634.faa
+# Option settings: hmmsearch --domtblout /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_000173235.2_HyaAraEmoy2_2.0_genomic.fna.busco/run_stramenopiles_odb10/hmmer_output/1102at33634.out --cpu 1 /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/busco_downloads/lineages/stramenopiles_odb10/hmms/1102at33634.hmm /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_000173235.2_HyaAraEmoy2_2.0_genomic.fna.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/1102at33634.faa 
+# Current dir:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies
+# Date:            Sat Jul 19 09:41:11 2025
+# [ok]

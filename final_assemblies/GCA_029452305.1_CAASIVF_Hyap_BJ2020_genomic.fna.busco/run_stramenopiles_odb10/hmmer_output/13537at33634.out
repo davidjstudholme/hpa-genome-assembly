@@ -1,0 +1,15 @@
+#                                                                                                    --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                        ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+13537at33634_0|JAPPWB010000937.1:3481-4743|+ -            279 13537at33634         -            221  6.9e-119  381.3   3.7   1   2  3.5e-106  3.5e-106  339.7   0.0     1   189     1   202     1   230 0.93 <unknown description>
+13537at33634_0|JAPPWB010000937.1:3481-4743|+ -            279 13537at33634         -            221  6.9e-119  381.3   3.7   2   2   1.9e-14   1.9e-14   39.8   3.7   188   220   243   275   240   276 0.96 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/busco_downloads/lineages/stramenopiles_odb10/hmms/13537at33634.hmm
+# Target file:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_029452305.1_CAASIVF_Hyap_BJ2020_genomic.fna.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/13537at33634.faa
+# Option settings: hmmsearch --domtblout /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_029452305.1_CAASIVF_Hyap_BJ2020_genomic.fna.busco/run_stramenopiles_odb10/hmmer_output/13537at33634.out --cpu 1 /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/busco_downloads/lineages/stramenopiles_odb10/hmms/13537at33634.hmm /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_029452305.1_CAASIVF_Hyap_BJ2020_genomic.fna.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/13537at33634.faa 
+# Current dir:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies
+# Date:            Sat Jul 19 09:42:40 2025
+# [ok]

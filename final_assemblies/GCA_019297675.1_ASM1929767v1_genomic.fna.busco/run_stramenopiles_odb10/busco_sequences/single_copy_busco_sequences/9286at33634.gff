@@ -1,0 +1,3 @@
+SZZJ01000893.1	miniprot	mRNA	8829	10263	1762	+	.	ID=MP000905;Rank=1;Identity=0.7612;Positive=0.7878;Frameshift=2;Target=9286at33634_0 1 466
+SZZJ01000893.1	miniprot	CDS	8829	10263	1762	+	0	Parent=MP000905;Rank=1;Identity=0.7612;Frameshift=2;Target=9286at33634_0 1 466
+SZZJ01000893.1	miniprot	stop_codon	10261	10263	0	+	0	Parent=MP000905;Rank=1

@@ -1,0 +1,4 @@
+JH598066.1	miniprot	mRNA	65807	66255	681	+	.	ID=MP000471;Rank=1;Identity=0.9760;Positive=0.9920;Target=24919at33634 1 125
+JH598066.1	miniprot	CDS	65807	65942	252	+	0	Parent=MP000471;Rank=1;Identity=0.9565;Target=24919at33634 1 45
+JH598066.1	miniprot	CDS	66014	66255	429	+	2	Parent=MP000471;Rank=1;Identity=0.9873;Target=24919at33634 46 125
+JH598066.1	miniprot	stop_codon	66253	66255	0	+	0	Parent=MP000471;Rank=1

@@ -1,0 +1,104 @@
+# BUSCO version is: 6.0.0 
+# The lineage dataset is: stramenopiles_odb10 (Creation date: 2024-01-08, number of genomes: 27, number of BUSCOs: 100)
+# Busco id	Status	Sequence	Gene Start	Gene End	Strand	Score	Length	OrthoDB url	Description
+302at33634	Complete	JAPPWB010000004.1	61654	55732	-	1462.8	1239	https://v10-1.orthodb.org/?query=302at33634	S1 domain
+693at33634	Complete	JAPPWB010000813.1	5302	8791	+	1634.6	925	https://v10-1.orthodb.org/?query=693at33634	DNA-directed RNA polymerase, subunit 2, hybrid-binding domain
+723at33634	Complete	JAPPWB010000118.1	31599	28422	-	1354.7	788	https://v10-1.orthodb.org/?query=723at33634	Aminoacyl-tRNA synthetase, class Ia
+971at33634	Complete	JAPPWB010000071.1	6842	3311	-	1439.8	852	https://v10-1.orthodb.org/?query=971at33634	Aminoacyl-tRNA synthetase, class Ia
+1102at33634	Missing
+1326at33634	Complete	JAPPWB010000889.1	1311	5130	+	772.5	721	https://v10-1.orthodb.org/?query=1326at33634	MIF4G-like domain superfamily
+1342at33634	Complete	JAPPWB010000119.1	9890	12884	+	1192.2	724	https://v10-1.orthodb.org/?query=1342at33634	Coatomer subunit beta
+1803at33634	Complete	JAPPWB010001134.1	4023	1175	-	743.9	566	https://v10-1.orthodb.org/?query=1803at33634	Aminoacyl-tRNA synthetase, class Ia
+2880at33634	Missing
+3405at33634	Complete	JAPPWB010000767.1	5048	2186	-	1028.2	681	https://v10-1.orthodb.org/?query=3405at33634	Pre-mRNA-processing factor 6
+3528at33634	Complete	JAPPWB010000067.1	46653	44196	-	1075.5	627	https://v10-1.orthodb.org/?query=3528at33634	Helicase, C-terminal
+3786at33634	Complete	JAPPWB010000259.1	15763	17716	+	1034.2	527	https://v10-1.orthodb.org/?query=3786at33634	Heat shock protein 70 family
+3834at33634	Complete	JAPPWB010000632.1	14235	12348	-	706.7	482	https://v10-1.orthodb.org/?query=3834at33634	Cyclophilin-type peptidyl-prolyl cis-trans isomerase
+3835at33634	Complete	JAPPWB010000058.1	45663	47517	+	824.4	496	https://v10-1.orthodb.org/?query=3835at33634	Methylglyoxal synthase-like domain
+3892at33634	Complete	JAPPWB010000129.1	4094	1970	-	777.7	539	https://v10-1.orthodb.org/?query=3892at33634	Sda1
+4148at33634	Complete	JAPPWB010000130.1	2396	536	-	760.3	476	https://v10-1.orthodb.org/?query=4148at33634	Translation initiation factor IF- 2
+4166at33634	Missing
+4406at33634	Complete	JAPPWB010000303.1	13118	16057	+	693.0	435	https://v10-1.orthodb.org/?query=4406at33634	WD40-repeat-containing domain
+5074at33634	Complete	JAPPWB010001857.1	1501	3046	+	632.4	415	https://v10-1.orthodb.org/?query=5074at33634	Carbohydrate kinase, FGGY
+5144at33634	Complete	JAPPWB010000408.1	2127	603	-	701.5	420	https://v10-1.orthodb.org/?query=5144at33634	Signal recognition particle, SRP54 subunit
+5145at33634	Complete	JAPPWB010000200.1	28585	27475	-	503.9	291	https://v10-1.orthodb.org/?query=5145at33634	WD40-repeat-containing domain
+5578at33634	Complete	JAPPWB010000018.1	42721	41214	-	741.7	373	https://v10-1.orthodb.org/?query=5578at33634	Eukaryotic translation initiation factor 2 subunit 3
+5960at33634	Complete	JAPPWB010000032.1	58117	55862	-	785.5	497	https://v10-1.orthodb.org/?query=5960at33634	tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG
+5964at33634	Complete	JAPPWB010001021.1	4739	2963	-	507.6	417	https://v10-1.orthodb.org/?query=5964at33634	Alpha-1,3-glucosyltransferase
+6366at33634	Complete	JAPPWB010000040.1	20871	22386	+	840.2	453	https://v10-1.orthodb.org/?query=6366at33634	Inosine-5'-monophosphate dehydrogenase
+6436at33634	Missing
+6684at33634	Complete	JAPPWB010000542.1	5424	7175	+	727.4	437	https://v10-1.orthodb.org/?query=6684at33634	GroEL-like apical domain superfamily
+6933at33634	Fragmented	JAPPWB010001477.1	2	739	+	464.6	233	https://v10-1.orthodb.org/?query=6933at33634	Nop domain
+6981at33634	Complete	JAPPWB010000092.1	36487	32851	-	1345.5	872	https://v10-1.orthodb.org/?query=6981at33634	Exportin-1, C-terminal
+6989at33634	Complete	JAPPWB010000124.1	8709	6606	-	708.9	478	https://v10-1.orthodb.org/?query=6989at33634	Pescadillo
+7485at33634	Complete	JAPPWB010001072.1	2044	3877	+	462.9	342	https://v10-1.orthodb.org/?query=7485at33634	RNA helicase
+8142at33634	Complete	JAPPWB010000487.1	13862	12451	-	309.1	231	https://v10-1.orthodb.org/?query=8142at33634	tRNA-dihydrouridine synthase
+8760at33634	Complete	JAPPWB010000009.1	89586	79084	-	371.5	276	https://v10-1.orthodb.org/?query=8760at33634	DNA glycosylase
+8842at33634	Complete	JAPPWB010000414.1	12865	14538	+	622.8	339	https://v10-1.orthodb.org/?query=8842at33634	26S Proteasome regulatory subunit 6A
+9201at33634	Complete	JAPPWB010000188.1	25875	24466	-	207.2	211	https://v10-1.orthodb.org/?query=9201at33634	Programmed cell death protein 2
+9286at33634	Complete	JAPPWB010000666.1	5224	6736	+	650.8	378	https://v10-1.orthodb.org/?query=9286at33634	Mitochondrial-processing peptidase subunit beta
+9297at33634	Complete	JAPPWB010000208.1	27019	25921	-	436.0	308	https://v10-1.orthodb.org/?query=9297at33634	RNA 3'-terminal phosphate cyclase
+9413at33634	Missing
+9731at33634	Missing
+9939at33634	Complete	JAPPWB010002255.1	3036	1200	-	511.3	388	https://v10-1.orthodb.org/?query=9939at33634	Glycerol-3-phosphate dehydrogenase
+10123at33634	Complete	JAPPWB010000145.1	18909	20412	+	344.1	275	https://v10-1.orthodb.org/?query=10123at33634	ALG11 mannosyltransferase
+10425at33634	Complete	JAPPWB010000582.1	9222	10692	+	719.2	351	https://v10-1.orthodb.org/?query=10425at33634	Pseudouridine synthase, catalytic domain superfamily
+10799at33634	Complete	JAPPWB010000398.1	14667	13185	-	567.0	362	https://v10-1.orthodb.org/?query=10799at33634	Bifunctional dihydrofolate reductase-thymidylate synthase
+11504at33634	Complete	JAPPWB010000027.1	31806	34188	+	635.9	378	https://v10-1.orthodb.org/?query=11504at33634	RNA helicase
+12069at33634	Complete	JAPPWB010000025.1	27121	28236	+	427.6	265	https://v10-1.orthodb.org/?query=12069at33634	Cytosolic Fe-S cluster assembly factor NUBP1 homolog
+12249at33634	Complete	JAPPWB010000153.1	29261	30761	+	521.4	348	https://v10-1.orthodb.org/?query=12249at33634	Methylthiotransferase, N-terminal
+12363at33634	Complete	JAPPWB010001019.1	3570	2688	-	254.5	227	https://v10-1.orthodb.org/?query=12363at33634	Coatomer subunit epsilon
+12382at33634	Complete	JAPPWB010000829.1	11189	9782	-	728.1	377	https://v10-1.orthodb.org/?query=12382at33634	Helicase, C-terminal
+12562at33634	Missing
+12626at33634	Complete	JAPPWB010000122.1	33984	35595	+	461.3	323	https://v10-1.orthodb.org/?query=12626at33634	MFS transporter, PAT family, solute carrier family 33 (Acetyl-CoA transportor), member 1
+12684at33634	Complete	JAPPWB010000023.1	15871	14731	-	341.0	239	https://v10-1.orthodb.org/?query=12684at33634	Polymerase, nucleotidyl transferase domain
+12693at33634	Complete	JAPPWB010000013.1	29059	30319	+	322.5	292	https://v10-1.orthodb.org/?query=12693at33634	Tetratricopeptide repeat
+13102at33634	Complete	JAPPWB010000015.1	30060	27523	-	581.5	405	https://v10-1.orthodb.org/?query=13102at33634	Large subunit GTPase 1
+13476at33634	Complete	JAPPWB010001056.1	1152	2462	+	348.4	195	https://v10-1.orthodb.org/?query=13476at33634	Proteasome subunit beta type
+13537at33634	Complete	JAPPWB010000937.1	3481	4743	+	381.3	220	https://v10-1.orthodb.org/?query=13537at33634	Methyltransferase type 11
+13819at33634	Complete	JAPPWB010000331.1	17623	16087	-	559.0	345	https://v10-1.orthodb.org/?query=13819at33634	Ubiquitin-activating enzyme
+13832at33634	Duplicated	JAPPWB010000320.1	13664	14804	+	121.1	201	https://v10-1.orthodb.org/?query=13832at33634	PPM-type phosphatase domain
+13832at33634	Duplicated	JAPPWB010000384.1	21323	22226	+	128.9	172	https://v10-1.orthodb.org/?query=13832at33634	PPM-type phosphatase domain
+14113at33634	Complete	JAPPWB010000091.1	39910	32203	-	313.9	314	https://v10-1.orthodb.org/?query=14113at33634	Dynamin superfamily
+15177at33634	Complete	JAPPWB010000185.1	12756	13737	+	466.8	274	https://v10-1.orthodb.org/?query=15177at33634	WD40-repeat-containing domain
+15216at33634	Complete	JAPPWB010000188.1	16259	15221	-	286.5	209	https://v10-1.orthodb.org/?query=15216at33634	Pantoate-beta-alanine ligase
+15242at33634	Complete	JAPPWB010000083.1	9201	8328	-	359.1	198	https://v10-1.orthodb.org/?query=15242at33634	Proteasome subunit beta type
+15351at33634	Complete	JAPPWB010000043.1	33016	34081	+	351.9	212	https://v10-1.orthodb.org/?query=15351at33634	Proteasome subunit alpha type
+15520at33634	Missing
+15827at33634	Complete	JAPPWB010000117.1	27358	28649	+	447.5	285	https://v10-1.orthodb.org/?query=15827at33634	Glycosyl transferase, family 4
+15969at33634	Complete	JAPPWB010000371.1	2049	3372	+	327.2	264	https://v10-1.orthodb.org/?query=15969at33634	Calreticulin
+16248at33634	Complete	JAPPWB010000656.1	12573	11430	-	257.9	187	https://v10-1.orthodb.org/?query=16248at33634	Impact, N-terminal
+17057at33634	Complete	JAPPWB010000067.1	25745	27425	+	499.1	374	https://v10-1.orthodb.org/?query=17057at33634	Pumilio homology domain
+17622at33634	Missing
+17887at33634	Complete	JAPPWB010001572.1	5116	4214	-	225.8	162	https://v10-1.orthodb.org/?query=17887at33634	Pyridoxal phosphate homeostasis protein
+18069at33634	Complete	JAPPWB010000001.1	70514	71334	+	239.0	161	https://v10-1.orthodb.org/?query=18069at33634	RNA polymerase, Rpb5, N-terminal
+18429at33634	Complete	JAPPWB010000017.1	7189	8167	+	203.7	181	https://v10-1.orthodb.org/?query=18429at33634	Cyclin
+18432at33634	Complete	JAPPWB010000454.1	7944	6439	-	385.3	242	https://v10-1.orthodb.org/?query=18432at33634	von Willebrand factor A-like domain superfamily
+18615at33634	Complete	JAPPWB010000230.1	29093	31379	+	418.5	356	https://v10-1.orthodb.org/?query=18615at33634	GDP dissociation inhibitor
+19366at33634	Complete	JAPPWB010000653.1	3163	2167	-	140.3	112	https://v10-1.orthodb.org/?query=19366at33634	HAD superfamily
+19836at33634	Complete	JAPPWB010000591.1	7184	8765	+	410.8	313	https://v10-1.orthodb.org/?query=19836at33634	Cactin, central domain
+19891at33634	Complete	JAPPWB010000915.1	11701	10687	-	364.8	251	https://v10-1.orthodb.org/?query=19891at33634	Brix domain
+20044at33634	Complete	JAPPWB010001570.1	0	2548	+	398.2	373	https://v10-1.orthodb.org/?query=20044at33634	DNA mismatch repair protein Mlh1
+20182at33634	Complete	JAPPWB010000024.1	34884	35993	+	356.8	248	https://v10-1.orthodb.org/?query=20182at33634	Short-chain dehydrogenase/reductase, conserved site
+20769at33634	Complete	JAPPWB010000520.1	2608	3366	+	218.3	135	https://v10-1.orthodb.org/?query=20769at33634	Adenylate kinase isoenzyme 6
+21097at33634	Missing
+21875at33634	Complete	JAPPWB010000598.1	11941	13301	+	281.2	216	https://v10-1.orthodb.org/?query=21875at33634	TatD family
+22080at33634	Missing
+22950at33634	Complete	JAPPWB010000295.1	4286	5427	+	359.0	216	https://v10-1.orthodb.org/?query=22950at33634	Proteasome endopeptidase complex
+23030at33634	Complete	JAPPWB010000561.1	12100	11209	-	229.9	143	https://v10-1.orthodb.org/?query=23030at33634	Ribosomal RNA-processing protein
+23917at33634	Complete	JAPPWB010000661.1	7603	6616	-	212.2	126	https://v10-1.orthodb.org/?query=23917at33634	Mago nashi protein
+23923at33634	Complete	JAPPWB010000582.1	8984	8432	-	291.6	170	https://v10-1.orthodb.org/?query=23923at33634	RNA-binding S4 domain
+24919at33634	Complete	JAPPWB010000384.1	17670	17221	-	129.3	80	https://v10-1.orthodb.org/?query=24919at33634	DNA-directed RNA polymerase subunit
+25187at33634	Complete	JAPPWB010000609.1	108	644	+	183.3	101	https://v10-1.orthodb.org/?query=25187at33634	Ribosomal protein L7Ae/L30e/S12e/Gadd45
+25189at33634	Complete	JAPPWB010000202.1	29865	30345	+	227.0	128	https://v10-1.orthodb.org/?query=25189at33634	Mitochondrial import inner membrane translocase subunit Tim17, putative
+26150at33634	Missing
+26258at33634	Complete	JAPPWB010000192.1	14712	15096	+	207.9	98	https://v10-1.orthodb.org/?query=26258at33634	Ribosomal protein L7Ae/L30e/S12e/Gadd45
+26307at33634	Missing
+26441at33634	Missing
+27268at33634	Missing
+27409at33634	Missing
+27410at33634	Missing
+27411at33634	Complete	JAPPWB010000108.1	40945	41473	+	214.3	145	https://v10-1.orthodb.org/?query=27411at33634	GrpE nucleotide exchange factor
+28151at33634	Missing
+28445at33634	Complete	JAPPWB010000113.1	14711	14257	-	150.3	106	https://v10-1.orthodb.org/?query=28445at33634	Nuclear transport factor 2
+31838at33634	Complete	JAPPWB010000041.1	28780	29282	+	115.3	101	https://v10-1.orthodb.org/?query=31838at33634	MRPL25 domain

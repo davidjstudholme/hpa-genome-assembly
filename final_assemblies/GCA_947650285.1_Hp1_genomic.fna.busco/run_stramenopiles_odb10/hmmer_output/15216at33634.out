@@ -1,0 +1,17 @@
+#                                                                                                      --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                  accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                          ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+15216at33634_0|CANTFL010000254.1:60448-61486|+ -            311 15216at33634         -            209   4.6e-89  284.4   1.4   1   2   1.8e-75   1.8e-75  240.0   0.1     1   165    52   238    52   248 0.91 <unknown description>
+15216at33634_0|CANTFL010000254.1:60448-61486|+ -            311 15216at33634         -            209   4.6e-89  284.4   1.4   2   2   2.3e-15   2.3e-15   43.6   0.2   163   209   257   310   243   310 0.82 <unknown description>
+15216at33634|CANTFL010000254.1:60727-61486|+   -            254 15216at33634         -            209   2.6e-85  272.2   2.0   1   2   9.6e-72   9.6e-72  227.8   0.1     7   165     1   181     1   189 0.90 <unknown description>
+15216at33634|CANTFL010000254.1:60727-61486|+   -            254 15216at33634         -            209   2.6e-85  272.2   2.0   2   2   1.8e-15   1.8e-15   44.0   0.2   163   209   200   253   190   253 0.83 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/busco_downloads/lineages/stramenopiles_odb10/hmms/15216at33634.hmm
+# Target file:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_947650285.1_Hp1_genomic.fna.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/15216at33634.faa
+# Option settings: hmmsearch --domtblout /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_947650285.1_Hp1_genomic.fna.busco/run_stramenopiles_odb10/hmmer_output/15216at33634.out --cpu 1 /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/busco_downloads/lineages/stramenopiles_odb10/hmms/15216at33634.hmm /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_947650285.1_Hp1_genomic.fna.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/15216at33634.faa 
+# Current dir:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies
+# Date:            Sat Jul 19 09:42:55 2025
+# [ok]

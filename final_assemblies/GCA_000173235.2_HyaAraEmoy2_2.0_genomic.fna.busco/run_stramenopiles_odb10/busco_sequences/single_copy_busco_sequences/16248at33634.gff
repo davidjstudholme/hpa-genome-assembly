@@ -1,0 +1,3 @@
+JH598128.1	miniprot	mRNA	18097	18835	856	+	.	ID=MP000276;Rank=1;Identity=0.7627;Positive=0.8347;Frameshift=1;Target=16248at33634_3 62 296
+JH598128.1	miniprot	CDS	18097	18145	38	+	0	Parent=MP000276;Rank=1;Identity=0.7059;Frameshift=1;Target=16248at33634_3 62 78
+JH598128.1	miniprot	CDS	18200	18835	818	+	0	Parent=MP000276;Rank=1;Identity=0.7671;Target=16248at33634_3 79 296

@@ -1,0 +1,15 @@
+#                                                                                               --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                           accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                   ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+24919at33634|SZZJ01000097.1:8028-8477|+ -            126 24919at33634         -             80   3.5e-43  132.0  11.2   1   2   4.3e-11   4.3e-11   29.2   1.9     1    23    17    39    17    45 0.93 <unknown description>
+24919at33634|SZZJ01000097.1:8028-8477|+ -            126 24919at33634         -             80   3.5e-43  132.0  11.2   2   2   4.3e-35   4.3e-35  106.1   2.8    10    80    46   125    40   125 0.84 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/busco_downloads/lineages/stramenopiles_odb10/hmms/24919at33634.hmm
+# Target file:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_019297675.1_ASM1929767v1_genomic.fna.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/24919at33634.faa
+# Option settings: hmmsearch --domtblout /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_019297675.1_ASM1929767v1_genomic.fna.busco/run_stramenopiles_odb10/hmmer_output/24919at33634.out --cpu 1 /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/busco_downloads/lineages/stramenopiles_odb10/hmms/24919at33634.hmm /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_019297675.1_ASM1929767v1_genomic.fna.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/24919at33634.faa 
+# Current dir:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies
+# Date:            Sat Jul 19 09:42:26 2025
+# [ok]

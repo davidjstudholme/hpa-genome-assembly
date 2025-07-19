@@ -1,0 +1,3 @@
+contig_661	miniprot	mRNA	343676	344305	933	+	.	ID=MP000432;Rank=1;Identity=0.8632;Positive=0.9151;Target=22080at33634 1 207
+contig_661	miniprot	CDS	343676	344305	933	+	0	Parent=MP000432;Rank=1;Identity=0.8632;Target=22080at33634 1 207
+contig_661	miniprot	stop_codon	344303	344305	0	+	0	Parent=MP000432;Rank=1

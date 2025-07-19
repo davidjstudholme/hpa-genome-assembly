@@ -1,0 +1,2 @@
+contig_261	miniprot	mRNA	588742	589755	1514	+	.	ID=MP000376;Rank=1;Identity=0.8706;Positive=0.9324;Target=19891at33634_1 1 340
+contig_261	miniprot	CDS	588742	589755	1514	+	0	Parent=MP000376;Rank=1;Identity=0.8706;Target=19891at33634_1 1 340

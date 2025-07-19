@@ -1,0 +1,19 @@
+#                                                                                                     --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                 accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                         ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+6933at33634_6|CANTFL010000649.1:89186-90395|+ -            404 6933at33634          -            341  9.2e-186  604.8  16.8   1   2   5.9e-20   7.8e-20   59.2   6.3     1    72     1    96     1    99 0.78 <unknown description>
+6933at33634_6|CANTFL010000649.1:89186-90395|+ -            404 6933at33634          -            341  9.2e-186  604.8  16.8   2   2  3.1e-169  4.2e-169  550.0   3.7    51   341    93   403    89   403 0.97 <unknown description>
+6933at33634_0|CANTFL010000649.1:89153-90680|+ -            510 6933at33634          -            341  3.3e-185  602.9  17.0   1   2   9.9e-20   1.3e-19   58.4   6.8     1    73    12   108    12   112 0.78 <unknown description>
+6933at33634_0|CANTFL010000649.1:89153-90680|+ -            510 6933at33634          -            341  3.3e-185  602.9  17.0   2   2  6.8e-169    9e-169  548.9   3.7    51   341   104   414   101   414 0.97 <unknown description>
+6933at33634_1|CANTFL010000649.1:89186-91576|+ -            550 6933at33634          -            341  4.7e-185  602.4  17.0   1   2   1.1e-19   1.5e-19   58.3   6.8     1    73     1    97     1   101 0.78 <unknown description>
+6933at33634_1|CANTFL010000649.1:89186-91576|+ -            550 6933at33634          -            341  4.7e-185  602.4  17.0   2   2  8.1e-169  1.1e-168  548.6   3.7    51   341    93   403    90   403 0.97 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/busco_downloads/lineages/stramenopiles_odb10/hmms/6933at33634.hmm
+# Target file:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_947650285.1_Hp1_genomic.fna.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/6933at33634.faa
+# Option settings: hmmsearch --domtblout /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_947650285.1_Hp1_genomic.fna.busco/run_stramenopiles_odb10/hmmer_output/6933at33634.out --cpu 1 /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/busco_downloads/lineages/stramenopiles_odb10/hmms/6933at33634.hmm /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_947650285.1_Hp1_genomic.fna.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/6933at33634.faa 
+# Current dir:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies
+# Date:            Sat Jul 19 09:42:55 2025
+# [ok]

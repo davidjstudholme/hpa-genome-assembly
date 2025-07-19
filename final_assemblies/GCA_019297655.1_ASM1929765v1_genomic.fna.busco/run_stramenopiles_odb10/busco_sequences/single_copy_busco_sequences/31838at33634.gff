@@ -1,0 +1,4 @@
+SZZI01001623.1	miniprot	mRNA	7273	7986	537	+	.	ID=MP000617;Rank=1;Identity=0.7244;Positive=0.8132;Frameshift=1;Target=31838at33634_7 1 130
+SZZI01001623.1	miniprot	CDS	7273	7538	410	+	0	Parent=MP000617;Rank=1;Identity=0.7978;Target=31838at33634_7 1 88
+SZZI01001623.1	miniprot	CDS	7811	7986	127	+	1	Parent=MP000617;Rank=1;Identity=0.6105;Frameshift=1;Target=31838at33634_7 89 130
+SZZI01001623.1	miniprot	stop_codon	7984	7986	0	+	0	Parent=MP000617;Rank=1

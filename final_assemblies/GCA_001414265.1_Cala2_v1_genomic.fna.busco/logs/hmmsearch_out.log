@@ -1,0 +1,243 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/busco_downloads/lineages/stramenopiles_odb10/hmms/9939at33634.hmm
+# target sequence database:        /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_001414265.1_Cala2_v1_genomic.fna.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/9939at33634.faa
+# per-dom hits tabular output:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_001414265.1_Cala2_v1_genomic.fna.busco/run_stramenopiles_odb10/hmmer_output/9939at33634.out
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       9939at33634  [M=388]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                               Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                               -----------
+   7.2e-162  525.8   7.4   1.1e-127  413.2   2.4    4.0  3  9939at33634_1|KQ475803.1:36865-38713|+  <unknown description>
+   2.4e-124  402.3   7.4    1.3e-89  287.9   2.5    3.8  3  9939at33634_6|KQ475803.1:37459-38704|+  <unknown description>
+    6.3e-85  272.5   0.4    1.1e-84  271.8   0.4    1.4  1  9939at33634_0|KQ475803.1:36865-37837|+  <unknown description>
+
+
+Domain annotation for each sequence (and alignments):
+>> 9939at33634_1|KQ475803.1:36865-38713|+  <unknown description>
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  413.2   2.4  1.1e-127  1.1e-127       1     295 [.      86     457 ..      86     470 .. 0.87
+   2 !   27.9   0.0   1.3e-10   1.3e-10     284     324 ..     487     527 ..     478     530 .. 0.86
+   3 !   83.9   0.0   1.3e-27   1.3e-27     318     388 .]     539     613 ..     536     613 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 413.2 bits;  conditional E-value: 1.1e-127
+                             9939at33634   1 gvaldaatrglkvalversdfaagtssrstklihgGiryleta.............ealeerkfmlsaapy 58 
+                                             g+aldaatrgl++a+ve+sdfaagts+rstklihgGiryleta             ealeer+f+lsaapy
+  9939at33634_1|KQ475803.1:36865-38713|+  86 GCALDAATRGLNTAVVEASDFAAGTSGRSTKLIHGGIRYLETAflkldyaafklvnEALEERAFFLSAAPY 156
+                                             79***************************************98777777777777789************* PP
+
+                             9939at33634  59 lnrplpiviPiykWfev.....gaklydlv......vPssyvi........fPklk.eglkgaivyydgqm 109
+                                             +nrplpi+iPiykW+ev     gak+yd+v      vPssy+i        fP+l+ +glkgaivyydgqm
+  9939at33634_1|KQ475803.1:36865-38713|+ 157 MNRPLPIMIPIYKWWEVpymwiGAKAYDVVagskrfVPSSYYInadeamfqFPMLRkDGLKGAIVYYDGQM 227
+                                             ***************95444559*****965555559****98888888889***7368************ PP
+
+                             9939at33634 110 ndarlnlaialtaaekGaavanyvevvdllkd..gkvvGvkvkdrltgeefdvkakavvnatGpftdalrk 178
+                                             nd+r+n++ialta+++Ga+vanyv+vv+llkd  gkv+G++v+++ltg+e+dvka+avvnatGpftd++r 
+  9939at33634_1|KQ475803.1:36865-38713|+ 228 NDTRMNVSIALTATQNGATVANYVKVVQLLKDeeGKVRGARVQNTLTGDEWDVKAHAVVNATGPFTDSIRL 298
+                                             ******************************984469**********************************9 PP
+
+                             9939at33634 179 md........vpaaGvhvvlpd............ktsdgrvlfllPWenatlvGttds.......peptee 222
+                                             md        vpaaGvh+vlpd            ktsdgrvlf+lPWen tl+Gttds       p+pt++
+  9939at33634_1|KQ475803.1:36865-38713|+ 299 MDdpkkdkicVPAAGVHTVLPDhfspnrmglivpKTSDGRVLFFLPWENGTLAGTTDSqsditmlPSPTKS 369
+                                             9844444444689*******986666666666667**********************84555555689*** PP
+
+                             9939at33634 223 evefilkeankyl.....rsdvlsaWsGirPlvkdp......takisrehvie....glvtiaGGkWttyr 278
+                                             ev+fi++ean+yl     r+d++saWsGirPlvkdp      ta+isrehv+e    ++vtiaGGkWttyr
+  9939at33634_1|KQ475803.1:36865-38713|+ 370 EVDFIIDEANRYLakdvtRNDIKSAWSGIRPLVKDPrhangsTAAISREHVVEvsesNMVTIAGGKWTTYR 440
+                                             ************94444445789************8555555789******9655559************* PP
+
+                             9939at33634 279 rmaedvidkvliGadel 295
+                                             rma+d+id+++    e+
+  9939at33634_1|KQ475803.1:36865-38713|+ 441 RMAQDAIDQLVATVPEI 457
+                                             *********99876655 PP
+
+  == domain 2  score: 27.9 bits;  conditional E-value: 1.3e-10
+                             9939at33634 284 vidkvliGadeldkdvaehlvknyGtralevaelekyPyle 324
+                                              i  +l    +ldkd+aehl++nyGtral+va +e+  +l+
+  9939at33634_1|KQ475803.1:36865-38713|+ 487 KITVTLRENYNLDKDIAEHLMRNYGTRALQVAAIEQAGFLD 527
+                                             45556667789************************999987 PP
+
+  == domain 3  score: 83.9 bits;  conditional E-value: 1.3e-27
+                             9939at33634 318 ekyPyleaevvfavrqeyavk.edvlarrlrlafldseaalevlprvvelmaeelgWsk...eqeleeake 384
+                                             +kyPyleaevvfavrqeya k +d+l rr+rlaf+ds +++e++prvv++m+++lgWsk   eqel+e+ke
+  9939at33634_1|KQ475803.1:36865-38713|+ 539 PKYPYLEAEVVFAVRQEYAQKaTDILGRRMRLAFIDSGVGKELMPRVVHMMSQLLGWSKarqEQELAECKE 609
+                                             79*****************9857**********************************98322467788999 PP
+
+                             9939at33634 385 ylet 388
+                                             ylet
+  9939at33634_1|KQ475803.1:36865-38713|+ 610 YLET 613
+                                             9986 PP
+
+>> 9939at33634_6|KQ475803.1:37459-38704|+  <unknown description>
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  287.9   2.5   1.3e-89   1.3e-89      89     295 ..       8     259 ..       3     273 .. 0.86
+   2 !   28.7   0.0   7.6e-11   7.6e-11     284     324 ..     289     329 ..     280     332 .. 0.86
+   3 !   84.7   0.0   7.2e-28   7.2e-28     318     388 .]     341     415 ..     338     415 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 287.9 bits;  conditional E-value: 1.3e-89
+                             9939at33634  89 vifPklk.eglkgaivyydgqmndarlnlaialtaaekGaavanyvevvdllkd..gkvvGvkvkdrltge 156
+                                             + fP+l+ +glkgaivyydgqmnd+r+n++ialta+++Ga+vanyv+vv+llkd  gkv+G++v+++ltg+
+  9939at33634_6|KQ475803.1:37459-38704|+   8 FQFPMLRkDGLKGAIVYYDGQMNDTRMNVSIALTATQNGATVANYVKVVQLLKDeeGKVRGARVQNTLTGD 78 
+                                             569***7368******************************************984469************* PP
+
+                             9939at33634 157 efdvkakavvnatGpftdalrkmd........vpaaGvhvvlpd............ktsdgrvlfllPWen 207
+                                             e+dvka+avvnatGpftd++r md        vpaaGvh+vlpd            ktsdgrvlf+lPWen
+  9939at33634_6|KQ475803.1:37459-38704|+  79 EWDVKAHAVVNATGPFTDSIRLMDdpkkdkicVPAAGVHTVLPDhfspnrmglivpKTSDGRVLFFLPWEN 149
+                                             *********************99844444444689*******986666666666667************** PP
+
+                             9939at33634 208 atlvGttds.......pepteeevefilkeankyl.....rsdvlsaWsGirPlvkdp......takisre 260
+                                              tl+Gttds       p+pt++ev+fi++ean+yl     r+d++saWsGirPlvkdp      ta+isre
+  9939at33634_6|KQ475803.1:37459-38704|+ 150 GTLAGTTDSqsditmlPSPTKSEVDFIIDEANRYLakdvtRNDIKSAWSGIRPLVKDPrhangsTAAISRE 220
+                                             ********84555555689***************94444445789************8555555789**** PP
+
+                             9939at33634 261 hvie....glvtiaGGkWttyrrmaedvidkvliGadel 295
+                                             hv+e    ++vtiaGGkWttyrrma+d+id+++    e+
+  9939at33634_6|KQ475803.1:37459-38704|+ 221 HVVEvsesNMVTIAGGKWTTYRRMAQDAIDQLVATVPEI 259
+                                             **9655559**********************99876665 PP
+
+  == domain 2  score: 28.7 bits;  conditional E-value: 7.6e-11
+                             9939at33634 284 vidkvliGadeldkdvaehlvknyGtralevaelekyPyle 324
+                                              i  +l    +ldkd+aehl++nyGtral+va +e+  +l+
+  9939at33634_6|KQ475803.1:37459-38704|+ 289 KITVTLRENYNLDKDIAEHLMRNYGTRALQVAAIEQAGFLD 329
+                                             45556667789************************999987 PP
+
+  == domain 3  score: 84.7 bits;  conditional E-value: 7.2e-28
+                             9939at33634 318 ekyPyleaevvfavrqeyavk.edvlarrlrlafldseaalevlprvvelmaeelgWsk...eqeleeake 384
+                                             +kyPyleaevvfavrqeya k +d+l rr+rlaf+ds +++e++prvv++m+++lgWsk   eqel+e+ke
+  9939at33634_6|KQ475803.1:37459-38704|+ 341 PKYPYLEAEVVFAVRQEYAQKaTDILGRRMRLAFIDSGVGKELMPRVVHMMSQLLGWSKarqEQELAECKE 411
+                                             79*****************9857**********************************98322467788999 PP
+
+                             9939at33634 385 ylet 388
+                                             ylet
+  9939at33634_6|KQ475803.1:37459-38704|+ 412 YLET 415
+                                             9986 PP
+
+>> 9939at33634_0|KQ475803.1:36865-37837|+  <unknown description>
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  271.8   0.4   1.1e-84   1.1e-84       1     195 [.      86     323 ..      86     325 .] 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 271.8 bits;  conditional E-value: 1.1e-84
+                             9939at33634   1 gvaldaatrglkvalversdfaagtssrstklihgGiryleta.............ealeerkfmlsaapy 58 
+                                             g+aldaatrgl++a+ve+sdfaagts+rstklihgGiryleta             ealeer+f+lsaapy
+  9939at33634_0|KQ475803.1:36865-37837|+  86 GCALDAATRGLNTAVVEASDFAAGTSGRSTKLIHGGIRYLETAflkldyaafklvnEALEERAFFLSAAPY 156
+                                             79***************************************98777777777777789************* PP
+
+                             9939at33634  59 lnrplpiviPiykWfev.....gaklydlv......vPssyvi........fPklk.eglkgaivyydgqm 109
+                                             +nrplpi+iPiykW+ev     gak+yd+v      vPssy+i        fP+l+ +glkgaivyydgqm
+  9939at33634_0|KQ475803.1:36865-37837|+ 157 MNRPLPIMIPIYKWWEVpymwiGAKAYDVVagskrfVPSSYYInadeamfqFPMLRkDGLKGAIVYYDGQM 227
+                                             ***************95444559*****965555559****98888888889***7368************ PP
+
+                             9939at33634 110 ndarlnlaialtaaekGaavanyvevvdllkd..gkvvGvkvkdrltgeefdvkakavvnatGpftdalrk 178
+                                             nd+r+n++ialta+++Ga+vanyv+vv+llkd  gkv+G++v+++ltg+e+dvka+avvnatGpftd++r 
+  9939at33634_0|KQ475803.1:36865-37837|+ 228 NDTRMNVSIALTATQNGATVANYVKVVQLLKDeeGKVRGARVQNTLTGDEWDVKAHAVVNATGPFTDSIRL 298
+                                             ******************************984469**********************************9 PP
+
+                             9939at33634 179 md........vpaaGvhvvlpdkts 195
+                                             md        vpaaGvh+vlpd+ s
+  9939at33634_0|KQ475803.1:36865-37837|+ 299 MDdpkkdkicVPAAGVHTVLPDHFS 323
+                                             9844444444689********9865 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (388 nodes)
+Target sequences:                          3  (1358 residues searched)
+Passed MSV filter:                         3  (1); expected 0.1 (0.02)
+Passed bias filter:                        3  (1); expected 0.1 (0.02)
+Passed Vit filter:                         3  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         3  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  3  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.05u 0.00s 00:00:00.05 Elapsed: 00:00:00.05
+# Mc/sec: 10.20
+//
+[ok]
+6-13194|- 422 QTLYVCLEFGLRLLHPCMPFVTEELWQRLPGKrptaSITIASYPlsmegwtnsdvETNMELVKDVIHA 489
+                                                *****************************99766669*******8888888888889*********** PP
+
+                                 723at33634 708 arslraeyglan.....fflkv.............ddfktlakag..........pkgca...vndkv 744
+                                                ars+raeyglan     ff+k+             ddf+tlakag          p+gca   vndkv
+  723at33634_0|LKIA01001066.1:11286-13194|- 490 ARSVRAEYGLANnvrpqFFIKCidndvkavieaqlDDFATLAKAGdskclveeeaPEGCAvhsVNDKV 557
+                                                **********975555589987666666666666689******9744445555557889833459*** PP
+
+                                 723at33634 745 qvlv.lkGlvdfaneikklekklkkiap....lekkma.....ekvpeevread 788
+                                                q++v l+Glvdfanei+kle+kl+kiap    l kkm+     +kvp++vread
+  723at33634_0|LKIA01001066.1:11286-13194|- 558 QIFVrLAGLVDFANEITKLETKLTKIAPslasLMKKMScddyeTKVPDSVREAD 611
+                                                ***989******************997654448889854444489*****9998 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (789 nodes)
+Target sequences:                          2  (1696 residues searched)
+Passed MSV filter:                         2  (1); expected 0.0 (0.02)
+Passed bias filter:                        2  (1); expected 0.0 (0.02)
+Passed Vit filter:                         2  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         2  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  2  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.09u 0.02s 00:00:00.11 Elapsed: 00:00:00.11
+# Mc/sec: 11.88
+//
+[ok]
+t33634 284 iavftsdkkdkl.....vlvttytmvafggkrakeseevleeiksreWGlllldevhvvPakmfrkv 345
+                                                 ia+fts++kd++     v+vttytmvafgg+ra++seev+++i++reWG++lldevhvvPakmfrkv
+  3528at33634_0|LKIA01000081.1:55176-56973|+ 197 IARFTSVAKDYIdpdsgVIVTTYTMVAFGGRRARASEEVMQLIQGREWGCILLDEVHVVPAKMFRKV 263
+                                                 ***********999999************************************************** PP
+
+                                 3528at33634 346 igsvkahcklGltatlvreddlikdlnfliGPklyeanWmdltqsGylanvkcvevWcpmtgefyre 412
+                                                 igs+++hcklGltatlvreddli+dlnfliGPklyeanWmdltqsG+lanv+cvevWcpm+gefyre
+  3528at33634_0|LKIA01000081.1:55176-56973|+ 264 IGSIACHCKLGLTATLVREDDLIGDLNFLIGPKLYEANWMDLTQSGFLANVSCVEVWCPMAGEFYRE 330
+                                                 ******************************************************************* PP
+
+                                 3528at33634 413 yl....earkrkllyvlnPnklraaeflikyheergdkilvfsddvfalklyaell...liyGgtge 472
+                                                 yl    +arkr+llyv+nPnk++aaefli+yheergdkil+fsddvfal+lya++l   +iyGgtge
+  3528at33634_0|LKIA01000081.1:55176-56973|+ 331 YLretkSARKRALLYVANPNKFTAAEFLIQYHEERGDKILLFSDDVFALRLYATKLnkgYIYGGTGE 397
+                                                 **55545799********************************************997778******* PP
+
+                                 3528at33634 473 rerkrllqsfrss.lvnviclskvGdtsidlPeanviiqvsshfGsrrqeaqrlGrilrpkanat.g 537
+                                                 rer+rllqsfrss lvnvic+skvGdtsidlPeanviiqvsshfGsrrqeaqrlGrilrpkanat g
+  3528at33634_0|LKIA01000081.1:55176-56973|+ 398 RERMRLLQSFRSSpLVNVICISKVGDTSIDLPEANVIIQVSSHFGSRRQEAQRLGRILRPKANATgG 464
+                                                 ***********98579**********************************************99846 PP
+
+                                 3528at33634 538 fnaffytlvstdtkevfysakrqqylvdqGytfkvvtdllekellkevleaededlerslgalsgad 604
+                                                 fnaffytl+stdt+e++ys+krqqylvdqGytfkvvtdl+e   ++ v + + ed    l ++ +ad
+  3528at33634_0|LKIA01000081.1:55176-56973|+ 465 FNAFFYTLISTDTHEMYYSNKRQQYLVDQGYTFKVVTDLYEPGSFEGVFTRK-EDQRALLNEVLSAD 530
+                                                 9****************************************99999888877.44444444444444 PP
+
+  == domain 2  score: 24.9 bits;  conditional E-value: 8.8e-10
+                                 3528at33634 587 eaededlerslgalsgadgskymeysags.ak.rhnlfrdryr 627
+                                                  +++++   slgalsgadg+kymeys+g+ ak rhnlfrdryr
+  3528at33634_0|LKIA01000081.1:55176-56973|+ 557 GSKKKKKLGSLGALSGADGTKYMEYSSGHgAKqRHNLFRDRYR 599
+                                                 5566777789*******************9888********97 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (627 nodes)
+Target sequences:                          3  (2058 residues searched)
+Passed MSV filter:                         3  (1); expected 0.1 (0.02)
+Passed bias filter:                        3  (1); expected 0.1 (0.02)
+Passed Vit filter:                         3  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         3  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  3  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.08u 0.00s 00:00:00.08 Elapsed: 00:00:00.07
+# Mc/sec: 16.43
+//
+[ok]

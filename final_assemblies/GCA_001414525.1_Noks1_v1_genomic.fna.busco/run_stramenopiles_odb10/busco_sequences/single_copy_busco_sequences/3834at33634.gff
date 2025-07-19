@@ -1,0 +1,3 @@
+KQ478250.1	miniprot	mRNA	6943	8853	2699	+	.	ID=MP000627;Rank=1;Identity=0.8087;Positive=0.8865;Target=3834at33634_1 1 634
+KQ478250.1	miniprot	CDS	6943	8853	2699	+	0	Parent=MP000627;Rank=1;Identity=0.8087;Target=3834at33634_1 1 634
+KQ478250.1	miniprot	stop_codon	8851	8853	0	+	0	Parent=MP000627;Rank=1

@@ -1,0 +1,2 @@
+contig_286	miniprot	mRNA	61106	62572	2259	-	.	ID=MP000783;Rank=1;Identity=0.9093;Positive=0.9556;Target=6933at33634_0 24 519
+contig_286	miniprot	CDS	61106	62572	2259	-	0	Parent=MP000783;Rank=1;Identity=0.9093;Target=6933at33634_0 24 519

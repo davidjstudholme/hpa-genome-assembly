@@ -1,0 +1,3 @@
+JH597939.1	miniprot	mRNA	119636	121546	2702	-	.	ID=MP000620;Rank=1;Identity=0.8103;Positive=0.8865;Target=3834at33634_1 1 634
+JH597939.1	miniprot	CDS	119636	121546	2702	-	0	Parent=MP000620;Rank=1;Identity=0.8103;Target=3834at33634_1 1 634
+JH597939.1	miniprot	stop_codon	119636	119638	0	-	0	Parent=MP000620;Rank=1

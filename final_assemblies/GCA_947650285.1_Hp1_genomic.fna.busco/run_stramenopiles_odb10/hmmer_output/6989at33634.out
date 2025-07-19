@@ -1,0 +1,24 @@
+#                                                                                                       --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                   accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                           ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+6989at33634_0|CANTFL010001462.1:363837-365943|+ -            703 6989at33634          -            498  5.8e-217  708.7  76.4   1   5  9.1e-148  9.1e-148  480.4  12.0     1   268     1   279     1   306 0.92 <unknown description>
+6989at33634_0|CANTFL010001462.1:363837-365943|+ -            703 6989at33634          -            498  5.8e-217  708.7  76.4   2   5       2.7       2.7   -6.0   9.9   404   460   294   363   280   376 0.48 <unknown description>
+6989at33634_0|CANTFL010001462.1:363837-365943|+ -            703 6989at33634          -            498  5.8e-217  708.7  76.4   3   5      0.11      0.11   -1.4   0.2   274   300   353   379   343   386 0.78 <unknown description>
+6989at33634_0|CANTFL010001462.1:363837-365943|+ -            703 6989at33634          -            498  5.8e-217  708.7  76.4   4   5   2.1e-61   2.1e-61  195.6  14.9   290   456   387   579   376   583 0.83 <unknown description>
+6989at33634_0|CANTFL010001462.1:363837-365943|+ -            703 6989at33634          -            498  5.8e-217  708.7  76.4   5   5   1.3e-16   1.3e-16   47.9  30.5   411   497   568   670   565   671 0.75 <unknown description>
+6989at33634|CANTFL010001462.1:363837-370418|+   -            910 6989at33634          -            498  1.9e-176  575.0  79.8   1   5   6.1e-43   6.1e-43  134.7   8.8     1    86     1    86     1    90 0.97 <unknown description>
+6989at33634|CANTFL010001462.1:363837-370418|+   -            910 6989at33634          -            498  1.9e-176  575.0  79.8   2   5   3.6e-67   3.6e-67  214.6   4.4   143   271    94   230    88   263 0.85 <unknown description>
+6989at33634|CANTFL010001462.1:363837-370418|+   -            910 6989at33634          -            498  1.9e-176  575.0  79.8   3   5         3         3   -6.2   9.3   405   459   243   310   232   319 0.44 <unknown description>
+6989at33634|CANTFL010001462.1:363837-370418|+   -            910 6989at33634          -            498  1.9e-176  575.0  79.8   4   5   9.4e-61   9.4e-61  193.4  16.6   289   456   334   527   297   531 0.84 <unknown description>
+6989at33634|CANTFL010001462.1:363837-370418|+   -            910 6989at33634          -            498  1.9e-176  575.0  79.8   5   5     1e-16     1e-16   48.1  29.7   411   497   516   618   513   619 0.75 <unknown description>
+6989at33634_3|CANTFL010001462.1:363849-364722|+ -            292 6989at33634          -            498  1.9e-148  482.7   7.3   1   1  2.1e-148  2.1e-148  482.5   7.3     5   267     1   274     1   291 0.94 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/busco_downloads/lineages/stramenopiles_odb10/hmms/6989at33634.hmm
+# Target file:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_947650285.1_Hp1_genomic.fna.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/6989at33634.faa
+# Option settings: hmmsearch --domtblout /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_947650285.1_Hp1_genomic.fna.busco/run_stramenopiles_odb10/hmmer_output/6989at33634.out --cpu 1 /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/busco_downloads/lineages/stramenopiles_odb10/hmms/6989at33634.hmm /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_947650285.1_Hp1_genomic.fna.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/6989at33634.faa 
+# Current dir:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies
+# Date:            Sat Jul 19 09:42:56 2025
+# [ok]

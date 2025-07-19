@@ -1,0 +1,4 @@
+LLKM01000616.1	miniprot	mRNA	5421	7137	2415	-	.	ID=MP000745;Rank=1;Identity=0.9015;Positive=0.9413;StopCodon=1;Target=6366at33634_0 1 528
+LLKM01000616.1	miniprot	CDS	5622	7137	2390	-	0	Parent=MP000745;Rank=1;Identity=0.9170;Target=6366at33634_0 1 505
+LLKM01000616.1	miniprot	CDS	5421	5491	25	-	2	Parent=MP000745;Rank=1;Identity=0.5455;StopCodon=1;Target=6366at33634_0 506 528
+LLKM01000616.1	miniprot	stop_codon	5421	5423	0	-	0	Parent=MP000745;Rank=1

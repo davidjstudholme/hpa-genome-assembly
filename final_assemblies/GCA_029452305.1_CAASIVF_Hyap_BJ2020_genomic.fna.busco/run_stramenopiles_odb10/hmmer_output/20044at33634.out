@@ -1,0 +1,23 @@
+#                                                                                                    --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                        ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+20044at33634_1|JAPPWB010001570.1:0-2548|+    -            655 20044at33634         -            503  1.4e-122  398.2  13.5   1   4   5.7e-69   5.7e-69  221.3   2.1   120   314     1   241     1   268 0.77 <unknown description>
+20044at33634_1|JAPPWB010001570.1:0-2548|+    -            655 20044at33634         -            503  1.4e-122  398.2  13.5   2   4     1e-06     1e-06   15.9   0.0   287   336   294   343   290   352 0.86 <unknown description>
+20044at33634_1|JAPPWB010001570.1:0-2548|+    -            655 20044at33634         -            503  1.4e-122  398.2  13.5   3   4   2.2e-14   2.2e-14   41.2   0.3   331   385   427   484   402   493 0.81 <unknown description>
+20044at33634_1|JAPPWB010001570.1:0-2548|+    -            655 20044at33634         -            503  1.4e-122  398.2  13.5   4   4   5.2e-38   5.2e-38  119.2   0.1   397   503   529   654   518   654 0.87 <unknown description>
+20044at33634_6|JAPPWB010001242.1:29-792|-    -            206 20044at33634         -            503   2.1e-98  318.4   0.3   1   1     4e-98     4e-98  317.5   0.3     1   182     6   205     6   206 0.92 <unknown description>
+20044at33634_4|JAPPWB010001570.1:705-2548|+  -            435 20044at33634         -            503     3e-82  265.1   4.1   1   3     9e-38     9e-38  118.4   0.1   221   336     1   131     1   141 0.78 <unknown description>
+20044at33634_4|JAPPWB010001570.1:705-2548|+  -            435 20044at33634         -            503     3e-82  265.1   4.1   2   3   5.8e-10   5.8e-10   26.7   0.1   353   385   232   264   177   273 0.86 <unknown description>
+20044at33634_4|JAPPWB010001570.1:705-2548|+  -            435 20044at33634         -            503     3e-82  265.1   4.1   3   3   2.5e-38   2.5e-38  120.2   0.1   397   503   309   434   298   434 0.87 <unknown description>
+20044at33634_5|JAPPWB010001242.1:242-795|-   -            161 20044at33634         -            503   3.7e-82  264.8   0.1   1   1   4.2e-82   4.2e-82  264.7   0.1     1   145     7   159     7   161 0.94 <unknown description>
+20044at33634_7|JAPPWB010001570.1:1156-1634|+ -            133 20044at33634         -            503   6.1e-08   20.0   0.0   1   1   7.3e-08   7.3e-08   19.7   0.0   287   336    32    81    27    91 0.86 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/busco_downloads/lineages/stramenopiles_odb10/hmms/20044at33634.hmm
+# Target file:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_029452305.1_CAASIVF_Hyap_BJ2020_genomic.fna.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/20044at33634.faa
+# Option settings: hmmsearch --domtblout /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_029452305.1_CAASIVF_Hyap_BJ2020_genomic.fna.busco/run_stramenopiles_odb10/hmmer_output/20044at33634.out --cpu 1 /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/busco_downloads/lineages/stramenopiles_odb10/hmms/20044at33634.hmm /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_029452305.1_CAASIVF_Hyap_BJ2020_genomic.fna.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/20044at33634.faa 
+# Current dir:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies
+# Date:            Sat Jul 19 09:42:40 2025
+# [ok]

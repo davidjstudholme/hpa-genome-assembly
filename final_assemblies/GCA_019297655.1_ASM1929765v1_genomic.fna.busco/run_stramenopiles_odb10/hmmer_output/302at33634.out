@@ -1,0 +1,26 @@
+#                                                                                                 --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                             accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                     ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+302at33634_1|SZZI01000089.1:31683-37605|- -           1975 302at33634           -           1354         0 1463.3  80.9   1   8   9.5e-97   9.5e-97  311.7   2.3    18   287    77   403    61   416 0.85 <unknown description>
+302at33634_1|SZZI01000089.1:31683-37605|- -           1975 302at33634           -           1354         0 1463.3  80.9   2   8    8e-124    8e-124  401.4   5.7   276   629   420   843   417   857 0.84 <unknown description>
+302at33634_1|SZZI01000089.1:31683-37605|- -           1975 302at33634           -           1354         0 1463.3  80.9   3   8   3.1e-16   3.1e-16   44.9   0.6   622   730   873  1024   858  1042 0.63 <unknown description>
+302at33634_1|SZZI01000089.1:31683-37605|- -           1975 302at33634           -           1354         0 1463.3  80.9   4   8   3.3e-10   3.3e-10   24.9   0.0   725   797  1069  1154  1044  1187 0.74 <unknown description>
+302at33634_1|SZZI01000089.1:31683-37605|- -           1975 302at33634           -           1354         0 1463.3  80.9   5   8   1.4e-06   1.4e-06   13.0   1.4   369   471  1248  1355  1209  1370 0.65 <unknown description>
+302at33634_1|SZZI01000089.1:31683-37605|- -           1975 302at33634           -           1354         0 1463.3  80.9   6   8     5e-70     5e-70  223.1   6.7   895  1068  1385  1571  1376  1614 0.81 <unknown description>
+302at33634_1|SZZI01000089.1:31683-37605|- -           1975 302at33634           -           1354         0 1463.3  80.9   7   8    0.0001    0.0001    6.7   2.7  1049  1089  1624  1662  1598  1670 0.68 <unknown description>
+302at33634_1|SZZI01000089.1:31683-37605|- -           1975 302at33634           -           1354         0 1463.3  80.9   8   8  7.3e-140  7.3e-140  454.5  19.2  1052  1353  1657  1972  1652  1973 0.88 <unknown description>
+302at33634_0|SZZI01000089.1:33789-37602|- -           1272 302at33634           -           1354  8.1e-242  792.3  31.0   1   5   4.4e-97   4.4e-97  312.8   2.2    18   287    76   402    60   415 0.85 <unknown description>
+302at33634_0|SZZI01000089.1:33789-37602|- -           1272 302at33634           -           1354  8.1e-242  792.3  31.0   2   5  5.1e-124  5.1e-124  402.0   6.2   276   629   419   842   416   856 0.84 <unknown description>
+302at33634_0|SZZI01000089.1:33789-37602|- -           1272 302at33634           -           1354  8.1e-242  792.3  31.0   3   5   1.6e-16   1.6e-16   45.8   0.6   622   732   872  1025   854  1049 0.64 <unknown description>
+302at33634_0|SZZI01000089.1:33789-37602|- -           1272 302at33634           -           1354  8.1e-242  792.3  31.0   4   5   2.2e-10   2.2e-10   25.5   0.0   725   797  1068  1153  1043  1179 0.74 <unknown description>
+302at33634_0|SZZI01000089.1:33789-37602|- -           1272 302at33634           -           1354  8.1e-242  792.3  31.0   5   5   0.00014   0.00014    6.3   0.2   974  1032  1209  1268  1198  1272 0.36 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/busco_downloads/lineages/stramenopiles_odb10/hmms/302at33634.hmm
+# Target file:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_019297655.1_ASM1929765v1_genomic.fna.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/302at33634.faa
+# Option settings: hmmsearch --domtblout /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_019297655.1_ASM1929765v1_genomic.fna.busco/run_stramenopiles_odb10/hmmer_output/302at33634.out --cpu 1 /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/busco_downloads/lineages/stramenopiles_odb10/hmms/302at33634.hmm /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_019297655.1_ASM1929765v1_genomic.fna.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/302at33634.faa 
+# Current dir:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies
+# Date:            Sat Jul 19 09:42:08 2025
+# [ok]

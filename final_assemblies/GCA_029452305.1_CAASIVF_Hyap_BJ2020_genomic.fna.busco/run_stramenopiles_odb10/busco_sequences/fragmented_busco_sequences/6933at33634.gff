@@ -1,0 +1,2 @@
+JAPPWB010001477.1	miniprot	mRNA	3	739	931	+	.	ID=MP000686;Rank=1;Identity=0.7410;Positive=0.8606;Frameshift=1;Target=6933at33634_6 175 425
+JAPPWB010001477.1	miniprot	CDS	3	739	931	+	0	Parent=MP000686;Rank=1;Identity=0.7410;Frameshift=1;Target=6933at33634_6 175 425

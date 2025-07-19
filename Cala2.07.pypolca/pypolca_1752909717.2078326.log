@@ -41,3 +41,14 @@
 2025-07-19 08:32:35.584 | INFO     | pypolca.utils.external_tools:run:50 - Started running samtools faidx Cala2.07.pypolca/temp/assembly.fasta ...
 2025-07-19 08:32:41.708 | INFO     | pypolca.utils.external_tools:run:52 - Done running samtools faidx Cala2.07.pypolca/temp/assembly.fasta
 2025-07-19 08:32:41.710 | INFO     | pypolca.utils.external_tools:run:50 - Started running freebayes -m 0 --min-coverage 3 -R 0 -p 1 -F 0.2 -E 0 -b Cala2.07.pypolca/temp/temp_bwa_sorted.bam -f Cala2.07.pypolca/temp/assembly.fasta -v Cala2.07.pypolca/pypolca.vcf ...
+2025-07-19 09:21:46.418 | INFO     | pypolca.utils.external_tools:run:52 - Done running freebayes -m 0 --min-coverage 3 -R 0 -p 1 -F 0.2 -E 0 -b Cala2.07.pypolca/temp/temp_bwa_sorted.bam -f Cala2.07.pypolca/temp/assembly.fasta -v Cala2.07.pypolca/pypolca.vcf
+2025-07-19 09:21:50.932 | INFO     | pypolca.utils.fix_consensus_from_vcf:fix_consensus_from_vcf:134 - POLCA has found variants. Fixing
+2025-07-19 09:21:51.580 | INFO     | pypolca.utils.report:create_report:27 - Stats BEFORE polishing:
+2025-07-19 09:21:51.580 | INFO     | pypolca.utils.report:create_report:29 - Substitution Errors Found: 14761
+2025-07-19 09:21:51.580 | INFO     | pypolca.utils.report:create_report:31 - Insertion/Deletion Errors Found: 9371
+2025-07-19 09:21:51.580 | INFO     | pypolca.utils.report:create_report:33 - Assembly Size: 83688890
+2025-07-19 09:21:51.580 | INFO     | pypolca.utils.report:create_report:35 - Consensus Quality Before Polishing: 99.97
+2025-07-19 09:21:51.581 | INFO     | pypolca.utils.report:create_report:37 - Consensus QV Before Polishing: 35.4
+2025-07-19 09:21:51.595 | INFO     | pypolca:run:267 - Final report is in Cala2.07.pypolca/pypolca.report; polished assembly is in Cala2.07.pypolca/pypolca_corrected.fasta
+2025-07-19 09:21:53.764 | INFO     | pypolca.utils.util:end_pypolca:110 - pypolca has finished
+2025-07-19 09:21:53.764 | INFO     | pypolca.utils.util:end_pypolca:111 - Elapsed time: 7196.56 seconds

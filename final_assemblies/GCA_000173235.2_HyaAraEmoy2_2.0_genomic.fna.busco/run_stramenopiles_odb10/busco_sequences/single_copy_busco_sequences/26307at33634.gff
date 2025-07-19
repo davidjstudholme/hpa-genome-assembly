@@ -1,0 +1,3 @@
+JH598121.1	miniprot	mRNA	52881	53603	880	-	.	ID=MP000515;Rank=1;Identity=0.7208;Positive=0.8375;Target=26307at33634_5 1 239
+JH598121.1	miniprot	CDS	52881	53603	880	-	0	Parent=MP000515;Rank=1;Identity=0.7208;Target=26307at33634_5 1 239
+JH598121.1	miniprot	stop_codon	52881	52883	0	-	0	Parent=MP000515;Rank=1

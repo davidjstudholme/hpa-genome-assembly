@@ -1,0 +1,30 @@
+#                                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+1326at33634_8|SZZI01000247.1:18559-31472|- -           1270 1326at33634          -            744  4.6e-236  772.9  35.9   1   6   7.9e-27   7.9e-27   81.1   3.0     6   113    25   163    19   187 0.82 <unknown description>
+1326at33634_8|SZZI01000247.1:18559-31472|- -           1270 1326at33634          -            744  4.6e-236  772.9  35.9   2   6    0.0018    0.0018    3.9   0.0   110   130   193   214   190   227 0.86 <unknown description>
+1326at33634_8|SZZI01000247.1:18559-31472|- -           1270 1326at33634          -            744  4.6e-236  772.9  35.9   3   6   1.4e-42   1.4e-42  133.2   0.1   140   266   258   400   231   425 0.79 <unknown description>
+1326at33634_8|SZZI01000247.1:18559-31472|- -           1270 1326at33634          -            744  4.6e-236  772.9  35.9   4   6  2.5e-125  2.5e-125  406.8   5.6   262   559   475   815   466   820 0.90 <unknown description>
+1326at33634_8|SZZI01000247.1:18559-31472|- -           1270 1326at33634          -            744  4.6e-236  772.9  35.9   5   6   7.2e-24   7.2e-24   71.3   0.0   535   652   821   966   816   976 0.82 <unknown description>
+1326at33634_8|SZZI01000247.1:18559-31472|- -           1270 1326at33634          -            744  4.6e-236  772.9  35.9   6   6   1.9e-26   1.9e-26   79.9   5.3   643   735  1063  1184  1047  1189 0.78 <unknown description>
+1326at33634_1|SZZI01000247.1:27716-31538|- -           1275 1326at33634          -            744  4.8e-236  772.8  35.9   1   6   7.9e-27   7.9e-27   81.1   3.0     6   113    47   185    41   209 0.82 <unknown description>
+1326at33634_1|SZZI01000247.1:27716-31538|- -           1275 1326at33634          -            744  4.8e-236  772.8  35.9   2   6    0.0018    0.0018    3.9   0.0   110   130   215   236   212   249 0.86 <unknown description>
+1326at33634_1|SZZI01000247.1:27716-31538|- -           1275 1326at33634          -            744  4.8e-236  772.8  35.9   3   6   1.4e-42   1.4e-42  133.2   0.1   140   266   280   422   253   447 0.79 <unknown description>
+1326at33634_1|SZZI01000247.1:27716-31538|- -           1275 1326at33634          -            744  4.8e-236  772.8  35.9   4   6  2.6e-125  2.6e-125  406.8   5.6   262   559   497   837   488   842 0.90 <unknown description>
+1326at33634_1|SZZI01000247.1:27716-31538|- -           1275 1326at33634          -            744  4.8e-236  772.8  35.9   5   6   7.2e-24   7.2e-24   71.3   0.0   535   652   843   988   838   998 0.82 <unknown description>
+1326at33634_1|SZZI01000247.1:27716-31538|- -           1275 1326at33634          -            744  4.8e-236  772.8  35.9   6   6   1.9e-26   1.9e-26   79.8   5.3   643   735  1085  1206  1069  1211 0.78 <unknown description>
+1326at33634_0|SZZI01000247.1:27716-30467|- -            838 1326at33634          -            744  9.5e-187  609.9  21.4   1   5   4.8e-17   4.8e-17   48.8   0.0   218   266    17    65     3    90 0.75 <unknown description>
+1326at33634_0|SZZI01000247.1:27716-30467|- -            838 1326at33634          -            744  9.5e-187  609.9  21.4   2   5    1e-125    1e-125  408.1   5.6   262   559   140   480   131   488 0.90 <unknown description>
+1326at33634_0|SZZI01000247.1:27716-30467|- -            838 1326at33634          -            744  9.5e-187  609.9  21.4   3   5   4.2e-24   4.2e-24   72.1   0.0   535   652   486   631   482   639 0.82 <unknown description>
+1326at33634_0|SZZI01000247.1:27716-30467|- -            838 1326at33634          -            744  9.5e-187  609.9  21.4   4   5   3.9e-08   3.9e-08   19.3   0.2   643   682   648   696   636   701 0.79 <unknown description>
+1326at33634_0|SZZI01000247.1:27716-30467|- -            838 1326at33634          -            744  9.5e-187  609.9  21.4   5   5   3.8e-23   3.8e-23   68.9   0.2   680   735   714   769   706   774 0.94 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/busco_downloads/lineages/stramenopiles_odb10/hmms/1326at33634.hmm
+# Target file:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_019297655.1_ASM1929765v1_genomic.fna.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/1326at33634.faa
+# Option settings: hmmsearch --domtblout /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_019297655.1_ASM1929765v1_genomic.fna.busco/run_stramenopiles_odb10/hmmer_output/1326at33634.out --cpu 1 /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/busco_downloads/lineages/stramenopiles_odb10/hmms/1326at33634.hmm /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_019297655.1_ASM1929765v1_genomic.fna.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/1326at33634.faa 
+# Current dir:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies
+# Date:            Sat Jul 19 09:42:07 2025
+# [ok]

@@ -1,0 +1,23 @@
+#                                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+1342at33634_1|SZZJ01000273.1:10041-13035|+ -            999 1342at33634          -            731         0 1192.2  23.2   1   4  4.9e-201  4.9e-201  657.3   7.6     8   406    25   478     9   494 0.91 <unknown description>
+1342at33634_1|SZZJ01000273.1:10041-13035|+ -            999 1342at33634          -            731         0 1192.2  23.2   2   4   1.4e-13   1.4e-13   37.5   0.5   406   458   530   600   527   605 0.84 <unknown description>
+1342at33634_1|SZZJ01000273.1:10041-13035|+ -            999 1342at33634          -            731         0 1192.2  23.2   3   4    0.0014    0.0014    4.5   0.2   426   474   609   662   601   694 0.71 <unknown description>
+1342at33634_1|SZZJ01000273.1:10041-13035|+ -            999 1342at33634          -            731         0 1192.2  23.2   4   4  2.9e-153  2.9e-153  499.3   0.1   472   731   706   986   703   986 0.94 <unknown description>
+1342at33634_3|SZZJ01000273.1:10596-12666|+ -            691 1342at33634          -            731  6.6e-240  785.8  18.6   1   4  6.6e-144  6.6e-144  468.4   1.0   137   406     1   293     1   311 0.93 <unknown description>
+1342at33634_3|SZZJ01000273.1:10596-12666|+ -            691 1342at33634          -            731  6.6e-240  785.8  18.6   2   4   1.1e-13   1.1e-13   37.9   0.8   406   458   345   415   342   420 0.84 <unknown description>
+1342at33634_3|SZZJ01000273.1:10596-12666|+ -            691 1342at33634          -            731  6.6e-240  785.8  18.6   3   4   0.00088   0.00088    5.1   0.2   426   474   424   477   417   509 0.71 <unknown description>
+1342at33634_3|SZZJ01000273.1:10596-12666|+ -            691 1342at33634          -            731  6.6e-240  785.8  18.6   4   4   3.8e-88   3.8e-88  284.0   0.3   472   627   521   691   518   691 0.93 <unknown description>
+1342at33634_6|SZZJ01000273.1:12021-13035|+ -            303 1342at33634          -            731  2.3e-124  403.7   0.6   1   2   3.4e-09   3.4e-09   23.0   0.1   472   502    46    82    42    86 0.83 <unknown description>
+1342at33634_6|SZZJ01000273.1:12021-13035|+ -            303 1342at33634          -            731  2.3e-124  403.7   0.6   2   2  5.9e-117  5.9e-117  379.3   0.1   542   731    95   290    91   290 0.97 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/busco_downloads/lineages/stramenopiles_odb10/hmms/1342at33634.hmm
+# Target file:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_019297675.1_ASM1929767v1_genomic.fna.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/1342at33634.faa
+# Option settings: hmmsearch --domtblout /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_019297675.1_ASM1929767v1_genomic.fna.busco/run_stramenopiles_odb10/hmmer_output/1342at33634.out --cpu 1 /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/busco_downloads/lineages/stramenopiles_odb10/hmms/1342at33634.hmm /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_019297675.1_ASM1929767v1_genomic.fna.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/1342at33634.faa 
+# Current dir:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies
+# Date:            Sat Jul 19 09:42:26 2025
+# [ok]

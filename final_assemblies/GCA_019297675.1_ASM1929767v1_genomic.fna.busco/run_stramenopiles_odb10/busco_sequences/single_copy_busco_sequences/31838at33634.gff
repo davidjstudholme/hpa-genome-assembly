@@ -1,0 +1,5 @@
+SZZJ01001616.1	miniprot	mRNA	6940	7607	524	+	.	ID=MP000607;Rank=1;Identity=0.7149;Positive=0.7951;Frameshift=1;Target=31838at33634_7 1 130
+SZZJ01001616.1	miniprot	CDS	6940	7155	299	+	0	Parent=MP000607;Rank=1;Identity=0.7500;Target=31838at33634_7 1 70
+SZZJ01001616.1	miniprot	CDS	7271	7326	98	+	0	Parent=MP000607;Rank=1;Identity=0.8947;Target=31838at33634_7 71 88
+SZZJ01001616.1	miniprot	CDS	7428	7607	127	+	1	Parent=MP000607;Rank=1;Identity=0.6136;Frameshift=1;Target=31838at33634_7 89 130
+SZZJ01001616.1	miniprot	stop_codon	7605	7607	0	+	0	Parent=MP000607;Rank=1

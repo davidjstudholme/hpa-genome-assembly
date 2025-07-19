@@ -1,0 +1,21 @@
+#                                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                         accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                 ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+1803at33634_4|KQ478395.1:7004-9833|-  -            920 1803at33634          -            592  1.9e-224  733.3  24.7   1   5  1.3e-169  1.3e-169  552.2   4.8     7   374    54   499    48   511 0.86 <unknown description>
+1803at33634_4|KQ478395.1:7004-9833|-  -            920 1803at33634          -            592  1.9e-224  733.3  24.7   2   5     4e-33     4e-33  101.5   2.9   378   453   530   629   523   635 0.85 <unknown description>
+1803at33634_4|KQ478395.1:7004-9833|-  -            920 1803at33634          -            592  1.9e-224  733.3  24.7   3   5   1.6e-15   1.6e-15   43.4   0.0   452   499   666   721   657   730 0.83 <unknown description>
+1803at33634_4|KQ478395.1:7004-9833|-  -            920 1803at33634          -            592  1.9e-224  733.3  24.7   4   5   7.3e-12   7.3e-12   31.3   0.1   483   551   734   818   725   824 0.78 <unknown description>
+1803at33634_4|KQ478395.1:7004-9833|-  -            920 1803at33634          -            592  1.9e-224  733.3  24.7   5   5   0.00028   0.00028    6.3   0.3   548   572   846   870   833   904 0.74 <unknown description>
+1803at33634_9|LLKM01004802.1:0-2646|+ -            809 1803at33634          -            592  1.7e-191  624.6   0.6   1   3  5.1e-119  5.1e-119  385.2   0.0     8   329    20   376    12   386 0.87 <unknown description>
+1803at33634_9|LLKM01004802.1:0-2646|+ -            809 1803at33634          -            592  1.7e-191  624.6   0.6   2   3   1.5e-70   1.5e-70  225.1   0.1   306   551   389   723   383   728 0.79 <unknown description>
+1803at33634_9|LLKM01004802.1:0-2646|+ -            809 1803at33634          -            592  1.7e-191  624.6   0.6   3   3   0.00078   0.00078    4.8   0.0   547   578   747   778   738   792 0.75 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/busco_downloads/lineages/stramenopiles_odb10/hmms/1803at33634.hmm
+# Target file:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_001414525.1_Noks1_v1_genomic.fna.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/1803at33634.faa
+# Option settings: hmmsearch --domtblout /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_001414525.1_Noks1_v1_genomic.fna.busco/run_stramenopiles_odb10/hmmer_output/1803at33634.out --cpu 1 /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/busco_downloads/lineages/stramenopiles_odb10/hmms/1803at33634.hmm /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_001414525.1_Noks1_v1_genomic.fna.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/1803at33634.faa 
+# Current dir:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies
+# Date:            Sat Jul 19 09:41:49 2025
+# [ok]

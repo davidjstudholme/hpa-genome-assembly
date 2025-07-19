@@ -1,0 +1,4 @@
+JH598179.1	miniprot	mRNA	486627	488580	2190	+	.	ID=MP000103;Rank=1;Identity=0.8026;Positive=0.8647;Frameshift=1;StopCodon=1;Target=12626at33634_5 1 534
+JH598179.1	miniprot	CDS	486627	487008	453	+	0	Parent=MP000103;Rank=1;Identity=0.7656;StopCodon=1;Target=12626at33634_5 1 125
+JH598179.1	miniprot	CDS	487326	488580	1737	+	2	Parent=MP000103;Rank=1;Identity=0.8138;Frameshift=1;Target=12626at33634_5 126 534
+JH598179.1	miniprot	stop_codon	488578	488580	0	+	0	Parent=MP000103;Rank=1

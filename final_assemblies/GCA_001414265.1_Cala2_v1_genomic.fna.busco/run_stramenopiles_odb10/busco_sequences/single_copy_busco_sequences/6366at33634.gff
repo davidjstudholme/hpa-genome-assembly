@@ -1,0 +1,4 @@
+KQ475763.1	miniprot	mRNA	21192	22908	2414	+	.	ID=MP000748;Rank=1;Identity=0.9015;Positive=0.9394;StopCodon=1;Target=6366at33634_0 1 528
+KQ475763.1	miniprot	CDS	21192	22707	2389	+	0	Parent=MP000748;Rank=1;Identity=0.9170;Target=6366at33634_0 1 505
+KQ475763.1	miniprot	CDS	22838	22908	25	+	2	Parent=MP000748;Rank=1;Identity=0.5455;StopCodon=1;Target=6366at33634_0 506 528
+KQ475763.1	miniprot	stop_codon	22906	22908	0	+	0	Parent=MP000748;Rank=1

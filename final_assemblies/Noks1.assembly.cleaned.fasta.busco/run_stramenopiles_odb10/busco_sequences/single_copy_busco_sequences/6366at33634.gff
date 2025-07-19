@@ -1,0 +1,4 @@
+contig_259	miniprot	mRNA	904985	906701	2415	-	.	ID=MP000750;Rank=1;Identity=0.9015;Positive=0.9413;StopCodon=1;Target=6366at33634_0 1 528
+contig_259	miniprot	CDS	905186	906701	2390	-	0	Parent=MP000750;Rank=1;Identity=0.9170;Target=6366at33634_0 1 505
+contig_259	miniprot	CDS	904985	905055	25	-	2	Parent=MP000750;Rank=1;Identity=0.5455;StopCodon=1;Target=6366at33634_0 506 528
+contig_259	miniprot	stop_codon	904985	904987	0	-	0	Parent=MP000750;Rank=1

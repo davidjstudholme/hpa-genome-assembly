@@ -1,0 +1,16 @@
+#                                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+12684at33634_6|contig_268:1527113-1528169|+ -            353 12684at33634         -            258  3.3e-107  345.6   0.2   1   1  6.9e-106  6.9e-106  341.3   0.2     8   250    13   295     6   301 0.89 <unknown description>
+12684at33634_3|contig_268:1526735-1528280|+ -            516 12684at33634         -            258  1.4e-106  343.5   0.1   1   1  2.3e-105  2.3e-105  339.6   0.1     9   250   140   421   132   426 0.89 <unknown description>
+12684at33634|contig_268:1526729-1527305|+   -            193 12684at33634         -            258   1.7e-16   48.3   0.0   1   1   2.2e-16   2.2e-16   47.9   0.0     8    57   141   193   134   193 0.89 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/busco_downloads/lineages/stramenopiles_odb10/hmms/12684at33634.hmm
+# Target file:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/Noks1.assembly.cleaned.fasta.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/12684at33634.faa
+# Option settings: hmmsearch --domtblout /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/Noks1.assembly.cleaned.fasta.busco/run_stramenopiles_odb10/hmmer_output/12684at33634.out --cpu 1 /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/busco_downloads/lineages/stramenopiles_odb10/hmms/12684at33634.hmm /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/Noks1.assembly.cleaned.fasta.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/12684at33634.faa 
+# Current dir:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies
+# Date:            Sat Jul 19 09:43:12 2025
+# [ok]

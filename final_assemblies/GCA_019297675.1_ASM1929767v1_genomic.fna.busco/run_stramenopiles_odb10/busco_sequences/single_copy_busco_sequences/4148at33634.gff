@@ -1,0 +1,3 @@
+SZZJ01000791.1	miniprot	mRNA	1214	3076	3049	-	.	ID=MP000677;Rank=1;Identity=0.9613;Positive=0.9871;Target=4148at33634_5 1 620
+SZZJ01000791.1	miniprot	CDS	1214	3076	3049	-	0	Parent=MP000677;Rank=1;Identity=0.9613;Target=4148at33634_5 1 620
+SZZJ01000791.1	miniprot	stop_codon	1214	1216	0	-	0	Parent=MP000677;Rank=1

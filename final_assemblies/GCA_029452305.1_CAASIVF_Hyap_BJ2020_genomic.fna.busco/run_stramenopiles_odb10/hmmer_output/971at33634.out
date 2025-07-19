@@ -1,0 +1,17 @@
+#                                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+971at33634_3|JAPPWB010000071.1:3311-6842|- -           1151 971at33634           -            855         0 1439.8  10.2   1   2         0         0 1364.8   6.6     2   784    31   903    30   924 0.91 <unknown description>
+971at33634_3|JAPPWB010000071.1:3311-6842|- -           1151 971at33634           -            855         0 1439.8  10.2   2   2     9e-25     9e-25   73.8   0.1   787   855   933  1005   927  1005 0.94 <unknown description>
+971at33634_0|JAPPWB010000071.1:3311-5012|- -            568 971at33634           -            855  6.9e-129  418.2   7.2   1   2  5.6e-106  5.6e-106  342.5   3.7   534   784     1   320     1   338 0.84 <unknown description>
+971at33634_0|JAPPWB010000071.1:3311-5012|- -            568 971at33634           -            855  6.9e-129  418.2   7.2   2   2   3.6e-25   3.6e-25   75.1   0.1   787   855   350   422   344   422 0.94 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/busco_downloads/lineages/stramenopiles_odb10/hmms/971at33634.hmm
+# Target file:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_029452305.1_CAASIVF_Hyap_BJ2020_genomic.fna.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/971at33634.faa
+# Option settings: hmmsearch --domtblout /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_029452305.1_CAASIVF_Hyap_BJ2020_genomic.fna.busco/run_stramenopiles_odb10/hmmer_output/971at33634.out --cpu 1 /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/busco_downloads/lineages/stramenopiles_odb10/hmms/971at33634.hmm /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_029452305.1_CAASIVF_Hyap_BJ2020_genomic.fna.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/971at33634.faa 
+# Current dir:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies
+# Date:            Sat Jul 19 09:42:40 2025
+# [ok]

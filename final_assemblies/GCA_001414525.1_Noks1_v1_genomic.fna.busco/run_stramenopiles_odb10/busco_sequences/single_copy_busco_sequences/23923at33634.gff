@@ -1,0 +1,3 @@
+LLKM01000038.1	miniprot	mRNA	6735	7289	909	+	.	ID=MP000468;Rank=1;Identity=0.9402;Positive=0.9837;Target=23923at33634_0 1 184
+LLKM01000038.1	miniprot	CDS	6735	7289	909	+	0	Parent=MP000468;Rank=1;Identity=0.9402;Target=23923at33634_0 1 184
+LLKM01000038.1	miniprot	stop_codon	7287	7289	0	+	0	Parent=MP000468;Rank=1

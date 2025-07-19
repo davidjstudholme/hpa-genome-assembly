@@ -1,0 +1,4 @@
+JH597989.1	miniprot	mRNA	11458	11928	609	+	.	ID=MP000586;Rank=1;Identity=0.8308;Positive=0.9462;Target=31838at33634_7 1 130
+JH597989.1	miniprot	CDS	11458	11723	430	+	0	Parent=MP000586;Rank=1;Identity=0.8315;Target=31838at33634_7 1 88
+JH597989.1	miniprot	CDS	11802	11928	179	+	1	Parent=MP000586;Rank=1;Identity=0.8293;Target=31838at33634_7 89 130
+JH597989.1	miniprot	stop_codon	11926	11928	0	+	0	Parent=MP000586;Rank=1

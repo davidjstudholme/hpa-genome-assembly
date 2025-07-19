@@ -1,0 +1,4 @@
+SZZJ01005417.1	miniprot	mRNA	99	555	564	+	.	ID=MP000582;Rank=1;Identity=0.8833;Positive=0.9500;Target=28445at33634_0 1 120
+SZZJ01005417.1	miniprot	CDS	99	185	139	+	0	Parent=MP000582;Rank=1;Identity=0.9310;Target=28445at33634_0 1 29
+SZZJ01005417.1	miniprot	CDS	280	555	425	+	0	Parent=MP000582;Rank=1;Identity=0.8681;Target=28445at33634_0 30 120
+SZZJ01005417.1	miniprot	stop_codon	553	555	0	+	0	Parent=MP000582;Rank=1

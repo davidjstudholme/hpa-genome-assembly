@@ -1,0 +1,268 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/busco_downloads/lineages/stramenopiles_odb10/hmms/723at33634.hmm
+# target sequence database:        /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_029452305.1_CAASIVF_Hyap_BJ2020_genomic.fna.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/723at33634.faa
+# per-dom hits tabular output:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_029452305.1_CAASIVF_Hyap_BJ2020_genomic.fna.busco/run_stramenopiles_odb10/hmmer_output/723at33634.out
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       723at33634  [M=789]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                                     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                                     -----------
+          0 1354.7   7.2          0 1349.3   7.2    2.8  1  723at33634_1|JAPPWB010000118.1:28422-31599|-  <unknown description>
+   8.6e-253  827.9   9.9   1.1e-193  632.5   3.0    3.1  2  723at33634_0|JAPPWB010000118.1:28422-30330|-  <unknown description>
+
+
+Domain annotation for each sequence (and alignments):
+>> 723at33634_1|JAPPWB010000118.1:28422-31599|-  <unknown description>
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1349.3   7.2         0         0       1     788 [.      97    1034 ..      97    1035 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 1349.3 bits;  conditional E-value: 0
+                                    723at33634    1 pvaveaawqdwweksGffkcdd.......ekfvmvipppnvtgslhlGhaltaavedaltrwh 56  
+                                                    pvaveaawqdwwe+sGff+c+d       e+fvmvipppnvtgslhlGhalt+a++daltrwh
+  723at33634_1|JAPPWB010000118.1:28422-31599|-   97 PVAVEAAWQDWWEASGFFTCSDdrirtaaERFVMVIPPPNVTGSLHLGHALTVAIQDALTRWH 159 
+                                                    89******************98444444458******************************** PP
+
+                                    723at33634   57 rmkg..tlyvpgtdhagiatqsvvekrllkdegksrhdlgrekflekvwewkneyeskit.ql 116 
+                                                    rm+g  tl+vpgtdhagiatqsvvekrll++egksrhd+gr++fle+vw+wkn+yes+i+ q+
+  723at33634_1|JAPPWB010000118.1:28422-31599|-  160 RMLGhaTLWVPGTDHAGIATQSVVEKRLLREEGKSRHDVGRDAFLERVWDWKNQYESRIHhQF 222 
+                                                    ***9999****************************************************648* PP
+
+                                    723at33634  117 rklgssvdwsr.aftmddklskavkeafvr.feegliyratrlinwscklktaisdievdyid 177 
+                                                    r++g+svdw+r +f+mddk+s+av++af++ +e+gl+yratr+inwscklkta+s+ievdyid
+  723at33634_1|JAPPWB010000118.1:28422-31599|-  223 RSVGCSVDWDRqYFSMDDKCSRAVRHAFCQlWEDGLVYRATRMINWSCKLKTALSEIEVDYID 285 
+                                                    **********9569***************889******************************* PP
+
+                                    723at33634  178 lekrt...........kyefgvltsfaykves..deqlvvattrletmlgdtavavhpedpry 227 
+                                                    ++krt           kyefgvltsf+y+ve   deq++vattrletmlgd++vavhpedpry
+  723at33634_1|JAPPWB010000118.1:28422-31599|-  286 IDKRTkmavpghnsdrKYEFGVLTSFGYQVEGspDEQVIVATTRLETMLGDSGVAVHPEDPRY 348 
+                                                    ***994444444444459************96458**************************** PP
+
+                                    723at33634  228 khlhgklvvhpfngrripivld.elvdmsfgtgavkitpahdpndyecgkrhnlefitvltdd 289 
+                                                    khlhgk+vvhpfngrripivld +lvdm+fgtgavkitpahdpndyecgkr++lefi+vltdd
+  723at33634_1|JAPPWB010000118.1:28422-31599|-  349 KHLHGKFVVHPFNGRRIPIVLDpILVDMTFGTGAVKITPAHDPNDYECGKRNDLEFINVLTDD 411 
+                                                    *********************9679************************************** PP
+
+                                    723at33634  290 gkineng..faglmrydarvavekal...gllkGkednkmrlgicsrsgdivePlvkPqwfvn 347 
+                                                    g+ineng  fag+mrydar+avekal   gl++Gk dnkmrlg+csrsgd++ePlvkPqwfvn
+  723at33634_1|JAPPWB010000118.1:28422-31599|-  412 GAINENGgeFAGMMRYDARIAVEKALdvkGLYHGKVDNKMRLGVCSRSGDVIEPLVKPQWFVN 474 
+                                                    ******87899*************976668********************************* PP
+
+                                    723at33634  348 ceqmakdavdavrnkelkilPeehektwfrwlenirdwcisrqlwwGhriPayfat....... 403 
+                                                    c+qmakda++av+nkel+ilPe+hektwfrwlenirdwcisrqlwwGhriPayfa+       
+  723at33634_1|JAPPWB010000118.1:28422-31599|-  475 CDQMAKDAMAAVTNKELTILPESHEKTWFRWLENIRDWCISRQLWWGHRIPAYFARvkgepfv 537 
+                                                    ******************************************************854444455 PP
+
+                                    723at33634  404 .........rwvaals.edarkkaaaklgv...eieleqdedvldtwvsaGlfPfavfGwPd. 452 
+                                                             rw+a++s edar+ka +klgv   ++eleqdedvldtwvsaGlfPfavfGwPd 
+  723at33634_1|JAPPWB010000118.1:28422-31599|-  538 dknsddasdRWFAGTSeEDARQKASTKLGVaadQLELEQDEDVLDTWVSAGLFPFAVFGWPDk 600 
+                                                    5555555558***987268**********966679**************************94 PP
+
+                                    723at33634  453 .....kfyPtdlletGydilffwvarmvlmglkltdklPfktvylhalvrdkyGrkmskslGn 510 
+                                                         +f+PtdlletGydilffwvarmv+mg+klt+klPfkt+ylh++vrdkyGrkmskslGn
+  723at33634_1|JAPPWB010000118.1:28422-31599|-  601 tddvaNFHPTDLLETGYDILFFWVARMVFMGQKLTGKLPFKTIYLHSMVRDKYGRKMSKSLGN 663 
+                                                    444555********************************************************* PP
+
+                                    723at33634  511 vvdPleviaGctleelleklesGnlpakevekakkgqkadfPeGiPecGadalrfGllaytqq 573 
+                                                    vvdPle+iaGc+l++l +kle+Gnlpakevekakkgqk dfP+GiPecGadalrfGllaytqq
+  723at33634_1|JAPPWB010000118.1:28422-31599|-  664 VVDPLEIIAGCSLDDLCKKLENGNLPAKEVEKAKKGQKLDFPQGIPECGADALRFGLLAYTQQ 726 
+                                                    *************************************************************** PP
+
+                                    723at33634  574 grdinldikrlvgyrnfcnklwnavrfalsnle....................ardrfilsrl 616 
+                                                    grdinldi rlvgyrnfcnklwnavrfa+snle                     rdr+ilsrl
+  723at33634_1|JAPPWB010000118.1:28422-31599|-  727 GRDINLDIGRLVGYRNFCNKLWNAVRFAMSNLEggfsaaedvadtvlsnavvsLRDRYILSRL 789 
+                                                    *****************************9985444443333333333333336********9 PP
+
+                                    723at33634  617 .............yefgevt.alynfwlydlcdvylelikPvvag...eakktaqetlyvcle 662 
+                                                                 yefge+t aly+fwlydlcdvylel+kPv+ag   +ak taq+tlyvcle
+  723at33634_1|JAPPWB010000118.1:28422-31599|-  790 nhaikvcndsfaaYEFGELTnALYTFWLYDLCDVYLELTKPVIAGdnaDAKLTAQQTLYVCLE 852 
+                                                    88888888888889****97479********************87333589************ PP
+
+                                    723at33634  663 aglrllhpimPfvteelwqrlpgk....siviaayP...........eaemelvkevihaars 710 
+                                                    +glrllhp mPfvteelwqrlpgk    si+ia+yP           ea+melvk+vihaars
+  723at33634_1|JAPPWB010000118.1:28422-31599|-  853 FGLRLLHPCMPFVTEELWQRLPGKrptaSITIASYPlsmegwttadvEANMELVKDVIHAARS 915 
+                                                    *********************99766669******99998888888899************** PP
+
+                                    723at33634  711 lraeyglan.....fflkv.............ddfktlakag..........pkgca...vnd 742 
+                                                    +raeyglan     ff+k+             ddf+tlakag          p+gca   vnd
+  723at33634_1|JAPPWB010000118.1:28422-31599|-  916 VRAEYGLANnvrpqFFIKCidtdvkavmeaqlDDFATLAKAGdskcivdeeaPQGCAvhsVND 978 
+                                                    *******975555589987666666666666689******9755555555558899834459* PP
+
+                                    723at33634  743 kvqvlv.lkGlvdfaneikklekklkkiap....lekkma.....ekvpeevread 788 
+                                                    kvq++v l+Glvdfaneikkle+kl+kiap    l kkm+     +kvp+ vread
+  723at33634_1|JAPPWB010000118.1:28422-31599|-  979 KVQIFVlLAGLVDFANEIKKLETKLTKIAPslasLAKKMSsgdyaSKVPATVREAD 1034
+                                                    *****8358*****************997644448899863333369999999998 PP
+
+>> 723at33634_0|JAPPWB010000118.1:28422-30330|-  <unknown description>
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  632.5   3.0  1.1e-193  1.1e-193     300     606 ..       1     336 [.       1     340 [. 0.94
+   2 !  197.9   0.6   2.6e-62   2.6e-62     604     788 ..     354     611 ..     346     612 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 632.5 bits;  conditional E-value: 1.1e-193
+                                    723at33634 300 lmrydarvavekal...gllkGkednkmrlgicsrsgdivePlvkPqwfvnceqmakdavdavrn 361
+                                                   +mrydar+avekal   gl++Gk dnkmrlg+csrsgd++ePlvkPqwfvnc+qmakda++av+n
+  723at33634_0|JAPPWB010000118.1:28422-30330|-   1 MMRYDARIAVEKALdvkGLYHGKVDNKMRLGVCSRSGDVIEPLVKPQWFVNCDQMAKDAMAAVTN 65 
+                                                   8***********976668*********************************************** PP
+
+                                    723at33634 362 kelkilPeehektwfrwlenirdwcisrqlwwGhriPayfat................rwvaals 410
+                                                   kel+ilPe+hektwfrwlenirdwcisrqlwwGhriPayfa+                rw+a++s
+  723at33634_0|JAPPWB010000118.1:28422-30330|-  66 KELTILPESHEKTWFRWLENIRDWCISRQLWWGHRIPAYFARvkgepfvdknsddasdRWFAGTS 130
+                                                   ****************************************8544444555555555558***987 PP
+
+                                    723at33634 411 .edarkkaaaklgv...eieleqdedvldtwvsaGlfPfavfGwPd......kfyPtdlletGyd 465
+                                                    edar+ka +klgv   ++eleqdedvldtwvsaGlfPfavfGwPd      +f+PtdlletGyd
+  723at33634_0|JAPPWB010000118.1:28422-30330|- 131 eEDARQKASTKLGVaadQLELEQDEDVLDTWVSAGLFPFAVFGWPDktddvaNFHPTDLLETGYD 195
+                                                   268**********966679**************************94444555************ PP
+
+                                    723at33634 466 ilffwvarmvlmglkltdklPfktvylhalvrdkyGrkmskslGnvvdPleviaGctleellekl 530
+                                                   ilffwvarmv+mg+klt+klPfkt+ylh++vrdkyGrkmskslGnvvdPle+iaGc+l++l +kl
+  723at33634_0|JAPPWB010000118.1:28422-30330|- 196 ILFFWVARMVFMGQKLTGKLPFKTIYLHSMVRDKYGRKMSKSLGNVVDPLEIIAGCSLDDLCKKL 260
+                                                   ***************************************************************** PP
+
+                                    723at33634 531 esGnlpakevekakkgqkadfPeGiPecGadalrfGllaytqqgrdinldikrlvgyrnfcnklw 595
+                                                   e+Gnlpakevekakkgqk dfP+GiPecGadalrfGllaytqqgrdinldi rlvgyrnfcnklw
+  723at33634_0|JAPPWB010000118.1:28422-30330|- 261 ENGNLPAKEVEKAKKGQKLDFPQGIPECGADALRFGLLAYTQQGRDINLDIGRLVGYRNFCNKLW 325
+                                                   ***************************************************************** PP
+
+                                    723at33634 596 navrfalsnle 606
+                                                   navrfa+snle
+  723at33634_0|JAPPWB010000118.1:28422-30330|- 326 NAVRFAMSNLE 336
+                                                   *********98 PP
+
+  == domain 2  score: 197.9 bits;  conditional E-value: 2.6e-62
+                                    723at33634 604 nleardrfilsrl.............yefgevt.alynfwlydlcdvylelikPvvag...eakk 651
+                                                    ++ rdr+ilsrl             yefge+t aly+fwlydlcdvylel+kPv+ag   +ak 
+  723at33634_0|JAPPWB010000118.1:28422-30330|- 354 VVSLRDRYILSRLnhaikvcndsfaaYEFGELTnALYTFWLYDLCDVYLELTKPVIAGdnaDAKL 418
+                                                   57899******9888888888888889****97479********************87333589* PP
+
+                                    723at33634 652 taqetlyvcleaglrllhpimPfvteelwqrlpgk....siviaayP...........eaemelv 701
+                                                   taq+tlyvcle+glrllhp mPfvteelwqrlpgk    si+ia+yP           ea+melv
+  723at33634_0|JAPPWB010000118.1:28422-30330|- 419 TAQQTLYVCLEFGLRLLHPCMPFVTEELWQRLPGKrptaSITIASYPlsmegwttadvEANMELV 483
+                                                   ********************************99766669******99998888888899***** PP
+
+                                    723at33634 702 kevihaarslraeyglan.....fflkv.............ddfktlakag..........pkgc 738
+                                                   k+vihaars+raeyglan     ff+k+             ddf+tlakag          p+gc
+  723at33634_0|JAPPWB010000118.1:28422-30330|- 484 KDVIHAARSVRAEYGLANnvrpqFFIKCidtdvkavmeaqlDDFATLAKAGdskcivdeeaPQGC 548
+                                                   ****************975555589987666666666666689******9755555555558899 PP
+
+                                    723at33634 739 a...vndkvqvlv.lkGlvdfaneikklekklkkiap....lekkma.....ekvpeevread 788
+                                                   a   vndkvq++v l+Glvdfaneikkle+kl+kiap    l kkm+     +kvp+ vread
+  723at33634_0|JAPPWB010000118.1:28422-30330|- 549 AvhsVNDKVQIFVlLAGLVDFANEIKKLETKLTKIAPslasLAKKMSsgdyaSKVPATVREAD 611
+                                                   834459******8358*****************997644448999963333369999999998 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (789 nodes)
+Target sequences:                          2  (1697 residues searched)
+Passed MSV filter:                         2  (1); expected 0.0 (0.02)
+Passed bias filter:                        2  (1); expected 0.0 (0.02)
+Passed Vit filter:                         2  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         2  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  2  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.07u 0.02s 00:00:00.09 Elapsed: 00:00:00.09
+# Mc/sec: 14.68
+//
+[ok]
+rrklPWrgdeppysktavt 35
+                                                   e++++r+ell+Wyd +rrklPWrgd+ppy +t++ 
+  8760at33634_2|JAPPWB010000009.1:88329-89586|-  7 ELQTVRSELLEWYDVHRRKLPWRGDAPPYVTTTTH 41
+                                                   5789*************************999765 PP
+
+  == domain 2  score: 271.7 bits;  conditional E-value: 2.1e-84
+                                    8760at33634  30 sktavtayetwvseimlqqtrvdtvvdyyvkWmekfPtvkaLaaaeeeevnalWaGLGyyrrar 93 
+                                                    + + v++yetwvseimlqqtrvdtvv+y+++W++kfPtv+aLa+a+ee+vnalWaGLGyyrrar
+  8760at33634_2|JAPPWB010000009.1:88329-89586|-  93 QPRNVSPYETWVSEIMLQQTRVDTVVEYFLRWIDKFPTVAALAEAHEEDVNALWAGLGYYRRAR 156
+                                                    55789*********************************************************** PP
+
+                                    8760at33634  94 lLhegakyvvee..gelPstveelkkipGiGeytagaiasiafn...plvdGnvirvlsrlrav 152
+                                                    +Lh+gakyvv++  gelPstv++l+ ipGiG+ytagaiasiaf+   plvdGnvirv++r+rav
+  8760at33634_2|JAPPWB010000009.1:88329-89586|- 157 MLHAGAKYVVNNhgGELPSTVDQLLLIPGIGPYTAGAIASIAFGirePLVDGNVIRVMARMRAV 220
+                                                    **********87668****************************5555***************** PP
+
+                                    8760at33634 153 aadkkak.................drPgdlnqalmelGatvCt.qnpscescPvkevcvtky 196
+                                                    +ad+k+k                 drPg+lnqalmelGat+Ct qnp+c++cPvk+vc   y
+  8760at33634_2|JAPPWB010000009.1:88329-89586|- 221 GADPKNKqlikfswktaselvsgcDRPGALNQALMELGATMCTvQNPRCSDCPVKSVCLA-Y 281
+                                                    ****9974444444444444444469****************9789***********954.3 PP
+
+>> 8760at33634_6|JAPPWB010000009.1:88015-89310|-  <unknown description>
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  268.0   2.8   2.7e-83   2.7e-83      33     196 ..       4     190 ..       1     211 [. 0.87
+   2 !    6.0   0.1    0.0021    0.0021     190     219 ..     259     290 ..     230     298 .. 0.77
+   3 !   16.7   0.0   1.2e-06   1.2e-06     203     235 ..     302     334 ..     291     339 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 268.0 bits;  conditional E-value: 2.7e-83
+                                    8760at33634  33 avtayetwvseimlqqtrvdtvvdyyvkWmekfPtvkaLaaaeeeevnalWaGLGyyrrarlLh 96 
+                                                     v++yetwvseimlqqtrvdtvv+y+++W++kfPtv+aLa+a+ee+vnalWaGLGyyrrar+Lh
+  8760at33634_6|JAPPWB010000009.1:88015-89310|-   4 NVSPYETWVSEIMLQQTRVDTVVEYFLRWIDKFPTVAALAEAHEEDVNALWAGLGYYRRARMLH 67 
+                                                    69************************************************************** PP
+
+                                    8760at33634  97 egakyvvee..gelPstveelkkipGiGeytagaiasiafn...plvdGnvirvlsrlravaad 155
+                                                    +gakyvv++  gelPstv++l+ ipGiG+ytagaiasiaf+   plvdGnvirv++r+rav+ad
+  8760at33634_6|JAPPWB010000009.1:88015-89310|-  68 AGAKYVVNNhgGELPSTVDQLLLIPGIGPYTAGAIASIAFGirePLVDGNVIRVMARMRAVGAD 131
+                                                    *******87668****************************5555******************** PP
+
+                                    8760at33634 156 kkak.................drPgdlnqalmelGatvCtq..npscescPvkevcvtky 196
+                                                    +k+k                 drPg+lnqalmelGat+Ct   np+c++cPvk+vc   y
+  8760at33634_6|JAPPWB010000009.1:88015-89310|- 132 PKNKqlikfswktaselvsgcDRPGALNQALMELGATMCTVqvNPRCSDCPVKSVCLA-Y 190
+                                                    *9974444444444444444469****************953489**********954.3 PP
+
+  == domain 2  score: 6.0 bits;  conditional E-value: 0.0021
+                                    8760at33634 190 evcvtkyPlkakkk..reevlavavvekrfll 219
+                                                    +  vtkyPlkakk+  r+ev++vavv+     
+  8760at33634_6|JAPPWB010000009.1:88015-89310|- 259 SSKVTKYPLKAKKNdsRQEVICVAVVSSPLST 290
+                                                    56799******99644789999*999876555 PP
+
+  == domain 3  score: 16.7 bits;  conditional E-value: 1.2e-06
+                                    8760at33634 203 kreevlavavvekrfllskrpeggllagqlefg 235
+                                                    + +++ +     ++fl+s+rp+ggllagq+ef 
+  8760at33634_6|JAPPWB010000009.1:88015-89310|- 302 TSTKASSSCSSPWQFLMSRRPDGGLLAGQWEFL 334
+                                                    3444555566779******************94 PP
+
+>> 8760at33634_1|JAPPWB010000009.1:86846-87893|-  <unknown description>
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.7   3.0   7.5e-12   7.5e-12     225     276 ..      18      86 ..      11      87 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 33.7 bits;  conditional E-value: 7.5e-12
+                                    8760at33634 225 ggllagqlefgelkhvfshvkhhlgvee.................vrwltvedlkevGittgvk 271
+                                                    ++ll  + ++gel+hvfshvkhh+g+e+                 +rw+tv+++++ Gittgvk
+  8760at33634_1|JAPPWB010000009.1:86846-87893|-  18 SNLLEDRRDVGELTHVFSHVKHHMGIEHlhfkhepkllstfesdeIRWMTVNEMQQLGITTGVK 81 
+                                                    57999999******************864444444444444444469***************** PP
+
+                                    8760at33634 272 kvlkl 276
+                                                    k+l+l
+  8760at33634_1|JAPPWB010000009.1:86846-87893|-  82 KILHL 86 
+                                                    **986 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (277 nodes)
+Target sequences:                          6  (2959 residues searched)
+Passed MSV filter:                         6  (1); expected 0.1 (0.02)
+Passed bias filter:                        6  (1); expected 0.1 (0.02)
+Passed Vit filter:                         6  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         6  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  6  [actual number of targets]
+Domain search space  (domZ):               6  [number of targets reported over threshold]
+# CPU time: 0.08u 0.01s 00:00:00.09 Elapsed: 00:00:00.08
+# Mc/sec: 9.95
+//
+[ok]

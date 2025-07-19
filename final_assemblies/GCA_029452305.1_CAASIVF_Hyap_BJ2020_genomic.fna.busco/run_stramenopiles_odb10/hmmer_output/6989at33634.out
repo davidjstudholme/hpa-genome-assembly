@@ -1,0 +1,24 @@
+#                                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+6989at33634_0|JAPPWB010000124.1:6606-8709|- -            702 6989at33634          -            498  4.9e-217  708.9  74.8   1   4  1.5e-147  1.5e-147  479.7  12.8     1   269     1   280     1   307 0.92 <unknown description>
+6989at33634_0|JAPPWB010000124.1:6606-8709|- -            702 6989at33634          -            498  4.9e-217  708.9  74.8   2   4         3         3   -6.2   9.5   405   459   295   362   279   375 0.46 <unknown description>
+6989at33634_0|JAPPWB010000124.1:6606-8709|- -            702 6989at33634          -            498  4.9e-217  708.9  74.8   3   4   2.3e-60   2.3e-60  192.2  17.8   289   456   386   579   349   583 0.84 <unknown description>
+6989at33634_0|JAPPWB010000124.1:6606-8709|- -            702 6989at33634          -            498  4.9e-217  708.9  74.8   4   4   4.9e-18   4.9e-18   52.5  19.6   409   497   583   670   579   671 0.72 <unknown description>
+6989at33634|JAPPWB010000124.1:2133-8709|-   -            950 6989at33634          -            498  5.5e-175  570.2  99.8   1   6   6.2e-43   6.2e-43  134.6   8.8     1    86     1    86     1    92 0.97 <unknown description>
+6989at33634|JAPPWB010000124.1:2133-8709|-   -            950 6989at33634          -            498  5.5e-175  570.2  99.8   2   6   1.4e-67   1.4e-67  215.9   2.8   143   270    94   229    88   259 0.86 <unknown description>
+6989at33634|JAPPWB010000124.1:2133-8709|-   -            950 6989at33634          -            498  5.5e-175  570.2  99.8   3   6       2.3       2.3   -5.8   8.4   405   459   243   310   229   323 0.46 <unknown description>
+6989at33634|JAPPWB010000124.1:2133-8709|-   -            950 6989at33634          -            498  5.5e-175  570.2  99.8   4   6     2e-60     2e-60  192.4  16.6   289   456   334   527   291   530 0.84 <unknown description>
+6989at33634|JAPPWB010000124.1:2133-8709|-   -            950 6989at33634          -            498  5.5e-175  570.2  99.8   5   6   1.1e-16   1.1e-16   48.0  28.5   412   497   517   618   514   619 0.73 <unknown description>
+6989at33634|JAPPWB010000124.1:2133-8709|-   -            950 6989at33634          -            498  5.5e-175  570.2  99.8   6   6    0.0072    0.0072    2.5  13.2   412   483   791   861   760   884 0.48 <unknown description>
+6989at33634_3|JAPPWB010000124.1:7824-8697|- -            292 6989at33634          -            498  1.9e-148  482.7   7.3   1   1  2.1e-148  2.1e-148  482.5   7.3     5   267     1   274     1   291 0.94 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/busco_downloads/lineages/stramenopiles_odb10/hmms/6989at33634.hmm
+# Target file:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_029452305.1_CAASIVF_Hyap_BJ2020_genomic.fna.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/6989at33634.faa
+# Option settings: hmmsearch --domtblout /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_029452305.1_CAASIVF_Hyap_BJ2020_genomic.fna.busco/run_stramenopiles_odb10/hmmer_output/6989at33634.out --cpu 1 /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/busco_downloads/lineages/stramenopiles_odb10/hmms/6989at33634.hmm /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_029452305.1_CAASIVF_Hyap_BJ2020_genomic.fna.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/6989at33634.faa 
+# Current dir:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies
+# Date:            Sat Jul 19 09:42:40 2025
+# [ok]

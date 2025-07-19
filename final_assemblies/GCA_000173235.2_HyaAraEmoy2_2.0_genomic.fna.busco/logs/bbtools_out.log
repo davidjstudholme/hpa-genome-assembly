@@ -1,0 +1,36 @@
+A	C	G	T	N	IUPAC	Other	GC	GC_stdev
+0.2638	0.2362	0.2360	0.2640	0.1036	0.0000	0.0000	0.4722	0.0652
+
+Main genome scaffold total:         	3108
+Main genome contig total:           	10486
+Main genome scaffold sequence total:	78380535
+Main genome contig sequence total:  	70263251  	10.356% gap
+Main genome scaffold N/L50:         	70/332402
+Main genome contig N/L50:           	463/41855
+Main genome scaffold N/L90:         	384/15798
+Main genome contig N/L90:           	1943/6270
+Max scaffold length:                	1234263
+Max contig length:                  	240999
+Number of scaffolds > 50 KB:        	239
+% main genome in scaffolds > 50 KB: 	85.05%
+
+
+Minimum 	Number        	Number        	Total         	Total         	Scaffold
+Scaffold	of            	of            	Scaffold      	Contig        	Contig  
+Length  	Scaffolds     	Contigs       	Length        	Length        	Coverage
+--------	--------------	--------------	--------------	--------------	--------
+    All 	          3108	         10486	      78380535	      70263251	  89.64%
+    100 	          3108	         10486	      78380535	      70263251	  89.64%
+    250 	          3105	         10483	      78379960	      70262676	  89.64%
+    500 	          2496	          9344	      78128240	      70134626	  89.77%
+   1000 	          2042	          8372	      77790843	      69857466	  89.80%
+   2500 	          1476	          6854	      76825414	      68977621	  89.78%
+   5000 	           808	          5113	      74236986	      67214816	  90.54%
+  10000 	           506	          3881	      72064770	      65432312	  90.80%
+  25000 	           308	          3198	      69064568	      62592441	  90.63%
+  50000 	           239	          3002	      66666126	      60266865	  90.40%
+ 100000 	           189	          2809	      63072526	      57122070	  90.57%
+ 250000 	            99	          2033	      47805346	      43226764	  90.42%
+ 500000 	            30	           948	      23274877	      21345879	  91.71%
+1000000 	             6	           251	       6900961	       6365873	  92.25%
+

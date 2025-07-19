@@ -1,0 +1,26 @@
+#                                                                                                --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                            accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                    ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+1102at33634_0|contig_491:442900-448342|+ -           1815 1102at33634          -           1214         0 1794.2  23.6   1   8   2.2e-51   2.2e-51  161.4   0.1     1   119     6   135     6   150 0.90 <unknown description>
+1102at33634_0|contig_491:442900-448342|+ -           1815 1102at33634          -           1214         0 1794.2  23.6   2   8     2e-11     2e-11   29.1   0.3   127   177   196   251   180   265 0.81 <unknown description>
+1102at33634_0|contig_491:442900-448342|+ -           1815 1102at33634          -           1214         0 1794.2  23.6   3   8   4.2e-22   4.2e-22   64.4   0.0   171   250   291   390   274   400 0.85 <unknown description>
+1102at33634_0|contig_491:442900-448342|+ -           1815 1102at33634          -           1214         0 1794.2  23.6   4   8  2.3e-211  2.3e-211  691.4   0.0   243   630   414   846   395   852 0.92 <unknown description>
+1102at33634_0|contig_491:442900-448342|+ -           1815 1102at33634          -           1214         0 1794.2  23.6   5   8    7e-127    7e-127  411.5   0.1   598   868   852  1139   850  1157 0.87 <unknown description>
+1102at33634_0|contig_491:442900-448342|+ -           1815 1102at33634          -           1214         0 1794.2  23.6   6   8   1.4e-56   1.4e-56  178.6   0.0   872   982  1290  1406  1251  1421 0.89 <unknown description>
+1102at33634_0|contig_491:442900-448342|+ -           1815 1102at33634          -           1214         0 1794.2  23.6   7   8   3.5e-05   3.5e-05    8.4   5.0   980  1046  1438  1536  1426  1542 0.53 <unknown description>
+1102at33634_0|contig_491:442900-448342|+ -           1815 1102at33634          -           1214         0 1794.2  23.6   8   8   1.5e-78   1.5e-78  251.4   0.0  1039  1214  1615  1812  1604  1812 0.89 <unknown description>
+1102at33634_7|contig_491:444226-448342|+ -           1373 1102at33634          -           1214         0 1526.2  13.3   1   5  2.8e-205  2.8e-205  671.2   0.0   267   630     2   404     1   413 0.93 <unknown description>
+1102at33634_7|contig_491:444226-448342|+ -           1373 1102at33634          -           1214         0 1526.2  13.3   2   5  4.5e-127  4.5e-127  412.1   0.1   598   868   410   697   408   715 0.87 <unknown description>
+1102at33634_7|contig_491:444226-448342|+ -           1373 1102at33634          -           1214         0 1526.2  13.3   3   5     1e-56     1e-56  179.1   0.0   872   982   848   964   809   979 0.89 <unknown description>
+1102at33634_7|contig_491:444226-448342|+ -           1373 1102at33634          -           1214         0 1526.2  13.3   4   5   2.6e-05   2.6e-05    8.8   5.1   980  1046   996  1094   984  1100 0.53 <unknown description>
+1102at33634_7|contig_491:444226-448342|+ -           1373 1102at33634          -           1214         0 1526.2  13.3   5   5   1.1e-78   1.1e-78  251.9   0.0  1039  1214  1173  1370  1162  1370 0.89 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/busco_downloads/lineages/stramenopiles_odb10/hmms/1102at33634.hmm
+# Target file:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/Noks1.assembly.cleaned.fasta.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/1102at33634.faa
+# Option settings: hmmsearch --domtblout /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/Noks1.assembly.cleaned.fasta.busco/run_stramenopiles_odb10/hmmer_output/1102at33634.out --cpu 1 /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/busco_downloads/lineages/stramenopiles_odb10/hmms/1102at33634.hmm /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/Noks1.assembly.cleaned.fasta.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/1102at33634.faa 
+# Current dir:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies
+# Date:            Sat Jul 19 09:43:12 2025
+# [ok]

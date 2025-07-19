@@ -1,0 +1,3 @@
+SZZI01004351.1	miniprot	mRNA	50	1888	2665	+	.	ID=MP000958;Rank=1;Identity=0.8279;Positive=0.9107;Target=9939at33634_1 1 615
+SZZI01004351.1	miniprot	CDS	50	1888	2665	+	0	Parent=MP000958;Rank=1;Identity=0.8279;Target=9939at33634_1 1 615
+SZZI01004351.1	miniprot	stop_codon	1886	1888	0	+	0	Parent=MP000958;Rank=1

@@ -1,0 +1,3 @@
+contig_272	miniprot	mRNA	716222	717094	1397	+	.	ID=MP000220;Rank=1;Identity=0.9069;Positive=0.9448;Target=15242at33634_0 1 288
+contig_272	miniprot	CDS	716222	717094	1397	+	0	Parent=MP000220;Rank=1;Identity=0.9069;Target=15242at33634_0 1 288
+contig_272	miniprot	stop_codon	717092	717094	0	+	0	Parent=MP000220;Rank=1

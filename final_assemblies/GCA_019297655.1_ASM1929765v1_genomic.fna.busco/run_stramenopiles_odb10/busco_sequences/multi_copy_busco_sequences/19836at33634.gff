@@ -1,0 +1,6 @@
+SZZI01003654.1	miniprot	mRNA	28	1611	1967	+	.	ID=MP000366;Rank=1;Identity=0.7398;Positive=0.8253;Target=19836at33634_0 1 538
+SZZI01003654.1	miniprot	CDS	28	1611	1967	+	0	Parent=MP000366;Rank=1;Identity=0.7398;Target=19836at33634_0 1 538
+SZZI01003654.1	miniprot	stop_codon	1609	1611	0	+	0	Parent=MP000366;Rank=1
+SZZI01002073.1	miniprot	mRNA	5898	7498	1888	+	.	ID=MP000367;Rank=2;Identity=0.7100;Positive=0.7900;Frameshift=1;Target=19836at33634_0 1 538
+SZZI01002073.1	miniprot	CDS	5898	7498	1888	+	0	Parent=MP000367;Rank=2;Identity=0.7100;Frameshift=1;Target=19836at33634_0 1 538
+SZZI01002073.1	miniprot	stop_codon	7496	7498	0	+	0	Parent=MP000367;Rank=2

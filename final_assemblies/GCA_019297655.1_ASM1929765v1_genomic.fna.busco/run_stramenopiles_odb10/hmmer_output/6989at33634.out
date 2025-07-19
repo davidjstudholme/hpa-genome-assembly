@@ -1,0 +1,24 @@
+#                                                                                                --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                            accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                    ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+6989at33634_0|SZZI01000298.1:7266-9379|- -            705 6989at33634          -            498  1.7e-211  690.7  70.7   1   4    5e-147    5e-147  478.0  14.8     1   271     1   282     1   315 0.91 <unknown description>
+6989at33634_0|SZZI01000298.1:7266-9379|- -            705 6989at33634          -            498  1.7e-211  690.7  70.7   2   4       2.9       2.9   -6.1   9.4   405   461   295   364   285   382 0.47 <unknown description>
+6989at33634_0|SZZI01000298.1:7266-9379|- -            705 6989at33634          -            498  1.7e-211  690.7  70.7   3   4     3e-60     3e-60  191.8  17.7   289   456   386   579   344   583 0.85 <unknown description>
+6989at33634_0|SZZI01000298.1:7266-9379|- -            705 6989at33634          -            498  1.7e-211  690.7  70.7   4   4   2.6e-11   2.6e-11   30.3  26.1   412   497   568   672   564   673 0.72 <unknown description>
+6989at33634|SZZI01000298.1:2554-9379|-   -            918 6989at33634          -            498  1.1e-169  552.7  94.7   1   6   6.4e-43   6.4e-43  134.6   8.9     1    86     1    86     1    92 0.97 <unknown description>
+6989at33634|SZZI01000298.1:2554-9379|-   -            918 6989at33634          -            498  1.1e-169  552.7  94.7   2   6   3.1e-67   3.1e-67  214.8   4.1   143   271    94   230    88   263 0.85 <unknown description>
+6989at33634|SZZI01000298.1:2554-9379|-   -            918 6989at33634          -            498  1.1e-169  552.7  94.7   3   6         3         3   -6.4   9.0   406   461   244   312   237   326 0.44 <unknown description>
+6989at33634|SZZI01000298.1:2554-9379|-   -            918 6989at33634          -            498  1.1e-169  552.7  94.7   4   6   2.1e-60   2.1e-60  192.3  16.4   289   456   334   527   297   530 0.85 <unknown description>
+6989at33634|SZZI01000298.1:2554-9379|-   -            918 6989at33634          -            498  1.1e-169  552.7  94.7   5   6   3.8e-11   3.8e-11   29.8  25.3   412   497   516   620   512   621 0.72 <unknown description>
+6989at33634|SZZI01000298.1:2554-9379|-   -            918 6989at33634          -            498  1.1e-169  552.7  94.7   6   6    0.0013    0.0013    4.9  10.8   401   467   795   861   761   884 0.44 <unknown description>
+6989at33634_3|SZZI01000298.1:8494-9367|- -            292 6989at33634          -            498  1.9e-148  482.7   7.3   1   1  2.1e-148  2.1e-148  482.5   7.3     5   267     1   274     1   291 0.94 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/busco_downloads/lineages/stramenopiles_odb10/hmms/6989at33634.hmm
+# Target file:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_019297655.1_ASM1929765v1_genomic.fna.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/6989at33634.faa
+# Option settings: hmmsearch --domtblout /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_019297655.1_ASM1929765v1_genomic.fna.busco/run_stramenopiles_odb10/hmmer_output/6989at33634.out --cpu 1 /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/busco_downloads/lineages/stramenopiles_odb10/hmms/6989at33634.hmm /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_019297655.1_ASM1929765v1_genomic.fna.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/6989at33634.faa 
+# Current dir:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies
+# Date:            Sat Jul 19 09:42:08 2025
+# [ok]

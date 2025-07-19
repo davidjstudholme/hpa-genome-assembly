@@ -1,0 +1,23 @@
+#                                                                                                --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                            accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                    ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+6989at33634_0|SZZJ01000280.1:7104-9612|- -            708 6989at33634          -            498    3e-213  696.5  75.4   1   4  3.3e-146  3.3e-146  475.3   9.6     1   267     1   282     1   305 0.91 <unknown description>
+6989at33634_0|SZZJ01000280.1:7104-9612|- -            708 6989at33634          -            498    3e-213  696.5  75.4   2   4         3         3   -6.8  10.6   404   459   299   367   284   379 0.47 <unknown description>
+6989at33634_0|SZZJ01000280.1:7104-9612|- -            708 6989at33634          -            498    3e-213  696.5  75.4   3   4   5.5e-59   5.5e-59  187.6  17.3   290   456   392   585   353   589 0.84 <unknown description>
+6989at33634_0|SZZJ01000280.1:7104-9612|- -            708 6989at33634          -            498    3e-213  696.5  75.4   4   4   6.8e-17   6.8e-17   48.7  29.2   412   497   574   675   571   676 0.76 <unknown description>
+6989at33634|SZZJ01000280.1:2555-9612|-   -            919 6989at33634          -            498  1.7e-166  542.2  78.3   1   5   5.8e-43   5.8e-43  134.7   8.8     1    86     1    86     1    91 0.97 <unknown description>
+6989at33634|SZZJ01000280.1:2555-9612|-   -            919 6989at33634          -            498  1.7e-166  542.2  78.3   2   5   5.9e-58   5.9e-58  184.2   0.6   142   267    93   236    87   256 0.81 <unknown description>
+6989at33634|SZZJ01000280.1:2555-9612|-   -            919 6989at33634          -            498  1.7e-166  542.2  78.3   3   5       2.7       2.7   -6.0   9.3   405   462   253   323   246   337 0.47 <unknown description>
+6989at33634|SZZJ01000280.1:2555-9612|-   -            919 6989at33634          -            498  1.7e-166  542.2  78.3   4   5   4.5e-62   4.5e-62  197.8  11.2   290   456   345   537   335   541 0.85 <unknown description>
+6989at33634|SZZJ01000280.1:2555-9612|-   -            919 6989at33634          -            498  1.7e-166  542.2  78.3   5   5   5.8e-17   5.8e-17   49.0  28.1   412   497   526   627   524   628 0.76 <unknown description>
+6989at33634_3|SZZJ01000280.1:8618-9600|- -            285 6989at33634          -            498  1.6e-146  476.3   8.0   1   1    2e-146    2e-146  476.1   8.0     5   266     1   278     1   283 0.94 <unknown description>
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/busco_downloads/lineages/stramenopiles_odb10/hmms/6989at33634.hmm
+# Target file:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_019297675.1_ASM1929767v1_genomic.fna.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/6989at33634.faa
+# Option settings: hmmsearch --domtblout /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_019297675.1_ASM1929767v1_genomic.fna.busco/run_stramenopiles_odb10/hmmer_output/6989at33634.out --cpu 1 /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/busco_downloads/lineages/stramenopiles_odb10/hmms/6989at33634.hmm /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_019297675.1_ASM1929767v1_genomic.fna.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/6989at33634.faa 
+# Current dir:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies
+# Date:            Sat Jul 19 09:42:26 2025
+# [ok]

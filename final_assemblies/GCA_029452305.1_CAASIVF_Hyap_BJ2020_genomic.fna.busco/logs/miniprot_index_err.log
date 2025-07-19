@@ -1,0 +1,8 @@
+[M::mp_ntseq_read@0.136*1.02] read 36740689 bases in 4595 contigs
+[M::mp_idx_build@0.136*1.02] 291604 blocks
+[M::mp_idx_build@0.395*5.53] collected syncmers
+[M::mp_idx_build@1.402*2.28] 23457181 kmer-block pairs
+[M::mp_idx_print_stat] 1934394 distinct k-mers; mean occ of infrequent k-mers: 12.13; 0 frequent k-mers accounting for 0 occurrences
+[M::main] Version: 0.18-r281
+[M::main] CMD: miniprot -t 8 -d /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_029452305.1_CAASIVF_Hyap_BJ2020_genomic.fna.busco/run_stramenopiles_odb10/miniprot_output/ref.mpi /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_029452305.1_CAASIVF_Hyap_BJ2020_genomic.fna
+[M::main] Real time: 1.572 sec; CPU: 3.362 sec; Peak RSS: 0.364 GB

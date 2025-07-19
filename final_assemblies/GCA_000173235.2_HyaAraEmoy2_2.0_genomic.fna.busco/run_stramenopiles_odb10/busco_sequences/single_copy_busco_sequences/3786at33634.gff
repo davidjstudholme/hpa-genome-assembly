@@ -1,0 +1,4 @@
+JH598308.1	miniprot	mRNA	8098	10485	3016	-	.	ID=MP000610;Rank=1;Identity=0.9278;Positive=0.9616;Target=3786at33634_0 1 650
+JH598308.1	miniprot	CDS	9628	10485	1333	-	0	Parent=MP000610;Rank=1;Identity=0.9371;Donor=AA;Target=3786at33634_0 1 286
+JH598308.1	miniprot	CDS	8098	9195	1683	-	0	Parent=MP000610;Rank=1;Identity=0.9205;Target=3786at33634_0 287 650
+JH598308.1	miniprot	stop_codon	8098	8100	0	-	0	Parent=MP000610;Rank=1

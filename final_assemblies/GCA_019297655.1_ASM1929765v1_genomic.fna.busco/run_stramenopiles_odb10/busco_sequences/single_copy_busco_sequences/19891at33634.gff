@@ -1,0 +1,2 @@
+SZZI01000768.1	miniprot	mRNA	6930	7948	1425	-	.	ID=MP000382;Rank=1;Identity=0.8450;Positive=0.9006;Frameshift=1;Target=19891at33634_1 1 340
+SZZI01000768.1	miniprot	CDS	6930	7948	1425	-	0	Parent=MP000382;Rank=1;Identity=0.8450;Frameshift=1;Target=19891at33634_1 1 340

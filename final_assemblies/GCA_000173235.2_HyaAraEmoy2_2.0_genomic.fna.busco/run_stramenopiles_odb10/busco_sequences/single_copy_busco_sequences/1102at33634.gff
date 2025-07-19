@@ -1,0 +1,6 @@
+JH598254.1	miniprot	mRNA	50111	56258	6540	-	.	ID=MP000030;Rank=1;Identity=0.7404;Positive=0.7867;Frameshift=1;Target=1102at33634_0 1 1810
+JH598254.1	miniprot	CDS	54698	56258	2203	-	0	Parent=MP000030;Rank=1;Identity=0.6567;Target=1102at33634_0 1 736
+JH598254.1	miniprot	CDS	53738	54053	351	-	2	Parent=MP000030;Rank=1;Identity=0.6529;Frameshift=1;Target=1102at33634_0 737 858
+JH598254.1	miniprot	CDS	51080	53663	3544	-	0	Parent=MP000030;Rank=1;Identity=0.8012;Donor=NN;Target=1102at33634_0 859 1718
+JH598254.1	miniprot	CDS	50111	50388	442	-	2	Parent=MP000030;Rank=1;Identity=0.9560;Acceptor=TT;Target=1102at33634_0 1719 1810
+JH598254.1	miniprot	stop_codon	50111	50113	0	-	0	Parent=MP000030;Rank=1
