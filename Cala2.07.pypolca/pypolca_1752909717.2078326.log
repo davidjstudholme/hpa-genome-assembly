@@ -1,0 +1,43 @@
+2025-07-19 07:21:57.219 | INFO     | pypolca.utils.util:begin_pypolca:84 - pypolca: Standalone Python implementation of the POLCA polisher from MaSuRCA
+2025-07-19 07:21:57.220 | INFO     | pypolca.utils.util:begin_pypolca:87 - You are using pypolca version 0.3.1
+
+2025-07-19 07:21:57.220 | INFO     | pypolca.utils.util:begin_pypolca:88 - Repository homepage is https://github.com/gbouras13/pypolca.
+2025-07-19 07:21:57.220 | INFO     | pypolca.utils.util:begin_pypolca:89 - Written by George Bouras: george.bouras@adelaide.edu.au adapting the original POLCA code by Aleksey Zimin.
+2025-07-19 07:21:57.220 | INFO     | pypolca.utils.util:begin_pypolca:93 - Listing input parameters.
+2025-07-19 07:21:57.220 | INFO     | pypolca.utils.util:begin_pypolca:95 - Parameter: --assembly Cala2.07.medaka_output/consensus.fasta.
+2025-07-19 07:21:57.220 | INFO     | pypolca.utils.util:begin_pypolca:95 - Parameter: --reads1 Cala2.SRR33638434_1_val_1.fq.gz.
+2025-07-19 07:21:57.220 | INFO     | pypolca.utils.util:begin_pypolca:95 - Parameter: --reads2 Cala2.SRR33638434_2_val_2.fq.gz.
+2025-07-19 07:21:57.221 | INFO     | pypolca.utils.util:begin_pypolca:95 - Parameter: --output Cala2.07.pypolca.
+2025-07-19 07:21:57.221 | INFO     | pypolca.utils.util:begin_pypolca:95 - Parameter: --threads 16.
+2025-07-19 07:21:57.221 | INFO     | pypolca.utils.util:begin_pypolca:95 - Parameter: --force True.
+2025-07-19 07:21:57.221 | INFO     | pypolca.utils.util:begin_pypolca:95 - Parameter: --careful True.
+2025-07-19 07:21:57.221 | INFO     | pypolca.utils.util:begin_pypolca:95 - Parameter: --min_alt 4.
+2025-07-19 07:21:57.221 | INFO     | pypolca.utils.util:begin_pypolca:95 - Parameter: --min_ratio 3.
+2025-07-19 07:21:57.221 | INFO     | pypolca.utils.util:begin_pypolca:95 - Parameter: --memory_limit 2G.
+2025-07-19 07:21:57.221 | INFO     | pypolca.utils.util:begin_pypolca:95 - Parameter: --no_polish False.
+2025-07-19 07:21:57.221 | INFO     | pypolca.utils.util:begin_pypolca:95 - Parameter: --prefix pypolca.
+2025-07-19 07:21:57.855 | INFO     | pypolca.utils.validation:check_dependencies:112 - Samtools v1.21 found.
+2025-07-19 07:21:57.863 | INFO     | pypolca.utils.validation:check_dependencies:123 - freebayes v1.3.6 found.
+2025-07-19 07:21:57.888 | INFO     | pypolca.utils.validation:check_dependencies:140 - bwa v0.7.18-r1243-dirty found.
+2025-07-19 07:21:57.888 | INFO     | pypolca.utils.validation:validate_fasta:46 - Checking that the input file Cala2.07.medaka_output/consensus.fasta is in FASTA format.
+2025-07-19 07:21:58.352 | INFO     | pypolca.utils.validation:validate_fasta:51 - Cala2.07.medaka_output/consensus.fasta file checked.
+2025-07-19 07:21:58.373 | INFO     | pypolca.utils.validation:validate_fastq:73 - FASTQ Cala2.SRR33638434_1_val_1.fq.gz checked
+2025-07-19 07:21:58.403 | INFO     | pypolca.utils.validation:validate_fastq:73 - FASTQ Cala2.SRR33638434_2_val_2.fq.gz checked
+2025-07-19 07:21:58.403 | INFO     | pypolca:run:219 - Checking memory limit of 2G.
+2025-07-19 07:21:58.403 | INFO     | pypolca:run:224 - Creating BWA index
+2025-07-19 07:21:58.512 | INFO     | pypolca.utils.external_tools:run:50 - Started running bwa index Cala2.07.pypolca/temp/assembly.fasta ...
+2025-07-19 07:22:58.330 | INFO     | pypolca.utils.external_tools:run:52 - Done running bwa index Cala2.07.pypolca/temp/assembly.fasta
+2025-07-19 07:22:58.330 | INFO     | pypolca:run:230 - Aligning reads with BWA
+2025-07-19 07:22:58.332 | INFO     | pypolca.utils.external_tools:run_to_stdout:59 - Started running bwa mem -SP -t 16 Cala2.07.pypolca/temp/assembly.fasta Cala2.SRR33638434_1_val_1.fq.gz Cala2.SRR33638434_2_val_2.fq.gz ...
+2025-07-19 07:40:46.985 | INFO     | pypolca.utils.external_tools:run_to_stdout:61 - Done running bwa mem -SP -t 16 Cala2.07.pypolca/temp/assembly.fasta Cala2.SRR33638434_1_val_1.fq.gz Cala2.SRR33638434_2_val_2.fq.gz
+2025-07-19 07:40:46.998 | INFO     | pypolca:run:237 - Sorting and indexing alignment file
+2025-07-19 07:40:47.000 | INFO     | pypolca.utils.external_tools:run:50 - Started running samtools view -h -@ 16 -b Cala2.07.pypolca/temp/temp_bwa.sam -o Cala2.07.pypolca/temp/temp_bwa.bam ...
+2025-07-19 08:19:53.397 | INFO     | pypolca.utils.external_tools:run:52 - Done running samtools view -h -@ 16 -b Cala2.07.pypolca/temp/temp_bwa.sam -o Cala2.07.pypolca/temp/temp_bwa.bam
+2025-07-19 08:19:53.430 | INFO     | pypolca.utils.external_tools:run:50 - Started running samtools sort -m 2G -@ 16 Cala2.07.pypolca/temp/temp_bwa.bam -o Cala2.07.pypolca/temp/temp_bwa_sorted.bam ...
+2025-07-19 08:32:35.576 | INFO     | pypolca.utils.external_tools:run:52 - Done running samtools sort -m 2G -@ 16 Cala2.07.pypolca/temp/temp_bwa.bam -o Cala2.07.pypolca/temp/temp_bwa_sorted.bam
+2025-07-19 08:32:35.577 | INFO     | pypolca.utils.external_tools:run:50 - Started running samtools index -@ Cala2.07.pypolca/temp/temp_bwa_sorted.bam ...
+2025-07-19 08:32:35.583 | INFO     | pypolca.utils.external_tools:run:52 - Done running samtools index -@ Cala2.07.pypolca/temp/temp_bwa_sorted.bam
+2025-07-19 08:32:35.584 | INFO     | pypolca:run:244 - Calling variants.
+2025-07-19 08:32:35.584 | INFO     | pypolca.utils.external_tools:run:50 - Started running samtools faidx Cala2.07.pypolca/temp/assembly.fasta ...
+2025-07-19 08:32:41.708 | INFO     | pypolca.utils.external_tools:run:52 - Done running samtools faidx Cala2.07.pypolca/temp/assembly.fasta
+2025-07-19 08:32:41.710 | INFO     | pypolca.utils.external_tools:run:50 - Started running freebayes -m 0 --min-coverage 3 -R 0 -p 1 -F 0.2 -E 0 -b Cala2.07.pypolca/temp/temp_bwa_sorted.bam -f Cala2.07.pypolca/temp/assembly.fasta -v Cala2.07.pypolca/pypolca.vcf ...

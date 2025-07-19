@@ -1,0 +1,17 @@
+[bwa_index] Pack FASTA... 0.63 sec
+[bwa_index] Construct BWT for the packed sequence...
+[BWTIncCreate] textLength=167377780, availableWord=23776956
+[BWTIncConstructFromPacked] 10 iterations done. 39220836 characters processed.
+[BWTIncConstructFromPacked] 20 iterations done. 72456436 characters processed.
+[BWTIncConstructFromPacked] 30 iterations done. 101992324 characters processed.
+[BWTIncConstructFromPacked] 40 iterations done. 128239844 characters processed.
+[BWTIncConstructFromPacked] 50 iterations done. 151564692 characters processed.
+[bwt_gen] Finished constructing BWT in 58 iterations.
+[bwa_index] 35.56 seconds elapse.
+[bwa_index] Update BWT... 0.37 sec
+[bwa_index] Pack forward-only FASTA... 0.31 sec
+[bwa_index] Construct SA from BWT and Occ... 20.67 sec
+[main] Version: 0.7.18-r1243-dirty
+[main] CMD: bwa index Cala2.07.pypolca/temp/assembly.fasta
+[main] Real time: 59.813 sec; CPU: 57.549 sec
+Command line: bwa index Cala2.07.pypolca/temp/assembly.fasta

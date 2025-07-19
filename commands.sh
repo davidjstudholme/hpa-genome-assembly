@@ -174,9 +174,9 @@ medaka_consensus -i Cala2.SRR34103947.filtlong.fastq.gz -d Cala2.assemblies/asse
 		 -o Cala2.07.medaka_output -t 8 -m r1041_e82_400bps_sup_v4.3.0
 
 ### Polish with short reads - PyPolca
-pypolca run --force --careful -a Noks1.06.medaka_output/consensus.fasta \
+pypolca run --force --careful -a Cala2.07.medaka_output/consensus.fasta \
 	-1 Cala2.SRR33638434_1_val_1.fq.gz \
 	-2 Cala2.SRR33638434_2_val_2.fq.gz \
-	-t 16 -o Cala2.06.pypolca
+	-t 16 -o Cala2.07.pypolca
 cp Cala2.07.pypolca/pypolca_corrected.fasta Cala2.07.medaka.pypolca.fasta
 gzip Cala2.07.medaka.pypolca.fasta

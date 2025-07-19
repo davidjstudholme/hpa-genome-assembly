@@ -1,0 +1,77 @@
+/data/djs217/miniconda3/envs/quast_env/bin/quast.py Noks1.assembly.cleaned.fasta GCA_000173235.2_HyaAraEmoy2_2.0_genomic.fna GCA_001414265.1_Cala2_v1_genomic.fna GCA_001414525.1_Noks1_v1_genomic.fna
+
+Version: 5.3.0
+
+System information:
+  OS: Linux-5.15.0-143-generic-x86_64-with-glibc2.35 (linux_64)
+  Python version: 3.12.7
+  CPUs number: 32
+
+Started: 2025-07-19 09:03:14
+
+Logging to /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/quast_results/results_2025_07_19_09_03_14/quast.log
+NOTICE: Maximum number of threads is set to 8 (use --threads option to set it manually)
+
+CWD: /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies
+Main parameters: 
+  MODE: default, threads: 8, min contig length: 500, min alignment length: 65, min alignment IDY: 95.0, \
+  ambiguity: one, min local misassembly length: 200, min extensive misassembly length: 1000
+
+Contigs:
+  Pre-processing...
+  1  Noks1.assembly.cleaned.fasta ==> Noks1.assembly.cleaned
+  2  GCA_000173235.2_HyaAraEmoy2_2.0_genomic.fna ==> GCA_000173235.2_HyaAraEmoy2_2.0_genomic
+  3  GCA_001414265.1_Cala2_v1_genomic.fna ==> GCA_001414265.1_Cala2_v1_genomic
+  4  GCA_001414525.1_Noks1_v1_genomic.fna ==> GCA_001414525.1_Noks1_v1_genomic
+
+2025-07-19 09:03:28
+Running Basic statistics processor...
+  Contig files: 
+    1  Noks1.assembly.cleaned
+    2  GCA_000173235.2_HyaAraEmoy2_2.0_genomic
+    3  GCA_001414265.1_Cala2_v1_genomic
+    4  GCA_001414525.1_Noks1_v1_genomic
+  Calculating N50 and L50...
+    1  Noks1.assembly.cleaned, N50 = 746920, L50 = 29, auN = 905764.0, Total length = 72073663, GC % = 47.34, # N's per 100 kbp =  0.00
+    2  GCA_000173235.2_HyaAraEmoy2_2.0_genomic, N50 = 339722, L50 = 69, auN = 405477.9, Total length = 78128240, GC % = 47.22, # N's per 100 kbp =  10231.40
+    3  GCA_001414265.1_Cala2_v1_genomic, N50 = 23816, L50 = 804, auN = 31774.2, Total length = 70255090, GC % = 47.32, # N's per 100 kbp =  15.72
+    4  GCA_001414525.1_Noks1_v1_genomic, N50 = 19328, L50 = 993, auN = 26879.8, Total length = 74456230, GC % = 47.84, # N's per 100 kbp =  24.81
+  Drawing Nx plot...
+    saved to /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/quast_results/results_2025_07_19_09_03_14/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/quast_results/results_2025_07_19_09_03_14/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/quast_results/results_2025_07_19_09_03_14/basic_stats/GC_content_plot.pdf
+  Drawing Noks1.assembly.cleaned GC content plot...
+    saved to /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/quast_results/results_2025_07_19_09_03_14/basic_stats/Noks1.assembly.cleaned_GC_content_plot.pdf
+  Drawing GCA_000173235.2_HyaAraEmoy2_2.0_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/quast_results/results_2025_07_19_09_03_14/basic_stats/GCA_000173235.2_HyaAraEmoy2_2.0_genomic_GC_content_plot.pdf
+  Drawing GCA_001414265.1_Cala2_v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/quast_results/results_2025_07_19_09_03_14/basic_stats/GCA_001414265.1_Cala2_v1_genomic_GC_content_plot.pdf
+  Drawing GCA_001414525.1_Noks1_v1_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/quast_results/results_2025_07_19_09_03_14/basic_stats/GCA_001414525.1_Noks1_v1_genomic_GC_content_plot.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2025-07-19 09:03:40
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating PDF with all tables and plots...
+  2 of 2: Creating Icarus viewers...
+Done
+
+2025-07-19 09:03:43
+RESULTS:
+  Text versions of total report are saved to /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/quast_results/results_2025_07_19_09_03_14/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/quast_results/results_2025_07_19_09_03_14/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/quast_results/results_2025_07_19_09_03_14/report.html
+  PDF version (tables and plots) is saved to /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/quast_results/results_2025_07_19_09_03_14/report.pdf
+  Icarus (contig browser) is saved to /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/quast_results/results_2025_07_19_09_03_14/icarus.html
+  Log is saved to /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/quast_results/results_2025_07_19_09_03_14/quast.log
+
+Finished: 2025-07-19 09:03:43
+Elapsed time: 0:00:28.930282
+NOTICEs: 2; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
