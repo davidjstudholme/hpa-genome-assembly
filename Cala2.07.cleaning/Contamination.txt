@@ -1,0 +1,128 @@
+SUBID     	BioProject	BioSample	Organism
+--------------------------------------------------------
+SUB15471556	PRJNA297499	SAMN04124420	Hyaloperonospora arabidopsidis
+
+[] We ran your sequences through our Contamination Screen. The screen found 
+contigs that need to be trimmed and/or excluded. The results are in the 
+Contamination.txt file posted in your submission on the Genome submission portal 
+https://submit.ncbi.nlm.nih.gov/subs/genome/. More details about the 
+contamination screening process are available at https://github.com/ncbi/fcs
+
+GenBank staff will automatically remove contaminants that are found to be 
+the entire sequence or at the end of a sequence, and will post the reports 
+and edited fasta file to the submission portal. Note that internal contamination 
+will not be automatically removed since the sequence may be misassembled and 
+therefore should be split at the contamination and resubmitted as separate sequences.
+In addition, we do not automatically remove mitochondrial sequences in 
+eukaryotic submissions. 
+
+If you selected the submission portal option "Do not automatically trim or 
+remove sequences identified as contamination" then you will need 
+to adjust the sequences appropriately and then resubmit your sequences. 
+After you remove the contamination, trim any Ns at the ends of the sequence 
+and remove any sequences that are shorter than 200 nt and not part of a 
+multi-component scaffold.  If you decide after reviewing the contamination
+results that you would like us to attempt to remove it for you, please email 
+genomes@ncbi.nlm.nih.gov.  As noted above, we cannot automatically remove 
+internal contamination or mitochondrial sequences.
+
+WARNING: If we do not hear from you by $(add.days,30), your 
+submission will be deleted from the processing queue.
+
+Note that mismatches between the name of the adaptor/primer identified in the screen 
+and the sequencing technology used to generate the sequencing data should not be used 
+to discount the validity of the screen results as the adaptors/primers of many 
+different sequencing platforms share sequence similarity.
+
+
+
+Contamination Results:
+
+
+Mitochondrion:
+[] Some sequences are similar to a mitochondrial sequence. There are two options:
+ (A) If you are not sequencing mitochondrial DNA, remove these sequences
+ (B) If you want to include the mitochondrial sequences in the genome submission, 
+ label them as mitochondrial. 
+- To label the sequences in a BATCH submission, add a source qualifier in the fasta  
+ definition line [location=mitochondrion].  See "IMPORTANT: Additional requirements 
+ for batch submissions" at https://www.ncbi.nlm.nih.gov/genbank/genomesubmit/#batch_assignment
+- If this is not a BATCH submission, indicate that these sequences are mitochondrial in the 
+ Assignment tab of the submission portal.
+- In addition, it is recommended but not required that you move these sequences to the end 
+of your submission or put them in a separate file so that they are clustered together.
+
+
+
+Adaptor:
+[] Some of the sequences hit primers or adaptors used in Illumina, 
+454, or other sequencing strategies or platforms.  Adaptor at the 
+end of a sequence should be removed. However, if adaptors are 
+present within sequences then you should strongly consider 
+splitting the sequences at the adaptor because the adaptor sequence 
+could have been the region of overlap, causing a misassembly.
+
+
+Screened 387 sequences, 83,681,973 bp.
+41 sequences to exclude, 11 sequences to trim
+
+Exclude:
+Sequence name, length, apparent source
+contig_352	4069	prok:g-proteobacteria
+contig_389	806544	prok:CFB group bacteria
+contig_392	703	mitochondrion
+contig_394	1035	mitochondrion
+contig_395	2017	mitochondrion
+contig_396	13066	mitochondrion
+contig_397	516	mitochondrion
+contig_399	1203	mitochondrion
+contig_400	577	mitochondrion
+contig_401	580	mitochondrion
+contig_402	1230	mitochondrion
+contig_403	683	mitochondrion
+contig_404	683	mitochondrion
+contig_408	5623	prok:g-proteobacteria
+contig_409	611981	prok:g-proteobacteria
+contig_427	5218	mitochondrion
+contig_438	1660	mitochondrion
+contig_499	848	plnt:plants
+contig_500	10491	plnt:plants
+contig_506	119332	plnt:plants
+contig_507	47150	plnt:plants
+contig_523	3106231	prok:b-proteobacteria
+contig_552	3063691	prok:b-proteobacteria
+contig_553	5929	prok:b-proteobacteria
+contig_591	186173	prok:CFB group bacteria
+contig_592	14299	prok:CFB group bacteria
+contig_614	883913	prok:b-proteobacteria
+contig_616	390048	prok:b-proteobacteria
+contig_626	549652	prok:CFB group bacteria
+contig_697	18049	fung:ascomycetes
+contig_733	123969	prok:g-proteobacteria
+contig_734	1724	prok:g-proteobacteria
+contig_745	1031932	prok:g-proteobacteria
+contig_754	10184	mitochondrion
+contig_764	26254	plnt:plants
+contig_769	32404	prok:b-proteobacteria
+contig_775	110712	prok:b-proteobacteria
+contig_783	20817	plnt:plants
+contig_784	6022	plnt:plants
+contig_787	171851	prok:b-proteobacteria
+contig_797	4868	plnt:plants
+
+
+Trim:
+Sequence name, length, span(s), apparent source
+contig_363	104780	104747..104780	adaptor:NGB02000.1
+contig_422	5237	1..33	adaptor:NGB02000.1
+contig_436	20234	20200..20234	adaptor:NGB02000.1
+contig_488	56613	56579..56613	adaptor:NGB02000.1
+contig_505	14205	1..34	adaptor:NGB02000.1
+contig_551	443568	443536..443568	adaptor:NGB02000.1
+contig_598	6780	6748..6780	adaptor:NGB02000.1
+contig_632	44990	44962..44990	adaptor:NGB02000.1
+contig_695	48395	48363..48395	adaptor:NGB02000.1
+contig_699	132200	1..31	adaptor:NGB02000.1
+contig_9	646952	646929..646952	adaptor:NGB02000.1
+
+

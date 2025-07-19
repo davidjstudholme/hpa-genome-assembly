@@ -1,0 +1,9 @@
+name: seqkit_env
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+  - r
+dependencies:
+  - seqkit=2.10.0=h9ee0642_0
+prefix: /data/djs217/miniconda3/envs/seqkit_env

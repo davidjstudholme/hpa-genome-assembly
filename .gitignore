@@ -1,9 +1,42 @@
-*.fasta
+# Ignore lineage and BUSCO downloads
+**/busco_downloads/
+**/lineages/
+**/stramenopiles_odb10/
+**/stramenopiles_odb12/
+
+# Common large file types
+*.faa
+*.fna
+*.tar.gz
+*.zip
+*.gz
+*.bz2
+*.bam
+*.sam
+*.hdf5
+*.hdf
+*.fastq
+*.fq
+*.fast5
+*.seq
 *.gfa
 *.mmi
-*.hdf
-*.seq
-#*.fai
+*.fasta
+*.fai
+*.fa
+*.zip
+
+# Output or temporary directories
+**/run_*/
+**/__pycache__/
+*.tmp
+*.bak
+
+# Exclude everything in .DS_Store (macOS), Thumbs.db (Windows)
+.DS_Store
+Thumbs.db
+
+
 
 
 *~
@@ -35,10 +68,10 @@
 wget-log
 
 
-read_alignment_dump
+*/read_alignment_dump/*
 
 
-*quast_results/latest
+*/quast_results/latest
 
 ### Large files in the PhaME results
 *workdir/results/gaps

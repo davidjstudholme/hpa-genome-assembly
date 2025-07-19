@@ -1,0 +1,44 @@
+
+
+Dear David Studholme,
+
+We have received your genome submission for:
+
+SUBID     	BioProject	BioSample	Organism
+---------------------------------------------------
+SUB15470957	PRJNA298674	SAMN50023145	Sphingobium limneticum Hpa-799
+
+We compared the size of this genome assembly to those of 
+similarly taxonomically ranked organisms in GenBank and 
+NCBI's Assembly database, as described at 
+https://www.ncbi.nlm.nih.gov/assembly/help/genome-size-check/ . 
+The genome size of your submission falls outside of the expected 
+size range for the organism specified in your submission.
+
+If there is a problem with the assembly, please correct the assembly
+and resubmit.  If this assembly inadvertently contains more than one
+organism, you may need to create a new assembly using DNA isolated
+from a fresh culture that is not contaminated.
+
+Alternatively, is there some reason the genome for this organism is
+expected to fail this test and be a different size from similar 
+organisms? If there is only one example for this species in GenBank,
+please provide the expected size for this organism. Send your 
+explanation to: genomes@ncbi.nlm.nih.gov.
+
+The size check is automatically run on every resubmission, so you 
+should ignore this error if you have already explained why this 
+genome failed the test.
+
+
+NOTE: The genome submission portal should only be used for eukaryotic 
+or prokaryotic genome assemblies.  Submissions for individual genes
+(eg, 16S rRNA),  microsatellites, phage, viruses, or organelle-only 
+assemblies should be submitted using the appropriate non-genome option 
+at https://www.ncbi.nlm.nih.gov/WebSub/
+
+Genome size report:
+Statistics for taxid 1007511, scientific name 'Sphingobium limneticum', rank 'species'
+Genome size: 3829367
+Average: 5153215, expected range: [4122000-6184000], based on 4 samples
+ERROR: size too small

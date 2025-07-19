@@ -1,0 +1,72 @@
+SUBID     	BioProject	BioSample	Organism
+--------------------------------------------------------
+SUB15471556	PRJNA297499	SAMN04124420	Hyaloperonospora arabidopsidis
+
+[] We ran your sequences through our Contamination Screen. The screen found 
+sequences that need to be trimmed and/or excluded. More details about the 
+contamination screening process are available at https://github.com/ncbi/fcs
+
+We were able to remove sequences marked to exclude and/or trimmed contamination 
+from the ends of sequence (see the FixedForeignContaminations.txt file). If the 
+contamination is on either side of a run of N's, the N's were also removed.
+We have uploaded the modified fasta file ForeignContaminationModified.zip to the 
+submission portal.
+
+However, we could not remove the contamination in the RemainingContamination.txt file.  
+We cannot remove contamination that is in the middle of a sequence. The sequence may need
+to be split at the contamination and the sequence on either side of the contamination submitted 
+as a separate sequence. In addition, we do not automatically remove mitochondrial 
+sequences in eukaryotic submissions. 
+
+Please adjust these remaining sequences appropriately and then resubmit.  After you 
+remove the contamination, trim any Ns at the ends of the sequence and remove any sequences 
+that are shorter than 200 nt and not part of a multi-component scaffold.
+
+WARNING: If we do not hear from you by $(add.days,30), your 
+submission will be deleted from the processing queue.
+
+Note that mismatches between the name of the adaptor/primer identified in the screen 
+and the sequencing technology used to generate the sequencing data should not be used 
+to discount the validity of the screen results as the adaptors/primers of many 
+different sequencing platforms share sequence similarity.
+
+
+Mitochondrion:
+[] Some sequences are similar to a mitochondrial sequence. There are two options:
+ (A) If you are not sequencing mitochondrial DNA, remove these sequences
+ (B) If you want to include the mitochondrial sequences in the genome submission, 
+ label them as mitochondrial. 
+- To label the sequences in a BATCH submission, add a source qualifier in the fasta  
+ definition line [location=mitochondrion].  See "IMPORTANT: Additional requirements 
+ for batch submissions" at https://www.ncbi.nlm.nih.gov/genbank/genomesubmit/#batch_assignment
+- If this is not a BATCH submission, indicate that these sequences are mitochondrial in the 
+ Assignment tab of the submission portal.
+- In addition, it is recommended but not required that you move these sequences to the end 
+of your submission or put them in a separate file so that they are clustered together.
+
+
+
+The contamination that we could not automatically remove is listed below.
+You will need to adjust these sequences and resubmit:
+
+Skipped 349 same as before; screened 11 sequences, 1,523,600 bp.
+14 sequences to exclude
+
+Exclude:
+Sequence name, length, apparent source
+contig_392	703	mitochondrion-not_cleaned
+contig_394	1035	mitochondrion-not_cleaned
+contig_395	2017	mitochondrion-not_cleaned
+contig_396	13066	mitochondrion-not_cleaned
+contig_397	516	mitochondrion-not_cleaned
+contig_399	1203	mitochondrion-not_cleaned
+contig_400	577	mitochondrion-not_cleaned
+contig_401	580	mitochondrion-not_cleaned
+contig_402	1230	mitochondrion-not_cleaned
+contig_403	683	mitochondrion-not_cleaned
+contig_404	683	mitochondrion-not_cleaned
+contig_427	5218	mitochondrion-not_cleaned
+contig_438	1660	mitochondrion-not_cleaned
+contig_754	10184	mitochondrion-not_cleaned
+
+
