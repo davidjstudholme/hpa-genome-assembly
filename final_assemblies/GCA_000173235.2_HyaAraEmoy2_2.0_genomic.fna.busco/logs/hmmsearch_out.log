@@ -161,15 +161,13 @@ Passed Vit filter:                         3  (1); expected 0.0 (0.001)
 Passed Fwd filter:                         3  (1); expected 0.0 (1e-05)
 Initial search space (Z):                  3  [actual number of targets]
 Domain search space  (domZ):               3  [number of targets reported over threshold]
-# CPU time: 0.05u 0.00s 00:00:00.05 Elapsed: 00:00:00.05
-# Mc/sec: 9.90
+# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.05
+# Mc/sec: 10.11
 //
 [ok]
-me: 0.06u 0.01s 00:00:00.06 Elapsed: 00:00:00.07
-# Mc/sec: 11.93
-//
-[ok]
-...........ddfktlakag..........pkgca...vndkvqvlv.l 749
+* PP
+
+                               723at33634 712 raeyglan.....fflkv.............ddfktlakag..........pkgca...vndkvqvlv.l 749
                                               raeyglan     ff+k+             ddf+tlakag          p+gca   vndkvq++v l
   723at33634_0|JH598005.1:104801-106709|- 494 RAEYGLANnvrpqFFIKCidndvkavieaqlDDFATLAKAGdskclveeeaPEGCAvhsVNDKVQIFVrL 563
                                               ******975555589987666666666666689******9744445555557889833459******989 PP
@@ -191,7 +189,7 @@ Passed Vit filter:                         2  (1); expected 0.0 (0.001)
 Passed Fwd filter:                         2  (1); expected 0.0 (1e-05)
 Initial search space (Z):                  2  [actual number of targets]
 Domain search space  (domZ):               2  [number of targets reported over threshold]
-# CPU time: 0.07u 0.01s 00:00:00.08 Elapsed: 00:00:00.08
-# Mc/sec: 16.25
+# CPU time: 0.08u 0.00s 00:00:00.08 Elapsed: 00:00:00.08
+# Mc/sec: 15.74
 //
 [ok]

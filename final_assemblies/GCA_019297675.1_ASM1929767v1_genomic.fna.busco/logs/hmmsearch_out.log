@@ -162,6 +162,70 @@ Passed Fwd filter:                         3  (1); expected 0.0 (1e-05)
 Initial search space (Z):                  3  [actual number of targets]
 Domain search space  (domZ):               3  [number of targets reported over threshold]
 # CPU time: 0.05u 0.00s 00:00:00.05 Elapsed: 00:00:00.05
-# Mc/sec: 10.02
+# Mc/sec: 9.57
+//
+[ok]
+    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  815.5   0.0    4e-249    4e-249     166     604 ..      71     535 ..      39     555 .. 0.91
+   2 !   24.4   0.0   1.2e-09   1.2e-09     590     627 .]     565     604 ..     553     604 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 815.5 bits;  conditional E-value: 4e-249
+                                 3528at33634 166 enlevktvktvsfkir...vekvkr...dldyplmeeydfrnd.......ldlkpttrireyqeksl 219
+                                                    + ktv+tvsfkir   ve+vkr   dldyplmeeydfrnd       +dlkp+trireyqeksl
+  3528at33634_0|SZZJ01000190.1:35352-37164|-  71 GGDQQKTVRTVSFKIRkkmVEQVKRaclDLDYPLMEEYDFRNDktipdleMDLKPSTRIREYQEKSL 137
+                                                 3457899********855568899655589************777666779**************** PP
+
+                                 3528at33634 220 skmfGngrarsGiivlPcGaGktltgvtaastikksclvlctsavsvlqWkaqfklwtdieekkiav 286
+                                                 skmfGngrarsGiivlPcGaGktltgvtaastikkscl+lctsavsv+qW+aqfk+wt+i+ekkia+
+  3528at33634_0|SZZJ01000190.1:35352-37164|- 138 SKMFGNGRARSGIIVLPCGAGKTLTGVTAASTIKKSCLCLCTSAVSVEQWTAQFKMWTNISEKKIAR 204
+                                                 ******************************************************************* PP
+
+                                 3528at33634 287 ftsdkkdkl.....vlvttytmvafggkrakeseevleeiksreWGlllldevhvvPakmfrkvigs 348
+                                                 fts++kd++     v+vttytmvafgg+ra++seev+++i++reWG++lldevhvvPakmfrkvigs
+  3528at33634_0|SZZJ01000190.1:35352-37164|- 205 FTSVAKDYIdpdsgVIVTTYTMVAFGGRRARASEEVMQLIQGREWGCILLDEVHVVPAKMFRKVIGS 271
+                                                 ********999999***************************************************** PP
+
+                                 3528at33634 349 vkahcklGltatlvreddlikdlnfliGPklyeanWmdltqsGylanvkcvevWcpmtgefyreyl. 414
+                                                 +++hcklGltatlvreddli+dlnfliGPklyeanWmdltqsG+lanv+cvevWcpm+gefyreyl 
+  3528at33634_0|SZZJ01000190.1:35352-37164|- 272 IACHCKLGLTATLVREDDLIGDLNFLIGPKLYEANWMDLTQSGFLANVSCVEVWCPMAGEFYREYLr 338
+                                                 ******************************************************************5 PP
+
+                                 3528at33634 415 ...earkrkllyvlnPnklraaeflikyheergdkilvfsddvfalklyaell...liyGgtgerer 475
+                                                    +arkr+llyv+nPnk++aaefli+yheergdkil+fsddvfal+lya++l   +iyGgtgerer
+  3528at33634_0|SZZJ01000190.1:35352-37164|- 339 etkSARKRALLYVANPNKFTAAEFLIQYHEERGDKILLFSDDVFALRLYATKLnkgYIYGGTGERER 405
+                                                 5545799********************************************997778********** PP
+
+                                 3528at33634 476 krllqsfrss.lvnviclskvGdtsidlPeanviiqvsshfGsrrqeaqrlGrilrpkanat.gfna 540
+                                                 +rllqsfrss lvnvic+skvGdtsidlPeanviiqvsshfGsrrqeaqrlGrilrpkanat gfna
+  3528at33634_0|SZZJ01000190.1:35352-37164|- 406 MRLLQSFRSSpLVNVICISKVGDTSIDLPEANVIIQVSSHFGSRRQEAQRLGRILRPKANATgGFNA 472
+                                                 ********98579**********************************************998469** PP
+
+                                 3528at33634 541 ffytlvstdtkevfysakrqqylvdqGytfkvvtdllekellkevleaededlerslgalsgad 604
+                                                 ffytl+stdt+e+fys+krqqylvdqGytfkvvtdl+e   ++ v + + ed    l ++ +ad
+  3528at33634_0|SZZJ01000190.1:35352-37164|- 473 FFYTLISTDTHEMFYSNKRQQYLVDQGYTFKVVTDLFEPGSFEGVFTRK-EDQRALLNEVLSAD 535
+                                                 **************************************99998888877.44444444444444 PP
+
+  == domain 2  score: 24.4 bits;  conditional E-value: 1.2e-09
+                                 3528at33634 590 dedlerslgalsgadgskymeysags.ak.rhnlfrdryr 627
+                                                 +++   slgalsgadg+kymeysag+ ak rhnlfrdryr
+  3528at33634_0|SZZJ01000190.1:35352-37164|- 565 RKKKLASLGALSGADGTKYMEYSAGHgAKqRHNLFRDRYR 604
+                                                 55666899******************9888********97 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (627 nodes)
+Target sequences:                          3  (2070 residues searched)
+Passed MSV filter:                         3  (1); expected 0.1 (0.02)
+Passed bias filter:                        3  (1); expected 0.1 (0.02)
+Passed Vit filter:                         3  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         3  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  3  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.08u 0.00s 00:00:00.08 Elapsed: 00:00:00.07
+# Mc/sec: 16.61
 //
 [ok]

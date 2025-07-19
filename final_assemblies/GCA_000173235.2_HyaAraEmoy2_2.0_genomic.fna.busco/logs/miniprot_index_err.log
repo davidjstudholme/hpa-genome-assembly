@@ -1,8 +1,8 @@
-[M::mp_ntseq_read@0.264*1.01] read 78380535 bases in 3108 contigs
-[M::mp_idx_build@0.264*1.01] 615352 blocks
-[M::mp_idx_build@0.702*5.32] collected syncmers
-[M::mp_idx_build@2.147*2.41] 38723788 kmer-block pairs
+[M::mp_ntseq_read@0.262*1.01] read 78380535 bases in 3108 contigs
+[M::mp_idx_build@0.262*1.01] 615352 blocks
+[M::mp_idx_build@0.697*5.32] collected syncmers
+[M::mp_idx_build@2.042*2.47] 38723788 kmer-block pairs
 [M::mp_idx_print_stat] 2069968 distinct k-mers; mean occ of infrequent k-mers: 18.71; 0 frequent k-mers accounting for 0 occurrences
 [M::main] Version: 0.18-r281
 [M::main] CMD: miniprot -t 8 -d /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_000173235.2_HyaAraEmoy2_2.0_genomic.fna.busco/run_stramenopiles_odb10/miniprot_output/ref.mpi /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_000173235.2_HyaAraEmoy2_2.0_genomic.fna
-[M::main] Real time: 2.443 sec; CPU: 5.473 sec; Peak RSS: 0.601 GB
+[M::main] Real time: 2.328 sec; CPU: 5.338 sec; Peak RSS: 0.601 GB

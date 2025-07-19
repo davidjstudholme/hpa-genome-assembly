@@ -6,7 +6,7 @@ conda activate busco_env
 conda list -n busco_env > busco_env_packages.txt
 conda env export > busco_env.yaml
 
-### QC on Noks1 assemblies, using BUSCO
+### QC on assemblies, using BUSCO
 for i in *.fna *.fasta; do
     echo running BUSCO on $i
     busco -i $i -l stramenopiles_odb10 -o $i.busco -m genome --cpu 8 -f
