@@ -12,5 +12,5 @@
 # Target file:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_947650285.1_Hp1_genomic.fna.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/3892at33634.faa
 # Option settings: hmmsearch --domtblout /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_947650285.1_Hp1_genomic.fna.busco/run_stramenopiles_odb10/hmmer_output/3892at33634.out --cpu 1 /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/busco_downloads/lineages/stramenopiles_odb10/hmms/3892at33634.hmm /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/GCA_947650285.1_Hp1_genomic.fna.busco/run_stramenopiles_odb10/miniprot_output/translated_proteins/3892at33634.faa 
 # Current dir:     /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies
-# Date:            Sat Jul 19 09:50:53 2025
+# Date:            Sat Jul 19 13:20:41 2025
 # [ok]

@@ -162,10 +162,10 @@ Passed Fwd filter:                         3  (1); expected 0.0 (1e-05)
 Initial search space (Z):                  3  [actual number of targets]
 Domain search space  (domZ):               3  [number of targets reported over threshold]
 # CPU time: 0.05u 0.00s 00:00:00.05 Elapsed: 00:00:00.05
-# Mc/sec: 9.74
+# Mc/sec: 10.15
 //
 [ok]
-eyglan     ff+k+             ddf+tlakag          p+gca   vndkvq++v l
+yglan     ff+k+             ddf+tlakag          p+gca   vndkvq++v l
   723at33634_0|contig_276:109414-111322|- 494 RAEYGLANnvrpqFFIKCidndvkavieaqlDDFATLAKAGdskclveeeaPEGCAvhsVNDKVQIFVrL 563
                                               ******975555589987666666666666689******9744445555557889833459******989 PP
 
@@ -186,7 +186,57 @@ Passed Vit filter:                         2  (1); expected 0.0 (0.001)
 Passed Fwd filter:                         2  (1); expected 0.0 (1e-05)
 Initial search space (Z):                  2  [actual number of targets]
 Domain search space  (domZ):               2  [number of targets reported over threshold]
-# CPU time: 0.07u 0.02s 00:00:00.09 Elapsed: 00:00:00.08
-# Mc/sec: 15.06
+# CPU time: 0.07u 0.01s 00:00:00.08 Elapsed: 00:00:00.07
+# Mc/sec: 17.02
+//
+[ok]
+VLPCGAGKTLTGVTAASTIKKSCLCLCTSAVSVEQWTAQFKMWTNISEKKIARF 200
+                                               ********************************************************************* PP
+
+                               3528at33634 288 tsdkkdkl.....vlvttytmvafggkrakeseevleeiksreWGlllldevhvvPakmfrkvigsvka 351
+                                               ts++kd++     v+vttytmvafgg+ra++seev+++i++reWG++lldevhvvPakmfrkvigs+++
+  3528at33634_0|contig_674:163768-165565|+ 201 TSVAKDYIdpdsgVIVTTYTMVAFGGRRARASEEVMQLIQGREWGCILLDEVHVVPAKMFRKVIGSIAC 269
+                                               *******999999******************************************************** PP
+
+                               3528at33634 352 hcklGltatlvreddlikdlnfliGPklyeanWmdltqsGylanvkcvevWcpmtgefyreyl....ea 416
+                                               hcklGltatlvreddli+dlnfliGPklyeanWmdltqsG+lanv+cvevWcpm+gefyreyl    +a
+  3528at33634_0|contig_674:163768-165565|+ 270 HCKLGLTATLVREDDLIGDLNFLIGPKLYEANWMDLTQSGFLANVSCVEVWCPMAGEFYREYLretkSA 338
+                                               ***************************************************************555457 PP
+
+                               3528at33634 417 rkrkllyvlnPnklraaeflikyheergdkilvfsddvfalklyaell...liyGgtgererkrllqsf 482
+                                               rkr+llyv+nPnk++aaefli+yheergdkil+fsddvfal+lya++l   +iyGgtgerer+rllqsf
+  3528at33634_0|contig_674:163768-165565|+ 339 RKRALLYVANPNKFTAAEFLIQYHEERGDKILLFSDDVFALRLYATKLnkgYIYGGTGERERMRLLQSF 407
+                                               99********************************************997778***************** PP
+
+                               3528at33634 483 rss.lvnviclskvGdtsidlPeanviiqvsshfGsrrqeaqrlGrilrpkanat.gfnaffytlvstd 549
+                                               rss lvnvic+skvGdtsidlPeanviiqvsshfGsrrqeaqrlGrilrpkanat gfnaffytl+std
+  3528at33634_0|contig_674:163768-165565|+ 408 RSSpLVNVICISKVGDTSIDLPEANVIIQVSSHFGSRRQEAQRLGRILRPKANATgGFNAFFYTLISTD 476
+                                               *98579**********************************************998469*********** PP
+
+                               3528at33634 550 tkevfysakrqqylvdqGytfkvvtdllekellkevleaededlerslgalsgad 604
+                                               t+e++ys+krqqylvdqGytfkvvtdl+e   ++ v + + ed    l ++ +ad
+  3528at33634_0|contig_674:163768-165565|+ 477 THEMYYSNKRQQYLVDQGYTFKVVTDLYEPGSFEGVFTRK-EDQRALLNEVLSAD 530
+                                               *****************************99999888877.44444444444444 PP
+
+  == domain 2  score: 24.9 bits;  conditional E-value: 8.8e-10
+                               3528at33634 587 eaededlerslgalsgadgskymeysags.ak.rhnlfrdryr 627
+                                                +++++   slgalsgadg+kymeys+g+ ak rhnlfrdryr
+  3528at33634_0|contig_674:163768-165565|+ 557 GSKKKKKLGSLGALSGADGTKYMEYSSGHgAKqRHNLFRDRYR 599
+                                               5566777789*******************9888********97 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (627 nodes)
+Target sequences:                          3  (2058 residues searched)
+Passed MSV filter:                         3  (1); expected 0.1 (0.02)
+Passed bias filter:                        3  (1); expected 0.1 (0.02)
+Passed Vit filter:                         3  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         3  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  3  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.07u 0.00s 00:00:00.07 Elapsed: 00:00:00.07
+# Mc/sec: 17.24
 //
 [ok]

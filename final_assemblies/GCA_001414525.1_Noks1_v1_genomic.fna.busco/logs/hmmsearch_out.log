@@ -162,29 +162,38 @@ Passed Fwd filter:                         3  (1); expected 0.0 (1e-05)
 Initial search space (Z):                  3  [actual number of targets]
 Domain search space  (domZ):               3  [number of targets reported over threshold]
 # CPU time: 0.05u 0.00s 00:00:00.05 Elapsed: 00:00:00.05
-# Mc/sec: 9.67
+# Mc/sec: 10.39
 //
 [ok]
-01000879.1:6118-7915|-  <unknown description>
-   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
- ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
-   1 !  816.6   0.1  1.9e-249  1.9e-249     163     604 ..      63     530 ..      34     552 .. 0.91
-   2 !   24.9   0.0   8.8e-10   8.8e-10     587     627 .]     557     599 ..     546     599 .. 0.87
+                         *****************************99766669*******8888888888889*********** PP
 
-  Alignments for each domain:
-  == domain 1  score: 816.6 bits;  conditional E-value: 1.9e-249
-                               3528at33634 163 keeenlevktvktvsfkir...vekvkr...dldyplmeeydfrnd.......ldlkpttrireyqeks 218
-                                                +++  + ktv+tvsfkir   ve+vkr   dldyplmeeydfrnd       +dlkp+trireyqeks
-  3528at33634_0|LLKM01000879.1:6118-7915|-  63 DKTTGEQQKTVRTVSFKIRkkmVEQVKRaclDLDYPLMEEYDFRNDktipdleMDLKPSTRIREYQEKS 131
-                                               334557899*********855568899655589************777666779*************** PP
+                                 723at33634 708 arslraeyglan.....fflkv.............ddfktlakag..........pkgca...vndkv 744
+                                                ars+raeyglan     ff+k+             ddf+tlakag          p+gca   vndkv
+  723at33634_0|LLKM01001012.1:11817-13725|- 490 ARSVRAEYGLANnvrpqFFIKCidndvkavieaqlDDFATLAKAGdskclveeeaPEGCAvhsVNDKV 557
+                                                **********975555589987666666666666689******9744445555557889833459*** PP
 
-                               3528at33634 219 lskmfGngrarsGiivlPcGaGktltgvtaastikksclvlctsavsvlqWkaqfklwtdieekkiavf 287
-                                               lskmfGngrarsGiivlPcGaGktltgvtaastikkscl+lctsavsv+qW+aqfk+wt+i+ekkia+f
-  3528at33634_0|LLKM01000879.1:6118-7915|- 132 LSKMFGNGRARSGIIVLPCGAGKTLTGVTAASTIKKSCLCLCTSAVSVEQWTAQFKMWTNISEKKIARF 200
-                                               ********************************************************************* PP
+                                 723at33634 745 qvlv.lkGlvdfaneikklekklkkiap....lekkma.....ekvpeevread 788
+                                                q++v l+Glvdfanei+kle+kl+kiap    l kkm+     +kvp++vread
+  723at33634_0|LLKM01001012.1:11817-13725|- 558 QIFVrLAGLVDFANEITKLETKLTKIAPslasLMKKMScddyeTKVPDSVREAD 611
+                                                ***989******************997654448889854444489*****9998 PP
 
-                               3528at33634 288 tsdkkdkl.....vlvttytmvafggkrakeseevleeiksreWGlllldevhvvPakmfrkvigsvka 351
-                                               ts++kd++     v+vttytmvafgg+ra++seev+++i++reWG++lldevhvvPakmfrkvigs+++
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (789 nodes)
+Target sequences:                          2  (1696 residues searched)
+Passed MSV filter:                         2  (1); expected 0.0 (0.02)
+Passed bias filter:                        2  (1); expected 0.0 (0.02)
+Passed Vit filter:                         2  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         2  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  2  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.08u 0.01s 00:00:00.09 Elapsed: 00:00:00.09
+# Mc/sec: 14.40
+//
+[ok]
+vigs+++
   3528at33634_0|LLKM01000879.1:6118-7915|- 201 TSVAKDYIdpdsgVIVTTYTMVAFGGRRARASEEVMQLIQGREWGCILLDEVHVVPAKMFRKVIGSIAC 269
                                                *******999999******************************************************** PP
 
@@ -226,7 +235,7 @@ Passed Vit filter:                         3  (1); expected 0.0 (0.001)
 Passed Fwd filter:                         3  (1); expected 0.0 (1e-05)
 Initial search space (Z):                  3  [actual number of targets]
 Domain search space  (domZ):               3  [number of targets reported over threshold]
-# CPU time: 0.08u 0.00s 00:00:00.08 Elapsed: 00:00:00.07
-# Mc/sec: 16.17
+# CPU time: 0.07u 0.01s 00:00:00.08 Elapsed: 00:00:00.08
+# Mc/sec: 16.05
 //
 [ok]

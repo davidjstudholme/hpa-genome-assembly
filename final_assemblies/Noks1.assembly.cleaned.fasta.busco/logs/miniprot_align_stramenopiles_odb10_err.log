@@ -1,7 +1,7 @@
-[M::mp_idx_restore@0.243*1.01] loaded the index
+[M::mp_idx_restore@0.251*1.01] loaded the index
 [M::mp_mapopt_set_max_intron] set max intron size to 30564
 [M::mp_idx_print_stat] 2063561 distinct k-mers; mean occ of infrequent k-mers: 19.48; 0 frequent k-mers accounting for 0 occurrences
-[M::worker_pipeline::2.870*7.12] mapped 1083 sequences
+[M::worker_pipeline::2.869*7.15] mapped 1083 sequences
 [M::main] Version: 0.18-r281
 [M::main] CMD: miniprot --trans -u -I --outs 0.95 -t 8 --gff /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/Noks1.assembly.cleaned.fasta.busco/run_stramenopiles_odb10/miniprot_output/ref.mpi /data/djs217/PROJECTS/36_Hpa_genome_assembly/hpa-genome-assembly/final_assemblies/Noks1.assembly.cleaned.fasta.busco/tmp/refseq_db.faa
-[M::main] Real time: 2.898 sec; CPU: 20.471 sec; Peak RSS: 0.299 GB
+[M::main] Real time: 2.895 sec; CPU: 20.543 sec; Peak RSS: 0.299 GB
